@@ -8,7 +8,7 @@ mkdir themes
 cd themes
 git clone https://github.com/tracking-exposed/hugo-theme-trex.git
 mv hugo-theme-trex/ trex
-cd ../..
+cd ../
 hugo
 ```
 
