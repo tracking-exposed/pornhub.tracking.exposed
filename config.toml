@@ -19,7 +19,7 @@ canonifyURLs = true
     identifier = "about"
     name = "About"
     url = "/about/"
-    parent = "more"
+    parent = "THIS IS A WORK IN PROGRESS - DON'T RELEASE IT - DON'T USE IT"
     weight = -110
 
  [[menu.featured]]
