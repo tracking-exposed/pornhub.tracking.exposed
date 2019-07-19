@@ -1,31 +1,19 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "YouTube Tracking Exposed"
+title = "Pornhub Tracking Exposed"
 theme = "trex"
 enableRobotsTXT = true
 canonifyURLs = true
 [params]
-    subtitle = "YouTube"
-    subsite = "youtube"
-    description = "YouTube is not what it seems."
-    tagline = "The more you view, the more they know, earn and get about your."
+    subtitle = "PornHub"
+    subsite = "pornhub"
+    description = "is porn algorithm play with your perception of sex?"
+    tagline = "How pornhub algorithm has an impact in the perception of sexuality?"
 
 [permalinks]
     posts = "/:slug/"
 
 [menu]
- [[menu.main]]
-    page = "SeeYou - Youtuber Labor union"
-    identifier = "SeeYou"
-    name = "SeeYou - the Youtuber Labor union"
-    url = "/seeyou/"
-    weight = -180
- [[menu.main]]
-    page = "More"
-    identifier = "more"
-    name = "More"
-    url = "#"
-    weight = -100
  [[menu.main]]
     page = "About"
     identifier = "about"
@@ -33,57 +21,28 @@ canonifyURLs = true
     url = "/about/"
     parent = "more"
     weight = -110
- [[menu.main]]
-    page = "API Documentation"
-    identifier = "api-documentation"
-    parent = "more"
-    name = "API Documentation"
-    url = "/api-documentation/"
-    weight = -130
- [[menu.main]]
-    page = "Get Involved"
-    identifier = "get-involved"
-    name = "Get Involved"
-    parent = "more"
-    url = "/get-involved/"
-    weight = -140
- [[menu.main]]
-    page = "What We Collect"
-    identifier = "what-we-collect"
-    name = "What We Collect"
-    parent = "more"
-    url = "/what-we-collect/"
-    weight = -150
 
  [[menu.featured]]
-    page = "compare"
-    identifier = "compare"
-    name = "Compare"
-    url = "/yttrex/compare/"
-    weight = -180
+    page = "API"
+    identifier = "API"
+    name = "API"
+    url = "/research"
+    weight = -100
     pre = "/images/yt-compare.jpg"
-    post = "Compare how the same video get different reccomendations"
+    post = "Personalized experiences demands personalized analysis"
+
  [[menu.featured]]
-    page = "related"
-    identifier = "related"
-    name= "Related"
-    url = "/yttrex/related/"
-    pre = "/images/yt-search.jpg"
-    post = "Search if this video ever been as YT's recommended"
-    weight = -170
- [[menu.featured]]
-    page = "last"
-    identifier = "last"
-    name = "Last"
-    url = "/yttrex/last/"
-    pre = "/images/yt-last.jpg"
-    post = "The last videos collected"
-    weight = -160
+    page = "analysis"
+    identifier = "analysis"
+    name = "analysis"
+    url = "/initial-analysis"
+    weight = -90
+    pre = "/images/yt-compare.jpg"
+    post = "Initial analysis"
 
  [[menu.footer]]
     page = "Project analysis"
     identifier = "background"
     name = "Project analysis"
-    url = "/background/"
+    url = "/API/"
     weight = 100
-
