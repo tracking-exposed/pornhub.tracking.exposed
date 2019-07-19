@@ -23,8 +23,6 @@ canonifyURLs = true
     weight = -110
 
  [[menu.featured]]
-    page = "API"
-    identifier = "API"
     name = "API"
     url = "/research"
     weight = -100
