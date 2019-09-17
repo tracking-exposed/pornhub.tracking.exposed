@@ -1,6 +1,6 @@
 ---
 title: "About the project"
-subtitle:"knowledge is freedom"
+subtitle: "knowledge is freedom"
 draft: false
 ---
 
@@ -21,8 +21,24 @@ The tool used to analyze Youtube Algorithm: [youtube.tracking.exposed](https://y
 do not exist any other method of access, and our code is here available for scrutiny:
 
 
-## Initial Analysis 
+## [Initial Analysis](http://pornhub.tracking.exposed "our first experiments")
 
-## Ideas for "_researchers_"
+Thinking of someone who observes closely and can predict your behaviour even while watching porn videos can be perceived as something particularly disturbing, given that this activity is considered very personal, taboo and with a high potential for blackmail. In particular to understand that the incognito mode doesn’t mean you are surfing the net anonymously and that both our browser and Pornhub are observing everything: IP address, cookies, geographic location, time of visit, which hardware and software you are using, which videos are searched, which are opened, for how long they are watched, up to obtaining a unique and identifying fingerprint of the individuals and their digital unique behavior.
 
-links to the [.pdf](https://github.com/tracking-exposed/presentation/) goes in the _presentation_ repository
+The actors of the experiments were different Firefox profiles, thus ensuring a clean
+browser without history and cookies. Some Firefox profiles were real bots, that is, a fictitious
+Pornhub account had been created specifically to simulate their identity, while other
+profiles acted without any registration; this allowed us to observe the different interactions of the site with the registered user and with the non-registered user.
+
+It is also important to observe how the behavior of Pornhub changes in the absence of
+previous cookies, or with the incognito mode, which is often used by users.
+
+## Ideas for _researchers_
+
+ Understanding where and how the Pornhub personalization algorithm works, to identify the metrics, to optimize the tool and then to carry out higher level analyzes, for example about the impact that can have on sexuality. Can a personalization algorithm push towards a radicalization of the user towards a specific form of sadism? 
+
+ Similarly to the test done by fbTREX during the italian elections, it is advisable to use simulated situations in order to bring our actors into a situation of divergence and study what factors are causing it. 
+
+
+<!--
+[links to the [.pdf](https://github.com/tracking-exposed/presentation/) goes in the _presentation_ repository]::-->
