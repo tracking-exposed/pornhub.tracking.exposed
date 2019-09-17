@@ -7,8 +7,8 @@ canonifyURLs = true
 [params]
     subtitle = "PornHub"
     subsite = "pornhub"
-    description = "is porn algorithm play with your perception of sex?"
-    tagline = "How pornhub algorithm has an impact in the perception of sexuality?"
+    description = "is porn algorithm kidding with your perception of sex?"
+    tagline = "Some tech companies know you better than your partner..."
 
 [permalinks]
     posts = "/:slug/"
@@ -19,24 +19,33 @@ canonifyURLs = true
     identifier = "about"
     name = "About"
     url = "/about/"
-    parent = "THIS IS A WORK IN PROGRESS - DON'T RELEASE IT - DON'T USE IT"
+    parent = "More"
     weight = -110
 
  [[menu.featured]]
-    name = "API"
-    url = "/research"
+    name = "submission"
+    url = "/submission"
     weight = -100
     pre = "/images/yt-compare.jpg"
-    post = "Personalized experiences demands personalized analysis"
+    post = "ALGORITHM DOMINATION What your master thinks you should masturbate on today"
 
  [[menu.featured]]
-    page = "analysis"
-    identifier = "analysis"
-    name = "analysis"
-    url = "/initial-analysis"
+    page = "compare"
+    identifier = "compare"
+    name = "compare"
+    url = "/compare"
     weight = -90
     pre = "/images/yt-compare.jpg"
-    post = "Initial analysis"
+    post = "PUBLIC SHAME Compare and measure your reccomandations and get punished"
+
+ [[menu.featured]]
+    page = "pov"
+    identifier = "pov"
+    name = "pov"
+    url = "/pov"
+    weight = -80
+    pre = "/images/yt-compare.jpg"
+    post = "BEHIND THE SCENES See through our POV and discover our tools"
 
  [[menu.footer]]
     page = "Project analysis"
