@@ -5,20 +5,21 @@ draft: false
 layout: home
 ---
 
-Since January and April 2019 a small series of experiment have been conducted on the bigger website of the porn industry.
-The tool used to analyze Youtube Algorithm: [youtube.tracking.exposed](https://youtube.tracking.exposed), was a good starting point to analyze the biggest porn website.
+## Help us *cum* to a better understanding of how they data-analyze you!
 
-## which control you've on data, and what we collect
+# **JUST TO VERIFY IT'S SAFE, SANE AND CONSENSUAL.**
 
-* Every browser has a unique code attributed, this is the only way to link data. for you and for us. You can:
-  * Control and change your identifier **when you want**, only you know your pseudonym has changed. Is in the decision of the browser with the extension installed, to decide if share the access link.
-  * Delete specific content you submit
-  * Every identified will be only represented by a pseudo-random sequence of three foods. For example, if you are 'guacamole-pizza-mascarpone', only you know this, only you can change this, and only you can reveal this.
+___
 
-* The analysis works by recording the full HTML pornhub send to you. In our server, we'll extract the list of the suggested video. These are the relatime statistics, and by pornhub.
-* The research is done by playing with personalization and verify how this has an impact on your suggested related videos.
-* The data users provided can be downloaded via personal token, the anonymized analysis (the same comparison logic implemented for YouTube) is available and with and API, retrieve these information as machine readable format (JSON or CSV).
+###### In adult-oriented business the Tube site *Pornhub* is the biggest and the most important actor for content personalization and it utilizes data analysis as a plus value and as an important communication and marketing tool, in a manner of speaking it does also a __data pornography__.
 
-do not exist any other method of access, and our code is here available for scrutiny:
+###### Like its competitors and other popular social media, collects a certain amount of data on how users interact with the platform. These data, besides being useful for market analysis, are also used to customize the user experience, even if sometimes the users are unaware of it. 
 
-## Ideas for "_researchers_"
+###### The section __/recommended__ proposes to the users videos that should be satisfying for them, according to the company and thanks to the personalization algorithm, based on what they saw before and how they saw it. **Pornhub processes the data in a way that is unknown** to the users and then somehow takes for granted to know and predict their tastes and then make profit from it. 
+
+###### pornhub.tracking.exposed is a browser extension that allows __to study ed analyze the implications__ of this personalization algorithm through the collection and comparison of __individualized experiences__ that Pornhub users receive.
+
+___
+
+
+### Install the browser extension _pornhub.tracking.exposed_  
