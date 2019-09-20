@@ -8,7 +8,7 @@ canonifyURLs = true
     subtitle = "PornHub"
     subsite = "pornhub"
     description = "is porn algorithm kidding with your perception of sex?"
-    tagline = "Some tech companies know you better than your partner..."
+    tagline = "Some tech companies know you better than your partner ;)"
 
 [permalinks]
     posts = "/:slug/"
@@ -27,8 +27,7 @@ canonifyURLs = true
     url = "/submission"
     weight = -100
     pre = "/images/yt-compare.jpg"
-    post = "ALGORITHM DOMINATION What your master thinks you should masturbate on today"
-
+    post = "ALGORITHM DOMINATION ― what your master thinks you should masturbate on today"
  [[menu.featured]]
     page = "compare"
     identifier = "compare"
@@ -36,8 +35,7 @@ canonifyURLs = true
     url = "/compare"
     weight = -90
     pre = "/images/yt-compare.jpg"
-    post = "PUBLIC SHAME Compare and measure your reccomandations and get punished"
-
+    post = "PUBLIC SHAME ― compare and measure your reccomandations and get punished"
  [[menu.featured]]
     page = "pov"
     identifier = "pov"
@@ -45,11 +43,17 @@ canonifyURLs = true
     url = "/pov"
     weight = -80
     pre = "/images/yt-compare.jpg"
-    post = "BEHIND THE SCENES See through our POV and discover our tools"
+    post = "BEHIND THE SCENES ― see through our POV and discover our tools"
 
  [[menu.footer]]
     page = "Project analysis"
     identifier = "background"
     name = "Project analysis"
-    url = "/API/"
+    url = "/project-analysis/"
     weight = 100
+[[menu.footer]]
+   page = "Tracking Exposed"
+   identifier = "trex"
+   name = "Umbrella project: Tracking Exposed"
+   url = "https://tracking.exposed"
+   weight = 90
