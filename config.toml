@@ -8,7 +8,8 @@ canonifyURLs = true
     subtitle = "PornHub"
     subsite = "pornhub"
     description = "is porn algorithm kidding with your perception of sex?"
-    tagline = "Some tech companies know you better than your partner ;)"
+    tagline = "Watch a tech-company fu*king your behavioral data!"
+  #  Some tech companies know you better than your partner ;)"
 
 [permalinks]
     posts = "/:slug/"
@@ -26,24 +27,24 @@ canonifyURLs = true
     name = "submission"
     url = "/submission"
     weight = -100
-    pre = "/images/yt-compare.jpg"
-    post = "ALGORITHM DOMINATION ― what your master thinks you should masturbate on today"
+    pre = "/images/filler.svg"
+    post = "ALGORITHM DOMINATION ― what your master wants you should masturbate on today"
  [[menu.featured]]
     page = "compare"
     identifier = "compare"
     name = "compare"
     url = "/compare"
     weight = -90
-    pre = "/images/yt-compare.jpg"
-    post = "PUBLIC SHAME ― compare and measure your reccomandations and get punished"
+    pre = "/images/filler.svg"
+    post = "PUBLIC SHAME ― compare and measure your recommandations and get punished"
  [[menu.featured]]
     page = "pov"
     identifier = "pov"
     name = "pov"
     url = "/pov"
     weight = -80
-    pre = "/images/yt-compare.jpg"
-    post = "BEHIND THE SCENES ― see through our POV and discover our tools"
+    pre = "/images/filler.svg"
+    post = "BEHIND THE SCENES ― see through our POV and play with our pleasure tools"
 
  [[menu.footer]]
     page = "Project analysis"

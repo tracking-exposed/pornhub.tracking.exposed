@@ -5,7 +5,7 @@ subtitle: "Experiences with porn sites can be different, or can be not"
 draft: true
 ---
 
-### Have a look at which categories are pushed the most between you and a friend. 
+### Have a look at which categories are pushed the most between you and a friend.
 
 #### But first ask them to share their sensitive data.
 
