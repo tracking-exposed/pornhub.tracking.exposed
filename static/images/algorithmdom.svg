@@ -8,13 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    data-name="Layer 1"
-   viewBox="0 0 239 239"
+   viewBox="0 0 276.12311 239"
    x="0px"
    y="0px"
    version="1.1"
    id="svg52"
    sodipodi:docname="algorithmdom.svg"
-   width="239"
+   width="276.12311"
    height="239"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
@@ -46,36 +46,37 @@
      showgrid="false"
      showguides="false"
      inkscape:snap-page="true"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="75.709048"
-     inkscape:cy="160.39891"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="85.668443"
+     inkscape:cy="132.99416"
      inkscape:window-x="49"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3" />
+     inkscape:current-layer="layer1" />
   <title
      id="title42">17</title>
   <g
      id="g4660"
-     transform="translate(-8.5023699,-22.862558)" />
+     transform="translate(12.35728,-22.862558)" />
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
      style="display:inline"
-     sodipodi:insensitive="true">
+     transform="translate(20.85965)">
     <rect
-       style="opacity:1;fill:#fa9900;fill-opacity:1;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
+       style="opacity:1;fill:#fa9900;fill-opacity:1;stroke:none;stroke-width:3.22458386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.94117647"
        id="rect5361"
-       width="239"
+       width="276.12311"
        height="239"
-       x="0"
+       x="-20.85965"
        y="0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="Layer 2">
+     inkscape:label="Layer 2"
+     transform="translate(20.85965)">
     <path
        inkscape:connector-curvature="0"
        id="path24"
@@ -89,7 +90,7 @@
        ry="14.102503"
        style="fill:#1b1b1b;fill-opacity:1;stroke-width:1.25188017" />
     <circle
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#1b1b1b;stroke-width:3.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#1b1b1b;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4944"
        cx="100.92416"
        cy="34.251183"
@@ -171,7 +172,7 @@
        x="79.555702"
        y="124.28291" />
     <path
-       style="fill:none;stroke:#1b1b1b;stroke-width:2.91346502;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#1b1b1b;stroke-width:3.11299992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 123.38927,136.71932 c 0,0 29.22108,7.7858 24.24584,40.84157 -4.97524,33.05576 -4.97524,33.05576 -4.97524,33.05576"
        id="path5541"
        inkscape:connector-curvature="0" />
