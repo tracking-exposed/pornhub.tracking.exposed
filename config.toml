@@ -27,7 +27,7 @@ canonifyURLs = true
     name = "submission"
     url = "/submission"
     weight = -100
-    pre = "/images/filler.svg"
+    pre = "/images/algorithmdom.svg"
     post = "ALGORITHM DOMINATION ― what your master wants you should masturbate on today"
  [[menu.featured]]
     page = "compare"
