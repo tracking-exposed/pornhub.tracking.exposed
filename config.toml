@@ -35,7 +35,7 @@ canonifyURLs = true
     name = "compare"
     url = "/compare"
     weight = -90
-    pre = "/images/filler.svg"
+    pre = "/images/compare.svg"
     post = "PUBLIC SHAME ― compare and measure your recommandations and get punished"
  [[menu.featured]]
     page = "pov"
