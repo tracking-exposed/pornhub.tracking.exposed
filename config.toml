@@ -24,27 +24,27 @@ canonifyURLs = true
     weight = -110
 
  [[menu.featured]]
-    name = "submission"
+    name = "Algorithm Domination"
     url = "/submission"
     weight = -100
     pre = "/images/algorithmdom.svg"
-    post = "ALGORITHM DOMINATION ― what your master wants you should masturbate on today"
+    post = "Your data and what your master wants you to masturbate on today, tomorrow"
  [[menu.featured]]
     page = "compare"
     identifier = "compare"
-    name = "compare"
+    name = "Public Shame"
     url = "/compare"
     weight = -90
     pre = "/images/compare.svg"
-    post = "PUBLIC SHAME ― compare and measure your recommandations and get punished"
+    post = "Compare and measure your personalized recommandations and get a rough punishment"
  [[menu.featured]]
     page = "pov"
     identifier = "pov"
-    name = "pov"
+    name = "Behind the Scenes"
     url = "/pov"
     weight = -80
-    pre = "/images/filler.svg"
-    post = "BEHIND THE SCENES ― see through our POV and play with our pleasure tools"
+    pre = "/images/pov.svg"
+    post = "See through our POV and play hard with our pleasure tools"
 
  [[menu.footer]]
     page = "Project analysis"
