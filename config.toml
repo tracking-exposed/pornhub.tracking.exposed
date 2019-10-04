@@ -9,19 +9,23 @@ canonifyURLs = true
     subsite = "pornhub"
     description = "is the pornhub algorithm kidding with your perception of sex?"
     tagline = "Watch a tech-company fu*k your behavior data!"
-  #  Some tech companies know you better than your partner ;)"
 
 [permalinks]
     posts = "/:slug/"
 
 [menu]
  [[menu.main]]
-    page = "About"
+    page = ""
     identifier = "about"
     name = "About"
     url = "/about/"
-    parent = "More"
-    weight = -110
+    weight = 20
+ [[menu.main]]
+    page = "Project analysis"
+    identifier = "background"
+    name = "Project analysis"
+    url = "/project-analysis/"
+    weight = 10
 
  [[menu.featured]]
     name = "Algorithm Domination"
@@ -46,12 +50,6 @@ canonifyURLs = true
     pre = "/images/pov.svg"
     post = "See through our POV and play hard with our pleasure tools"
 
- [[menu.footer]]
-    page = "Project analysis"
-    identifier = "background"
-    name = "Project analysis"
-    url = "/project-analysis/"
-    weight = 100
 [[menu.footer]]
    page = "Tracking Exposed"
    identifier = "trex"

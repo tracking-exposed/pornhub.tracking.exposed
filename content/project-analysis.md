@@ -1,7 +1,8 @@
 
 ---
-title: "Initial analysis"
+title: "Project analysis"
 subtitle: "This comes from a thesis made on Jan 2019"
+description: "download our initial project analysis, from a master thesis of Giulia"
 draft: false
 ---
 
