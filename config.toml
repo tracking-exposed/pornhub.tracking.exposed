@@ -7,50 +7,49 @@ canonifyURLs = true
 [params]
     subtitle = "PornHub"
     subsite = "pornhub"
-    description = "is porn algorithm kidding with your perception of sex?"
-    tagline = "Some tech companies know you better than your partner ;)"
+    description = "is the pornhub algorithm kidding with your perception of sex?"
+    tagline = "Watch a tech-company fu*k your behavior data!"
 
 [permalinks]
     posts = "/:slug/"
 
 [menu]
  [[menu.main]]
-    page = "About"
+    page = ""
     identifier = "about"
     name = "About"
     url = "/about/"
-    parent = "More"
-    weight = -110
-
- [[menu.featured]]
-    name = "submission"
-    url = "/submission"
-    weight = -100
-    pre = "/images/yt-compare.jpg"
-    post = "ALGORITHM DOMINATION ― what your master thinks you should masturbate on today"
- [[menu.featured]]
-    page = "compare"
-    identifier = "compare"
-    name = "compare"
-    url = "/compare"
-    weight = -90
-    pre = "/images/yt-compare.jpg"
-    post = "PUBLIC SHAME ― compare and measure your reccomandations and get punished"
- [[menu.featured]]
-    page = "pov"
-    identifier = "pov"
-    name = "pov"
-    url = "/pov"
-    weight = -80
-    pre = "/images/yt-compare.jpg"
-    post = "BEHIND THE SCENES ― see through our POV and discover our tools"
-
- [[menu.footer]]
+    weight = 20
+ [[menu.main]]
     page = "Project analysis"
     identifier = "background"
     name = "Project analysis"
     url = "/project-analysis/"
-    weight = 100
+    weight = 10
+
+ [[menu.featured]]
+    name = "Algorithm Domination"
+    url = "/submission"
+    weight = -100
+    pre = "/images/algorithmdom.svg"
+    post = "Your data and what your master wants you to masturbate on today, tomorrow"
+ [[menu.featured]]
+    page = "compare"
+    identifier = "compare"
+    name = "Public Shame"
+    url = "/compare"
+    weight = -90
+    pre = "/images/compare.svg"
+    post = "Compare and measure your personalized recommandations and get a rough punishment"
+ [[menu.featured]]
+    page = "pov"
+    identifier = "pov"
+    name = "Behind the Scenes"
+    url = "/pov"
+    weight = -80
+    pre = "/images/pov.svg"
+    post = "See through our POV and play hard with our pleasure tools"
+
 [[menu.footer]]
    page = "Tracking Exposed"
    identifier = "trex"

@@ -10,7 +10,7 @@ layout: home
 
 ___
 
-In adult-oriented business the Tube site *Pornhub* is the biggest and the most important actor for content personalization and it utilizes data analysis as a plus value and as an important communication and marketing tool, in a manner of speaking it does also a **data pornography**.
+In adult-oriented business the Tube Site *Pornhub* is the biggest and the most important actor for content personalization and it utilizes data analysis as a plus value and as an important communication and marketing tool, in a manner of speaking it does also a **data pornography**.
 
 Like its competitors and other popular social media, collects a certain amount of data on how users interact with the platform. These data, besides being useful for market analysis, are also used to customize the user experience, even if sometimes the users are unaware of it.
 

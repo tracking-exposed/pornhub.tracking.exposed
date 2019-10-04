@@ -18,7 +18,7 @@ Since January and April 2019 a small series of experiment have been conducted on
 
 do not exist any other method of access, and our code server + extension code is [on github available for scrutiny](https://github.com/tracking.exposed/potrex), the website source is [here](https://github.com/tracking-exposed/pornhub.tracking.exposed).
 
-## [Initial Analysis](http://pornhub.tracking.exposed "our first experiments")
+## [Initial Analysis](/project-analysis/)
 
 Thinking of someone who observes closely and can predict your behavior even while watching porn videos can be perceived as something particularly disturbing, given that this activity is considered very personal, taboo and with a high potential for blackmail. In particular to understand that the incognito mode doesn’t mean you are surfing the net anonymously and that both our browser and Pornhub are observing everything: IP address, cookies, geographic location, time of visit, which hardware and software you are using, which videos are searched, which are opened, for how long they are watched, up to obtaining a unique and identifying fingerprint of the individuals and their digital unique behavior.
 
