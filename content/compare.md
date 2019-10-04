@@ -1,19 +1,23 @@
 ---
-title: "Compare it with your friends"
-date: 2019-09-06T13:00:48+02:00
-subtitle: "Experiences with porn sites can be different, or can be not"
+title: "Radar: Compare it with others"
+date: 2019-10-04T13:00:48+02:00
 draft: true
+type: "dark"
 ---
 
-### Have a look at which categories are pushed the most between you and a friend.
+### Have a look at which categories are pushed the most between you and someone else
 
-#### But first ask them to share their sensitive data.
-
-  <div class="col-sm-12">
-    <figure>
-      <img width="100%" src="/images/radar.svg" />
-    </figure>
-  </div>
-* * *
+<div class="radarChart"></div>
 
 Each radius represents one of the categories that appeared among the videos /recommended. The distance from the center of the point marked on the radius is given by the percentage of the times in which the categories appear. The points on the rays are joined with segments, so that the graph takes on a personal shape. This shape can tell us something about user profiling, radicalization and which are the categories most connected to each other.
+
+<script src="/js/d3.min.js"></script>
+<script src="/js/c3.min.js"></script>
+<script src="/js/radarChart.js"></script>
+<script src="/js/radarLoader.js"></script>
+
+<script>
+$(document).ready(function() {
+    initializeRadar();
+});
+</script>

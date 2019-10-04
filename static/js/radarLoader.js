@@ -14,7 +14,7 @@ function render(data) {
     ////////////////////////////////////////////////////////////// 
 
     var color = d3.scaleOrdinal()
-        .range(["#EDC951","#CC333F","#00A0B0"]);
+        .range(["#ffffff","#f98e05","#00A0B0"]);
         
     var radarChartOptions = {
       w: width,
