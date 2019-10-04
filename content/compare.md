@@ -9,4 +9,11 @@ draft: true
 
 #### But first ask them to share their sensitive data.
 
+  <div class="col-sm-12">
+    <figure>
+      <img width="100%" src="/images/radar.svg" />
+    </figure>
+  </div>
+* * *
+
 Each radius represents one of the categories that appeared among the videos /recommended. The distance from the center of the point marked on the radius is given by the percentage of the times in which the categories appear. The points on the rays are joined with segments, so that the graph takes on a personal shape. This shape can tell us something about user profiling, radicalization and which are the categories most connected to each other.
