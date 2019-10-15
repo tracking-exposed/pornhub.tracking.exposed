@@ -26,10 +26,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.5313808"
-     inkscape:cx="101.74736"
+     inkscape:cx="108.48594"
      inkscape:cy="118.11658"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -56,10 +56,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-110.00997,-186.00729)"
-     sodipodi:insensitive="true">
+     transform="translate(-110.00997,-186.00729)">
     <rect
-       style="display:inline;fill:#fa9900;fill-opacity:1;stroke-width:0.52538687;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#f98e05;fill-opacity:1;stroke-width:0.52538687;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect897"
        width="73.289581"
        height="63.235416"

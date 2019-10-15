@@ -3,6 +3,12 @@
 title: "Behind the scenes"
 subtitle: "Learn more about our POV and tools"
 draft: false
+description: "Learn more about our POV and download the browser extension"
+<!---og_title: "poTREX - POV of our pleasure tools"
+og_type: "website"
+og_image: "http://pornhub.tracking.exposed/pov.jpg" 
+og_url: "https://pornhub.tracking.exposed/pov"
+--->
 ---
 
 # POV
@@ -20,6 +26,8 @@ draft: false
 + The debate on pornography is still present within the feminist movement and beyond, to have more study and analysis tools can only be positive: censorship and silence are nothing but obstacles to growth, legacies of old traditions and repressive habits.
 
 + Algorithms can organize information in our best interest or not. Awareness in users needs to be motivated for their own interest, for a safe, sane and consensual relationship with technology.
+
+---
 
 # Scissors sisters
 

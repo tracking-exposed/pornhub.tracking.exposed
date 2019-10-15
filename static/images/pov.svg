@@ -16,7 +16,10 @@
    version="1.1"
    id="svg5368"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="pov.svg">
+   sodipodi:docname="pov.svg"
+   inkscape:export-filename="/home/giulia/pornhub.tracking.exposed/static/images/pov.svg.png"
+   inkscape:export-xdpi="103.97"
+   inkscape:export-ydpi="103.97">
   <defs
      id="defs5362" />
   <sodipodi:namedview
@@ -27,10 +30,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8692218"
-     inkscape:cx="143.39162"
+     inkscape:cx="82.225209"
      inkscape:cy="103.24993"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
@@ -56,10 +59,9 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-110.00997,-186.00729)"
-     sodipodi:insensitive="true">
+     transform="translate(-110.00997,-186.00729)">
     <rect
-       style="display:inline;fill:#fa9900;fill-opacity:1;stroke-width:0.52538687;stroke-miterlimit:4;stroke-dasharray:none"
+       style="display:inline;fill:#f98e05;fill-opacity:1;stroke-width:0.52538687;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect897"
        width="73.289581"
        height="63.235416"

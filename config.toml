@@ -32,7 +32,7 @@ canonifyURLs = true
     url = "/submission"
     weight = -100
     pre = "/images/algorithmdom.svg"
-    post = "Your data and what your master wants you to masturbate on today, tomorrow"
+    post = "Some of your data and what your master wants you to masturbate on today"
  [[menu.featured]]
     page = "compare"
     identifier = "compare"

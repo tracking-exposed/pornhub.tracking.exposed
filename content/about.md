@@ -1,6 +1,14 @@
 ---
 title: "About the project"
+subtitle: "pornhub.tracking.exposed"
+description: "A tool to analyze personalized experiences in the biggest website in the porn industry"
 draft: false
+
+<!---og_title: "poTREX - About the project"
+og_type: "website"
+og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg" 
+og_url: "https://pornhub.tracking.exposed/about"
+--->
 ---
 
 Since January and April 2019 a small series of experiment have been conducted on the bigger website of the porn industry. The tool used to analyze Youtube Algorithm: [youtube.tracking.exposed](https://youtube.tracking.exposed), was a good starting point to analyze the biggest porn website.
