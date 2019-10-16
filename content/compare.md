@@ -1,16 +1,14 @@
 ---
 title: "Feel like a voyeur and compare your Pornhub experience with others"
 subtitle: "Measure personalized suggestions for onanistic activities"
-description: "Analyze differences and correlations between categories and the personalized experiencesm, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
 date: 2019-10-04T13:00:48+02:00
-draft: true
 type: "dark"
 
-<!---og_title: "poTREX - Compare your Pornhub's recommended videos"
+og_title: "poTREX - Compare your Pornhub's recommended videos"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/compare.jpg" 
+og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg" 
 og_url: "https://pornhub.tracking.exposed/compare"
---->
+og_description: "Analyze differences and correlations between categories and the personalized experiencesm, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
 ---
 
 ### Videos and categories from the most recenly submitted data

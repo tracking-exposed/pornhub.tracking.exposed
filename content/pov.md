@@ -1,14 +1,14 @@
 
 ---
 title: "Behind the scenes"
-subtitle: "Learn more about our POV and tools"
+subtitle: "Know more about our POV and tools"
 draft: false
-description: "Learn more about our POV and download the browser extension"
-<!---og_title: "poTREX - POV of our pleasure tools"
+
+og_title: "poTREX - POV of our pleasure tools"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/pov.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/pov.jpg" 
 og_url: "https://pornhub.tracking.exposed/pov"
---->
+og_description: "Learn more about our POV and download the browser extension"
 ---
 
 # POV
