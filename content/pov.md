@@ -4,7 +4,7 @@ title: "Behind the scenes"
 subtitle: "Know more about our POV and tools"
 draft: false
 
-og_title: "poTREX - POV of our pleasure tools"
+og_title: "Our pleasure tools PoV"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg" 
 og_url: "https://pornhub.tracking.exposed/pov"

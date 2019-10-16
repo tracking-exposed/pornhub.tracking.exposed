@@ -4,9 +4,9 @@ subtitle: "Measure personalized suggestions for onanistic activities"
 date: 2019-10-04T13:00:48+02:00
 type: "dark"
 
-og_title: "poTREX - Compare your Pornhub's recommended videos"
+og_title: "Compare your Pornhub's recommended videos"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/compare.jpg" 
 og_url: "https://pornhub.tracking.exposed/compare"
 og_description: "Analyze differences and correlations between categories and the personalized experiencesm, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
 ---

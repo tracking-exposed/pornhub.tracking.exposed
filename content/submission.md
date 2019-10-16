@@ -3,14 +3,12 @@
 title: "Your silent submission"
 subtitle: "What you actually do it’s often different from what you declare"
 draft: false
-description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 
-<!---og_title: "poTREX - Look closely at the value of your data"
+og_title: "Look closely at the value of your data"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/algorithmdom.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg" 
 og_url: "https://pornhub.tracking.exposed/submission"
---->
-
+og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
 
 ### YOUR UNIQUE PROFILE
