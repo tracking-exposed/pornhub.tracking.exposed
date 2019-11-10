@@ -3,6 +3,7 @@ title: "Porno, Algoritmi e Tordi Matti"
 subtitle: "Un viaggio ero-gastronomico con cena, racconti e dibattito sul progetto pornhub.tracking.exposed"
 date: 2019-11-09T13:00:48+02:00
 type: "dark"
+draft: false
 
 og_title: "Un viaggetto educativo, erotico e gastronomico"
 og_type: "website"
@@ -60,9 +61,11 @@ Il 20 Novembre 2019, prima edizione, presso [wikihostel](https://wikihostel.it) 
   </div>
   <div class="col-sm-6">
     <p style="font-size:2.5em" class="font-weight-light">
-      Cos'è il Tordo Matto? Carne di cavallo battuta con spezie, avvolte in grasso di maiale, cotto nel vino. Cibo tipico di zagarolo, anche la loro preparazione è un algoritmo.
+      Cos'è il Tordo Matto? Carne di cavallo battuta con spezie, avvolte in grasso di maiale, cotto nel vino.
       <br>
-      Offriremo un'alternativa vegetariana
+      Anche loro sono ― volendo ― il risultato di un algoritmo.
+      <br>
+      Offriremo un'alternativa vegetariana.
     </p>
   </div>
 </div>
@@ -81,7 +84,7 @@ Il 20 Novembre 2019, prima edizione, presso [wikihostel](https://wikihostel.it) 
   </div>
   <div class="col-sm-6">
     <p style="font-size:2.5em" class="font-weight-light">
-      pornhub.tracking.exposed: cos'è? come funziona? spiegheremo i dati che produce e quello che stiamo capendo dalle analisi che ci permette di fare. E' parte di un progetto più ampio, grazie al quale analizziamo anche facebook, youtube, e volendo altre piattaforme.
+      Questo sito: cos'è? Come funziona? Spiegheremo i dati che analizziamo, e come potete anche voi usare i nostri strumrenti. E' parte di un <a href="https://tracking.exposed">progetto più ampio</a>, grazie al quale analizziamo altre piattaforme, come <a href="https://facebook.tracking.exposed">facebook</a> e <a href="https://youtube.tracking.exposed">youtube</a>.
     </p>
   </div>
 </div>
