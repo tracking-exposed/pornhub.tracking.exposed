@@ -4,6 +4,7 @@ subtitle: "Un viaggio ero-gastronomico con cena, racconti e dibattito sul proget
 date: 2019-11-09T13:00:48+02:00
 type: "dark"
 draft: false
+description: "evento a zagarolo: porno, algoritmi e tordimatti. Novembre 2019"
 
 og_title: "Un viaggetto educativo, erotico e gastronomico"
 og_type: "website"
