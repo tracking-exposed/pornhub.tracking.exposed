@@ -5,10 +5,9 @@ date: 2019-11-09T13:00:48+02:00
 type: "dark"
 draft: false
 description: "evento a zagarolo: porno, algoritmi e tordimatti. Novembre 2019"
-
 og_title: "Un viaggetto educativo, erotico e gastronomico"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/images/poalto-promo.jpg"
+og_image: "http://pornhub.tracking.exposed/images/poalto-promo.png"
 og_url: "https://pornhub.tracking.exposed/tordimatti"
 og_description: "algoritmi, tracciamento digitale, economia della pornografia. Una analisi dell'algoritmo di pornhub e come questo influice sulla nostra percezione della sessualità"
 ---
