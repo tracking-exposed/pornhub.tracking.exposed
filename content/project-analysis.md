@@ -8,7 +8,7 @@ og_title: "poTREX - browser extension goes wild"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/potrex-logo.jpg" 
 og_url: "https://pornhub.tracking.exposed"
-og_description: "download our initial project analysis and discover how porn shaped the Internet"
+og_description: "Download our initial project analysis and discover how porn shaped the Internet"
 ---
 
 Download the complete [.pdf](https://github.com/tracking-exposed/presentation/)
