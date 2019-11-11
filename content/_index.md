@@ -24,7 +24,15 @@ The section */recommended* proposes to the users videos that should be satisfyin
 
 pornhub.tracking.exposed is a browser extension that allows __to study ed analyze the implications__ of this personalization algorithm through the collection and comparison of __individualized experiences__ that Pornhub users receive.
 
-___
+---
 
+# This is a work in progress and at the moment is not yet ready: released scheduled before the 20th of November
 
-TODO devo fare lo snippet con le icone di ff/chrome ( Install the browser extension _pornhub.tracking.exposed_  )
+TODO list
+
+  * update the analysis page
+  * release the chrome+firefox addon
+  * remove/test the current 'submission' page
+  * complete the categories extraction for the radar graph in 'compare'
+  * get the small new icons for the extention
+

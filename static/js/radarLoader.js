@@ -43,7 +43,14 @@ function initializeRadar() {
         return;
     }
 
-    url='https://pornhub.tracking.exposed/api/v1/radar/' + users;
+    if (window.location.origin.match(/localhost/)) {
+        url='http://localhost:10000/api/v1/radar/' + users;
+        console.log("Development URL", url);
+    } else {
+        url='/api/v1/radar/' + users;
+        console.log("Production URL", url);
+    }
+
     $.getJSON(url, function(data) {
     /* this is the format
          {axis:"Battery Life",value:0.22}, 

@@ -15,14 +15,10 @@ canonifyURLs = true
 
 [menu]
  [[menu.main]]
-    page = ""
-    identifier = "about"
     name = "About"
     url = "/about/"
     weight = 20
  [[menu.main]]
-    page = "Project analysis"
-    identifier = "background"
     name = "Project analysis"
     url = "/project-analysis/"
     weight = 10
@@ -34,16 +30,12 @@ canonifyURLs = true
     pre = "/images/algorithmdom.svg"
     post = "Some of your data and what your master wants you to masturbate on today"
  [[menu.featured]]
-    page = "compare"
-    identifier = "compare"
     name = "Public Shame"
     url = "/compare"
     weight = -90
     pre = "/images/compare.svg"
     post = "Compare and measure your personalized recommandations and get a rough punishment"
  [[menu.featured]]
-    page = "pov"
-    identifier = "pov"
     name = "Behind the Scenes"
     url = "/pov"
     weight = -80

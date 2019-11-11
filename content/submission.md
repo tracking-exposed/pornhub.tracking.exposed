@@ -1,4 +1,3 @@
-
 ---
 title: "Your silent submission"
 subtitle: "What you actually do it’s often different from what you declare"
@@ -9,6 +8,10 @@ og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg" 
 og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
+---
+
+## -- This is a work in progress and at the moment is not yet ready: released scheduled before the 20th of November --
+
 ---
 
 ### YOUR UNIQUE PROFILE

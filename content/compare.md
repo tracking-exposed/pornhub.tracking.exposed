@@ -1,14 +1,16 @@
 ---
 title: "Feel like a voyeur and compare your Pornhub experience with others"
 subtitle: "Measure personalized suggestions for onanistic activities"
-date: 2019-10-04T13:00:48+02:00
+draft: false
 type: "dark"
-
 og_title: "Compare your Pornhub's recommended videos"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/compare.jpg" 
 og_url: "https://pornhub.tracking.exposed/compare"
 og_description: "Analyze differences and correlations between categories and the personalized experiencesm, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
+---
+
+# -- This is a work in progress and at the moment is not yet ready: released scheduled before the 20th of November --
 ---
 
 ### Videos and categories from the most recenly submitted data
