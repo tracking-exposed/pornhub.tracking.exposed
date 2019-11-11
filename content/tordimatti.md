@@ -89,3 +89,5 @@ Il 20 Novembre 2019, prima edizione, presso [wikihostel](https://wikihostel.it) 
     </p>
   </div>
 </div>
+
+Evento facebook, sulla pagina di [WikiHostel & Greenvillage](https://www.facebook.com/events/514731399080540/).
