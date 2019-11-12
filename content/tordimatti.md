@@ -89,4 +89,4 @@ Il 20 Novembre 2019, prima edizione, presso [wikihostel](https://wikihostel.it) 
   </div>
 </div>
 
-Evento facebook, sulla pagina di [WikiHostel & Greenvillage](https://www.facebook.com/events/514731399080540/).
+Evento facebook, sulla pagina di [WikiHostel & Greenvillage](https://www.facebook.com/events/514731399080540/) ― [Locandina](https://raw.githubusercontent.com/tracking-exposed/pornhub.tracking.exposed/65005ced7fa4d2f7f4774f29af7550358fa7ea66/static/images/poalto-locandina.jpg).
