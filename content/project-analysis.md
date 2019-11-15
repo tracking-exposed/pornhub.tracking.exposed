@@ -12,9 +12,10 @@ og_description: "download our initial project analysis and discover how porn sha
 ---
 
 Download the complete [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
+
 ---
 
-## Project introduction
+# Project introduction
 
 pornhub.tracking.exposed (poTREX) saves the suggested videos to different Pornhub users as evidence, in order to allow us to study and visualize how these change over time, or by geographical area, or per user, as well as the mechanics that make it different compared to other media and social networks.
 Because PornHub is behaving in a quasi-monopolism fashion, we should acknowledge the large impact it can have in shaping the perception of pornography, in the same way, we feel concerned about YouTube personalization algorithm.
