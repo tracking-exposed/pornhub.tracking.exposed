@@ -6,12 +6,12 @@ draft: false
 
 og_title: "poTREX - browser extension goes wild"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/images/potrex-logo.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/potrex-logo.jpg"
 og_url: "https://pornhub.tracking.exposed"
 og_description: "download our initial project analysis and discover how porn shaped the Internet"
 ---
 
-Download the complete [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
+Read the complete project analysis [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
 
 ---
 
@@ -23,7 +23,7 @@ The system separates the analysis methodology from the acquisition technology. p
 
 Once the poTREX browser extension is installed, the tool generates a cryptographic key which is necessary to authenticate the evidence. When pornhub is watched, it records on a centralized database the related video and the video watched. The data collected are anonymized (it only keep the cryptographical fingerprint) and give to the user all the rights described by the GDPR. poTREX system consider an equivalent of a personal data the sequence of video watched, therefore only the owner of the cryptographic key in the extension has visibility of this sequence. poTREX consider all the video watched as unlinked evidence, and the primary service is to let compare if the same video got different suggestions. The person running the research has the task of interpreting these differences and thus define the methodology. The methodology will then be the one chosen by those who set up the research, and will depend entirely on the research question.
 
-A useful premise for the creation of the tool, and every subsequent analysis, is that Pornhub has a very particular relationship with advertising. The advertisements that have appeared during the different experiments have been more or less always the same, whatever the type of content the users looks at and whatever their sex, gender and sexual orientation are. There doesn’t seem to be any need for profiling with the purpose of providing targeted advertising. Although in January 2016 the clothing brand Diesel had announced and then launched an advertising campaign on Youporn and Pornhub, on these sites there is still no trace of a constant presence of mainstream advertising, the advertisements by TrafficJunky of phantom products are basically for penis enlargement, viagra, paid live webcam and prostitution sites. For this reason we could speculate that the functioning of the algorithmic personalization of Pornhub follows slightly different motivations compared to those of traditional social media, although always aimed at a tangible economic return in a capitalist economy. The physiological collapse of the post-masturbation attention usually leads to the abbandon of the site, to insist in this sense, try to prevent it like Facebook does, would be a great effort, probably useless. 
+A useful premise for the creation of the tool, and every subsequent analysis, is that Pornhub has a very particular relationship with advertising. The advertisements that have appeared during the different experiments have been more or less always the same, whatever the type of content the users looks at and whatever their sex, gender and sexual orientation are. There doesn’t seem to be any need for profiling with the purpose of providing targeted advertising. Although in January 2016 the clothing brand Diesel had announced and then launched an advertising campaign on Youporn and Pornhub, on these sites there is still no trace of a constant presence of mainstream advertising, the advertisements by TrafficJunky of phantom products are basically for penis enlargement, viagra, paid live webcam and prostitution sites. For this reason we could speculate that the functioning of the algorithmic personalization of Pornhub follows slightly different motivations compared to those of traditional social media, although always aimed at a tangible economic return in a capitalist economy. The physiological collapse of the post-masturbation attention usually leads to the abbandon of the site, to insist in this sense, try to prevent it like Facebook does, would be a great effort, probably useless.
 
 If on the one hand there is the need to provide videos that appeal to the users and guarantee a simpler and faster search, on the other the company tries to keep users on the site for as long as possible, or at least make sure that a user accesses it more and more often. Does it lead the users towards addiction? Where does individual responsibility begin and where does that of the brand end? If platforms like Pornhub and other social networks were considered as public utility companies, they would have to adhere to strict antitrust rules and guarantee minimum standards of egalitarian and non-discriminatory treatment, in whatever way it is intended.
 
@@ -80,7 +80,7 @@ The videos are typed according to a hundred categories recognized by Pornhub, as
   </div>
 
 
-By clicking on any category, ten other categories appear, that are frequently combined with the selected one. By collecting suggestions for each category, it is possible to create a network graph. What emerges from the graph, created with the network management software Gephi, is that there are categories that, although they do not include a large number of videos, are much more suggested than the others. This can confirm or deny the official statistics of Pornhub Insights. The Japanese category, for example, includes about thirty thousand videos, but it is among the most suggested, as well as the most searched according to official statistics. So does this graph influence statistics or does it simply describe them? 
+By clicking on any category, ten other categories appear, that are frequently combined with the selected one. By collecting suggestions for each category, it is possible to create a network graph. What emerges from the graph, created with the network management software Gephi, is that there are categories that, although they do not include a large number of videos, are much more suggested than the others. This can confirm or deny the official statistics of Pornhub Insights. The Japanese category, for example, includes about thirty thousand videos, but it is among the most suggested, as well as the most searched according to official statistics. So does this graph influence statistics or does it simply describe them?
 
 ### Network Graph
 
@@ -117,7 +117,7 @@ The two categories were chosen because they have almost the same amount of video
   </div>
 
 
-### Radar Graph 
+### Radar Graph
 
   <div class="col-sm-12">
     <figure>
@@ -137,4 +137,4 @@ A pseudo-random sequence of three foods will identify every browser. For instanc
 In this alpha stage,  the data collection is considered safe. The adopter has control over their data. Each browser extension generates a secret cryptographic material that is necessary to reach a secret URL, from where data can be administered (deleted, downloaded, tagged). The data collected is meant to be at the service of the collector. poTREX developed alongside with ytTREX, youtube.tracking.exposed, and they share most of their internal logic, constraint, and scope. The website offers a small set of visualization so far. If the adopter wants to realize more professional analysis and research, they can download the CSV or their recorded evidence.
 
 ---
-Download the complete [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
+Read the complete project analysis [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
