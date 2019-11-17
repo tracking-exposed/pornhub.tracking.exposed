@@ -12,9 +12,12 @@ og_url: "https://pornhub.tracking.exposed/tordimatti"
 og_description: "algoritmi, tracciamento digitale, economia della pornografia. Una analisi dell'algoritmo di pornhub e come questo influice sulla nostra percezione della sessualità"
 ---
 
-### Un evento ― de che?
+### Evento sperimentale ― episodio numero 0
+#### a Zagarolo (Roma) ― alle 19:00 (ma potete tardare fino alle 20:30) ― Mercoledì 20 Novembre 2019
 
-Una cena ed un dibattito. Un confronto, aperto e libero su pornografia, tecnologia e diritti digitali.
+Evento facebook, sulla pagina di [WikiHostel & Greenvillage](https://www.facebook.com/events/514731399080540/) ― [Locandina](https://raw.githubusercontent.com/tracking-exposed/pornhub.tracking.exposed/65005ced7fa4d2f7f4774f29af7550358fa7ea66/static/images/poalto-locandina.jpg).
+
+**Di cosa si tratta?** Di una cena ed un dibattito. Un confronto, aperto e libero su pornografia, tecnologia e diritti digitali.
 Si presenta il progetto pornhub.tracking.exposed, un sistema realizzato per analizzare l'algoritmo che sceglie quali video vengono preferiti dal più popolare sito per adulti.
 La tecnologia è uno strumento, non è neutrale, ha sempre delle tendenze, e noi le rendiamo visibili a tutti.
 Parliamo di pornografia ed apposta, perchè anche nel più semplice e personale intrattenimento vediamo l'azione di forme di sorveglianza individuale pensate per massimizzare i profitti.
