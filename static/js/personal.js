@@ -15,7 +15,7 @@ function personal(pages, profile) {
         pagestr = 10 + '-' + (pages - 10);
     }
     const pk = getPubKey();
-    const url = buildApiUrl('personal', pk + '/' + pagestr); 
+    const url = buildApiUrl('personal', pk + '/' + pagestr);
     $.getJSON(url, (data) => {
         _.each(data.recent, addVideoRow);
         addPages(data.total, pagestr);
@@ -41,7 +41,7 @@ function updateProfileInfo(profile) {
         $("#tag-badge").removeAttr('hidden');
         console.log('tag only ---', profile.tag);
     }
-    console.log("profile display", JSON.stringify(profile, undefined, 2));
+    console.log("profile display", profile);
 }
 
 
@@ -138,7 +138,7 @@ function manageTag(action) {
         else {
             updateProfileInfo(result.profile);
             printMessage(resultDiv, 'Tag "<b>' + result.group.name + '</b>" has been created', 'success');
-        } 
+        }
         return result;
     })
     .catch(function(e) {
@@ -184,11 +184,10 @@ function addVideoRow(video, i) {
 
     if(lastMetadataId == video.metadataId)
         return;
-
     /* else, we should display the entry */
     lastMetadataId = video.metadataId;
 
-    console.log(video);
+    console.log(i, video);
     $("#" + computedId + " .compare").attr('href', `/compare/#${video.videoId}`);
     let title = $("#" + computedId + " .compare").attr('title') + "«" + video.title + "»";
     $("#" + computedId + " .compare").attr('title', title);
@@ -208,8 +207,7 @@ function addVideoRow(video, i) {
 
     $("#" + computedId + " .relative").text(video.relative);
     $("#" + computedId + " .title").text(video.title);
-
-    $("#" + computedId + " .suggested").text(video.categories.join(','));
+    $("#" + computedId + " .categories").text(video.categories.join(','));
 
     entry.removeAttr('hidden');
 }
