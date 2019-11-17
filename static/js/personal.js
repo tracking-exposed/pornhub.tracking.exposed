@@ -176,7 +176,6 @@ function addPages(total, pages) {
 }
 
 let lastMetadataId = null;
-
 function addVideoRow(video, i) {
     const entry = $("#master").clone();
     const computedId = `video-${video.id}`;
@@ -189,9 +188,12 @@ function addVideoRow(video, i) {
     /* else, we should display the entry */
     lastMetadataId = video.metadataId;
 
+    console.log(video);
     $("#" + computedId + " .compare").attr('href', `/compare/#${video.videoId}`);
     let title = $("#" + computedId + " .compare").attr('title') + "«" + video.title + "»";
     $("#" + computedId + " .compare").attr('title', title);
+
+    $("#" + computedId + " .producer").text(video.producer.name + ' [' + video.producer.type + ']');
 
     $("#" + computedId + " .related").attr('href', `/related/#${video.videoId}`);
     title = $("#" + computedId + " .related").attr('title')  + "«" + video.title + "»";
@@ -206,6 +208,8 @@ function addVideoRow(video, i) {
 
     $("#" + computedId + " .relative").text(video.relative);
     $("#" + computedId + " .title").text(video.title);
+
+    $("#" + computedId + " .suggested").text(video.categories.join(','));
 
     entry.removeAttr('hidden');
 }
