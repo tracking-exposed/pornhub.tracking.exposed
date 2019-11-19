@@ -17,7 +17,15 @@ function personal(pages, profile) {
     const pk = getPubKey();
     const url = buildApiUrl('personal', pk + '/' + pagestr);
     $.getJSON(url, (data) => {
-        _.each(data.recent, addVideoRow);
+        _.each(data.recent, function(entry, i) {
+            if(entry.type == 'video') {
+                addVideoRow(entry, i);
+            } else if(entry.type == 'home') {
+                addHomePage(entry, i);
+            } else {
+                console.log("Unmanaged conditioon:", entry);
+            }
+        });
         addPages(data.total, pagestr);
         if(!profile) updateProfileInfo(data.supporter);
     });
@@ -44,6 +52,30 @@ function updateProfileInfo(profile) {
     console.log("profile display", profile);
 }
 
+let lastHomepageId = null;
+function addHomePage(data, i) {
+    const entry = $("#masterHome").clone();
+    const computedId = `homepage-${data.id}`;
+    entry.attr("id", computedId);
+    $("#report").append(entry);
+
+    if(lastHomepageId == data.metadataId)
+        return;
+    /* else, we should display the entry */
+    lastHomepageId = data.metadataId;
+
+    console.log(i, "HOMEPAGE", data);
+    _.each(data.sections, function(s) {
+        let current = $("#" + computedId + " .sections").html();
+        current += s.display + "</br>";
+        $("#" + computedId + " .sections").html(current);
+
+        current = $("#" + computedId + " .videonumber").html();
+        current += _.size(s.videos) + " videos" + "</br>";
+        $("#" + computedId + " .videonumber").html(current);
+    });
+    entry.removeAttr('hidden');
+}
 
 function printMessage(element, text, type) {
     if(!type) var type = 'danger';
