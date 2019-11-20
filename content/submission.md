@@ -10,7 +10,22 @@ og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
 
+# First step:
 {{< po-extension >}}
+
+# Second step:
+<div style="padding-top: 3em; padding-bottom: 3em;" class="col-sm-12">
+  <figure>
+    <img width="100%" src="/images/preview-potrex.png" />
+  </figure>
+</div>  
+
+# Third step:
+<div style="padding-top: 3em;" class="col-sm-12">
+  <figure>
+    <img width="100%" src="/images/submission-preview.png" />
+  </figure>
+</div>  
 
 <!--
 ### YOUR UNIQUE PROFILE
