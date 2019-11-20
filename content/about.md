@@ -26,7 +26,6 @@ Since January and April 2019 a small series of experiment have been conducted on
 
 do not exist any other method of access, and our code server + extension code is [on github, available for scrutiny](https://github.com/tracking.exposed/potrex), the website source is [here](https://github.com/tracking-exposed/pornhub.tracking.exposed).
 
-## Your contribution is welcomed
 
 ## [Initial Analysis](/project-analysis/)
 
@@ -46,6 +45,6 @@ Read the complete project analysis [.pdf](https://github.com/tracking-exposed/pr
 
 ## Short term goals
 
-1) In some nations (like the one in which most of us live) sex education is not taught in school. We assume current, and future adults learn something from porn, and this might not translate into very healthy sexual relationships. We can't avoid this, well, _we should by teaching sex education and consent properly, obviously_. But as long as this doesn't happen, we can look at the algorithm as it is the logic behind the content visualized.
-2) if data outside of your navigation (in incognito or without) are used to personalize your experience, this might be a cold shower and a method to explain linkability, and strengthen our digital safety.
-3) use an adult video platform might help us to reach out to people who usually would not care about Facebook and YouTube, this is why we are even [organizing gathering](/tordimatti).
+1. In some nations (like the one in which most of us live) sex education is not taught in school. We assume current, and future adults learn something from porn, and this might not translate into very healthy sexual relationships. We can't avoid this, well, _we should by teaching sex education and consent properly, obviously_. But as long as this doesn't happen, we can look at the algorithm as it is the logic behind the content visualized.
+2. if data outside of your navigation (in incognito or without) are used to personalize your experience, this might be a cold shower and a method to explain linkability, and strengthen our digital safety.
+3. use an adult video platform might help us to reach out to people who usually would not care about Facebook and YouTube, this is why we are even [organizing gathering](/tordimatti).

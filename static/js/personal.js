@@ -53,6 +53,7 @@ function personal(pages, profile) {
         }];
         /* this is part of the conversion shared with lib/basic (function 'radar') */
         render(monotop);
+        $(".loader").hide();
     });
 }
 

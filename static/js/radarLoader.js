@@ -29,15 +29,9 @@ function render(data) {
     RadarChart(".radarChart", data, radarChartOptions);
 };
 
-function initializeRadar(combos) {
+function initializeRadar() {
 
-    let users = null;
-    if(!( combos && _.size(combos) > 10) ) {
-        users = window.location.href.split('/#').pop();
-    } else {
-        users = combos.split("#").pop();
-    }
-
+    let users = window.location.href.split('/#').pop();
     console.log("looking for publickeys in:", users);
 
     if(_.size( users.split(',')) != 2) {
@@ -59,35 +53,5 @@ function initializeRadar(combos) {
          {axis:"Brand",value:0.28},          */
         console.log("rendering radar graph with", data);
         render(data.tops);
-    });
-};
-
-function createClickableCard(supporter) {
-
-    const entry = $("#master").clone();
-    const computedId = `page-${supporter.id}`;
-    entry.attr("id", computedId);
-    $("#report").append(entry);
-
-    $("#" + computedId + " .name").text(supporter.p);
-    entry.removeAttr('hidden');
-
-    //    return "#Hg5gp1kEVPMHEVvBkNrgbm7x6juj5LDc3rbosPMv1igA,CbM4wnicN9YJjAanTjHQzXJ7pJDdZnF3WQB5tmv4yFLY";
-};
-
-function getRandomActive() {
-    console.log("getRandomActive");
-
-    if (window.location.origin.match(/localhost/)) {
-        url='http://localhost:10000/api/v1/active/';
-        console.log("Development URL", url);
-    } else {
-        url='/api/v1/active/';
-        console.log("Production URL", url);
-    }
-
-    $.getJSON(url, function(data) {
-        const htmlCards = _.map(data, createClickableCard);
-        $("#randomActive").html(htmlCards);
     });
 };
