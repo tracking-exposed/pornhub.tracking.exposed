@@ -25,7 +25,7 @@ canonifyURLs = true
 
  [[menu.featured]]
     name = "Algorithm Domination"
-    url = "/submission"
+    url = "/preview"
     weight = -100
     pre = "/images/algorithmdom.svg"
     post = "Some of your data and what your master wants you to masturbate on today"
