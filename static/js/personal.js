@@ -23,11 +23,36 @@ function personal(pages, profile) {
             } else if(entry.type == 'home') {
                 addHomePage(entry, i);
             } else {
-                console.log("Unmanaged conditioon:", entry);
+                console.log("Unmanaged condition?", entry);
             }
         });
         addPages(data.total, pagestr);
         if(!profile) updateProfileInfo(data.supporter);
+
+        console.log("Invoking radar rendering using only one profile");
+        let categories = _.flatten(_.compact(_.map(data.recent, 'categories')));
+        let list = _.reverse(_.sortBy(_.map(_.countBy(categories), function(c, n) { return { c, n, } }), 'c'));
+        let considered = _.map(_.take(list, 20), 'n');
+
+        const axes1 = _.map(considered, function(cat) {
+            let ref = _.countBy(categories);
+            let amount = _.get(ref, cat, 0);
+            let value = _.round(amount / _.size(data.recent), 2);
+            return {
+                axis: cat,
+                value
+            };
+        });
+
+        const monotop = [{
+            name: "xxxx",
+            axes: axes1,
+        }, {
+            name: "aaaa",
+            axes: []
+        }];
+        /* this is part of the conversion shared with lib/basic (function 'radar') */
+        render(monotop);
     });
 }
 

@@ -12,18 +12,15 @@ og_description: "Some data you are providing to the website and analysis to be a
 
 
 <div class="container">
-    <section>
-        <h2>Categories suggested to you</h2>
-        <div class="col-12" id="personalRadar"></div>
-    </section>
+    <h1>Your fetishes are watching you</h1>
+    <div class="radarChart" style="text-align: center; background-color: black; border-radius: 1em;"></div>
 </div>
 
 <hr>
 
 <div class="container">
-
     <section>
-        <h2>Recent stuff collected</h2>
+        <h1>Data voyeuring</h1>
         <div class="row align-middle mb-3">
             <p id="total-evidence" class="m-0 mr-2" style="line-height: 36px;"></p>
 
@@ -155,13 +152,16 @@ og_description: "Some data you are providing to the website and analysis to be a
 </div>
 
 <h3>Final notes</h3>
-
 <p>
 This page should become like the <a href="/submission">algorithm domination</a> mock-up, but, considering this is an <a href="/about">unfunded prototype managed by less than five people</a>, this is probably the best you'll have for a while. enjoy!
 </p>
 
 <script src="/js/global.js"></script>
 <script src="/js/personal.js"></script>
+<script src="/js/d3.min.js"></script>
+<script src="/js/radarChart.js"></script>
+<script src="/js/radarLoader.js"></script>
+
 <script type="text/javascript">
 
     $( document ).ready(function() {

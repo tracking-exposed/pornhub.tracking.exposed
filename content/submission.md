@@ -10,10 +10,9 @@ og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
 
-## -- This is a work in progress and at the moment is not yet ready: released scheduled before the 20th of November --
+{{< po-extension >}}
 
----
-
+<!--
 ### YOUR UNIQUE PROFILE
 HARDware fingerprinting: [only 1 in 286,777 other browsers will share the same fingerprint as another user.] (https://panopticlick.eff.org/static/browser-uniqueness.pdf)
   <div class="col-sm-8">
@@ -49,3 +48,4 @@ Top 7 most recommended categories based on your behaviour
 ### MOST WATCHED AND MOST RECOMMENDED
 
 graph 
+-->

@@ -11,6 +11,8 @@ og_url: "https://pornhub.tracking.exposed/pov"
 og_description: "Learn more about our POV and download the browser extension"
 ---
 
+{{< po-extension >}}
+
 # POV
 
 + Homemade pornography has been made possible by the technological advances of cameras, video cameras and mobile phones, but it’s the web that has allowed its distribution in an endemic way. The World Wide Web was the first computer technology that as main component of its value proposition had the mainstream adoption of pornography.
