@@ -14,9 +14,20 @@ Statistics and OpenData enable network effects, data reuse, and collaborative re
 * Is in our DNA [enable researchers](/data-activism), we described which are our [data usage policies](/what-we-collect).
 * The public stats below display how the system is performing how the people use it (no content-related analysis are here).
 
-<!-- the graphs are appended in the 'div'. the ID #impression-graph is referenced in hugo-theme-trex/layouts/c3app/single.html -->
-_newcomers is the number of people installing the extension. In every day is counted the sum of new installation. They can be either in Firefox, Chrome, Brave, and we don't know if the user uninstall the extension few seconds later or not._
-<div id="newcomers-graph" class="c3graph"></div>
+<!-- the graphs are appended in the 'div'. the ID 
+     are specify in static/js/pornhub-c3-impact.js 
+     and the layout is hugo-theme-trex/layouts/c3app/single.html -->
 
-<div id="contribution-graph" class="c3graph"></div>
+### Supporters  
+<div id="supporters-graph" class="c3graph"></div>
 
+_newcomers is the number of people installing the extension. In every day is counted the sum of new installation. They can be either in Firefox, Chrome, Brave, and we are not reporting if the user uninstall the extension few seconds later or not._
+
+### Contributions
+<div id="contributions-graph" class="c3graph"></div>
+
+### Content processed
+<div id="processed-graph" class="c3graph"></div>
+
+### Metadata 
+<div id="metadata-graph" class="c3graph"></div>
