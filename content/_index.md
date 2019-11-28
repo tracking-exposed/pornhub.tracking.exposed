@@ -5,7 +5,7 @@ layout: home
 
 og_title: "poTREX - browser extension goes wild"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg" 
+og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg"
 og_url: "https://pornhub.tracking.exposed"
 og_description: "Some companies know you better than your partner... Supervise your personalized experience on Pornhub and your interactions with the website. Take care about your self-intimacy and take control of your sexual archetype"
 ---
@@ -24,7 +24,8 @@ The section */recommended* proposes to the users videos that should be satisfyin
 
 pornhub.tracking.exposed is a browser extension that allows __to study ed analyze the implications__ of this personalization algorithm through the collection and comparison of __individualized experiences__ that Pornhub users receive.
 
-___
+{{< po-extension >}}
 
+---
 
-TODO devo fare lo snippet con le icone di ff/chrome ( Install the browser extension _pornhub.tracking.exposed_  )
+### Necessary disclaimer: this is an unfunded experimental working prototype: don't expect fireworks

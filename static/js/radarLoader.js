@@ -31,26 +31,27 @@ function render(data) {
 
 function initializeRadar() {
 
-    const users = window.location.href.split('/#').pop();
-    console.log("testing if pseudonym is:", users);
+    let users = window.location.href.split('/#').pop();
+    console.log("looking for publickeys in:", users);
 
     if(_.size( users.split(',')) != 2) {
         console.log("failed first integrity check", users);
-        return;
-    }
-    if(_.size( users.split('-')) != 5) {
-        console.log("failed second integrity check", users);
-        return;
+        return false;
     }
 
-    url='https://pornhub.tracking.exposed/api/v1/radar/' + users;
+    if (window.location.origin.match(/localhost/)) {
+        url='http://localhost:10000/api/v1/radar/' + users;
+        console.log("Development URL", url);
+    } else {
+        url='/api/v1/radar/' + users;
+        console.log("Production URL", url);
+    }
+
     $.getJSON(url, function(data) {
     /* this is the format
          {axis:"Battery Life",value:0.22}, 
          {axis:"Brand",value:0.28},          */
-        console.log(data);
-
+        console.log("rendering radar graph with", data);
         render(data.tops);
     });
 };
-

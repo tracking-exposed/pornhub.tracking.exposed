@@ -5,7 +5,7 @@ draft: false
 
 og_title: "poTREX - About the project"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg" 
+og_image: "http://pornhub.tracking.exposed/potrex-logo.jpg"
 og_url: "https://pornhub.tracking.exposed/about"
 og_description: "A tool to analyze personalized experiences in the biggest website in the porn industry"
 ---
@@ -18,12 +18,14 @@ Since January and April 2019 a small series of experiment have been conducted on
   * Control and change your identifier **when you want**, only you know your pseudonym has changed. Is in the decision of the browser with the extension installed, to decide if share the access link.
   * Delete specific content you submit
   * Every identified will be only represented by a pseudo-random sequence of three foods. For example, if you are *guacamole-pizza-mascarpone*, only you know this, only you can change this, and only you can reveal this.
+  * We do not link (and we have no means to do it) the collections of this project, with other Tracking Exposed initiatives.
 
 * The analysis works by recording the full HTML Pornhub send to you. In our server, we'll extract the list of the suggested video.
 * The research is done by playing with personalization and verify how this has an impact on your suggested related videos.
 * The data users provided can be downloaded via personal token, the anonymized analysis (the same comparison logic implemented for YouTube) is available and with and API, retrieve these information as machine readable format (JSON or CSV).
 
-do not exist any other method of access, and our code server + extension code is [on github available for scrutiny](https://github.com/tracking.exposed/potrex), the website source is [here](https://github.com/tracking-exposed/pornhub.tracking.exposed).
+do not exist any other method of access, and our code server + extension code is [on github, available for scrutiny](https://github.com/tracking.exposed/potrex), the website source is [here](https://github.com/tracking-exposed/pornhub.tracking.exposed).
+
 
 ## [Initial Analysis](/project-analysis/)
 
@@ -39,5 +41,10 @@ Understanding where and how the Pornhub personalization algorithm works, to iden
 
 Similarly to the test done by [fbTREX+WebFoundation, during the Argentinian G20](https://webfoundation.org/research/the-invisible-curation-of-content-facebooks-news-feed-and-our-information-diets/), or our [YouTube initial analysis](https://youtube.tracking.exposed/results) it is advisable to use simulated situations in order to bring our actors into a situation of divergence and study what factors are causing it.
 
-<!--
-[links to the [.pdf](https://github.com/tracking-exposed/presentation/) goes in the _presentation_ repository]::-->
+Read the complete project analysis [.pdf](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf)
+
+## Short term goals
+
+1. In some nations (like the one in which most of us live) sex education is not taught in school. We assume current, and future adults learn something from porn, and this might not translate into very healthy sexual relationships. We can't avoid this, well, _we should by teaching sex education and consent properly, obviously_. But as long as this doesn't happen, we can look at the algorithm as it is the logic behind the content visualized.
+2. if data outside of your navigation (in incognito or without) are used to personalize your experience, this might be a cold shower and a method to explain linkability, and strengthen our digital safety.
+3. use an adult video platform might help us to reach out to people who usually would not care about Facebook and YouTube, this is why we are even [organizing gathering](/tordimatti).

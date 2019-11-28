@@ -6,10 +6,12 @@ draft: false
 
 og_title: "Our pleasure tools PoV"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/images/pov.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/pov"
 og_description: "Learn more about our POV and download the browser extension"
 ---
+
+{{< po-extension >}}
 
 # POV
 
@@ -17,7 +19,7 @@ og_description: "Learn more about our POV and download the browser extension"
 
 + Because of the puritanical face of the mainstream internet, porn has been largely excluded from traditional marketing, often developing in a separate universe, with business models that changed and advanced at exponential speed compared to the traditional market, on an anarcho-liberal model. Parallelisms with other social media can stimulate lateral and critical thinking.
 
-+ Sensitive data on site visits and therefore onanistic acts have now become, for companies like google and facebook, one of the parameters that define the uniqueness of a user, and somehow also characterize an entire community. 
++ Sensitive data on site visits and therefore onanistic acts have now become, for companies like google and facebook, one of the parameters that define the uniqueness of a user, and somehow also characterize an entire community.
 
 + The task of create culture around technology and in emotional and sex education, to form free individuals with thinking skills and independent judgment, must not be delegated to any Silicon Valley’s company, from Pornhub to other technological giants, which, with the aim of improving advertising and/or acquiring greater prestige, occasionally spectacularize and exploit values what we have forgotten should be the pillars of our human aggregates.
 
@@ -29,7 +31,11 @@ og_description: "Learn more about our POV and download the browser extension"
 
 ---
 
-# Scissors sisters
+{{< po-extension >}}
+
+---
+
+# Scissors [sisters](https://tracking.exposed/connect/)
 
 <div class="card-group">
 

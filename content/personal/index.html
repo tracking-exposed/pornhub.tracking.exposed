@@ -1,0 +1,175 @@
+---
+title: "Your silent submission"
+subtitle: "What you actually do it’s often different from what you declare"
+draft: false
+
+og_title: "Look closely at the value of your data"
+og_type: "website"
+og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg" 
+og_url: "https://pornhub.tracking.exposed/submission"
+og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
+---
+
+
+<div class="container">
+    <img src="/images/loader.gif" class="loader" />
+    <h1>Your fetishes are watching you</h1>
+    <div class="radarChart" style="text-align: center; background-color: black; border-radius: 1em;"></div>
+</div>
+
+<hr>
+
+<div class="container">
+    <section>
+        <h1>Data voyeuring</h1>
+        <img src="/images/loader.gif" class="loader" />
+        <div class="row align-middle mb-3">
+            <p id="total-evidence" class="m-0 mr-2" style="line-height: 36px;"></p>
+
+            <nav id="pagination" aria-label="navigation">
+                <ul class="pagination centered"></ul>
+            </nav>
+        </div>
+
+        <!-- NOTE: this is hinnde, and defines how an homepage would look like -->
+        <div id="masterHome" hidden class="row border-bottom p-2 mb-3 align-middle" style="background-color: antiquewhite">
+          <div class="col-6">
+              <p class="sections"></p>
+          </div>
+          <div class="col-6">
+              <p class="videonumber"></p>
+          </div>
+        </div>
+
+        <!-- NOTE: this is hidden, and it is cloned from javascript, each time a new entry is present -->
+        <div id="master" hidden class="row border-bottom p-2 mb-3 align-middle">
+          <div class="col-7">
+            <p class="mb-0">
+              <small class="relative">relativeFiller</small> ― 
+              <small class="producer">producerFiller</small><br />
+              <b class="title">titleFiller</b>
+            </p>
+          </div>
+          <div clasS="col-3">
+              <smaller class="categories">categoriesFiller</smaller>
+          </div>
+          <nav class="col-2">
+              <a
+                class="compare icon-small mb-1"
+                title="Compare all the related suggestions selected for ">
+                  <!-- string is completed in JS so the HTML can be translated -->
+                  <small>Compare</small>
+              </a>
+          <!--
+              <a
+                class="related icon-small mb-1"
+                title="all times in the related was selected ">
+                  <small>Related</small>
+              </a>
+              <a
+                class="author icon-small mb-1"
+                title="Compare all the evidences from the same author">
+                  <small>Channel</small>
+              </a>
+          -->
+              <a
+                class="delete icon-small mb-1"
+                title="Remove this evidence about">
+                  <small>Remove</small>
+              </a>
+          </nav>
+        </div>
+
+        <div id="report" class="mb-5">
+          <!-- Here are appended the clones of #master, by jQuery -->
+        </div>
+    </section>
+
+    <section>
+        <div class="row mb-5">
+            <div class="col-sm">
+                <h3>You are <i id="user-name"></i></h3>
+                <div id="user-info">
+                    <p class="mb-2">Here you can find all data collected from your <b>Pornhub activity</b> since <span class="badge badge-pill badge-light" id="createdAtFormatted"></span></p>
+                    <ul class="mb-4">
+                        <li class="mr-1"><p class="mb-0">Your access token: <span class="badge badge-light align-middle" id="accessToken"><i></i></span></p></li>
+                        <li class="mr-1"><p class="mb-0">Last activity: <span class="badge badge-light align-middle" id="lastActivityFormatted"></span></p></li>
+                    </ul>
+                    <h5 id="tag-badge" >Your contribution is tagged as: <span class="badge badge-info" id="tag-name"></span></h5>
+                </div>
+
+                <p class="mt-3">
+                    Download the <a onclick="downloadCSV()" href="#"> CSV of your activities</a>.
+                </p>
+            </div>
+
+            <div class="col-sm" id="informative">
+                <div class="card p-3">
+                    <h3>Tag your evidence</h3>
+                    <small class="mb-3 pb-3 border-bottom">
+                        By tagging your evidence, you can more easily compare with the other people tagging in the same way.
+                        To allow only the people you want to use a tag, you should make it private, and the password will be mandatory to join.
+                    </small>
+                    <div>
+
+                    <div id="error"></div>
+                    <div class="mb-4">
+                        <label for="tag">Tag as: </label>
+                        <input name="tag" class="form-control" id="tag" type="text" value="" placeholder="">
+                    </div>
+                    <div class="mb-3">
+                        <label class="mr-2">Tag type: </label>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input onchange="showPassword('public')" checked type="radio" id="public" name="public-private" class="custom-control-input">
+                            <label class="group-type custom-control-label" for="public">public</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input onchange="showPassword('private')" type="radio" id="private" name="public-private" class="custom-control-input">
+                            <label class="group-type custom-control-label" for="private">private</label>
+                        </div>
+                    </div>
+                    <div id="group-password-wrapper" class="mb-4" style="display: none;">
+                        <label>Set up a password for private tag</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                    <div class="mb-4" id="description-block" style="display: none">
+                        <label for="description">Description</label>
+                        <input name="description" class="form-control" id="description" type="text" value="" placeholder="">
+                    </div>
+                    <div id="result"></div>
+                    <button 
+                        class="btn btn-lg float-left btn-primary" 
+                        style="min-width: 100px" 
+                        onclick="joinTag()">Join</button>
+
+                    <a class="btn btn-lg float-right" 
+                        style="min-width: 100px" onclick="createTag()"
+                        >Create +</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<h3>Final notes</h3>
+<p>
+This page should become like the <a href="/submission">algorithm domination</a> mock-up, but, considering this is an <a href="/about">unfunded prototype managed by less than five people</a>, this is probably the best you'll have for a while. enjoy!
+</p>
+
+<script src="/js/global.js"></script>
+<script src="/js/personal.js"></script>
+<script src="/js/d3.min.js"></script>
+<script src="/js/radarChart.js"></script>
+<script src="/js/radarLoader.js"></script>
+
+<script type="text/javascript">
+
+    $( document ).ready(function() {
+        $("#description").val("");
+        personal();
+    });
+
+</script>
+
