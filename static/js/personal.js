@@ -15,6 +15,11 @@ function personal(pages, profile) {
         pagestr = 10 + '-' + (pages - 10);
     }
     const pk = getPubKey();
+    if(!_.size(pk)) {
+        $(".potrex--content").hide();
+        $("#missingkey").show();
+        return;
+    }
     const url = buildApiUrl('personal', pk + '/' + pagestr);
     $.getJSON(url, (data) => {
         _.each(data.recent, function(entry, i) {
@@ -207,7 +212,7 @@ function manageTag(action) {
 
 function downloadCSV() {
     const pk = getPubKey();
-    const csvurl = `/api/v1/personal/${pk}/csv`;
+    const csvurl = serverWrap(`/api/v1/personal/${pk}/csv`);
     console.log("downloadCSV from: ", csvurl);
     window.open(csvurl);
 }

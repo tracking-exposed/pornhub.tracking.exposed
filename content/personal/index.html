@@ -11,18 +11,26 @@ og_description: "Some data you are providing to the website and analysis to be a
 ---
 
 
-<div class="container">
-    <img src="/images/loader.gif" class="loader" />
+<div id="missingkey" style="padding-top: 3em; padding-bottom: 3em; text-align: center; display: none" class="col-sm-12">
+  <h2>Missing Key! you should access this page by clicking on the extension pop-up</h2>
+  <small>Do you feel lost? check it out our small <a href="/preview">manual</a>.</small>
+  <figure>
+    <img width="100%" src="/images/preview-potrex.png" />
+  </figure>
+</div> 
+
+<div class="container potrex--content">
     <h1>Your fetishes are watching you</h1>
+    <div style="text-align:center;"><img src="/images/loader.gif" class="loader" /></div>
     <div class="radarChart" style="text-align: center; background-color: black; border-radius: 1em;"></div>
 </div>
 
 <hr>
 
-<div class="container">
+<div class="container potrex--content">
     <section>
         <h1>Data voyeuring</h1>
-        <img src="/images/loader.gif" class="loader" />
+        <div style="text-align:center;"><img src="/images/loader.gif" class="loader" /></div>
         <div class="row align-middle mb-3">
             <p id="total-evidence" class="m-0 mr-2" style="line-height: 36px;"></p>
 
@@ -99,7 +107,7 @@ og_description: "Some data you are providing to the website and analysis to be a
                 </div>
 
                 <p class="mt-3">
-                    Download the <a onclick="downloadCSV()" href="#"> CSV of your activities</a>.
+                    Download the <a onclick="downloadCSV()" href="#"> CSV on how your homepages are personalized</a>.
                 </p>
             </div>
 
@@ -153,10 +161,10 @@ og_description: "Some data you are providing to the website and analysis to be a
 
 </div>
 
-<h3>Final notes</h3>
-<p>
-This page should become like the <a href="/submission">algorithm domination</a> mock-up, but, considering this is an <a href="/about">unfunded prototype managed by less than five people</a>, this is probably the best you'll have for a while. enjoy!
-</p>
+<div class="container">
+    <h3>Final notes</h3>
+    <p>This page is an <a href="/about">unfunded prototype managed by less than five people</a>, this is probably the best you'll have for a while. enjoy!</p>
+</div>
 
 <script src="/js/global.js"></script>
 <script src="/js/personal.js"></script>
