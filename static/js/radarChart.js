@@ -50,7 +50,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	 dotRadius: 4, 			//The size of the colored circles of each blog
 	 opacityCircles: 0.2, 	//The opacity of the circles of each blob
 	 strokeWidth: 2, 		//The width of the stroke around each blob
-	 roundStrokes: false,	//If true the area and stroke will follow a round path (cardinal-closed)
+	 roundStrokes: true,	//If false the stroke become Linear 
 	 color: d3.scaleOrdinal(d3.schemeCategory10),	//Color function,
 	 format: '.2%',
 	 unit: '',
@@ -64,6 +64,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	  }//for i
 	}//if
 
+	console.log("roundStrokes", cfg.roundStrokes)
 	//If the supplied maxValue is smaller than the actual one, replace by the max in the data
 	// var maxValue = max(cfg.maxValue, d3.max(data, function(i){return d3.max(i.map(function(o){return o.value;}))}));
 	let maxValue = 0;
@@ -189,12 +190,12 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 
 	//The radial line function
 	const radarLine = d3.radialLine()
-		.curve(d3.curveLinearClosed)
+		.curve(d3.curveCardinalClosed)
 		.radius(d => rScale(d.value))
 		.angle((d,i) => i * angleSlice);
 
-	if(cfg.roundStrokes) {
-		radarLine.curve(d3.curveCardinalClosed)
+	if(!cfg.roundStrokes) {
+		radarLine.curve(d3.curveLinear)
 	}
 
 	//Create a wrapper for the blobs
