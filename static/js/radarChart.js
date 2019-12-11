@@ -51,6 +51,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	 opacityCircles: 0.2, 	//The opacity of the circles of each blob
 	 strokeWidth: 2, 		//The width of the stroke around each blob
 	 roundStrokes: true,	//If false the stroke become Linear 
+	 labelColor: 'black',
 	 color: d3.scaleOrdinal(d3.schemeCategory10),	//Color function,
 	 format: '.2%',
 	 unit: '',
@@ -176,7 +177,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	axis.append("text")
 		.attr("class", "legend")
 		.style("font-size", "11px")
-        .style("fill", "white")
+		.style("fill", cfg.labelColor)
 		.attr("text-anchor", "middle")
 		.attr("dy", "0.35em")
 		.attr("x", (d,i) => rScale(maxValue * cfg.labelFactor) * cos(angleSlice * i - HALF_PI))

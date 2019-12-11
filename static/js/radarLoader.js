@@ -1,8 +1,3 @@
-function render(data, radarChartOptions) { 
-
-    //Call function to draw the Radar chart
-    RadarChart(".radarChart", data, radarChartOptions);
-};
 
 function initializeRadar() {
     // this function is invoke by 'public.js'
@@ -23,7 +18,6 @@ function initializeRadar() {
         console.log("Production URL", url);
     }
 
-    
     var margin = {top: 100, right: 100, bottom: 100, left: 100},
         width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
         height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
@@ -38,7 +32,8 @@ function initializeRadar() {
       maxValue: 0.5,
       levels: 5,
       roundStrokes: true,
-      color: color
+      color: color,
+      labelColor: 'white'
     };
 
     $.getJSON(url, function(data) {

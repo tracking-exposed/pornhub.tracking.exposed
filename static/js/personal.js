@@ -6,6 +6,8 @@ function getPubKey() {
     return t;
 }
 
+const MINIMUM = 0.2;
+
 function personal(pages, profile) {
 
     if(!pages) pagestr = '10-0';
@@ -33,13 +35,11 @@ function personal(pages, profile) {
         addPages(data.total, pagestr);
         if(!profile) updateProfileInfo(data.supporter);
 
-        const MINIMUM = 0.2;
         console.log("Invoking radar rendering using only one profile", MINIMUM);
-        const retval = _.map([
+        const categories = [
             {
                 "name": "Live Cams", "macro": "Format",
                 "href": "/live?track=6002"
-
             },
             {
                 "name": "Popular With Women", "macro": "Fantasies",
@@ -461,54 +461,66 @@ function personal(pages, profile) {
                 "name": "Webcam", "macro": "Format",
                 "href": "/video?c=61"
             }
-            ], function(e) {
-                return {
-                    'axis': e.name,
-                    value: MINIMUM,
-                };
-            });
+        ];
+
+        const retvalFormat = _.map(_.filter(categories, { macro: 'Format' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalFantasies = _.map(_.filter(categories, { macro: 'Fantasies' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalAppearance = _.map(_.filter(categories, { macro: 'Appearance' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalPractices = _.map(_.filter(categories, { macro: 'Practices' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
 
         const yourcats = _.flatten(_.compact(_.map(data.recent, 'categories')));
         const yourordered = _.reverse(_.sortBy(_.map(_.countBy(yourcats), function(c, n) { return { c, n, } }), 'c'));
-        const factor = 5 / _.first(yourordered).c;
 
-        const axes1 = _.map(retval, function(entry) {
-            let presence = _.find(yourordered, { n: entry.axis });
-            if(presence) {
-                entry.value = ( factor * presence.c ) + MINIMUM;
-            }
-            return entry;
-        });
-
-        const monotop = [{
-            name: "xxxx",
-            axes: axes1,
-        }, {
-            name: "aaaa",
-            axes: []
-        }];
-
-        var margin = {top: 100, right: 100, bottom: 100, left: 100},
-            width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
-            height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
-                
-        var color = d3.scaleOrdinal()
-            .range(["#ffffff","#f98e05","#00A0B0"]);
-            
-        var radarChartOptions = {
-            w: width,
-            h: height,
-            margin: margin,
-            maxValue: 0.5,
-            levels: 5,
-            roundStrokes: false,
-            color: color
-        };        
-
-        /* this is part of the conversion shared with lib/basic (function 'radar') */
-        render(monotop, radarChartOptions);
+        renderPersonalRadar(retvalFantasies, '#radarFantasies', yourordered);
+        renderPersonalRadar(retvalPractices, '#radarPractices', yourordered, 300);
+        renderPersonalRadar(retvalFormat, '#radarFormat', yourordered, 300);
+        renderPersonalRadar(retvalAppearance, '#radarAppearance', yourordered);
         $(".loader").hide();
     });
+}
+
+function renderPersonalRadar(retval, targetElement, yourordered, maxSize=500) {
+
+    const factor = 5 / _.first(yourordered).c;
+    const axes1 = _.map(retval, function(entry) {
+        let presence = _.find(yourordered, { n: entry.axis });
+        if(presence) {
+            entry.value = ( factor * presence.c ) + MINIMUM;
+        }
+        return entry;
+    });
+
+    const monotop = [{
+        name: "xxxx",
+        axes: axes1,
+    }, {
+        name: "aaaa",
+        axes: []
+    }];
+
+    var margin = {top: 100, right: 100, bottom: 100, left: 100},
+        height = Math.min(maxSize, window.innerHeight - margin.top - margin.bottom - 20);
+        width = height; // Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+            
+    var color = d3.scaleOrdinal()
+        .range(["#ffffff","#f98e05","#00A0B0"]);
+        
+    var radarChartOptions = {
+        w: width,
+        h: height,
+        margin: margin,
+        maxValue: 0.5,
+        levels: 5,
+        roundStrokes: false,
+        color: color
+    };        
+
+    // Call function to draw the Radar chart
+    RadarChart(targetElement, monotop, radarChartOptions);
 }
 
 function updateProfileInfo(profile) {
@@ -545,14 +557,12 @@ function addHomePage(data, i) {
     /* else, we should display the entry */
     lastHomepageId = data.metadataId;
 
-    console.log(i, "HOMEPAGE", data);
-
     let newSectionHTML = "";
     _.each(data.sections, function(s,i ) {
         if(i == 0) {
             newSectionHTML = "<div class='col-12' style='border-bottom: 0.1px solid white;padding-top:10px;padding-bottom:10px'>" +
                 '<span class="col-7" style="display:inline-block">' + 
-                "<small>Accessed <b>" + data.relative + "</b></small>" +
+                "<small>ACCESSED HOMEPAGE<b> ― " + data.relative + "</b></small>" +
                 '</span>' + 
                 '<span class="col-5" style="display:inline-block">' + "Selected producers " + '</span>' + 
                 '</div>';
@@ -589,7 +599,7 @@ function manageTag(action) {
     error.empty();
     resultDiv.empty();
 
-    console.log("manageTag", action)
+    console.log("manageTag", action);
 
     const tag = $('#tag').val();
     const password = $("#password").val();
