@@ -54,9 +54,9 @@ The situations to be considered were therefore four and the hypothesis was that,
 
 ### Context matrix
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
-      <img width="50%" class="align-left" src="/images/projectanalysis/matrix.jpg" />
+      <img width="50%" src="/images/projectanalysis/matrix.jpg" />
     </figure>
   </div>
 
@@ -64,7 +64,7 @@ The videos are typed according to a hundred categories recognized by Pornhub, as
 
 ### Categories taxonomy
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
       <img width="70%" class="align-center" src="/images/projectanalysis/taxonomy.jpg" />
     </figure>
@@ -73,7 +73,7 @@ The videos are typed according to a hundred categories recognized by Pornhub, as
 ### Categories by number
 
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
       <img width="100%" class="align-center" src="/images/projectanalysis/catnum.jpg" />
     </figure>
@@ -85,7 +85,7 @@ By clicking on any category, ten other categories appear, that are frequently co
 ### Network Graph
 
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
       <img width="100%" class="align-center" src="/images/projectanalysis/network.jpg" />
     </figure>
@@ -98,9 +98,9 @@ The homepage is the main page of the site and the videos it contains are divided
 ### Homepage and /recommended personalization
 
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
-      <img width="100%" class="align-center" src="/images/projectanalysis/homepage.jpg" />
+      <img width="70%" class="align-center" src="/images/projectanalysis/homepage.jpg" />
     </figure>
   </div>
 
@@ -110,18 +110,18 @@ The two categories were chosen because they have almost the same amount of video
 
 ### Research protocol
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
-      <img width="50%" class="align-left" src="/images/projectanalysis/protocol.jpg" />
+      <img width="30%" class="align-left" src="/images/projectanalysis/protocol.jpg" />
     </figure>
   </div>
 
 
 ### Radar Graph
 
-  <div class="col-sm-12">
+  <div class="col-sm-12 text-center">
     <figure>
-      <img width="100%" class="align-center" src="/images/projectanalysis/radar.jpg" />
+      <img width="50%" class="align-center" src="/images/projectanalysis/radar.jpg" />
     </figure>
   </div>
 

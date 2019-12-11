@@ -10,20 +10,31 @@ og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
 
-# First step:
+<h2 class="text-center" style="color:#f99500; padding-top: 1em";> First step </h2>
 {{< po-extension >}}
 
-# Second step:
-<div style="padding-top: 3em; padding-bottom: 3em;" class="col-sm-12">
+---
+
+<h2 class="text-center" style="color:#f99500; padding-top: 1em";> Second step </h2>
+
+<h2 class="text-center" style="padding-top: 1em";> Once installed the add-on, navigate on PH and please yourself (feel free to fake it ;) </h2>
+
+<div style="padding-top: 1em; padding-bottom: 3em;" class="col-sm-12 text-center">
   <figure>
-    <img width="100%" src="/images/preview-potrex.png" />
+    <img width="100%" src="/images/preview-potrex2.png" />
   </figure>
 </div>  
 
-# Third step:
-<div style="padding-top: 3em;" class="col-sm-12">
+---
+
+<h2 class="text-center" style="color:#f99500; padding-top: 1em";> Third step </h2>
+
+<h2 class="text-center" style="padding-top: 1em";> Open the browser extension's pop-up and access your data</h2>
+
+
+<div style="padding-top: 1em;" class="col-sm-12 text-center">
   <figure>
-    <img width="100%" src="/images/submission-preview.png" />
+    <img width="50%" src="/images/submission-preview.png" />
   </figure>
 </div>  
 

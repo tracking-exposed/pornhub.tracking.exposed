@@ -15,6 +15,7 @@ og_description: "Learn more about our POV and download the browser extension"
 
 # POV
 
+
 + Homemade pornography has been made possible by the technological advances of cameras, video cameras and mobile phones, but it’s the web that has allowed its distribution in an endemic way. The World Wide Web was the first computer technology that as main component of its value proposition had the mainstream adoption of pornography.
 
 + Because of the puritanical face of the mainstream internet, porn has been largely excluded from traditional marketing, often developing in a separate universe, with business models that changed and advanced at exponential speed compared to the traditional market, on an anarcho-liberal model. Parallelisms with other social media can stimulate lateral and critical thinking.
@@ -35,9 +36,9 @@ og_description: "Learn more about our POV and download the browser extension"
 
 ---
 
-# Scissors [sisters](https://tracking.exposed/connect/)
+<h2 class="text-center" style="color:#f99500; padding-top: 1em";> <a href="https://tracking.exposed/connect/">Scissors sisters </a> </h2>
 
-<div class="card-group">
+<div class="card-group" style="padding-top: 2em">
 
   {{<trexproj
       href="https://facebook.tracking.exposed"

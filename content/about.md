@@ -15,6 +15,7 @@ Since January and April 2019 a small series of experiment have been conducted on
 ## which control you've on data, and what we collect
 
 * Every browser has a unique code attributed, this is the only way to link data. for you and for us. You can:
+
   * Control and change your identifier **when you want**, only you know your pseudonym has changed. Is in the decision of the browser with the extension installed, to decide if share the access link.
   * Delete specific content you submit
   * Every identified will be only represented by a pseudo-random sequence of three foods. For example, if you are *guacamole-pizza-mascarpone*, only you know this, only you can change this, and only you can reveal this.
