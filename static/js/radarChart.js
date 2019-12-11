@@ -51,7 +51,8 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	 opacityCircles: 0.2, 	//The opacity of the circles of each blob
 	 strokeWidth: 2, 		//The width of the stroke around each blob
 	 roundStrokes: true,	//If false the stroke become Linear 
-	 labelColor: 'black',
+	 labelColor: 'white',
+	 secondaryLabel: 'white',
 	 color: d3.scaleOrdinal(d3.schemeCategory10),	//Color function,
 	 format: '.2%',
 	 unit: '',
@@ -171,18 +172,22 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 		.attr("y2", (d, i) => rScale(maxValue* 1.1) * sin(angleSlice * i - HALF_PI))
 		.attr("class", "line")
 		.style("stroke", "#ffffff")
-		.style("stroke-width", "0.3px");
+		.style("stroke-width", (d, i) => {
+			return (d[0] == '_') ? "0px" : "0.3px";
+		});
 
 	//Append the labels at each axis
 	axis.append("text")
 		.attr("class", "legend")
 		.style("font-size", "11px")
-		.style("fill", cfg.labelColor)
+		.style("fill", (d, i) => {
+			return d[0] == '_' ? cfg.secondaryLabel : cfg.labelColor;
+		})
 		.attr("text-anchor", "middle")
 		.attr("dy", "0.35em")
 		.attr("x", (d,i) => rScale(maxValue * cfg.labelFactor) * cos(angleSlice * i - HALF_PI))
 		.attr("y", (d,i) => rScale(maxValue * cfg.labelFactor) * sin(angleSlice * i - HALF_PI))
-		.text(d => d)
+		.text(d => { return d[0] == '_' ? d.substr(1) : d; })
 		.call(wrap, cfg.wrapWidth);
 
 	/////////////////////////////////////////////////////////

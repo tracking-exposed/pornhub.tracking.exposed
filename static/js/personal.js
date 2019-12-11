@@ -491,6 +491,9 @@ function renderPersonalRadar(retval, targetElement, yourordered, maxSize=500) {
         if(presence) {
             entry.value = ( factor * presence.c ) + MINIMUM;
         }
+        else { // this is an hack to change least as possible in radarChart
+            entry.axis = '_' + entry.axis;
+        }
         return entry;
     });
 
@@ -516,7 +519,9 @@ function renderPersonalRadar(retval, targetElement, yourordered, maxSize=500) {
         maxValue: 0.5,
         levels: 5,
         roundStrokes: false,
-        color: color
+        color: color,
+        labelColor: '#f98e05',
+        secondaryLabel: '#1b1b1b'
     };        
 
     // Call function to draw the Radar chart

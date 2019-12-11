@@ -33,7 +33,6 @@ function initializeRadar() {
       levels: 5,
       roundStrokes: true,
       color: color,
-      labelColor: 'white'
     };
 
     $.getJSON(url, function(data) {
