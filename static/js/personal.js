@@ -1,6 +1,5 @@
 /* functions used in 'personal' visualization */
 
-
 function getPubKey() {
     const t = window.location.href.split('/#').pop();
     if(t.length != 44 ) console.log("Wrong token length in the URL", t.length);
@@ -36,7 +35,7 @@ function personal(pages, profile) {
 
         const MINIMUM = 0.2;
         console.log("Invoking radar rendering using only one profile", MINIMUM);
-        const retval = _.take(_.map([
+        const retval = _.map([
             {
                 "name": "Live Cams", "macro": "Format",
                 "href": "/live?track=6002"
@@ -467,30 +466,20 @@ function personal(pages, profile) {
                     'axis': e.name,
                     value: MINIMUM,
                 };
-            }), 106);
+            });
 
         const yourcats = _.flatten(_.compact(_.map(data.recent, 'categories')));
         const yourordered = _.reverse(_.sortBy(_.map(_.countBy(yourcats), function(c, n) { return { c, n, } }), 'c'));
         const factor = 5 / _.first(yourordered).c;
-        const considered = _.map(_.take(yourordered, 20), 'n');
-
-        console.warn([retval, yourcats, yourordered, considered]);
 
         const axes1 = _.map(retval, function(entry) {
-
             let presence = _.find(yourordered, { n: entry.axis });
             if(presence) {
                 entry.value = ( factor * presence.c ) + MINIMUM;
             }
-
             return entry;
         });
 
-        console.log("Done " + JSON.stringify(axes1));
-/*
-        3: {axis: "Reality", value: 0.2}
-        4: {axis: "Popular With Women", value: 0.2}
-*/
         const monotop = [{
             name: "xxxx",
             axes: axes1,
@@ -552,19 +541,37 @@ function addHomePage(data, i) {
 
     if(lastHomepageId == data.metadataId)
         return;
+
     /* else, we should display the entry */
     lastHomepageId = data.metadataId;
 
     console.log(i, "HOMEPAGE", data);
-    _.each(data.sections, function(s) {
-        let current = $("#" + computedId + " .sections").html();
-        current += s.display + "</br>";
-        $("#" + computedId + " .sections").html(current);
 
-        current = $("#" + computedId + " .videonumber").html();
-        current += _.size(s.videos) + " videos" + "</br>";
-        $("#" + computedId + " .videonumber").html(current);
+    let newSectionHTML = "";
+    _.each(data.sections, function(s,i ) {
+        if(i == 0) {
+            newSectionHTML = "<div class='col-12' style='border-bottom: 0.1px solid white;padding-top:10px;padding-bottom:10px'>" +
+                '<span class="col-7" style="display:inline-block">' + 
+                "<small>Accessed <b>" + data.relative + "</b></small>" +
+                '</span>' + 
+                '<span class="col-5" style="display:inline-block">' + "Selected producers " + '</span>' + 
+                '</div>';
+        }
+        newSectionHTML += "<div class='col-12' style='border-bottom: 0.1px solid white'>";
+        newSectionHTML += '<span class="col-7" style="display:inline-block;vertical-align:top;">' + s.display + '</span> <span class="col-4" style="display:inline-block">';
+        _.each(s.videos, function(video, i) {
+            newSectionHTML += ( video.authorName ?
+                "<span style='background-color:#fa9900;border-radius:2px;margin-right:4px;margin-bottom:4px;color:white;padding:3px;display:inline-block;'>"
+                + video.authorName +
+                "</span>" : "<error>" 
+            );
+        })
+        newSectionHTML += "</span>";
+        newSectionHTML += "</div>";
+        console.log(s.display, _.size(newSectionHTML));
     });
+
+    $("#" + computedId).html(newSectionHTML);
     entry.removeAttr('hidden');
 }
 
