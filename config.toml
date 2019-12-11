@@ -10,6 +10,11 @@ canonifyURLs = true
     description = "is the pornhub algorithm kidding with your perception of sex?"
     tagline = "Watch a tech-company fu*k your behavior data!"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [permalinks]
     posts = "/:slug/"
 
