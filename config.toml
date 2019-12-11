@@ -37,7 +37,7 @@ canonifyURLs = true
     url = "/preview"
     weight = -100
     pre = "/images/algorithmdom.svg"
-    post = "Some of your data and what your master wants you to masturbate on today"
+    post = "Some of your data and what your master wants you to masturbate to today"
  [[menu.featured]]
     name = "Public Shame"
     url = "/compare"
