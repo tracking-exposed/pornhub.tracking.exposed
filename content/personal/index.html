@@ -10,7 +10,6 @@ og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
 
-
 <div id="missingkey" style="padding-top: 3em; padding-bottom: 3em; text-align: center; display: none" class="col-sm-12">
   <h2>Missing Key! you should access this page by clicking on the extension pop-up</h2>
   <small>Do you feel lost? check it out our small <a href="/preview">manual</a>.</small>
@@ -19,10 +18,29 @@ og_description: "Some data you are providing to the website and analysis to be a
   </figure>
 </div> 
 
-<div class="container potrex--content">
+<div class="potrex--content" style="background-color: #f7fbfa;text-align:center">
     <h1>Your fetishes are watching you</h1>
     <div style="text-align:center;"><img src="/images/loader.gif" class="loader" /></div>
-    <div class="radarChart" style="text-align: center; background-color: black; border-radius: 1em;"></div>
+
+    <div class="col-10" style="display: inline-block;">
+        <h4>Fantasies</h4>
+        <div id="radarFantasies" style="text-align: center;"></div>
+    </div>
+
+    <span style="max-width: 50%; display: inline-block;">
+        <h4>Format</h4>
+        <div id="radarFormat" style="text-align: center;"></div>
+    </span>
+
+    <span style="max-width: 50%; display: inline-block;">
+        <h4>Practices</h4>
+        <div id="radarPractices" style="text-align: center;"></div>
+    </span>
+
+    <div class="col-10" style="display: inline-block;">
+        <h4>Appearances</h4>
+        <div id="radarAppearance" style="text-align: center;"></div>
+    </div>
 </div>
 
 <hr>
@@ -39,20 +57,14 @@ og_description: "Some data you are providing to the website and analysis to be a
             </nav>
         </div>
 
-        <!-- NOTE: this is hinnde, and defines how an homepage would look like -->
-        <div id="masterHome" hidden class="row border-bottom p-2 mb-3 align-middle" style="background-color: antiquewhite">
-          <div class="col-6">
-              <p class="sections"></p>
-          </div>
-          <div class="col-6">
-              <p class="videonumber"></p>
-          </div>
-        </div>
-
+        <!-- NOTE: this is hidden, and defines how an homepage would look like -->
+        <div id="masterHome" hidden class="row border-bottom p-2 mb-3 align-middle" style="background-color:#eee"></div>
+  
         <!-- NOTE: this is hidden, and it is cloned from javascript, each time a new entry is present -->
         <div id="master" hidden class="row border-bottom p-2 mb-3 align-middle">
           <div class="col-7">
             <p class="mb-0">
+              <small>VIDEO SEEN </small> ― 
               <small class="relative">relativeFiller</small> ― 
               <small class="producer">producerFiller</small><br />
               <b class="title">titleFiller</b>

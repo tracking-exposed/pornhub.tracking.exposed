@@ -1,11 +1,12 @@
 /* functions used in 'personal' visualization */
 
-
 function getPubKey() {
     const t = window.location.href.split('/#').pop();
     if(t.length != 44 ) console.log("Wrong token length in the URL", t.length);
     return t;
 }
+
+const MINIMUM = 0.2;
 
 function personal(pages, profile) {
 
@@ -34,13 +35,11 @@ function personal(pages, profile) {
         addPages(data.total, pagestr);
         if(!profile) updateProfileInfo(data.supporter);
 
-        const MINIMUM = 0.2;
         console.log("Invoking radar rendering using only one profile", MINIMUM);
-        const retval = _.take(_.map([
+        const categories = [
             {
                 "name": "Live Cams", "macro": "Format",
                 "href": "/live?track=6002"
-
             },
             {
                 "name": "Popular With Women", "macro": "Fantasies",
@@ -462,64 +461,66 @@ function personal(pages, profile) {
                 "name": "Webcam", "macro": "Format",
                 "href": "/video?c=61"
             }
-            ], function(e) {
-                return {
-                    'axis': e.name,
-                    value: MINIMUM,
-                };
-            }), 106);
+        ];
+
+        const retvalFormat = _.map(_.filter(categories, { macro: 'Format' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalFantasies = _.map(_.filter(categories, { macro: 'Fantasies' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalAppearance = _.map(_.filter(categories, { macro: 'Appearance' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
+        const retvalPractices = _.map(_.filter(categories, { macro: 'Practices' }), function(e) {
+            return { 'axis': e.name, value: MINIMUM, }; });
 
         const yourcats = _.flatten(_.compact(_.map(data.recent, 'categories')));
         const yourordered = _.reverse(_.sortBy(_.map(_.countBy(yourcats), function(c, n) { return { c, n, } }), 'c'));
-        const factor = 5 / _.first(yourordered).c;
-        const considered = _.map(_.take(yourordered, 20), 'n');
 
-        console.warn([retval, yourcats, yourordered, considered]);
-
-        const axes1 = _.map(retval, function(entry) {
-
-            let presence = _.find(yourordered, { n: entry.axis });
-            if(presence) {
-                entry.value = ( factor * presence.c ) + MINIMUM;
-            }
-
-            return entry;
-        });
-
-        console.log("Done " + JSON.stringify(axes1));
-/*
-        3: {axis: "Reality", value: 0.2}
-        4: {axis: "Popular With Women", value: 0.2}
-*/
-        const monotop = [{
-            name: "xxxx",
-            axes: axes1,
-        }, {
-            name: "aaaa",
-            axes: []
-        }];
-
-        var margin = {top: 100, right: 100, bottom: 100, left: 100},
-            width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
-            height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
-                
-        var color = d3.scaleOrdinal()
-            .range(["#ffffff","#f98e05","#00A0B0"]);
-            
-        var radarChartOptions = {
-            w: width,
-            h: height,
-            margin: margin,
-            maxValue: 0.5,
-            levels: 5,
-            roundStrokes: false,
-            color: color
-        };        
-
-        /* this is part of the conversion shared with lib/basic (function 'radar') */
-        render(monotop, radarChartOptions);
+        renderPersonalRadar(retvalFantasies, '#radarFantasies', yourordered);
+        renderPersonalRadar(retvalPractices, '#radarPractices', yourordered, 300);
+        renderPersonalRadar(retvalFormat, '#radarFormat', yourordered, 300);
+        renderPersonalRadar(retvalAppearance, '#radarAppearance', yourordered);
         $(".loader").hide();
     });
+}
+
+function renderPersonalRadar(retval, targetElement, yourordered, maxSize=500) {
+
+    const factor = 5 / _.first(yourordered).c;
+    const axes1 = _.map(retval, function(entry) {
+        let presence = _.find(yourordered, { n: entry.axis });
+        if(presence) {
+            entry.value = ( factor * presence.c ) + MINIMUM;
+        }
+        return entry;
+    });
+
+    const monotop = [{
+        name: "xxxx",
+        axes: axes1,
+    }, {
+        name: "aaaa",
+        axes: []
+    }];
+
+    var margin = {top: 100, right: 100, bottom: 100, left: 100},
+        height = Math.min(maxSize, window.innerHeight - margin.top - margin.bottom - 20);
+        width = height; // Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
+            
+    var color = d3.scaleOrdinal()
+        .range(["#ffffff","#f98e05","#00A0B0"]);
+        
+    var radarChartOptions = {
+        w: width,
+        h: height,
+        margin: margin,
+        maxValue: 0.5,
+        levels: 5,
+        roundStrokes: false,
+        color: color
+    };        
+
+    // Call function to draw the Radar chart
+    RadarChart(targetElement, monotop, radarChartOptions);
 }
 
 function updateProfileInfo(profile) {
@@ -552,19 +553,35 @@ function addHomePage(data, i) {
 
     if(lastHomepageId == data.metadataId)
         return;
+
     /* else, we should display the entry */
     lastHomepageId = data.metadataId;
 
-    console.log(i, "HOMEPAGE", data);
-    _.each(data.sections, function(s) {
-        let current = $("#" + computedId + " .sections").html();
-        current += s.display + "</br>";
-        $("#" + computedId + " .sections").html(current);
-
-        current = $("#" + computedId + " .videonumber").html();
-        current += _.size(s.videos) + " videos" + "</br>";
-        $("#" + computedId + " .videonumber").html(current);
+    let newSectionHTML = "";
+    _.each(data.sections, function(s,i ) {
+        if(i == 0) {
+            newSectionHTML = "<div class='col-12' style='border-bottom: 0.1px solid white;padding-top:10px;padding-bottom:10px'>" +
+                '<span class="col-7" style="display:inline-block">' + 
+                "<small>ACCESSED HOMEPAGE<b> ― " + data.relative + "</b></small>" +
+                '</span>' + 
+                '<span class="col-5" style="display:inline-block">' + "Selected producers " + '</span>' + 
+                '</div>';
+        }
+        newSectionHTML += "<div class='col-12' style='border-bottom: 0.1px solid white'>";
+        newSectionHTML += '<span class="col-7" style="display:inline-block;vertical-align:top;">' + s.display + '</span> <span class="col-4" style="display:inline-block">';
+        _.each(s.videos, function(video, i) {
+            newSectionHTML += ( video.authorName ?
+                "<span style='background-color:#fa9900;border-radius:2px;margin-right:4px;margin-bottom:4px;color:white;padding:3px;display:inline-block;'>"
+                + video.authorName +
+                "</span>" : "<error>" 
+            );
+        })
+        newSectionHTML += "</span>";
+        newSectionHTML += "</div>";
+        console.log(s.display, _.size(newSectionHTML));
     });
+
+    $("#" + computedId).html(newSectionHTML);
     entry.removeAttr('hidden');
 }
 
@@ -582,7 +599,7 @@ function manageTag(action) {
     error.empty();
     resultDiv.empty();
 
-    console.log("manageTag", action)
+    console.log("manageTag", action);
 
     const tag = $('#tag').val();
     const password = $("#password").val();
