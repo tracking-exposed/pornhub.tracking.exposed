@@ -38,427 +38,428 @@ function personal(pages, profile) {
         console.log("Invoking radar rendering using only one profile", MINIMUM);
         const retval = _.take(_.map([
             {
-                "name": "Live Cams",
+                "name": "Live Cams", "macro": "Format",
                 "href": "/live?track=6002"
+
             },
             {
-                "name": "Popular With Women",
+                "name": "Popular With Women", "macro": "Fantasies",
                 "href": "/popularwithwomen"
             },
             {
-                "name": "Verified Amateurs",
+                "name": "Verified Amateurs", "macro": "Format",
                 "href": "/video?c=138"
             },
             {
-                "name": "Verified Models",
+                "name": "Verified Models", "macro": "Format",
                 "href": "/video?c=139"
             },
             {
-                "name": "Virtual Reality",
+                "name": "Virtual Reality", "macro": "Format",
                 "href": "/vr"
             },
             {
-                "name": "German",
+                "name": "German", "macro": "Appearance",
                 "href": "/video?c=95"
             },
             {
-                "name": "60FPS",
+                "name": "60FPS", "macro": "Format",
                 "href": "/video?c=105"
             },
             {
-                "name": "Amateur",
+                "name": "Amateur", "macro": "Format",
                 "href": "/video?c=3"
             },
             {
-                "name": "Anal",
+                "name": "Anal", "macro": "Practices",
                 "href": "/video?c=35"
             },
             {
-                "name": "Arab",
+                "name": "Arab", "macro": "Appearance",
                 "href": "/video?c=98"
             },
             {
-                "name": "Asian",
+                "name": "Asian", "macro": "Appearance",
                 "href": "/video?c=1"
             },
             {
-                "name": "Babe",
+                "name": "Babe", "macro": "Appearance",
                 "href": "/categories/babe"
             },
             {
-                "name": "Babysitter",
+                "name": "Babysitter", "macro": "Fantasies",
                 "href": "/video?c=89"
             },
             {
-                "name": "BBW",
+                "name": "BBW", "macro": "Appearance",
                 "href": "/video?c=6"
             },
             {
-                "name": "Behind The Scenes",
+                "name": "Behind The Scenes", "macro": "Format",
                 "href": "/video?c=141"
             },
             {
-                "name": "Big Ass",
+                "name": "Big Ass", "macro": "Appearance",
                 "href": "/video?c=4"
             },
             {
-                "name": "Big Dick",
+                "name": "Big Dick", "macro": "Appearance",
                 "href": "/video?c=7"
             },
             {
-                "name": "Big Tits",
+                "name": "Big Tits", "macro": "Appearance",
                 "href": "/video?c=8"
             },
             {
-                "name": "Bisexual Male",
+                "name": "Bisexual Male", "macro": "Fantasies",
                 "href": "/video?c=76"
             },
             {
-                "name": "Blonde",
+                "name": "Blonde", "macro": "Appearance",
                 "href": "/video?c=9"
             },
             {
-                "name": "Blowjob",
+                "name": "Blowjob", "macro": "Practices",
                 "href": "/video?c=13"
             },
             {
-                "name": "Bondage",
+                "name": "Bondage",  "macro": "Fantasies",
                 "href": "/video?c=10"
             },
             {
-                "name": "Brazilian",
+                "name": "Brazilian", "macro": "Appearance",
                 "href": "/video?c=102"
             },
             {
-                "name": "British",
+                "name": "British", "macro": "Appearance",
                 "href": "/video?c=96"
             },
             {
-                "name": "Brunette",
+                "name": "Brunette", "macro": "Appearance",
                 "href": "/video?c=11"
             },
             {
-                "name": "Bukkake",
+                "name": "Bukkake", "macro": "Practices",
                 "href": "/video?c=14"
             },
             {
-                "name": "Cartoon",
+                "name": "Cartoon",  "macro": "Format",
                 "href": "/video?c=86"
             },
             {
-                "name": "Casting",
+                "name": "Casting", "macro": "Fantasies",
                 "href": "/video?c=90"
             },
             {
-                "name": "Celebrity",
+                "name": "Celebrity", "macro": "Fantasies",
                 "href": "/video?c=12"
             },
             {
-                "name": "Closed Captions",
+                "name": "Closed Captions", "macro": "Format",
                 "href": "/video?c=732"
             },
             {
-                "name": "College",
+                "name": "College", "macro": "Fantasies",
                 "href": "/categories/college"
             },
             {
-                "name": "Compilation",
+                "name": "Compilation", "macro": "Format",
                 "href": "/video?c=57"
             },
             {
-                "name": "Cosplay",
+                "name": "Cosplay", "macro": "Fantasies",
                 "href": "/video?c=241"
             },
             {
-                "name": "Creampie",
+                "name": "Creampie", "macro": "Practices",
                 "href": "/video?c=15"
             },
             {
-                "name": "Cuckold",
+                "name": "Cuckold", "macro": "Fantasies",
                 "href": "/video?c=242"
             },
             {
-                "name": "Cumshot",
+                "name": "Cumshot", "macro": "Practices",
                 "href": "/video?c=16"
             },
             {
-                "name": "Czech",
+                "name": "Czech", "macro": "Appearance",
                 "href": "/video?c=100"
             },
             {
-                "name": "Described Video",
+                "name": "Described Video", "macro": "Format",
                 "href": "/described-video"
             },
             {
-                "name": "Double Penetration",
+                "name": "Double Penetration", "macro": "Practices",
                 "href": "/video?c=72"
             },
             {
-                "name": "Ebony",
+                "name": "Ebony", "macro": "Appearance",
                 "href": "/video?c=17"
             },
             {
-                "name": "Euro",
+                "name": "Euro", "macro": "Appearance",
                 "href": "/video?c=55"
             },
             {
-                "name": "Exclusive",
+                "name": "Exclusive", "macro": "Format",
                 "href": "/video?c=115"
             },
             {
-                "name": "Feet",
+                "name": "Feet", "macro": "Fantasies",
                 "href": "/video?c=93"
             },
             {
-                "name": "Female Orgasm",
+                "name": "Female Orgasm", "macro": "Practices",
                 "href": "/video?c=502"
             },
             {
-                "name": "Fetish",
+                "name": "Fetish", "macro": "Fantasies",
                 "href": "/video?c=18"
             },
             {
-                "name": "Fingering",
+                "name": "Fingering", "macro": "Practices",
                 "href": "/video?c=592"
             },
             {
-                "name": "Fisting",
+                "name": "Fisting", "macro": "Practices",
                 "href": "/video?c=19"
             },
             {
-                "name": "French",
+                "name": "French", "macro": "Appearance",
                 "href": "/video?c=94"
             },
             {
-                "name": "Funny",
+                "name": "Funny", "macro": "Fantasies",
                 "href": "/video?c=32"
             },
             {
-                "name": "Gangbang",
+                "name": "Gangbang", "macro": "Practices",
                 "href": "/video?c=80"
             },
             {
-                "name": "Gay",
+                "name": "Gay", "macro": "Fantasies",
                 "href": "/gayporn"
             },
             {
-                "name": "Handjob",
+                "name": "Handjob", "macro": "Practices",
                 "href": "/video?c=20"
             },
             {
-                "name": "Hardcore",
+                "name": "Hardcore", "macro": "Fantasies",
                 "href": "/video?c=21"
             },
             {
-                "name": "HD Porn",
+                "name": "HD Porn", "macro": "Format",
                 "href": "/hd"
             },
             {
-                "name": "Hentai",
+                "name": "Hentai", "macro": "Format",
                 "href": "/categories/hentai"
             },
             {
-                "name": "Indian",
+                "name": "Indian", "macro": "Appearance",
                 "href": "/video?c=101"
             },
             {
-                "name": "Interactive",
+                "name": "Interactive", "macro": "Format",
                 "href": "/interactive"
             },
             {
-                "name": "Interracial",
+                "name": "Interracial",  "macro": "Fantasies",
                 "href": "/video?c=25"
             },
             {
-                "name": "Italian",
+                "name": "Italian", "macro": "Appearance",
                 "href": "/video?c=97"
             },
             {
-                "name": "Japanese",
+                "name": "Japanese", "macro": "Appearance",
                 "href": "/video?c=111"
             },
             {
-                "name": "Korean",
+                "name": "Korean", "macro": "Appearance",
                 "href": "/video?c=103"
             },
             {
-                "name": "Latina",
+                "name": "Latina", "macro": "Appearance",
                 "href": "/video?c=26"
             },
             {
-                "name": "Lesbian",
+                "name": "Lesbian", "macro": "Fantasies",
                 "href": "/video?c=27"
             },
             {
-                "name": "Massage",
+                "name": "Massage", "macro": "Fantasies",
                 "href": "/video?c=78"
             },
             {
-                "name": "Masturbation",
+                "name": "Masturbation", "macro": "Practices",
                 "href": "/video?c=22"
             },
             {
-                "name": "Mature",
+                "name": "Mature", "macro": "Appearance",
                 "href": "/video?c=28"
             },
             {
-                "name": "MILF",
+                "name": "MILF", "macro": "Appearance",
                 "href": "/video?c=29"
             },
             {
-                "name": "Muscular Men",
+                "name": "Muscular Men", "macro": "Appearance",
                 "href": "/video?c=512"
             },
             {
-                "name": "Music",
+                "name": "Music", "macro": "Format",
                 "href": "/video?c=121"
             },
             {
-                "name": "Old/Young",
+                "name": "Old/Young", "macro": "Fantasies",
                 "href": "/video?c=181"
             },
             {
-                "name": "Orgy",
+                "name": "Orgy", "macro": "Practices",
                 "href": "/video?c=2"
             },
             {
-                "name": "Parody",
+                "name": "Parody", "macro": "Fantasies",
                 "href": "/video?c=201"
             },
             {
-                "name": "Party",
+                "name": "Party", "macro": "Fantasies",
                 "href": "/video?c=53"
             },
             {
-                "name": "Pissing",
+                "name": "Pissing", "macro": "Practices",
                 "href": "/video?c=211"
             },
             {
-                "name": "Pornstar",
+                "name": "Pornstar", "macro": "Format",
                 "href": "/categories/pornstar"
             },
             {
-                "name": "POV",
+                "name": "POV", "macro": "Format",
                 "href": "/video?c=41"
             },
             {
-                "name": "Public",
+                "name": "Public", "macro": "Fantasies",
                 "href": "/video?c=24"
             },
             {
-                "name": "Pussy Licking",
+                "name": "Pussy Licking", "macro": "Practices",
                 "href": "/video?c=131"
             },
             {
-                "name": "Reality",
+                "name": "Reality", "macro": "Format",
                 "href": "/video?c=31"
             },
             {
-                "name": "Red Head",
+                "name": "Red Head", "macro": "Appearance",
                 "href": "/video?c=42"
             },
             {
-                "name": "Role Play",
+                "name": "Role Play", "macro": "Fantasies",
                 "href": "/video?c=81"
             },
             {
-                "name": "Romantic",
+                "name": "Romantic", "macro": "Fantasies",
                 "href": "/video?c=522"
             },
             {
-                "name": "Rough Sex",
+                "name": "Rough Sex", "macro": "Fantasies",
                 "href": "/video?c=67"
             },
             {
-                "name": "Russian",
+                "name": "Russian", "macro": "Appearance",
                 "href": "/video?c=99"
             },
             {
-                "name": "School",
+                "name": "School", "macro": "Fantasies",
                 "href": "/video?c=88"
             },
             {
-                "name": "Scissoring",
+                "name": "Scissoring", "macro": "Practices",
                 "href": "/video?c=532"
             },
             {
-                "name": "SFW",
+                "name": "SFW", "macro": "Format",
                 "href": "/sfw"
             },
             {
-                "name": "Small Tits",
+                "name": "Small Tits", "macro": "Appearance",
                 "href": "/video?c=59"
             },
             {
-                "name": "Smoking",
+                "name": "Smoking", "macro": "Fantasies",
                 "href": "/video?c=91"
             },
             {
-                "name": "Solo Female",
+                "name": "Solo Female", "macro": "Fantasies",
                 "href": "/video?c=492"
             },
             {
-                "name": "Solo Male",
+                "name": "Solo Male", "macro": "Fantasies",
                 "href": "/video?c=92"
             },
             {
-                "name": "Squirt",
+                "name": "Squirt", "macro": "Practices",
                 "href": "/video?c=69"
             },
             {
-                "name": "Step Fantasy",
+                "name": "Step Fantasy", "macro": "Fantasies",
                 "href": "/video?c=444"
             },
             {
-                "name": "Strap On",
+                "name": "Strap On", "macro": "Practices",
                 "href": "/video?c=542"
             },
             {
-                "name": "Striptease",
+                "name": "Striptease", "macro": "Fantasies",
                 "href": "/video?c=33"
             },
             {
-                "name": "Tattooed Women",
+                "name": "Tattooed Women", "macro": "Appearance",
                 "href": "/video?c=562"
             },
             {
-                "name": "Teen",
+                "name": "Teen", "macro": "Appearance",
                 "href": "/categories/teen"
             },
             {
-                "name": "Threesome",
+                "name": "Threesome", "macro": "Fantasies",
                 "href": "/video?c=65"
             },
             {
-                "name": "Toys",
+                "name": "Toys", "macro": "Fantasies",
                 "href": "/video?c=23"
             },
             {
-                "name": "Trans Male",
+                "name": "Trans Male", "macro": "Appearance",
                 "href": "/video?c=602"
             },
             {
-                "name": "Trans With Girl",
+                "name": "Trans With Girl", "macro": "Fantasies",
                 "href": "/video?c=572"
             },
             {
-                "name": "Trans With Guy",
+                "name": "Trans With Guy", "macro": "Fantasies",
                 "href": "/video?c=582"
             },
             {
-                "name": "Transgender",
+                "name": "Transgender", "macro": "Appearance",
                 "href": "/transgender"
             },
             {
-                "name": "Verified Couples",
+                "name": "Verified Couples", "macro": "Format",
                 "href": "/video?c=482"
             },
             {
-                "name": "Vintage",
+                "name": "Vintage", "macro": "Format",
                 "href": "/video?c=43"
             },
             {
-                "name": "Webcam",
+                "name": "Webcam", "macro": "Format",
                 "href": "/video?c=61"
             }
             ], function(e) {
