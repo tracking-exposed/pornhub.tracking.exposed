@@ -72,8 +72,12 @@ function getUsers() {
 
 function initializeRadar() {
     // this function is invoke by 'public.js'
+    const users = _.compact(getUsers());
 
-    const users = getUsers();
+    if(_.size(users) < 2)
+        users.push("CbM4wnicN9YJjAanTjHQzXJ7pJDdZnF3WQB5tmv4yFLY");
+    if(_.size(users) < 2)
+        users.push("9fQ3ijnmU5KuuA2yJnQrdr1CPTYnp9nr5zPenK8We7oT");
 
     if (window.location.origin.match(/localhost/)) {
         url='http://localhost:10000/api/v1/radar/' + users.join(',');
