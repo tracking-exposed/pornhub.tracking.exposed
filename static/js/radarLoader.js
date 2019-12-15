@@ -73,11 +73,17 @@ function getUsers() {
 function initializeRadar() {
     // this function is invoke by 'public.js'
     const users = _.compact(getUsers());
-
-    if(_.size(users) < 2)
-        users.push("CbM4wnicN9YJjAanTjHQzXJ7pJDdZnF3WQB5tmv4yFLY");
-    if(_.size(users) < 2)
-        users.push("9fQ3ijnmU5KuuA2yJnQrdr1CPTYnp9nr5zPenK8We7oT");
+    let update = false;
+    if(_.size(users) < 2) {
+        users.push("AwL4A1cmqz35iHeJobBzxjqJ5iJbhimnJFNdpvuwR75c");
+        update = true;
+    }
+    if(_.size(users) < 2) {
+        users.push("E8LLK94M9snewjxFbWNLAh1bDDnCYJDSf9gWjAzng3p");
+        update = true;
+    }
+    if(update)
+        window.history.pushState(null, "pornhub compare game", "/compare/#" + users.join(','));
 
     if (window.location.origin.match(/localhost/)) {
         url='http://localhost:10000/api/v1/radar/' + users.join(',');
