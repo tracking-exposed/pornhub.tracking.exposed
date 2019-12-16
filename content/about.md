@@ -10,23 +10,31 @@ og_url: "https://pornhub.tracking.exposed/about"
 og_description: "A tool to analyze personalized experiences in the biggest website in the porn industry"
 ---
 
-Since January and April 2019 a small series of experiment have been conducted on the bigger website of the porn industry. The tool used to analyze Youtube Algorithm: [youtube.tracking.exposed](https://youtube.tracking.exposed), was a good starting point to analyze the biggest porn website.
+Since January and April 2019 we conducted a small series of experiment on the bigger website of the porn industry. The tool we built initially to analyze [Youtube Algorithm](https://youtube.tracking.exposed), was a good starting point to analyze the biggest porn website.
 
-## which control you've on data, and what we collect
+## How to contact us:
 
-* Every browser has a unique code attributed, this is the only way to link data. for you and for us. You can:
+  * a Facebook group: [Personalization Algorithms](https://www.facebook.com/personalizationalgorithm).
+  * a the [reddit thread](#) used to coordinate our first experiment.
+  * the developers [Mattermost channel](https://chat.securitywithoutborders.org/community/channels/trackingexposed), or directly by opening a [github issue](https://github.com/tracking-exposed/potrex/issues).
+  * or an email at: *support* at *tracking* dot *exposed*.
 
-  * Control and change your identifier **when you want**, only you know your pseudonym has changed. Is in the decision of the browser with the extension installed, to decide if share the access link.
-  * Delete specific content you submit
-  * Every identified will be only represented by a pseudo-random sequence of three foods. For example, if you are *guacamole-pizza-mascarpone*, only you know this, only you can change this, and only you can reveal this.
-  * We do not link (and we have no means to do it) the collections of this project, with other Tracking Exposed initiatives.
+## Which control you've on data, and what we collect
+
+Every browser has a unique code attributed, this is the only way to link data. for you and for us. You can:
+
+* Control and change your identifier when you want, only you know your pseudonym has changed. Is in the decision of the browser with the extension installed, to decide if share the access link.
+* Delete specific content you submit
+* Every identified will be only represented by a pseudo-random sequence of three foods. For example, if you are *guacamole-pizza-mascarpone*, only you know this, only you can change this, and only you can reveal this.
+* We do not link (and we have no means to do it) the collections of this project, with other [Tracking Exposed initiatives](https://tracking.exposed/connect).
+
+## Process limitation
 
 * The analysis works by recording the full HTML Pornhub send to you. In our server, we'll extract the list of the suggested video.
 * The research is done by playing with personalization and verify how this has an impact on your suggested related videos.
 * The data users provided can be downloaded via personal token, the anonymized analysis (the same comparison logic implemented for YouTube) is available and with and API, retrieve these information as machine readable format (JSON or CSV).
 
 do not exist any other method of access, and our code server + extension code is [on github, available for scrutiny](https://github.com/tracking.exposed/potrex), the website source is [here](https://github.com/tracking-exposed/pornhub.tracking.exposed).
-
 
 ## [Initial Analysis](/project-analysis/)
 
