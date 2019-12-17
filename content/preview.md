@@ -5,7 +5,7 @@ draft: false
 
 og_title: "Look closely at the value of your data"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg"
 og_url: "https://pornhub.tracking.exposed/submission"
 og_description: "Some data you are providing to the website and analysis to be aware of what is being analyzed in secrecy"
 ---
@@ -13,7 +13,7 @@ og_description: "Some data you are providing to the website and analysis to be a
 <h2 class="text-center" style="color:#f99500; padding-top: 1em";> First step </h2>
 {{< po-extension >}}
 
----
+<hr/>
 
 <h2 class="text-center" style="color:#f99500; padding-top: 1em";> Second step </h2>
 
@@ -47,7 +47,7 @@ HARDware fingerprinting: [only 1 in 286,777 other browsers will share the same f
     </figure>
   </div>  
 * * *
-  
+
 ### ALGORITHM F**KS ITS PICKY CLIENT AND MAKES HER/HIM CUM ONCE/TWICE/MULTIPLE TIMES
 Hot videos are the last videos you saw before closing the website
   <div class="col-sm-12">
@@ -56,7 +56,7 @@ Hot videos are the last videos you saw before closing the website
     </figure>
   </div>
  * * *
-  
+
 ### WHICH CATEGORY SHOULD THE CLIENT MASTURBATE ON?
 
 - [x] Today
@@ -73,5 +73,5 @@ Top 7 most recommended categories based on your behaviour
 
 ### MOST WATCHED AND MOST RECOMMENDED
 
-graph 
+graph
 -->
