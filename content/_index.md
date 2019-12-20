@@ -5,7 +5,7 @@ layout: home
 
 og_title: "poTREX - browser extension goes wild"
 og_type: "website"
-og_image: "https://pornhub.tracking.exposed/images/pov.jpg"
+og_image: "https://pornhub.tracking.exposed/images/home-og-pov.png"
 og_url: "https://pornhub.tracking.exposed"
 og_description: "Some companies know you better than your partner... Supervise your personalized experience on Pornhub and your interactions with the website. Take care about your self-intimacy and take control of your sexual archetype"
 ---
