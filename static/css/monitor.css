@@ -1,0 +1,61 @@
+.standardLoader {
+    position: fixed;
+    width: 30px;
+    height: 90%;
+    left: 10px;
+    bottom: 10px;
+    background: linear-gradient( 30deg, #ffffff00, #F98E05, #ffffff00);
+    border-radius: 15px 50px 0px 0px;
+}
+.connecting {
+    background: linear-gradient( 30deg, green, #ffffff00, green) !important;
+}
+
+/* below the entry styles */
+.stat {
+    padding-top: 5px;
+    border-top: 1px solid black;
+    margin-top: 3px;
+}
+.info {
+    background: linear-gradient( 90deg, rgb(240, 194, 240), white, white);
+}
+.htmls {
+    background: linear-gradient( 90deg, rgb(198, 240, 194), white, white);
+}
+.video {
+    background: linear-gradient( 90deg, rgb(255, 184, 167), white, white);
+}
+.home {
+    background: linear-gradient( 90deg, rgb(205, 242, 24), white, white);
+    color: rgb(35, 2, 124)
+}
+.supporters {
+    background: linear-gradient( 90deg, rgb(234, 255, 143), white, white);
+}
+.client {
+    background: linear-gradient( 90deg, rgb(166, 205, 250), white, white);
+    border-radius: 10px 0px 0px 0px;
+}
+#fuffa span {
+    display: inline-block;
+}
+.metadata .htmls {
+    cursor: pointer;
+}
+
+/* cell specific styles */
+.publicKey {
+    border: 2px salmon solid;
+    background-color: rgb(247, 163, 154);
+    border-radius: 3px;
+}
+.relative {
+    size: 0.6em;
+}
+.href {
+    size: 0.4em;
+}
+.bluizza {
+    color: blue;
+}

@@ -3,7 +3,7 @@ date: 2019-05-22T15:01:21+01:00
 draft: false
 layout: home
 
-og_title: "poTREX - browser extension goes wild"
+og_title: "pornhub algorithm analysis tool"
 og_type: "website"
 og_image: "https://pornhub.tracking.exposed/images/home-og-pov.png"
 og_url: "https://pornhub.tracking.exposed"
@@ -14,7 +14,7 @@ og_description: "Some companies know you better than your partner... Supervise y
 
 # JUST TO VERIFY IT'S SAFE, SANE AND CONSENSUAL.
 
-___
+--- 
 
 In adult-oriented business the Tube Site *Pornhub* is the biggest and the most important actor for content personalization and it utilizes data analysis as a plus value and as an important communication and marketing tool, in a manner of speaking it does also a **data pornography**.
 
