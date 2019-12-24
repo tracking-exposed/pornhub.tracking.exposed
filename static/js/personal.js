@@ -746,7 +746,7 @@ function addVideoRow(video, i) {
     $("#" + computedId + " .author").attr('href', `/author/#${video.videoId}`);
 
     $("#" + computedId + " .delete").on('click', removeEvidence);
-    $("#" + computedId + " .delete").attr('yttrex-id', `${video.id}`);
+    $("#" + computedId + " .delete").attr('potrex-id', `${video.id}`);
     title = $("#" + computedId + " .delete").attr('title')  + "«" + video.title + "»";
     $("#" + computedId + " .delete").attr('title', title);
 
@@ -758,7 +758,8 @@ function addVideoRow(video, i) {
 }
 
 function removeEvidence(e) {
-    const id = $(this).attr('yttrex-id');
+    const id = $(this).attr('potrex-id');
+    console.log("removeEvidence", id );
     const pk = getPubKey();
     const deleteURL = buildApiUrl(`personal/${pk}/selector/id/${id}`, null, 2);
     console.log(deleteURL);
@@ -770,7 +771,6 @@ function removeEvidence(e) {
         redirect: 'follow', // manual, *follow, error
         referrer: 'no-referrer' // no-referrer, *client
     }).then(function(response) {
-        console.log(response);
         return response.json();
     }).then(function(result) {
         const selectorId = `#video-${id}`;
