@@ -41,7 +41,6 @@ function prettifyHref(href) {
 }
 
 function monitor() {
-    monitorUpdate();
     $("#loader").fadeOut(DATAFETCHSECONDS * 1000);
     setTimeout(monitorUpdate, DATAFETCHSECONDS * 1000);
     setInterval(checkUpdates, ANOMALYCHECKSECONDS * 1000)
@@ -76,7 +75,7 @@ function existingId(entry) {
 function monitorUpdate() {
 
     const url = lastUpdate ?
-        buildApiUrl('monitor', "1", 2) : 
+        buildApiUrl('monitor', "1", 2) :
         buildApiUrl('monitor', null, 2);
     // at the first execution the server has a 5 minutes default,
     // further iteration consider the last 60 seconds.
@@ -172,7 +171,7 @@ function appendHtml(elem, o) {
         checkbox = _.isUndefined(o.processed) ? "☐" : "☒";
 
     // $("#" + o.id + " .id").text(o.id.substr(0, 6));
-    // TODO point to the direct evidence 
+    // TODO point to the direct evidence
     $("#" + o.id + " .timevar").text("↓" + o.printable);
     $("#" + o.id + " .selector").text(o.selector + " " + checkbox);
     $("#" + o.id + " .size").text(o.size);
@@ -200,7 +199,7 @@ function appendVideo(elem, o) {
             '" target=_blank><i>compare</i></a>');
 
     $("#" + o.id + " .timevar").text(o.printable);
-    $("#" + o.id + " .authorName").html('<a href="' + 
+    $("#" + o.id + " .authorName").html('<a href="' +
             'https://www.pornhub.com' + o.producer.href +
             '" target=_blank>' + o.producer.name+ '</a>');
 
@@ -251,7 +250,7 @@ function appendStat(elem, o) {
     $("#" + o.id + " .duration").text(o.duration);
 }
 
-/* the template names are defined in backend/routes/monitor.js, 
+/* the template names are defined in backend/routes/monitor.js,
    each of them point to a rendering function */
 const templates = {
     'info': appendInfo,
