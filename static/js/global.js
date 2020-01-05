@@ -1,4 +1,7 @@
 
+const palette = [ "#c136b3", "#f22a92", "#ff416d", "#ff6a46",
+                  "#ff951b", "#f0bc00", "#c9e01c", "#90ff61" ];
+
 const SERVER = 'http://localhost:10000';
 
 function buildApiUrl(apiName, option, apiv) {
@@ -12,12 +15,4 @@ function buildApiUrl(apiName, option, apiv) {
         console.log(`Building URL by window...href (production) URL composed ${rv}`);
     }
     return rv;
-}
-
-function serverWrap(relative) {
-    if (window.location.origin.match(/localhost/)) {
-        console.log("serverWrap spot localhost ", relative);
-        return `${SERVER}${relative}`;
-    }
-    return relative;
 }
