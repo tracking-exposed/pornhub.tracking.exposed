@@ -11,7 +11,6 @@ og_image: "http://pornhub.tracking.exposed/images/pov.svg"
 og_url: "https://pornhub.tracking.exposed/contribute"
 og_description: "Passionate to volunteer? Contribute to pornhub.tracking.exposed! All skills are welcomed, even non-programmers can contribute to free software projects :)"
 
-:EMOJICODE:
 ---
 
 # Planned happenings, researches, improvements and new features
@@ -21,22 +20,22 @@ og_description: "Passionate to volunteer? Contribute to pornhub.tracking.exposed
 
 ---
 
-- [ ] __  January - start with some testing
+ ☐   January - start with some testing
 
-- [ ] __ February, March - repeat tests and 
+ ☐   February, March - repeat tests and 
 develop some research insights
 
-- [ ] __ April - summarize this phase 1 research findings
+ ☐   April - summarize this phase 1 research findings
 
-- [ ] __ Compare section will show categories from /recommended 
+ ☐   Compare section will show categories from /recommended 
 
-- [ ] __ Compare section will confront different suggestions for the same video
+ ☐   Compare section will confront different suggestions for the same video
 
-- [ ] __ Data Voyeuring will be divided into sessions or x days
+ ☐   Data Voyeuring will be divided into sessions or x days
 
-- [ ] __ Improve interface and data viz aesthetic
+ ☐   Improve interface and data viz aesthetic
 
-- [ ] __ Try to underline the Hot Videos ;)
+ ☐   Try to underline the Hot Videos ;)
 
 
 
@@ -59,4 +58,4 @@ develop some research insights
 
 ---
 
- Thank you! If you have more questions about how you can get involved, feel free to contact giulia[at]tracking[dot]exposed :)
+ Thank you! If you have more questions about how you can get involved, feel free to contact pornhub[at]tracking[dot]exposed :)

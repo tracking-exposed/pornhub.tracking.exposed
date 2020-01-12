@@ -134,8 +134,8 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 		.append("circle")
 		.attr("class", "gridCircle")
 		.attr("r", d => radius / cfg.levels * d)
-		.style("stroke", "#f98e05")
-		.style("stroke-width", "0.3px")
+		//.style("stroke", "#ffffff")
+		//.style("stroke-width", "0.2px")
     	.style("fill-opacity", cfg.opacityCircles)
 		.style("filter" , "url(#glow)");
 
@@ -179,7 +179,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 	//Append the labels at each axis
 	axis.append("text")
 		.attr("class", "legend")
-		.style("font-size", "11px")
+		.style("font-size", "10.5px")
 		.style("fill", (d, i) => {
 			return d[0] == '_' ? cfg.secondaryLabel : cfg.labelColor;
 		})
