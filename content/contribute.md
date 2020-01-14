@@ -10,16 +10,15 @@ og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/contribute"
 og_description: "Passionate to volunteer? Contribute to pornhub.tracking.exposed! All skills are welcomed, even non-programmers can contribute to free software projects :)"
-
 ---
 
-Welcome and thanks for showing *interest*; variety of skills can fit into what we aim to do; we are working understaffed, but we expect:
+Welcome, and thanks for showing *interest*; Variety of skills can fit into what we aim to do; We are working understaffed, but we expect:
 
-1) collaboration, respect, patience.
-2) agpl3 and cc-by license release
-3) openness in regards of your goals and values
+1. collaboration, respect, patience.
+2. agpl3 and cc-by license release
+3. openness in regards of your goals and values
 
-#### This Roadmap displays only some of topics that we are planning to work on in 2020 – we welcome feedback and research questions
+### This Roadmap displays only some of topics that we are planning to work on in 2020 – we welcome feedback and research questions
 
 * January
   * start with some testing. internally at the beginning. we aim to launch a collective test.
