@@ -1,5 +1,5 @@
 ---
-title: "We do data porn, and you can join the orgy!"
+title: "We do data porn, join the orgy!"
 subtitle: "What you actually do it’s often different from what you declare"
 draft: false
 
@@ -34,7 +34,7 @@ og_description: "Some data you are providing to the website and analysis to be a
 
 <div style="padding-top: 1em;" class="col-sm-12 text-center">
   <figure>
-    <img width="50%" src="/images/submission-preview.png" />
+    <img width="100%" src="/images/submission-preview.png" />
   </figure>
 </div>  
 
