@@ -15,9 +15,9 @@ Since January and April 2019 we conducted a small series of experiment on the bi
 ## How to contact us:
 
   * a Facebook group: [Personalization Algorithms](https://www.facebook.com/personalizationalgorithm).
-  * a the [reddit thread](#) used to coordinate our first experiment.
+  * a the [reddit thread](#) used to coordinate our [first experiment](potest/1).
   * the developers [Mattermost channel](https://chat.securitywithoutborders.org/community/channels/trackingexposed), or directly by opening a [github issue](https://github.com/tracking-exposed/potrex/issues).
-  * or an email at: *support* at *tracking* dot *exposed*.
+  * or an email <**pornhub-team** at *tracking* dot *exposed*>.
 
 ## Which control you've on data, and what we collect
 

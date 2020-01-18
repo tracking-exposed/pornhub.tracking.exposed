@@ -20,6 +20,10 @@ canonifyURLs = true
 
 [menu]
  [[menu.main]]
+    name = "Ethics"
+    url = "/ethics/"
+    weight = 40
+ [[menu.main]]
     name = "Statistics"
     url = "/impact/"
     weight = 30
