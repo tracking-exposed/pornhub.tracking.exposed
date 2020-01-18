@@ -63,13 +63,13 @@ og_description: "Learn more about our purpose and ethics statement"
 			<h1 style="color:#F98E05;font-weight:bold;">ANONYMIZATION THROUGH</h1>
 			<p style="color:#1B1B1B;"> 
 
-1. Unique and secret token
-
-2. Total control managing the data provided: visualize, download or delete
-
-3. No data about where you are coming from, who are your friends or what they are doing and such
-
-4. We are not obsessed by you!
+<h4>
+	<ol>
+		<li>Unique and secret token</li>
+		<li>Total control managing the data provided: visualize, download or delete</li>
+		<li>No data about where you are coming from, who are your friends or what they are doing and such</li>
+		<li>We are not obsessed by you!</li>
+	</ol>
 </h4>
 <p></p>
 		</div>
