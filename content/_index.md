@@ -10,9 +10,15 @@ og_url: "https://pornhub.tracking.exposed"
 og_description: "Some companies know you better than your partner... Supervise your personalized experience on Pornhub and your interactions with the website. Take care about your self-intimacy and take control of your sexual archetype"
 ---
 
-## Help us *cum* to a better understanding of how they data-analyze you!
+# Help us *cum* to a better understanding of how they data-slave you!
 
-# JUST TO VERIFY IT'S SAFE, SANE AND CONSENSUAL.
+--- 
+
+{{< po-extension >}}
+
+--- 
+
+# Algorithm roughplay? Let's check it's safe, sane, and consensual.
 
 --- 
 
