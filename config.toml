@@ -43,11 +43,11 @@ canonifyURLs = true
     pre = "/images/algorithmdom.svg"
     post = "Some of your data and what your master wants you to masturbate to today"
  [[menu.featured]]
-    name = "Public Shame"
-    url = "/compare"
+    name = "Collective test"
+    url = "/potest/1-announcement"
     weight = -90
     pre = "/images/compare.svg"
-    post = "Compare and measure your personalized recommandations and get a rough punishment"
+    post = "By joining our collaborative test, compare and measure your personalized recommandations!"
  [[menu.featured]]
     name = "Behind the Scenes"
     url = "/pov"
