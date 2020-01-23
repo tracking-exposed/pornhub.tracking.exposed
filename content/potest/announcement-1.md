@@ -3,12 +3,45 @@ title: "poTEST#1"
 subtitle: "January 2020: the first coordinated observation of the Pornhub algorithm"
 draft: false
 
-og_title: "Global coordinated observation of the Pornhub homepage"
+og_title: "Coordinated observation of Pornhub — test#1 updates"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/potest/announcement-1"
-og_description: "This is the first worldwide test of the Pornhub algorithm; on Sunday January 19th, with a browser extension, we'll see how PH personalizes the customer experience"
+og_description: "The first worldwide test of the Pornhub algorithm; on Sunday January 19th, with a browser extension, we'll see how PH personalizes the customer experience"
 ---
+
+## Update n.4 -- 22 January 2020
+
+People traveling and some code has to be developed to, means we don't have yet the CSV to share, but this is an initial breakdown. We use mongodb. As introduction to our system, the data collections we have are:
+
+* supporters (can't be disclosed, contains authentication token)
+* htmls (raw htmls received by browser extension)
+* metadata (the actual parsed information):
+  * metadata of type 'video' have tags, categories and the 8 related content 
+  * metadata type 'home' have the five sections and the video display
+  * metadata type 'recommented' has a sequence of videos recomended by pornhub guesses.
+
+Gross entries count (which might also be collected when the test was over, and we've to decide if consider them or not):
+
+```
+> db.getCollection('htmls').count({href: "https://www.pornhub.com/", savingTime: { $gte: new Date("2020-01-19") }})
+1027
+```
+
+```
+> db.getCollection('htmls').count({href: "https://www.pornhub.com/recommended/", savingTime: { $gte: new Date("2020-01-19") }})
+1031
+```
+
+but the html saved are heavily duplicated: an observation might send up to 5 time the same html, which will contribute to the same metadataId. This is why we've to look at the unique number of publicKey (which is the user identifier)
+
+```
+db.getCollection('htmls').distinct('publicKey', {href: "https://www.pornhub.com/recommended", savingTime: { $gte: new Date("2020-01-19") }})
+```
+
+89 elements. Maybe not all the participants follow the script correctly, and perhaps our parser would not work in all the conditions, but as a generic indication, we've 89 individual observations in this first test. 
+
+Is it bad or good? It is, of course, good. It is representative? of course no. It doesn't matter yet. This first measure goal is to test out team, the tool,  and start to measure the divergence between similar PH experiences.
 
 ## Update n.3 -- 21 January 2020
 
@@ -31,7 +64,7 @@ The _recommended_ parser is supported now! each video suggested will be extracte
    }    
 ```
 
-The json object above is the second video snippet from a recommented page, and now we'll produce a final CSV to be shared .
+The json object above is the second video snippet from a recommented page, and now we'll produce and share the final CSV as part of this experiment.
 
 ...In regards of the chrome extension, it seems definitely blocked at the moment:
 
