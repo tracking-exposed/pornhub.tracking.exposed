@@ -1,6 +1,6 @@
 ---
-title: "Global coordinated observation of the Pornhub homepage"
-subtitle: "Pornhub insights with a critical take on personalization algorithm"
+title: "poTEST#1"
+subtitle: "January 2020: the first coordinated observation of the Pornhub algorithm"
 draft: false
 
 og_title: "Global coordinated observation of the Pornhub homepage"
@@ -10,15 +10,54 @@ og_url: "https://pornhub.tracking.exposed/potest/announcement-1"
 og_description: "This is the first worldwide test of the Pornhub algorithm; on Sunday January 19th, with a browser extension, we'll see how PH personalizes the customer experience"
 ---
 
-## Update 
+## Update n.3 -- 21 January 2020
+
+The _recommended_ parser is supported now! each video suggested will be extracted with the following dataformat:
+
+```
+   { 
+     "order": 2,                                             
+     "duration": "35:55",                                    
+     "publicationRelative": "2 months ago",                  
+     "views": "4.3M",                                        
+     "viewString": "4.3M views",                             
+     "title": null,                                          
+     "href": "/view_video.php?viewkey=ph5d6b197f4129b",      
+     "videoId": "ph5d6b197f4129b",                           
+     "thumbnails": null,                                     
+     "authorLink": "/model/nyna-ferragni",                   
+     "authorName": "Nyna Ferragni" 
+     "thumnail": "https://ci.phncdn.com/videos/201912/16/269034501/thumbs_10/(m=eafTGgaaaa)(mh=oEChYH3QEwc4Iyfh)8.jpg"
+   }    
+```
+
+The json object above is the second video snippet from a recommented page, and now we'll produce a final CSV to be shared .
+
+...In regards of the chrome extension, it seems definitely blocked at the moment:
+
+<div class="text-center">
+    <img style="border-color: red; border-size: 2px; border-style: solid; margin: 30px; max-width:100%" src="/images/extension-chrome-rejected-January2020.png">
+</div>
+
+whatever, just a reason to consider firefox **better**.
+
+## Update n.2 -- 20 January 2020
+
+Despite Google didn't enable our app, a bunch of Firefox adopters supported the project:
+
+<div class="text-center">
+    <img style="border-color: red; border-size: 2px; border-style: solid; margin: 30px; max-width:100%" src="/images/potest-1-stats.png">
+</div>
+
+## Update n.1 -- 19 January 2020
 
 This test will work only with our [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adult-industry-algorithms/), because google has put our extension under _revision_, and now is not accessible to the public:
 
 <div class="text-center">
-    <img style="border-color: red; border-size: 2px; border-style: solid; margin: 30px" src="/images/screencapture-chromewebdev-2020-01-19_09-21-15.jpg">
+    <img style="border-color: red; border-size: 2px; border-style: solid; margin: 30px; max-width:100%" src="/images/screencapture-chromewebdev-2020-01-19_09-21-15.jpg">
 </div>
 
-## Announcement 
+## Announcement  -- 19 January 2020
 On Sunday, January 19th, 2020: join the first collective observation of the #pornhub algorithm!
 
 We are the tracking.exposed team and our main objective is to put a spotlight on users’ tracking, profiling, and the wider data market by performing an open algorithmic analysis. We believe that, as long as the operation of recommendation systems remains obscure, the many side-effects of platform economy cannot be tackled as they should. 

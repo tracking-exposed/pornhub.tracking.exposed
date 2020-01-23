@@ -44,10 +44,10 @@ canonifyURLs = true
     post = "Some of your data and what your master wants you to masturbate to today"
  [[menu.featured]]
     name = "Collective test"
-    url = "/potest/1-announcement"
+    url = "/potest/announcement-1"
     weight = -90
     pre = "/images/compare.svg"
-    post = "By joining our collaborative test, compare and measure your personalized recommandations!"
+    post = "joining the gang test, compare and measure personalized recommendation!"
  [[menu.featured]]
     name = "Behind the Scenes"
     url = "/pov"
