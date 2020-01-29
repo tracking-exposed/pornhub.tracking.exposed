@@ -93,16 +93,16 @@ Above, the most commonly observed behavior: a contributor providing one session 
 
 ## Update n.4 -- 22 January 2020
 
-People traveling and some code has to be developed to, means we don't have yet the CSV to share, but this is an initial breakdown. We use mongodb. As introduction to our system, the data collections we have are:
+Unfortunately, part of the tracking.exposed team has been busy travelling and developing some code. So, this means, that we don't have yet the CSV to share, but the following is an initial breakdown. As introduction to our system, based on MongoDB, the data collections we have is structured as follows:
 
 * supporters (can't be disclosed, contains authentication token)
 * htmls (raw htmls received by browser extension)
 * metadata (the actual parsed information):
   * metadata of type 'video' have tags, categories and the 8 related content
   * metadata type 'home' have the five sections and the video display
-  * metadata type 'recommented' has a sequence of videos recomended by pornhub guesses.
+  * metadata type 'recommented' has a sequence of videos recomended by pornhub guesses
 
-Gross entries count (which might also be collected when the test was over, and we've to decide if consider them or not):
+Gross entries count (which might also be collected when the test was over, and we have to decide if consider them or not):
 
 ```
 > db.getCollection('htmls').count({href: "https://www.pornhub.com/", savingTime: { $gte: new Date("2020-01-19") }})
@@ -114,15 +114,15 @@ Gross entries count (which might also be collected when the test was over, and w
 1031
 ```
 
-but the html saved are heavily duplicated: an observation might send up to 5 time the same html, which will contribute to the same metadataId. This is why we've to look at the unique number of publicKey (which is the user identifier)
+The html saved are heavily duplicated: an observation might send up to 5 time the same html, which will contribute to the same metadataId. This is why we've to look at the unique number of publicKey (which is the user identifier)
 
 ```
 db.getCollection('htmls').distinct('publicKey', {href: "https://www.pornhub.com/recommended", savingTime: { $gte: new Date("2020-01-19") }})
 ```
 
-89 elements. Maybe not all the participants follow the script correctly, and perhaps our parser would not work in all the conditions, but as a generic indication, we've 89 individual observations in this first test.
+89 elements. Maybe not all the participants followed the script correctly, and perhaps our parser did not work in all the possible scenarios, but as a generic indication, we gathered 89 individual observations in our first test.
 
-Is it bad or good? It is, of course, good. It is representative? of course no. It doesn't matter yet. This first measure goal is to test out team, the tool,  and start to measure the divergence between similar PH experiences.
+Is it bad or good? It is, of course, good news. It is representative? Of course it isn't. Thankfully, it doesn't matter yet since our first goal is to test out team, the tool, and start to measure the divergence between similar PH experiences.
 
 ## Update n.3 -- 21 January 2020
 
@@ -144,9 +144,9 @@ The _recommended_ parser is supported now! each video suggested will be extracte
    }    
 ```
 
-The json object above is the second video snippet from a recommented page, and now we'll produce and share the final CSV as part of this experiment.
+The above json object is the second video snippet from a recommended page, now we will produce and share the final CSV as part of this experiment.
 
-...In regards of the chrome extension, it seems definitely blocked at the moment:
+...In regards of the Chrome extension, it seems definitely blocked at the moment:
 
 {{<bord-img href="/images/extension-chrome-rejected-January2020.png">}}
 
@@ -154,13 +154,13 @@ whatever, just a reason to consider firefox **better**.
 
 ## Update n.2 -- 20 January 2020
 
-Despite Google didn't enable our app, a bunch of Firefox adopters supported the project:
+Despite Google didn't enable our extention, a bunch of Firefox adopters supported our project:
 
 {{<bord-img href="/images/potest-1-stats.png">}}
 
 ## Update n.1 -- 19 January 2020
 
-This test will work only with our [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adult-industry-algorithms/), because google has put our extension under _revision_, and now is not accessible to the public:
+This test will work only with our [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adult-industry-algorithms/), because Google has put our extension under _revision_, and therefore it is not accessible to the public:
 
 {{<bord-img href="/images/screencapture-chromewebdev-2020-01-19_09-21-15.jpg">}}
 
@@ -169,7 +169,7 @@ On Sunday, January 19th, 2020: join the first collective observation of the #por
 
 We are the tracking.exposed team and our main objective is to put a spotlight on users’ tracking, profiling, and the wider data market by performing an open algorithmic analysis. We believe that, as long as the operation of recommendation systems remains obscure, the many side-effects of platform economy cannot be tackled as they should.
 
-After the development of infrastructure and analysis tools facebook.tracking.exposed and youtube.tracking.exposed, we decided to take inspiration from the 34th rule of the internet: There is porn of it. No exceptions.
+After the development of the infrastructure and analysis tools facebook.tracking.exposed and youtube.tracking.exposed, we decided to take inspiration from the 34th rule of the internet: There is porn of it. No exceptions.
 
 So, are now also focusing on online porn giant PornHub, trying to unpack the hidden logic of user profiling!
 
