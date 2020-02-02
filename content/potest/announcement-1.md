@@ -11,6 +11,10 @@ og_description: "The first worldwide test of the Pornhub algorithm; on Sunday Ja
 ---
 
 
+## Update n.6 -- 2 February 2020
+
+Final complete and clean dataset. Few errors were present in v2, [this CSV v3](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v3.csv) guarantee 100% presence of author and video name.
+
 ## Update n.5 -- 25 January 2020
 
 TL;DR: first analysis: [on tableau](https://public.tableau.com/profile/claudio.of.tracking.exposed#!/vizhome/potest1/Changesduringtheday)  you can download the file in [CSV v2](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v2.csv?raw=true) or [JSON v2](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v2.json?raw=true). Below some primary findings. We answered to few basic research questions, and the visualization below might help to get what the dataset has.
