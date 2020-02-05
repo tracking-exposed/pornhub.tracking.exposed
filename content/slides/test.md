@@ -1,5 +1,5 @@
 ---
-title: "slide1others"
+title: "slidepoTEST"
 subtitle: "Meslidedubtitleactivities"
 draft: false
 type: "webslides"
@@ -12,22 +12,20 @@ og_description: "Analyze differences and correlations between categories and the
 
 <script>removeHeaderFooter(1500)</script>
 
-<section>
-    <span class="background"></span>
-    <div class="wrap aligncenter">
-    <h2>
-        <strong>Potest #1</strong>
-    </h2>
-    <p class="text-intro">
+<section class="bg-pornhuborange aligncenter">
+    <div class="wrap aligncenter fadeInUp">
+    <h2><strong>P O T E S T</strong> # 1 </h2>
+    <p class="text-symbols">* * * </p>
+    <p class="text-intro" style="color: #fff">
         A small summary in our first collaborative observation of the PornHub algorithm
     </p>
     </div>
 </section>
 
 <section>
-    <div class="wrap aligncenter">
+    <div class="wrap aligncenter fadeInUp">
         <h2>
-            The 19th of January 2020, we openly asked
+            January 19th 2020 we openly asked to
         </h2>
         <div class="row mb-5 mt-5">
             <div class="col-sm text-center">
@@ -47,37 +45,79 @@ og_description: "Analyze differences and correlations between categories and the
 
 <section>
     <div class="wrap">
-        <div class="row">
-            <div class="col-4 aligncenter col-sm">
-                <img src="/images/addon.png"><br /> <br>
-                <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a>?
-            </div>
-            <div class="col-7 bg-white shadow">
-                <ul class="reasons">
-                <li>
-                    <h4>Read our ethics on data processing</h4>
-                </li>
-                <li>
-                    <h4>This is the code to anonymize and extract the data we publish</h4>
-                </li>
-                <li>
-                    <h4>It is available on Firefox, we've to understand why Google block us, it is not the first time they antagonize Algorithm Accountability</h4>
-                </li>
-            </div>
+            <div class="text-center content-left">
+            <img class="size-100" src="/images/addon.png">
+            <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a></h4>
         </div>
-    </div>
+            <p ><code>we analyze platforms</code></p>
+                <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+            <h1><strong>NOT PEOPLE</strong></h1>
+            <p>TREX browser extension collects data on a voluntary basis, in order to decipher the functioning of the proprietary algorithms for <strong>public interest</strong>. </p>
 </section>
 
 <section>
+<div class="wrap">
+    <h1 style="color: #F98E05">ANONYMIZATION PROCESS</h1>
+            <ul class="flexblock metrics">
+              <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
+              <li>
+                <h2>01. Unique and secret token</h2>
+                <p>Every browser has a unique code attributed</p>
+              </li>
+              <li>
+                <h2>02. Your choice</h2>
+                <p>Total control managing the data provided: visualize, download or delete</p>
+              </li>
+                <li>
+                <h2>03. No context</h2>
+                <p>No data about where you are coming from, who are your friends or what they are doing and such</p>
+              </li>
+                <li>
+                <h2>04. Not our customer</h2>
+                <p>We are not obsessed by you ;)</p>
+              </li>
+            </ul>
+          </div>
+</section>
+
+
+<section>
     <div class="wrap">
-        <div class="row">
-            <div class="col-4 aligncenter col-sm">
-                <img src="/images/click.png"><br /> <br>
-                <h4 style="color:#1b1b1b;">Follow the links</h2> NSFW ;)
+        <div class="wrap">
+            <div class="text-center content-left">
+            <img class="size-100" src="/images/click.png">
+            <h4 style="color:#1b1b1b;">Follow the links</h4> NSFW ;)
+        </div>
+            <p ><code>research protocol</code></p>
+            <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+            <h1><strong>EVIDENCES</strong></h1>
+            <p> Navigating the website following our instructions to join the experiment. </p>
+</section>
+
+<section>
+          <div class="wrap">
+            <div class="card-30 bg-pornhuborange">
+              <figure>
+                <img src="/images/pov.svg">
+              </figure>
+              <div class="flex-content">
+                <h2>
+                  Observations
+                </h2>
+                <ul class="description">
+                  <li>
+                    <strong class="text-label" style="color:#fff">Homepage:</strong> it keeps changing even for unlogged users, let's record evidences
+                  </li>
+                  <li><strong class="text-label" style="color:#fff">Reccomended:</strong> where the personalization algorithm takes action</li>
+                  <li><strong class="text-label" style="color:#fff">Videos:</strong> we decided to compare one video uploaded 11 years ago with a 24 hours old one to see if there were differences</li>
+                </ul>
+              </div>
             </div>
-            <div class="col-7 bg-white shadow">
-                <ol>
-                    <li>Open the PornHub <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a> (it keep changing the hot videos, let's record what is first lined in your country)</li>
+          </div>
+</section>
+
+<section>
+<ol>  <li>Open the PornHub <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a> (it keep changing the hot videos, let's record what is first lined in your country)</li>
                     <li>Open the page generated by Pornhub containing the videos <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
                     <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">this video, it's been on Pornhub for 11 years</a>.</li>
                     <li>Open to <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>, let's see if and how it they are changed.</li>
@@ -85,9 +125,7 @@ og_description: "Analyze differences and correlations between categories and the
                     <li>Open again the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
                     <li>Last, open the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a>.</li>
                 </ol>
-            </div>
-        </div>
-    </div>
+
 </section>
 
 <section>
