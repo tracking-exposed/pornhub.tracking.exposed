@@ -37,9 +37,9 @@ _newcomers is the number of people installing the extension. In every day is cou
 
 ---
 
-Statistics and OpenData enable network effects, data reuse, and collaborative revision of our project. But they are tricky and can't be released carelessly:
+#### Statistics and OpenData enable network effects, data reuse, and collaborative revision of our project. But they are tricky and can't be released carelessly:
 
 * [Data can't be anonymized](https://www.theguardian.com/technology/2019/jul/23/anonymised-data-never-be-anonymous-enough-study-finds) easily, we aggregate them and we use only non-personal metadata to develop the aggregation.
 * We don't want to help in any way [social media intelligence](https://responsibledata.io/social-media-intelligence-the-wayward-child-of-open-source-intelligence/).
 * Is in our DNA [enable researchers](/data-activism), we described which are our [data usage policies](/what-we-collect).
-* The public stats below display how the system is performing how the people use it (no content-related analysis are here).
+* The public stats above display how the system is performing, and how much people use it. No content-related analysis are here.

@@ -1,7 +1,7 @@
-const DAYSAGO = 15;
+const DAYSAGO = 19;
 
 const clist = [{
-    API: buildApiUrl('statistics/supporters/day', DAYSAGO, 2),
+    API: buildApiUrl('statistics/supporters/day', 2 * DAYSAGO, 2),
     bindto: '#supporters-graph',
     data : {
         mimeType: 'json',
@@ -26,7 +26,7 @@ const clist = [{
         }
     }
 }, {
-    API: buildApiUrl('statistics/active/day', DAYSAGO, 2),
+    API: buildApiUrl('statistics/active/day', 2 * DAYSAGO, 2),
     bindto: '#active-graph',
     data : {
         mimeType: 'json',
