@@ -19,18 +19,18 @@ Final complete and clean dataset. Few errors were present in v2, [this CSV v3](h
 
 TL;DR: first analysis: [on tableau](https://public.tableau.com/profile/claudio.of.tracking.exposed#!/vizhome/potest1/Changesduringtheday)  you can download the file in [CSV v2](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v2.csv?raw=true) or [JSON v2](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v2.json?raw=true). Below some primary findings. We answered to few basic research questions, and the visualization below might help to get what the dataset has.
 
-{{<bord-img href="/images/potest1-contributions1.jpg" >}}
+{{<bord-img href="/images/pot20/1-contributions1.jpg" >}}
 
 ##### Each of the colored rows above represents a unique contributor. They were 50 in this first experiment. The vertical column represents the number of entries we have for each of the steps requested by the methodology.
 
 ##### Step 1 has 51 entries (equal to 51 videos) because access to the homepage has 51 video, the second column contains 25 videos (recommended page), the third is about the ‘old video,’ as each video has only eight related content, e this lead to 8 entries in our CSV/JSON file. The fourth recommended again, fifth the recent video, and the last one is the homepage still.
 
-<!-- {{<bord-img href="/images/potest1-contributions2.jpg" >}} -->
+<!-- {{<bord-img href="/images/pot20/1-contributions2.jpg" >}} -->
 ---
 
 ##### By filtering _type_ and _step_, we can isolate particular content, for example, in the following graph, we look at the videos in the /recommended page, and compute a basic statistics out of it:
 
-{{<bord-img href="/images/potest1-recommended1.jpg" >}}
+{{<bord-img href="/images/pot20/1-recommended1.jpg" >}}
 
 ##### Meaningful or not, the graph might display the broader majority of recommended video os one-month-old. It would be best if you weren’t so sure. This graph is using as aggregation point the ‘humanization of time duration,’ and if you manually count the videos belonging to the last seven days, it is circa 21%. Still, this graph might become interesting if zoom in outliers such as the videos older than six months ago, and perhaps compare them with the view count.
 
@@ -38,7 +38,7 @@ TL;DR: first analysis: [on tableau](https://public.tableau.com/profile/claudio.o
 
 ##### Let’s compare the recommended video in step 2 (after the homepage) vs. the recommendation got at step 4 (after having watched the 11-years-old video)
 
-{{<bord-img href="/images/potest1-recommended2.jpg" >}}
+{{<bord-img href="/images/pot20/1-recommended2.jpg" >}}
 
 ##### Take into account the top square: each square represent a video. The lighter/darker color represents the two steps (2 or 4), the number written in the box, is the amount of time the video was recommended.
 
@@ -50,17 +50,17 @@ It might be due because recommended works only for logged profiles, or the natur
 
 ##### By filtering with ‘type,’ we look only at eight related videos below the video we were watching:
 
-{{<bord-img href="/images/potest1-relatedvideo1.jpg" >}}
+{{<bord-img href="/images/pot20/1-relatedvideo1.jpg" >}}
 
 ##### The video on the left is the 11-yo-video, and in 54 access, it got the same eight recommendations. On the right, you’ll see the video one day old, has a video related seven times, another nine times, and so on. Our simple interpretation regards the video age. Videos of the past, unlikely changes their related content, and entirely become tight to their selected eight, after a while. Otherwise, we can assume the traffic generated to mature content is so dim to don’t cause a fluctuation of the related videos, and the new video itself keeps changes their order in the recommendation algorithm.
 
-<!-- {{<bord-img href="/images/potest1-relatedvideo2.jpg" >}} -->
+<!-- {{<bord-img href="/images/pot20/1-relatedvideo2.jpg" >}} -->
 
 ---
 
 ##### The next visualization looks only at the related video of this last one, and split the changes of the videos looking at the hours:
 
-{{<bord-img href="/images/potest1-relatedvideo3.jpg" >}}
+{{<bord-img href="/images/pot20/1-relatedvideo3.jpg" >}}
 
 ##### As it seems, videos selected to appear below a watched video, change often during the day, and in few slot of hours the recomendation are consecutives.
 
@@ -152,7 +152,7 @@ The above json object is the second video snippet from a recommended page, now w
 
 ...In regards of the Chrome extension, it seems definitely blocked at the moment:
 
-{{<bord-img href="/images/extension-chrome-rejected-January2020.png">}}
+{{<bord-img href="/images/pot20/1-chrome.rejected.png">}}
 
 whatever, just a reason to consider firefox **better**.
 
@@ -160,13 +160,13 @@ whatever, just a reason to consider firefox **better**.
 
 Despite Google didn't enable our extention, a bunch of Firefox adopters supported our project:
 
-{{<bord-img href="/images/potest-1-stats.png">}}
+{{<bord-img href="/images/pot20/1-stats.png">}}
 
 ## Update n.1 -- 19 January 2020
 
 This test will work only with our [firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adult-industry-algorithms/), because Google has put our extension under _revision_, and therefore it is not accessible to the public:
 
-{{<bord-img href="/images/screencapture-chromewebdev-2020-01-19_09-21-15.jpg">}}
+{{<bord-img href="/images/pot20/1-chrome-review.jpg">}}
 
 ## Announcement  -- 19 January 2020
 On Sunday, January 19th, 2020: join the first collective observation of the #pornhub algorithm!
