@@ -475,6 +475,12 @@ function personal(pages, profile) {
         const yourcats = _.flatten(_.compact(_.map(data.recent, 'categories')));
         const yourordered = _.reverse(_.sortBy(_.map(_.countBy(yourcats), function(c, n) { return { c, n, } }), 'c'));
 
+        if(!_.size(yourordered)) {
+            $(".potrex--content").hide();
+            $("#missingdata").show();
+            return;
+        }
+
         renderPersonalRadar(retvalFantasies, '#radarFantasies', yourordered);
         renderPersonalRadar(retvalPractices, '#radarPractices', yourordered, 300);
         renderPersonalRadar(retvalFormat, '#radarFormat', yourordered, 300);
