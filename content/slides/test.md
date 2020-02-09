@@ -8,9 +8,13 @@ og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/compare.jpg" 
 og_url: "https://pornhub.tracking.exposed/slide/test"
 og_description: "Analyze differences and correlations between categories and the personalized experiencesm, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
+
+extraCSS: "/css/potest-slide-svg.css"
 ---
+
 <!-- halo salut -->
 <script>removeHeaderFooter(1500)</script>
+<script src="/js/d3.min.js"></script>
 
 <section class="bg-pornhuborange aligncenter">
     <div class="wrap aligncenter fadeInUp">
@@ -164,7 +168,7 @@ og_description: "Analyze differences and correlations between categories and the
 </section>
 
 <section>
-    <div class="wrap">
+  <div class="wrap">
     <div class="grid vertical-align">
         <div class="column">
         <h1 class="fadeInUp" style="color: #F98E05">THE DATASET</h1>
@@ -206,44 +210,74 @@ og_description: "Analyze differences and correlations between categories and the
         <!-- .end .column -->
     </div>
     <!-- .end .grid -->
-    </div> 
+  </div> 
 </section>
 
 <section class="bg-potrex">
-    <div class="wrap aligncenter fadeInUp">
+  <div class="wrap aligncenter fadeInUp">
     <h2 style="color: #F98E05">
         <strong>F I N D I N G S </strong>
     </h2><p class="text-symbols" style="color: #F98E05;">* * * </p>
     <p class="text-intro" style="color: #fff">
         A small summary and next steps
     </p>
-    </div>
+  </div>
 </section>
 
 <section class="bg-potrex">
-          <div class="card-50">
-            <figure class="fadeInUp">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-            </script>
-            <script>
-            $(document).ready(function(){
-            $("related").mouseover(function(){
-            $("text").css("display", "inline");
-            });
-            $("related").mouseout(function(){
-            $("text").css("display", "none");
-            });
-            });
-            </script>
-            <img src="/images/pot20/1-first-video.svg" alt="awesome svg graph :(">
-            </figure>
-            <div class="fadeInUp">
-            <p><code style="color:#F98E05">potest #1</code></p>
-            <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-            <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
-            <h3 style="color: #F98E05">All participants got the same 8 related videos.<br></h3>
-            <p style="color: #fff"><img src="/images/pot20/1-white-dot.svg">   users<br>
-               <img src="/images/pot20/1-orange-dot.svg"> related videos<br>
-                </p>
-            </div>
+  <div class="card-50">
+    <figure class="fadeInUp">
+      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
+      <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml"></img>
+    </figure>
+    <div class="fadeInUp">
+      <p><code style="color:#F98E05">potest #1</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
+      <h3 style="color: #F98E05">All participants got the same 8 related videos.<br></h3>
+      <p style="color: #fff">
+        <img src="/images/pot20/1-white-dot.svg" id="users"> users <br>
+        <img src="/images/pot20/1-orange-dot.svg" id="related"> related videos <br>
+      </p>
+    </div>
+  </div>
 </section>
+
+<script>
+$(document).ready(
+
+  function () {
+    console.log("Reading SVG from iframe to root DOM");
+    // For each image with an SVG class, execute the following function.
+    $("img.svg").each(function () {
+      // Perf tip: Cache the image as jQuery object so that we don't use the selector muliple times.
+      var $img = jQuery(this);
+      // Get all the attributes.
+      var attributes = { width: $img.width(), height: $img.height() };
+      // Get the image's URL.
+      var imgURL = $img.attr("src");
+      // Fire an AJAX GET request to the URL.
+      $.get(imgURL, function (data) {
+        // The data you get includes the document type definition, which we don't need.
+        // We are only interested in the <svg> tag inside that.
+        var $svg = $(data).find('svg');
+        // Remove any invalid XML tags as per http://validator.w3.org
+        $svg = $svg.removeAttr('xmlns:a');
+        // Loop through original image's attributes and apply on SVG
+        $svg.attr('style',
+          "width:" + attributes.width + ";" + "height:" + attributes.height + ";"
+        );
+        // Replace image with new SVG
+        $img.replaceWith($svg);
+      });
+    });
+  });
+
+  $("#users").mouseover(function(){
+    console.log("c'è un CSS con queste classi");
+    $("tspan").addClass("hlight");
+  });
+  $("#related").mouseover(function(){
+    console.log("cosa deve succedere qui?");
+  });
+</script>
