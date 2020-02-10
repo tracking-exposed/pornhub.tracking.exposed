@@ -32,7 +32,48 @@ After our surprisingly experimental call on the 19th of January, we are glad to 
 * Comparing one old video and a recent video allow us to see if the related content tends to be "freeze in time" or keep changing. Considering the old video returned every time all the same eight relevant content, we can see as a success to identify 1) related content in video changes. 2) PornHub probable test at the beginning of the video how it is performing.
 * How much 'Hot Videos' and content in the homepage change during the day. It is frequent. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves; each observation only returns us a sample in the time. Recommended videos and home page share the same pool of 'hyped' videos. 
 
-### New findings
+## New findings
+
+We looked at correlation and pattern, to help us in the analysis, we loaded some sections of our CSV in a network analysis tool ([Gephi](https://gephi.org/)).
+
+#### On related content
+
+**All** the users get the same 8 related content (or, video suggestions) when they watch the old video.
+With the second video, we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
+
+### The 11years old video (lily thai)
+
+<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+  <figure>
+    <img width="100%" src="/images/pot20/1-first-video.svg" />
+  </figure>
+</div>  
+
+#### Each watcher did get the same recommendation
+
+Each white node in a circle is a different partecipant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos.
+
+This might let us belive, each video has 8 recommended videos, suggested to watchers as related content. But this is not the case, because if we look at the:
+
+### The 24hours old video (pussy licking)
+
+* Here you can see the suggestions recorded for the second video (Video2.svg):
+Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes are suggested videos' titles. Use the mouseover to read each title properly. The colors are created using Modularity Statistic to highlight clusters.
+We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (blu cluster), "dildos" (green cluster)... 
+
+> 2) In the second video watched, the different clusters of suggestions change by the visualization's time. We are not able to say if the suggestions change in this video because it is a new video (the suggestions are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
+* In the gif, you can see the same visualization of point 2b, but now the nodes appear following the hour of visualization's timeline. (Video2_timeline.webm). 
+It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization has the suggestions of the orange cluster, and at the second gets the blu's one. It seems that the user is exactly in the middle of two different timeline sections of suggested videos, showing how those suggestions are not only related to the user, but also to the visualization's time.
+
+
+> 3) Suggested videos for first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users.
+* Here you can see the small differences between two access to the Home page (Home1.svg and Home2.svg).
+Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Home page.
+* Here you can see the small differences between two access to the Recommended videos page (Recommended1.svg and Reccomended2.svg).
+Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Recommended videos page.
+
+
+
 
 * Recommended videos display a broad majority of the same videos at the first and second access in every session. For some reason, watching a video of a latina maid service do not make it change. It might be: 1) it doesn't work that way 2) the video is so old isn't connected in the last engine PH is using 3) one video is not enough to cause a shift 4) the published of the 'old video' wasn't a true user. 
 
