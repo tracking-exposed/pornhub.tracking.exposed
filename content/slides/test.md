@@ -84,9 +84,7 @@ extraCSS: "/css/potest-slide-svg.css"
                 <p>We are not obsessed by you ;)</p>
               </li>
             </ul>
-            <!-- 
-                 this might show up as optional detail (onclick?)
-
+            <!-- this might show up as optional detail (onclick?)
             <ul class="flexblock metrics bg-pornhuborange">
               <li>
                 Read our privacy policy
@@ -225,12 +223,13 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <section class="bg-potrex">
+  <div class="wrap">
   <div class="card-50">
     <figure class="fadeInUp">
       <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
       <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml"></img>
     </figure>
-    <div class="fadeInUp">
+    <div class="fadeInUp flex-content">
       <p><code style="color:#F98E05">potest #1</code></p>
       <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
       <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
@@ -241,9 +240,10 @@ extraCSS: "/css/potest-slide-svg.css"
       </p>
     </div>
   </div>
+  </div>
 </section>
 
-<script>
+<!-- <script>
 $(document).ready(
 
   function () {
@@ -280,4 +280,25 @@ $(document).ready(
   $("#related").mouseover(function(){
     console.log("cosa deve succedere qui?");
   });
-</script>
+</script> -->
+<section class="bg-potrex">
+  <div class="wrap">
+  <div class="card-50">
+  <div class="flex-content fadeInUp">
+      <p><code style="color:#F98E05">potest #1</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #fff"><strong>24 HOURS OLD VIDEO</strong></h1>
+      <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
+      <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+    </div>
+    <figure class="fadeInUp">
+      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
+      <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+    </figure>
+
+
+  </div>
+    </div>
+  </div>
+  </div>
+</section>
