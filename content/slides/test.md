@@ -146,24 +146,23 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <section>
-    <div class="wrap">
-            <div class="text-center content-left fadeInUp">
-            <img class="size-100" src="/images/unravel.png">
-            <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h4> 
-            <a target="_blank" rel="noopener noreferrer" href="https://tracking.exposed/manifesto">our manifesto</a>
-            </div>
-            <div class="fadeInUp alignleft">
-            <p><code>a closer look at the data</code></p>
-            <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-            <h1><strong>.CSV RELEASE</strong></h1>
-            <p> Follow up through some announcements on the website:<br>
-                In one day, <a href="/potest/announcement-1/#update-n-2-20-january-2020">we posted our first updates</a> <br>
-                After three days, <a href="/potest/announcement-1/#update-n-4-22-january-2020">the estimated amount of evidences collected</a><br>
-                On the 25th, <a href="/potest/announcement-1/#update-n-5-25-january-2020">our first result and the second version of the dataset</a><br>
-                <p>
-            </div>
-        </div>
+  <div class="wrap">
+    <div class="text-center content-left fadeInUp">
+      <img class="size-100" src="/images/unravel.png">
+      <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h4> 
+      <a target="_blank" rel="noopener noreferrer" href="https://tracking.exposed/manifesto">our manifesto</a>
     </div>
+    <div class="fadeInUp alignleft">
+      <p><code>a closer look at the data</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1><strong>.CSV RELEASE</strong></h1>
+      <p> Follow up through some announcements on the website:<br>
+        In one day, <a href="/potest/announcement-1/#update-n-2-20-january-2020">we posted our first updates</a> <br>
+        After three days, <a href="/potest/announcement-1/#update-n-4-22-january-2020">the estimated amount of evidences collected</a><br>
+        On the 25th, <a href="/potest/announcement-1/#update-n-5-25-january-2020">our first result and the second version of the dataset</a><br>
+      </p>
+    </div>
+  </div>
 </section>
 
 <section>
@@ -225,38 +224,115 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section class="bg-potrex">
   <div class="wrap">
-  <div class="card-50">
-    <figure class="fadeInUp">
-      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
-      <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml"></img>
-    </figure>
-    <div class="fadeInUp flex-content">
-      <p><code style="color:#F98E05">potest #1</code></p>
-      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-      <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
-      <h3 style="color: #F98E05">All participants got the same 8 related videos.<br></h3>
-      <p style="color: #fff">
-        <img src="/images/pot20/1-white-dot.svg" id="users"> users <br>
-        <img src="/images/pot20/1-orange-dot.svg" id="related"> related videos <br>
-      </p>
+    <div class="card-50">
+      <figure class="fadeInUp">
+        <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
+        <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml"></img>
+      </figure>
+      <div class="fadeInUp flex-content">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
+        <h3 style="color: #F98E05">All participants got the same 8 related videos.<br></h3>
+        <p style="color: #fff">
+          <img src="/images/pot20/1-white-dot.svg" id="users"> users <br>
+          <img src="/images/pot20/1-orange-dot.svg" id="related"> related videos <br>
+        </p>
+      </div>
     </div>
   </div>
+</section>
+
+<section class="bg-potrex">
+  <div class="wrap">
+    <div class="card-50">
+      <div class="flex-content fadeInUp">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>24 HOURS OLD VIDEO</strong></h1>
+        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
+        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+      </div>
+      <figure class="fadeInUp">
+        <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
+        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+      </figure>
+    </div>
   </div>
 </section>
+
+<section class="bg-potrex">
+  <div class="wrap">
+    <div class="card-50">
+      <div class="flex-content fadeInUp">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>HOMEPAGE</strong></h1>
+        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
+        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+      </div>
+      <figure class="fadeInUp">
+        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+      </figure>
+    </div>
+  </div>
+</section> 
+
+<section class="bg-potrex">
+  <div class="wrap">
+    <div class="card-50">
+      <div class="flex-content fadeInUp">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>RECOMMENDED</strong></h1>
+        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
+        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+      </div>
+      <figure class="fadeInUp">
+        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="bg-potrex">
+  <div class="wrap size-50 frame" style="border-color: #F98E05">
+    <h2 class="aligncenter" style="color: #F98E05">What we didn’t find out,<br> but we’ll keep pursuing</h2>
+    <p class="text-symbols" style="color: #F98E05">* * *</p>
+    <div class="bg-pornhuborange shadow">
+      <ul class="flexblock reasons">
+        <li>
+          <h2>favoritism</h2>
+          <p> We don’t know if any particular producer benefits from an advantageous treatment from the algorithm. </p>
+        </li>
+        <li>
+          <h2>recommended</h2>
+          <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen.</p>
+        </li>
+        <li>
+          <h2>activity</h2>
+          <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen. We know for sure the homepage, ‘Recommended For You’ sections, depends on your past activity, but we didn’t yet linked this evidence.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
 
 <script>
 
 $(document).ready(
 
   function () {
-    console.log("Reading SVG from iframe to root DOM");
     // For each image with an SVG class, execute the following function.
     $("img.svg").each(function () {
       // Perf tip: Cache the image as jQuery object so that we don't use the selector muliple times.
       var $img = jQuery(this);
       // Get all the attributes.
+      console.log("Reading SVG from iframe to root DOM: ", $img.attr('src'));
       var attributes = { width: $img.width(), height: $img.height() };
-      // Get the image's URL.
+      // Get the image's URL.1
       var imgURL = $img.attr("src");
       // Fire an AJAX GET request to the URL.
       $.get(imgURL, function (data) {
@@ -283,83 +359,3 @@ $(document).ready(
     console.log("cosa deve succedere qui?");
   });
 </script>
-
-<section class="bg-potrex">
-  <div class="wrap">
-  <div class="card-50">
-  <div class="flex-content fadeInUp">
-      <p><code style="color:#F98E05">potest #1</code></p>
-      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-      <h1 style="color: #fff"><strong>24 HOURS OLD VIDEO</strong></h1>
-      <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-      <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
-    </div>
-    <figure class="fadeInUp">
-      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
-      <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
-    </figure>
-    </div>
-    </div>
-</section>
-
-<!-- TO BE CONTINUED
-
-<section class="bg-potrex">
-  <div class="wrap">
-  <div class="card-50">
-  <div class="flex-content fadeInUp">
-      <p><code style="color:#F98E05">potest #1</code></p>
-      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-      <h1 style="color: #fff"><strong>HOMEPAGE</strong></h1>
-      <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-      <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
-    </div>
-    <figure class="fadeInUp">
-      <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
-    </figure>
-    </div>
-    </div>
-</section> 
-
-<section class="bg-potrex">
-  <div class="wrap">
-  <div class="card-50">
-  <div class="flex-content fadeInUp">
-      <p><code style="color:#F98E05">potest #1</code></p>
-      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-      <h1 style="color: #fff"><strong>RECOMMENDED</strong></h1>
-      <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-      <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
-    </div>
-    <figure class="fadeInUp">
-      <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
-    </figure>
-    </div>
-    </div>
-</section>
-
-<section class="bg-potrex">
-            <div class="wrap size-50 frame" style="border-color: #F98E05">
-            <h2 class="aligncenter" style="color: #F98E05">What we didn’t find out,<br> but we’ll keep pursuing</h2>
-            <p class="text-symbols" style="color: #F98E05">* * *</p>
-             <div class="bg-pornhuborange shadow">
-              <ul class="flexblock reasons">
-                <li>
-                  <h2>favoritism</h2>
-                  <p> We don’t know if any particular producer benefits from an advantageous treatment from the algorithm. </p>
-                </li>
-                <li>
-                  <h2>recommended</h2>
-                  <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen.</p>
-                </li>
-                  <li>
-                  <h2>activity</h2>
-                  <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen.
-    We know for sure the homepage, ‘Recommended For You’ sections, depends on your past activity, but we didn’t yet linked this evidence.</p>
-                </li>
-              </ul>
-            </div>
-    </div>
-</section>
-
--->
