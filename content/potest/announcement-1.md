@@ -10,6 +10,8 @@ og_url: "https://pornhub.tracking.exposed/potest/announcement-1"
 og_description: "The first worldwide test of the Pornhub algorithm; on Sunday January 19th, with a browser extension, we'll see how PH personalizes the customer experience"
 ---
 
+## Final update!
+This is the [final report](/potest/final-1), this the [presentation summary](/slides/potest1). Follow the [second collaborative observation!](/potest/announcement-2)
 
 ## Update n.6 -- 2 February 2020
 

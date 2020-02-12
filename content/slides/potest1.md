@@ -319,7 +319,6 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 
-
 <script>
 
 $(document).ready(
@@ -349,16 +348,28 @@ $(document).ready(
         );
         // Replace image with new SVG
         $img.replaceWith($svg);
+        $("tspan").hide();
       });
     });
-  });
 
-  $("#users").on('mouseenter', function() {
-    console.log("high");
-    $("tspan").addClass("hlight");
-  });
-  $("#users").on('mouseleave', function() {
-    console.log("down");
-    $("tspan").removeClass("hlight");
-  });
+    $("#users").on('mouseenter', function() {
+      $("tspan").show();
+      $("tspan").addClass("hlight");
+    });
+    $("#users").on('mouseleave', function() {
+      $("tspan").hide();
+      $("tspan").removeClass("hlight");
+    });
+
+    $("#related").on('mouseenter', function() {
+      $("tspan").show();
+      $("tspan").addClass("hlight");
+    });
+    $("#related").on('mouseleave', function() {
+      $("tspan").hide();
+      $("tspan").removeClass("hlight");
+    });
+
+  }
+);
 </script>
