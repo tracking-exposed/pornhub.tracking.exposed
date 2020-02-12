@@ -14,77 +14,75 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <!-- halo salut -->
 <script>removeHeaderFooter(1500)</script>
-<script src="/js/d3.min.js"></script>
-<script src="jquery-3.4.1.min.js"></script>
 
 <section class="bg-pornhuborange aligncenter">
-    <div class="wrap aligncenter fadeInUp">
+  <div class="wrap aligncenter fadeInUp">
     <h2><strong>P O T E S T</strong> # 1 </h2>
     <p class="text-symbols">* * * </p>
     <p class="text-intro" style="color: #fff">
         A small summary in our first collaborative observation of the Pornhub algorithm
     </p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap aligncenter fadeInUp">
+    <h2> January 19th 2020 we openly asked to </h2>
+    <div class="row mb-5 mt-5">
+      <div class="col-sm text-center">
+        <img src="/images/addon.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a>?
+      </div>
+      <div class="col-sm text-center">
+        <img src="/images/click.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Follow the links</h2> NSFW ;)
+      </div>
+      <div class="col-sm text-center">
+        <img src="/images/unravel.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h2> <a target="_blank" rel="noopener noreferrer" href="https://tracking.exposed/manifesto">our manifesto</a>
+      </div>
     </div>
+  </div>
 </section>
 
 <section>
-    <div class="wrap aligncenter fadeInUp">
-        <h2>
-            January 19th 2020 we openly asked to
-        </h2>
-        <div class="row mb-5 mt-5">
-        <div class="col-sm text-center">
-                <img src="/images/addon.png"><br /> <br>
-                <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a>?
-        </div>
-        <div class="col-sm text-center">
-                <img src="/images/click.png"><br /> <br>
-                <h4 style="color:#1b1b1b;">Follow the links</h2> NSFW ;)
-        </div>
-        <div class="col-sm text-center">
-                <img src="/images/unravel.png"><br /> <br>
-                <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h2> <a target="_blank" rel="noopener noreferrer" href="https://tracking.exposed/manifesto">our manifesto</a>
-        </div>
-        </div>
+  <div class="wrap">
+    <div class="text-center content-left fadeInUp">
+      <img class="size-100" src="/images/addon.png">
+      <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a></h4>
+    </div>
+    <div class="fadeInUp">
+      <p><code>we analyze platforms</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1><strong>NOT PEOPLE</strong></h1>
+      <p>TREX browser extension collects data on a voluntary basis, in order to decipher the functioning of the proprietary algorithms for <strong>public interest</strong>.</p>
+    </div>
+  </div>
 </section>
 
 <section>
-    <div class="wrap">
-            <div class="text-center content-left fadeInUp">
-            <img class="size-100" src="/images/addon.png">
-            <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a></h4>
-        </div>
-        <div class="fadeInUp">
-            <p><code>we analyze platforms</code></p>
-                <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-            <h1><strong>NOT PEOPLE</strong></h1>
-            <p>TREX browser extension collects data on a voluntary basis, in order to decipher the functioning of the proprietary algorithms for <strong>public interest</strong>.</p>
-            </div>
-</section>
-
-<section>
-    <span class="background" style="background-image:url('/images/smoke.png')"></span>    
-    <div class="wrap">
+  <span class="background" style="background-image:url('/images/smoke.png')"></span>    
+  <div class="wrap">
     <h1 class="fadeInUp" style="color: #F98E05">ANONYMIZATION PROCESS</h1>
-            <ul class="flexblock metrics fadeInUp">
-              <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
-              <li>
-                <h2>01. Unique and secret token</h2>
-                <p>Every browser has a unique code attributed</p>
-              </li>
-              <li>
-                <h2>02. Your choice</h2>
-                <p>Total control managing the data provided: visualize, download or delete</p>
-              </li>
-                <li>
-                <h2>03. No context</h2>
-                <p>No data about where you are coming from, who are your friends or what they are doing and such</p>
-              </li>
-                <li>
-                <h2>04. Not our customer</h2>
-                <p>We are not obsessed by you ;)</p>
-              </li>
-            </ul>
+    <ul class="flexblock metrics fadeInUp">
+      <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
+      <li>
+        <h2>01. Unique and secret token</h2>
+        <p>Every browser has a unique code attributed</p>
+      </li>
+      <li>
+        <h2>02. Your choice</h2>
+        <p>Total control managing the data provided: visualize, download or delete</p>
+      </li>
+      <li>
+        <h2>03. No context</h2>
+        <p>No data about where you are coming from, who are your friends or what they are doing and such</p>
+      </li>
+      <li>
+        <h2>04. Not our customer</h2>
+        <p>We are not obsessed by you ;)</p>
+      </li>
+    </ul>
             <!-- this might show up as optional detail (onclick?)
             <ul class="flexblock metrics bg-pornhuborange">
               <li>
@@ -101,48 +99,50 @@ extraCSS: "/css/potest-slide-svg.css"
               </li>
             </ul>
             -->
-          </div>
+  </div>
 </section>
 
 <section>
-    <div class="wrap">
-            <div class="text-center content-left fadeInUp">
-            <img class="size-100" src="/images/click.png">
-            <h4 style="color:#1b1b1b;">Follow the links</h4> NSFW ;)
-            </div>
-            <div class="fadeInUp alignleft">
-            <p><code>research protocol</code></p>
-            <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-            <h1><strong>EVIDENCES</strong></h1>
-            <p> Navigating the website following our instructions to join the experiment. 
-            <ol>                
-            <li>Open the PornHub <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a></li>
-            <li>Open the page generated by Pornhub containing the videos <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
-            <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">this video, it's been on Pornhub for 11 years</a>.</li>
-            <li>Open to <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>, let's see if and how it they are changed.</li>
-            <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=ph5e22e4f60abd6">this video, which has been published yesterday </a>. </li>
-            <li>Open again the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
-            <li>Last, open the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a>.</li>
-            </ol>
-        </p></div>
+  <div class="wrap">
+    <div class="text-center content-left fadeInUp">
+      <img class="size-100" src="/images/click.png">
+      <h4 style="color:#1b1b1b;">Follow the links</h4> NSFW ;)
+    </div>
+    <div class="fadeInUp alignleft">
+      <p><code>research protocol</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1><strong>EVIDENCES</strong></h1>
+      <p> Navigating the website following our instructions to join the experiment. 
+        <ol>                
+          <li>Open the PornHub <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a></li>
+          <li>Open the page generated by Pornhub containing the videos <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
+          <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">this video, it's been on Pornhub for 11 years</a>.</li>
+          <li>Open to <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>, let's see if and how it they are changed.</li>
+          <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=ph5e22e4f60abd6">this video, which has been published yesterday </a>. </li>
+          <li>Open again the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
+          <li>Last, open the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a>.</li>
+        </ol>
+      </p>
+    </div>
+  </div>
 </section>
 
 <section>
-          <div class="wrap">
-            <div class="card-30 bg-pornhuborange fadeInUp">
-            <figure>
-                <img src="/images/pov.svg">
-            </figure>
-            <div class="flex-content">
-            <h2>Observations</h2>
-            <ul class="description">
-                  <li><strong class="text-label" style="color:#fff">Homepage:</strong> it keeps changing even for unlogged users, let's record evidences</li>
-                  <li><strong class="text-label" style="color:#fff">Reccomended:</strong> where the personalization algorithm takes action</li>
-                  <li><strong class="text-label" style="color:#fff">Videos:</strong> we decided to compare one video uploaded 11 years ago with a 24 hours old one to see if there were differences</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <div class="wrap">
+    <div class="card-30 bg-pornhuborange fadeInUp">
+      <figure>
+        <img src="/images/pov.svg">
+      </figure>
+      <div class="flex-content">
+        <h2>Observations</h2>
+        <ul class="description">
+          <li><strong class="text-label" style="color:#fff">Homepage:</strong> it keeps changing even for unlogged users, let's record evidences</li>
+          <li><strong class="text-label" style="color:#fff">Reccomended:</strong> where the personalization algorithm takes action</li>
+          <li><strong class="text-label" style="color:#fff">Videos:</strong> we decided to compare one video uploaded 11 years ago with a 24 hours old one to see if there were differences</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section>
@@ -332,6 +332,8 @@ $(document).ready(
       // Get all the attributes.
       console.log("Reading SVG from iframe to root DOM: ", $img.attr('src'));
       var attributes = { width: $img.width(), height: $img.height() };
+      if(!attributes.width)
+        attributes = { width: 835, height: 645 };
       // Get the image's URL.1
       var imgURL = $img.attr("src");
       // Fire an AJAX GET request to the URL.
@@ -343,7 +345,7 @@ $(document).ready(
         $svg = $svg.removeAttr('xmlns:a');
         // Loop through original image's attributes and apply on SVG
         $svg.attr('style',
-          "width:" + attributes.width + ";" + "height:" + attributes.height + ";"
+          "width:" + attributes.width + "px;" + "height:" + attributes.height + "px;"
         );
         // Replace image with new SVG
         $img.replaceWith($svg);
