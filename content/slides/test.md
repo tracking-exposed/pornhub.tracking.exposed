@@ -15,6 +15,7 @@ extraCSS: "/css/potest-slide-svg.css"
 <!-- halo salut -->
 <script>removeHeaderFooter(1500)</script>
 <script src="/js/d3.min.js"></script>
+<script src="jquery-3.4.1.min.js"></script>
 
 <section class="bg-pornhuborange aligncenter">
     <div class="wrap aligncenter fadeInUp">
@@ -243,7 +244,8 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- <script>
+<script>
+
 $(document).ready(
 
   function () {
@@ -273,14 +275,15 @@ $(document).ready(
     });
   });
 
-  $("#users").mouseover(function(){
+  $("#users").mouseover(function(){ // mouseover su g#id="layer7" del primo svg dovrebbero comparire i text
     console.log("c'è un CSS con queste classi");
     $("tspan").addClass("hlight");
   });
-  $("#related").mouseover(function(){
+  $("#related").mouseover(function(){ //mouseout dovrebbe rinascondere il testo
     console.log("cosa deve succedere qui?");
   });
-</script> -->
+</script>
+
 <section class="bg-potrex">
   <div class="wrap">
   <div class="card-50">
@@ -299,6 +302,8 @@ $(document).ready(
     </div>
 </section>
 
+<!-- TO BE CONTINUED
+
 <section class="bg-potrex">
   <div class="wrap">
   <div class="card-50">
@@ -310,12 +315,11 @@ $(document).ready(
       <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
     </div>
     <figure class="fadeInUp">
-      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
       <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
     </figure>
     </div>
     </div>
-</section>
+</section> 
 
 <section class="bg-potrex">
   <div class="wrap">
@@ -328,7 +332,6 @@ $(document).ready(
       <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
     </div>
     <figure class="fadeInUp">
-      <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
       <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
     </figure>
     </div>
@@ -355,6 +358,8 @@ $(document).ready(
     We know for sure the homepage, ‘Recommended For You’ sections, depends on your past activity, but we didn’t yet linked this evidence.</p>
                 </li>
               </ul>
-            </div> <!-- .end .bg-white shadow -->
+            </div>
     </div>
 </section>
+
+-->
