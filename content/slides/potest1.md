@@ -353,11 +353,12 @@ $(document).ready(
     });
   });
 
-  $("#users").mouseover(function(){ // mouseover su g#id="layer7" del primo svg dovrebbero comparire i text
-    console.log("c'è un CSS con queste classi");
+  $("#users").on('mouseenter', function() {
+    console.log("high");
     $("tspan").addClass("hlight");
   });
-  $("#related").mouseover(function(){ //mouseout dovrebbe rinascondere il testo
-    console.log("cosa deve succedere qui?");
+  $("#users").on('mouseleave', function() {
+    console.log("down");
+    $("tspan").removeClass("hlight");
   });
 </script>
