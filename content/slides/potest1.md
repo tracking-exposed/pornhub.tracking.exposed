@@ -61,7 +61,7 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <section>
-  <span class="background" style="background-image:url('/images/smoke.png')"></span>    
+  <span class="background" style="background-image:url('/images/smoke.jpeg')"></span>    
   <div class="wrap">
     <h1 class="fadeInUp" style="color: #F98E05">ANONYMIZATION PROCESS</h1>
     <ul class="flexblock metrics fadeInUp">
