@@ -259,6 +259,23 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
+<section style="background-color: #1a1918" class="fullscreen">
+  <div class="wrap">
+    <div class="card-50">
+      <div class="flex-content fadeInUp">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>WATCHING <br> THE SECOND VIDEO</strong></h1>
+                <h4 style="color: #fff">(Uploaded 24 hours before)</h4>
+        <h3 style="color: #5dd63f">Animated timeline: evidences recorded between 00:00 and 24:00<br></h3>
+      </div>
+      <figure class="fadeInUp vertical-align">
+        <img src="/images/pot20/timeline.gif"></img>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
