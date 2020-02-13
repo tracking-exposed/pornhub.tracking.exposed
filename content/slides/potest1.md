@@ -119,7 +119,6 @@ extraCSS: "/css/potest-slide-svg.css"
           <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">this video, it's been on Pornhub for 11 years</a>.</li>
           <li>Open to <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>, let's see if and how it they are changed.</li>
           <li>Open <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=ph5e22e4f60abd6">this video, which has been published yesterday </a>. </li>
-          <li>Open again the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">recommended for you</a>.</li>
           <li>Last, open the <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/">homepage</a>.</li>
         </ol>
       </p>
@@ -173,7 +172,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <p>Each entry represent a suggested video from Pornhub: each video snippet you might click on.</p>
         <p><b>"Type"</b> and <b>"Steps"</b> identify the phase of the test: <br> homepage returns 52 videos <br>recommendation page 25 <br> video pages 8<p>
-        <p>Only sessions by a contributor who did the 7 steps in sequence are considered: 87<p>
+        <p>Only sessions by a contributor who did the 6 steps in sequence are considered: 87<p>
         </div>
         <!-- .end .column -->
         <div class="column">
@@ -232,11 +231,10 @@ extraCSS: "/css/potest-slide-svg.css"
       <div class="fadeInUp flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h1 style="color: #fff"><strong>11 YEARS OLD VIDEO</strong></h1>
-        <h3 style="color: #F98E05">All participants got the same 8 related videos.<br></h3>
+        <h1 style="color: #fff"><strong>WATCHING THE FIRST VIDEO</strong></h1>
+        <h4 style="color: #fff">(Uploaded 11 years ago)</h4>
+        <h3 style="color: #F98E05">All participants got exactly the same 8 related videos.<br></h3>
         <p style="color: #fff">
-          <img src="/images/pot20/1-white-dot.svg" id="users"> users <br>
-          <img src="/images/pot20/1-orange-dot.svg" id="related"> related videos <br>
         </p>
       </div>
     </div>
@@ -249,13 +247,13 @@ extraCSS: "/css/potest-slide-svg.css"
       <div class="flex-content fadeInUp">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h1 style="color: #fff"><strong>24 HOURS OLD VIDEO</strong></h1>
-        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+        <h1 style="color: #fff"><strong>WATCHING <br> THE SECOND VIDEO</strong></h1>
+                <h4 style="color: #fff">(Uploaded 24 hours before)</h4>
+        <h3 style="color: #F98E05">Participants got different related videos, depending on the time of the day they performed our poTEST.<br></h3>
       </div>
       <figure class="fadeInUp">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
-        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+        <img src="/images/pot20/1-second-video.svg"></img>
       </figure>
     </div>
   </div>
@@ -264,61 +262,64 @@ extraCSS: "/css/potest-slide-svg.css"
 <section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
+      <div class="flex-content fadeInUp">
+        <p><code style="color:#F98E05">potest #1</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #fff"><strong>RECOMMENDED PAGE</strong></h1>
+        <h3 style="color: #9b05f9">Only a few videos seem to be different after the procedure<br></h3>
+        <h4 style="color: #fff"> Watching just one video could not be enough for a strong personalization in the /recommended page</h4>
+              <h5 style="color: #fff"><br>
+        <img src="/images/pot20/1-appearing-twice-dot.svg"> videos that appear on both evidences <br>
+        <img src="/images/pot20/1-new-dot.svg" id="related"> new videos <br>
+      </h5>
+      </div>
+      <figure class="fadeInUp">
+        <img class="svg" src="/images/pot20/1-recommended.svg" type="image/svg+xml"></img>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="bg-potrex">
+  <div class="wrap">
+    <div class="card-50">
+      <figure class="fadeInUp">
+        <img src="/images/pot20/1-homepage.svg"></img>
+      </figure>
       <div class="flex-content fadeInUp">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>HOMEPAGE</strong></h1>
-        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+        <h3 style="color: #9b05f9">Some new videos were suggested after the procedure</h3>
+        <h4 style="color: #fff"> We still don't know the reason of this changes, but the first and the second homepage visualizations got different videos after just few clicks.  </h4>
+                      <h5 style="color: #fff"><br>
+        <img src="/images/pot20/1-appearing-twice-dot.svg"> videos that appear on both evidences <br>
+        <img src="/images/pot20/1-new-dot.svg" id="related"> new videos <br>
+      </h5>
       </div>
-      <figure class="fadeInUp">
-        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
-      </figure>
     </div>
   </div>
 </section> 
 
-<section class="bg-potrex">
-  <div class="wrap">
-    <div class="card-50">
-      <div class="flex-content fadeInUp">
-        <p><code style="color:#F98E05">potest #1</code></p>
-        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h1 style="color: #fff"><strong>RECOMMENDED</strong></h1>
-        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
-      </div>
-      <figure class="fadeInUp">
-        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
-      </figure>
-    </div>
-  </div>
-</section>
+<!-- gif?-->
 
 <section class="bg-potrex">
-  <div class="wrap size-50 frame" style="border-color: #F98E05">
-    <h2 class="aligncenter" style="color: #F98E05">What we didn’t find out,<br> but we’ll keep pursuing</h2>
-    <p class="text-symbols" style="color: #F98E05">* * *</p>
-    <div class="bg-pornhuborange shadow">
-      <ul class="flexblock reasons">
+  <div class="wrap size-50 frame" style="border-color: #F98E05; border-style: dashed;">
+    <h1 class="aligncenter" style="color: #9b05f9">What we didn’t find out,<br> but we’ll keep pursuing </h1>
+    <p class="text-symbols" style="color: #9b05f9">* * *</p>
+      <ul style="color: #fff">
         <li>
-          <h2>favoritism</h2>
-          <p> We don’t know if any particular producer benefits from an advantageous treatment from the algorithm. </p>
+          <h4> Does any particular producer benefit from an advantageous treatment from the algorithm? </h4>
         </li>
+        <br>
         <li>
-          <h2>recommended</h2>
-          <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen.</p>
-        </li>
-        <li>
-          <h2>activity</h2>
-          <p>We don’t know if, for not-logged-in users, the recommended page change accordingly to what has been seen. We know for sure the homepage, ‘Recommended For You’ sections, depends on your past activity, but we didn’t yet linked this evidence.</p>
+          <h4> Does the recommended page change for not-logged-in users accordingly to what has been seen? How?</h4>
         </li>
       </ul>
-    </div>
   </div>
 </section>
 
-
+<!--
 <script>
 
 $(document).ready(
@@ -373,3 +374,4 @@ $(document).ready(
   }
 );
 </script>
+-->
