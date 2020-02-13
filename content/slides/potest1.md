@@ -15,6 +15,11 @@ extraCSS: "/css/potest-slide-svg.css"
 <!-- halo salut -->
 <script>removeHeaderFooter(1500)</script>
 
+<!-- for the creampiecharts -->
+<link href="/css/c3.min.css" rel="stylesheet">
+<script src="/js/d3.min.js"></script>
+<script src="/js/c3.min.js"></script>
+
 <section class="bg-pornhuborange aligncenter">
   <div class="wrap aligncenter fadeInUp">
     <h2><strong>P O T E S T</strong> # 1 </h2>
@@ -253,7 +258,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
         <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
       </div>
-      <figure class="fadeInUp">
+      <figure class="">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
         <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
       </figure>
@@ -264,31 +269,44 @@ extraCSS: "/css/potest-slide-svg.css"
 <section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
-      <div class="flex-content fadeInUp">
+      <div class="flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>HOMEPAGE</strong></h1>
-        <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
-        <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
+        <h3 style="color: #F98E05">Participants got different sections, depending on the nationality, past navigation, or random pornhub testing.<br></h3>
+        <p style="color: #fff"> To see it, look at the next slide how the names changes. <br>
+          <i>Note</i>, they have been translated in to English, because PH serves the language of the browser by default.</p>
       </div>
-      <figure class="fadeInUp">
-        <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
+      <figure class="">
+        <img class="" src=""></img>
       </figure>
     </div>
   </div>
 </section> 
 
 <section class="bg-potrex">
+  <div class="wrap text-center flex-content">
+    <div class="" id="homesection1"></div>
+    <div class="col-2" id="homesection2"></div>
+    <div class="col-2" id="homesection3"></div>
+    <div class="col-2" id="homesection4"></div>
+    <div class="col-2" id="homesection5"></div>
+    <div class="col-2" id="homesection6"></div>
+    <div class="" id="homesection7"></div>
+  </div>
+</section> 
+
+<section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
-      <div class="flex-content fadeInUp">
+      <div class="flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED</strong></h1>
         <h3 style="color: #F98E05">Participants got different related videos, depending on the time they did the poTEST.<br></h3>
         <p style="color: #fff"> There were 8 distinguishable clusters and one participant did the test twice, with different timing and got different video related.</p>
       </div>
-      <figure class="fadeInUp">
+      <figure class="">
         <img class="svg" src="/images/pot20/1-second-video.svg" type="image/svg+xml"></img>
       </figure>
     </div>
@@ -370,6 +388,8 @@ $(document).ready(
       $("tspan").removeClass("hlight");
     });
 
+    buildCreampieCharts();
+    /* .ready() function ends here */
   }
 );
 </script>
