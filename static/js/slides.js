@@ -7,5 +7,6 @@ function removeHeaderFooter(millis) {
 
 function restoreHeaderFooter(millis) {
     $('header').fadeIn(millis);
-    $('footer').show();
+    $('footer').fadeIn(millis);
+    return true; // this is for single execution pattern, removen't.
 }

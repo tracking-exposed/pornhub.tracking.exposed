@@ -12,18 +12,17 @@ og_description: "in January 2020 we made the first coordinated observation of th
 
 # The first collaborative algorithm observation, final quick report
 
+After our surprisingly experimental call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
-After our surprisingly experimental call on the 19th of January, we are glad to follow-up and to say:
-
-* test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact).
+* the test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact).
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic).
 * We produced three versions of the CSV to allow other research replicate the study
 * And constantly [shared updates while our small investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/).
 
 ### Why we design the experiment that way?
 
-* observing individual out of context is pointless to figure out the logic behind the platform: we need to control same variables
-* testing with profiles under the control of research is what we often do, but it is limited
+* Observing individual out of context is pointless to figure out the logic behind the platform: we need to control same variables
+* Testing with profiles under the control of research is what we often do, but it is limited
 * The first step in regards to the Facebook algorithm was to measure the differentiations imposed on people who were behaving similarly. We found this input useful and would be nice to have in regards to pornhub
 * Therefore we asked random people to repeat the same sequence of actions and measure how recommended video changes.
 

@@ -20,7 +20,9 @@ extraCSS: "/css/potest-slide-svg.css"
     <h2><strong>P O T E S T</strong> # 1 </h2>
     <p class="text-symbols">* * * </p>
     <p class="text-intro" style="color: #fff">
-        A small summary in our first collaborative observation of the Pornhub algorithm
+        A small summary in our first collaborative observation of the Pornhub algorithm. <br>(
+          <a href="/potest/final-1" target=_blank style="color:#000">final report</a>
+        )
     </p>
   </div>
 </section>
@@ -336,11 +338,42 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!--
-<script>
+<section style="style=color:#000">
+  <div class="wrap alignleft fadeInUp" id="final-slide">
+    <div class="vertical-align aligncenter">
+      <h2><strong>K N O W M O R E </strong> </h2>
+      <p class="text-symbols">* * * </p>
+      <br>
+    </div>
+    <div class="vertical-align">
+      <a href="https://tracking.exposed/manifesto" target=_blank>
+        <img class="alignleft" src="/images/potrex-sticker.jpg" alt="potrex sticker"></img>
+        <div class="column">
+          <small><i>the Manifesto</i></small>
+        </div>
+      </a>
+    </div>
+    <h3>
+      <a href="/potest/final-1" target=_blank >Final Report</a>
+    </h3>
+    <p>The <a href="https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v3.csv">CSV</p>
+    <br>
+    <h3>
+      <a href="/potest/2" target=_blank>Next test 19 of February 2020</a> share the idea!
+    </h3>
+    <p>Thanks to an <a href="">input on reddit
+      </a> we look at the first insight and defined how to confirm the thesis, how to test new conditions, and in the meanwhile look if our guess are true also in the Gay section of PornHub! We want to keep this analysis and the formulation of research question open, this is true also for future tests. If you want to reach out, feel welcome in joining our <a href="https://chat.securitywithoutborders.org/community/channels/trackingexposed" target=_blank>Mattermost</a>.
+    </p>
+    <!--end .grid -->
+  </div>
+  <!-- .end .wrap -->
+</section>
 
+
+<script>
 $(document).ready(
 
+<!--
   function () {
     // For each image with an SVG class, execute the following function.
     $("img.svg").each(function () {
@@ -387,8 +420,12 @@ $(document).ready(
       $("tspan").hide();
       $("tspan").removeClass("hlight");
     });
+-->
+    let visibleFooter = false;
+    $("#final-slide").on('mousemove', function() {
+      visibileFooter = !visibleFooter && restoreHeaderFooter(800);
+    });
 
   }
 );
 </script>
--->
