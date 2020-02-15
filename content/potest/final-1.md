@@ -56,25 +56,188 @@ This might let us belive, each video has 8 recommended videos, suggested to watc
 
 ### The 24hours old video (pussy licking)
 
-* Here you can see the suggestions recorded for the second video (Video2.svg):
+Here you can see the suggestions recorded for the second video (Video2.svg):
+
+<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+  <figure>
+    <img width="100%" src="/images/pot20/1-second-video.svg" />
+  </figure>
+</div>  
+
+
 Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes are suggested videos' titles. Use the mouseover to read each title properly. The colors are created using Modularity Statistic to highlight clusters.
 We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (blu cluster), "dildos" (green cluster)... 
 
-> 2) In the second video watched, the different clusters of suggestions change by the visualization's time. We are not able to say if the suggestions change in this video because it is a new video (the suggestions are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
-* In the gif, you can see the same visualization of point 2b, but now the nodes appear following the hour of visualization's timeline. (Video2_timeline.webm). 
+### In the second video watched...
+
+... the different clusters of suggestions change by the visualization's time. We are not able to say if the suggestions change in this video because it is a new video (the suggestions are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
+
+<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+  <figure>
+    <img width="100%" src="/images/pot20/timeline.gif" />
+  </figure>
+</div>  
+
+In the gif, you can see the same visualization of point 2b, but now the nodes appear following the hour of visualization's timeline. (Video2_timeline.webm). 
 It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization has the suggestions of the orange cluster, and at the second gets the blu's one. It seems that the user is exactly in the middle of two different timeline sections of suggested videos, showing how those suggestions are not only related to the user, but also to the visualization's time.
 
 
-> 3) Suggested videos for first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users.
-* Here you can see the small differences between two access to the Home page (Home1.svg and Home2.svg).
+### not all the sections in homepage are the same.
+
+This might seems a standard factor: the first section always mention the nationality name of the watcher, and other sections below are explicitly recommended for you (looks like they should be deduced on your interestes).
+
+Before wonder on the logics of section dynamics, We can at lease see how they changes among watchers:
+
+<div class="card-deck">
+  <div class="row">
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 1</h5>
+        <p class="card-text">
+          <button style="font-size:0.8em;color:#f900aa">Hot Video in AT</button><button style="font-size:0.9em;color:#f900aa">Hot Video in AU</button><button style="font-size:0.8em;color:#f900aa">Hot Video in NO</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BG</button><button style="font-size:0.8em;color:#f900aa">Hot Video in DK</button><button style="font-size:0.9em;color:#f900aa">Hot Video in GR</button><button style="font-size:0.8em;color:#f900aa">Hot Video in CZ</button><button style="font-size:1.3em;color:#f900aa">Hot Video in NL</button><button style="font-size:0.9em;color:#f900aa">Hot Video in GB</button><button style="font-size:1.4em;color:#f900aa">Hot Video in IT</button><button style="font-size:1.1em;color:#f900aa">Hot Video in DE</button><button style="font-size:1em;color:#f900aa">Hot Video Internationally</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BE</button><button style="font-size:1.4em;color:#f900aa">Hot Video in US</button><button style="font-size:0.9em;color:#f900aa">Hot Video in FR</button><button style="font-size:0.9em;color:#f900aa">Hot Video in RU</button><button style="font-size:0.8em;color:#f900aa">Hot Video in RO</button><button style="font-size:0.8em;color:#f900aa">Hot Video in PT</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BR</button><button style="font-size:1em;color:#f900aa">Hot Video in CA</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 2</h5>
+        <p class="card-text">
+          <button style="font-size:0.8em;color:#ffaa00">Most View in DK</button><button style="font-size:0.8em;color:#ffaa00">Most View in AT</button><button style="font-size:0.9em;color:#ffaa00">Most View in AU</button><button style="font-size:0.8em;color:#ffaa00">Most View in BE</button><button style="font-size:0.8em;color:#ffaa00">Most View in NO</button><button style="font-size:0.8em;color:#ffaa00">Most View in BG</button><button style="font-size:1em;color:#ffaa00">Most View in CA</button><button style="font-size:1.3em;color:#ffaa00">Most View in NL</button><button style="font-size:0.9em;color:#ffaa00">Most View in GR</button><button style="font-size:1.4em;color:#ffaa00">Most View in IT</button><button style="font-size:1.4em;color:#ffaa00">Most View in US</button><button style="font-size:0.8em;color:#ffaa00">Most View in BR</button><button style="font-size:0.8em;color:#ffaa00">Most View in RO</button><button style="font-size:0.8em;color:#ffaa00">Most View in CZ</button><button style="font-size:0.9em;color:#ffaa00">Most View in GB</button><button style="font-size:0.8em;color:#ffaa00">Most View in PT</button><button style="font-size:0.9em;color:#ffaa00">Most View in RU</button><button style="font-size:1em;color:#ffaa00">Most View</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 215</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 3</h5>
+        <p class="card-text">
+          <button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#40f">Recommended hentai</button><button style="font-size:0.8em;color:#40f">Recommended teen</button><button style="font-size:0.9em;color:#ffaa00">Most View in FR</button><button style="font-size:3.4em;color:#55aadd">Recommended For You</button><button style="font-size:1.1em;color:#ffaa00">Most View in DE</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 4</h5>
+        <p class="card-text">
+          <button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Masturbation</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Fetish</button><button style="font-size:0.8em;color:#d48">Popular With Woman</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Dick</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Brunette</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Public</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Arab</button><button style="font-size:0.9em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Party</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Blowjob</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Tits</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Cumshot</button><button style="font-size:0.8em;color:#ffaa00">Categoria Consigliata Per Te - Italiane</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - British</button><button style="font-size:1.2em;color:#55aadd">Recommended For You</button><button style="font-size:1.1em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Japanese</button><button style="font-size:1em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - POV</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Ebony</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Squirt</button><button style="font-size:1.1em;color:#ffaa00">Categoria Consigliata Per Te - MILF</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Bondage</button><button style="font-size:1.1em;color:#40f">Recommended teen</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Creampie</button><button style="font-size:1em;color:#ffaa00">Recommended Category For You - Threesome</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Ass</button><button style="font-size:1em;color:#40f">Recommended babe</button><button style="font-size:1em;color:#40f">Recommended hentai</button><button style="font-size:1em;color:#ffaa00">Рекомендуемая категория для вас - Зрелые</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Czech</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 5</h5>
+        <p class="card-text">
+          <button style="font-size:0.8em;color:#40f">Recommended teen</button><button style="font-size:0.8em;color:#40f">Recommended babe</button><button style="font-size:0.9em;color:#40f">Recommended hentai</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - German</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Hardcore</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - MILF</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:3.2em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.8em;color:#ffaa00">Für dich empfohlene Kategorie - Reife Frauen</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 226</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 6</h5>
+        <p class="card-text">
+          <button style="font-size:1.2em;color:#dfda44">Recently Featured XXX</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 33</small>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Section 7</h5>
+        <p class="card-text">
+          <button style="font-size:1em;color:#dfda44">Recently Featured XXX</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 17</small>
+      </div>
+    </div>
+  </div>
+
+  
+  </div>
+</div>
+
+
+### How to read this data?
+
+By separating the homepage in _three macro sections_ we see:
+
+1. **Hot and Most View**: the primary entry point for PH is leveraging on collaborative filtering (content selection because trending) by regional or global subgroup.
+2. **Recommendations**: this is in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'. 
+3. **Recently Featured**: Content suggested because of chronological order (but we ignore the reason for a video to become Featured).
+
+
+##### By empirical observation we know:
+
+* PornHub store in localstorage a sequence of watched video
+* After a while a profile with new cookies and tracking code, start to navigate over a due category, the 'Recommended for [Category Name]' become appropriate with the selected fetish.
+
+
+### Hipothesys 
+
+PornHub with the stored list of watched video can infer a liked fetish and suggest it in the Recommended.
+
+In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
+
+
+### Suggested videos for first and second access to the Home and Recommended page are almost equal
+
+... but we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
+
+## Home and Recommended (they share the first macro-section)
+
+Here you can see the small differences between two access to the Home page (Home1.svg and Home2.svg).
+
 Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Home page.
-* Here you can see the small differences between two access to the Recommended videos page (Recommended1.svg and Reccomended2.svg).
+
+Here you can see the small differences between two access to the Recommended videos page (Recommended1.svg and Reccomended2.svg).
+
 Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Recommended videos page.
 
 
-
-
-* Recommended videos display a broad majority of the same videos at the first and second access in every session. For some reason, watching a video of a latina maid service do not make it change. It might be: 1) it doesn't work that way 2) the video is so old isn't connected in the last engine PH is using 3) one video is not enough to cause a shift 4) the published of the 'old video' wasn't a true user. 
 
 ### What we didn't find out, but we'll keep pursuing 
 * We don't know if any particular producer benefit from a advantageous treatment from algorithm.

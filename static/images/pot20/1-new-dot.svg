@@ -14,7 +14,7 @@
    viewBox="0 0 5.2916665 5.2916665"
    version="1.1"
    id="svg8086"
-   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="1-new-dot.svg">
   <defs
      id="defs8080" />
@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-9.9999993"
-     inkscape:cy="-318.57142"
+     inkscape:zoom="7.54"
+     inkscape:cx="-7.3908239"
+     inkscape:cy="20.103036"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="0"
-     inkscape:window-y="27"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata8083">
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -53,12 +53,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(25.324405,-59.252978)">
-    <circle
-       style="fill:#9b05f9;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:1"
+    <ellipse
+       style="fill:#9b05f9;fill-opacity:1;stroke:none;stroke-width:0.22830212;stroke-opacity:1"
        id="circle3125"
        cy="61.898811"
        class="id_title_4f0f96e2ea5a358957d4f62766289c52"
-       cx="-22.678572"
-       r="2.6458333" />
+       cx="-23.354445"
+       rx="1.9699603"
+       ry="2.6458333" />
   </g>
 </svg>
