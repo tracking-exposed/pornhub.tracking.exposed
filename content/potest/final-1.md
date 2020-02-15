@@ -10,9 +10,9 @@ og_url: "https://pornhub.tracking.exposed/potest/final-1"
 og_description: "in January 2020 we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
 ---
 
-# The first collaborative algorithm observation, final quick report
+# The first collaborative algorithm observation: here the final report
 
-After our surprisingly experimental call on the [19th of January](/potest/1), we are glad to follow-up and to say:
+After the first experimental global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
 * the test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact).
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic).
@@ -20,17 +20,17 @@ After our surprisingly experimental call on the [19th of January](/potest/1), we
 * And constantly [shared updates while our small investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/).
 * We don't have **any major finding** because this **is not meant to happen yet**. Observation like this allow the test of few variables, but only in a long term we might eventually exclude enough condition to isolate the algorithm. 
 
-### Why we design the experiment that way?
+### The design of the esperiment
 
-* Observing individual out of context is pointless to figure out the logic behind the platform: we need to control same variables
-* Testing with profiles under the control of research is what we often do, but it is limited
-* The first step in regards to the Facebook algorithm was to measure the differentiations imposed on people who were behaving similarly. We found this input useful and would be nice to have in regards to pornhub
-* Therefore we asked random people to repeat the same sequence of actions and measure how recommended video changes.
+* It is really difficult to make interesting inferences using data collected by random people on random videos, we need to control same variables.
+* We use to test Pornhub's recommended system with profiles under our control. This allow us to undestand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real varity of profiles used by normal people.
+* Therefore we decided to create this collaborative observation: we asked random people across the world to repeat the same sequence of actions and measure how recommended video changes.
 
 ### What we were looking at
 
-* Comparing one old video and a recent video allow us to see if the related content tends to be "freeze in time" or keep changing. Considering the old video returned every time all the same eight relevant content, we can see as a success to identify 1) related content in video changes. 2) PornHub probable test at the beginning of the video how it is performing.
-* How much 'Hot Videos' and content in the homepage change during the day. It is frequent. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves; each observation only returns us a sample in the time. Recommended videos and home page share the same pool of 'hyped' videos. 
+* We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing. 
+Our hypothesis were: 1) with an old video Pornhub will return for every user the same eight suggested content 2) with a new videos PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
+* Befoure and after the visualization of the videos, we asked to visualize the Homepage and the Recommended page to each users involved in the test, to see the effects of the personalization process. We know that the contents in the homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves.Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to kow if different users across the world share common suggestions.
 
 ## New findings
 
@@ -38,10 +38,11 @@ We looked at correlation and pattern, to help us in the analysis, we loaded some
 
 #### On related content
 
-**All** the users get the same 8 related content (or, video suggestions) when they watch the old video.
-With the second video, we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
+All the users get the same 8 related content when they watch the **old video**.
+With the **second video** (uploaded few hours befoure the test), we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
 
 ### The 11years old video (lily thai)
+Here you can see the suggestions recorded for the first video watched:
 
 <div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
   <figure>
@@ -57,7 +58,7 @@ This might let us belive, each video has 8 recommended videos, suggested to watc
 
 ### The 24hours old video (pussy licking)
 
-Here you can see the suggestions recorded for the second video (Video2.svg):
+Here you can see the suggestions recorded for the second video watched:
 
 <div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
   <figure>
@@ -66,8 +67,8 @@ Here you can see the suggestions recorded for the second video (Video2.svg):
 </div>  
 
 
-Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes are suggested videos' titles. Use the mouseover to read each title properly. The colors are created using Modularity Statistic to highlight clusters.
-We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (blu cluster), "dildos" (green cluster)... 
+Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes are suggested videos' titles. 
+We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)... 
 
 ### In the second video watched...
 
@@ -79,11 +80,11 @@ We don't know why some users have different topic-related suggestions, e.g. "pus
   </figure>
 </div>  
 
-In the gif, you can see the same visualization of point 2b, but now the nodes appear following the hour of visualization's timeline. (Video2_timeline.webm). 
-It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization has the suggestions of the orange cluster, and at the second gets the blu's one. It seems that the user is exactly in the middle of two different timeline sections of suggested videos, showing how those suggestions are not only related to the user, but also to the visualization's time.
+In the gif, you can see the second video's recommendations changing on the basis of the hour of visualization. Infact the animation shows the progression of the suggestion in accordance with the time the users watched the video. 
+It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization has the suggestions of the grey cluster, and at the second gets the violet's one. It seems that the user gets different suggestions depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
 
 
-### not all the sections in homepage are the same.
+### Not all the sections in homepage are the same.
 
 This might seems a standard factor: the first section always mention the nationality name of the watcher, and other sections below are explicitly recommended for you (looks like they should be deduced on your interestes).
 
@@ -281,6 +282,3 @@ The test is not safe for work! We kindly ask you to watch the two videos that we
 
 Thank you,
 The pornhub.tracking.exposed team
-
-
-
