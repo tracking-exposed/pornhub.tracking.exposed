@@ -8,6 +8,8 @@ og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/potest/final-1"
 og_description: "in January 2020 we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
+
+extraCSS: "/css/report.css"
 ---
 
 # The first collaborative algorithm observation: here the final report
