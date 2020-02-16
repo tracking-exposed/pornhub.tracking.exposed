@@ -53,6 +53,7 @@ extraCSS: "/css/potest-slide-svg.css"
       <img class="size-100" src="/images/addon.png">
       <h4 style="color:#1b1b1b;">Add the poTREX extension</h2>What is<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a></h4>
     </div>
+    <br>
     <div class="fadeInUp">
       <p><code>we analyze platforms</code></p>
       <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
@@ -111,6 +112,7 @@ extraCSS: "/css/potest-slide-svg.css"
       <h4 style="color:#1b1b1b;">Follow the links</h4> NSFW ;)
     </div>
     <div class="fadeInUp alignleft">
+      <br>
       <p><code>research protocol</code></p>
       <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
       <h1><strong>EVIDENCES</strong></h1>
@@ -153,6 +155,7 @@ extraCSS: "/css/potest-slide-svg.css"
       <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h4> 
       <a target="_blank" rel="noopener noreferrer" href="https://tracking.exposed/manifesto">our manifesto</a>
     </div>
+        <br>
     <div class="fadeInUp alignleft">
       <p><code>a closer look at the data</code></p>
       <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
@@ -338,7 +341,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<section style="style=color:#000">
+<section class="bg-white">
   <div class="wrap alignleft fadeInUp" id="final-slide">
     <div class="vertical-align aligncenter">
       <h2><strong>K N O W M O R E </strong> </h2>
@@ -347,7 +350,7 @@ extraCSS: "/css/potest-slide-svg.css"
     </div>
     <div class="vertical-align">
       <a href="https://tracking.exposed/manifesto" target=_blank>
-        <img class="alignleft" src="/images/potrex-sticker.jpg" alt="potrex sticker"></img>
+        <img class="alignleft" src="/images/sticker/sticker-poTREX-arial.png" alt="potrex sticker"></img>
         <div class="column">
           <small><i>the Manifesto</i></small>
         </div>
@@ -420,7 +423,7 @@ $(document).ready(
       $("tspan").hide();
       $("tspan").removeClass("hlight");
     });
--->
+--!
     let visibleFooter = false;
     $("#final-slide").on('mousemove', function() {
       visibileFooter = !visibleFooter && restoreHeaderFooter(800);
