@@ -13,6 +13,12 @@ og_description: "The first worldwide test of the Pornhub algorithm; on Sunday Ja
 ## Final update!
 This is the [final report](/potest/final-1), this the [presentation summary](/slides/potest1). Follow the [second collaborative observation!](/potest/announcement-2)
 
+## Bug report -- weakness in our dataset, and lesson learn before the next time!
+
+* In { type: 'home' }, sections might contain 'null' and this is a parsing bug.
+* Few authorLink and authorName might miss. This is either a parsing bug and a logical bug. It might happens for video taken down by PornHub, or few video preview do not display their author, or not every video has a publisher because it can simply display do be of 'Pornhub'.
+* Despite we release a procedure of 7 steps, the tool implemented was considering only 6 of them.
+
 ## Update n.6 -- 2 February 2020
 
 Final complete and clean dataset. Few errors were present in v2, [this CSV v3](https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v3.csv) guarantee 100% presence of author and video name.
