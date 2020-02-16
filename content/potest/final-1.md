@@ -19,9 +19,10 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 * The test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enought to be representative, but it is a good start to test our process._
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the softwarte and documented the data format: we'll repeat the experiment soon._
 * We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet plays with it except us, but if there is any group of researchers we should keep updated, please reach out potrex-team@tracking dot exposed._
-* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some syntetich [slides] on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
+* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some synthetic [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
 
 # <center> 1. In a few words  </center>
+
 ## Findings ? 
 
 As expected: many little steps and nothing ground breaking.
@@ -32,16 +33,16 @@ potest#1 allow us to test ourself and to identify some variables playing behind 
 ## Quick table of Findings
 
 * When you watch a video, the eight related content might be the same (fixed reccomendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say _old videos get their reccomendation frozen while new video are subject to testing_, and this insights gives us a new research direction.
-* The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, the priority PornHub gives is to what PornHub wants to push
-* Recommendation doesn't seem to be personalized in our test. We know it should be, we didn't yet isolated a clear evidence.
+* The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, _the priority PornHub gives is to what PornHub wants to push_.
+* _Recommendation doesn't seem to be personalized_ in our test. We know it should be, we didn't yet isolated a clear evidence.
 
 # <center> 2. The test </center>
 
 ## The design of the esperiment
 
-* It is really difficult to make interesting inferences using data collected by random people on random videos, we need to control same variables.
-* We use to test Pornhub's recommended system with profiles under our control. This allow us to undestand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real varity of profiles used by normal people.
-* Therefore we decided to create this collaborative observation: we asked random people across the world to repeat the same sequence of actions and measure how recommended video changes.
+* It is complicated to make interesting inferences using data collected by random people on random videos; we need to control some variables.
+* We use to test Pornhub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
+* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes.
 
 ## How extraction works
 
@@ -52,8 +53,9 @@ The extraction is done with [this nodejs script](https://github.com/tracking-exp
 ## What we were looking at
 
 * We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing. 
-Our hypothesis were: with **an old video** Pornhub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
-* Befoure and after the visualization of the videos, we asked to visualize the Homepage and the Recommended page to each users involved in the test, to see the effects of the personalization process. We know that the contents in the homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to kow if different users across the world share common suggestions.
+Our hypothesis was: with **an old video** Pornhub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
+* Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
+
 
 # <center> 3. The analysis </center>
 
@@ -65,7 +67,7 @@ All the users get the same 8 related content when they watch the **old video**.
 With the **second video** (uploaded few hours befoure the test), we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
 
 ### First video "lily thai": uploaded 11 years ago.
-Here you can see the suggestions recorded for the first video watched:
+* Here you can see the suggestions recorded for the first video watched:
 
 <div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
   <figure>
@@ -81,7 +83,7 @@ This might let us belive, each video has 8 recommended videos, suggested to watc
 
 ### Second video "pussy licking": uploaded 1 day befoure the test.
 
-Here you can see the suggestions recorded for the second video watched:
+* Here you can see the suggestions recorded for the second video watched:
 
 <div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
   <figure>
@@ -89,38 +91,51 @@ Here you can see the suggestions recorded for the second video watched:
   </figure>
 </div>  
 
-
-Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes are suggested videos' titles. 
+#### Different watcher did get a different cluster of recommendations.
+Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes represent videos' titles. 
 We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)... 
 
-### In the second video watched...
+#### The clusters are correlated to the visualization time.
 
-... the different clusters of suggestions change by the visualization's time. We are not able to say if the suggestions change in this video because it is a new video (the suggestions are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
+In the second video watched the different clusters of suggestions change by the visualization's time. We are not able to say if the recommendations vary in this video because it is a new video (the recommendations are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
 
+* In the gif, you can see the second video's recommendations changing based on the hour of visualization.
 <figure>
   <img width="100%" src="/images/pot20/timeline.gif" />
 </figure>
 
-In the gif, you can see the second video's recommendations changing based on the hour of visualization. The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00). 
+ The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00). 
 It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization (H: 00.05) has the suggestions of the grey cluster, and at the second gets the violet's one (H: 15.00). It seems that the user receives different recommendations depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
 
-## <center> (B) Homepage comparison </center>
+## <center> (B) Home and Recommended page suggestions. </center>
 
-### Suggested videos for first and second access to the Home and Recommended page are almost equal
+Suggested videos for the first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
 
-... but we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
 
-### Home and Recommended befoure and after the test
+### Before and after the test, they are almost equal.
 
-Here you can see the small differences between two access to the Home page.
+* Here you can see the small differences between two access to the **Home page**.
 
-Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Home page.
+<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+  <figure>
+    <img width="100%" src="/images/pot20/1-homepage.svg" />
+  </figure>
+</div>  
 
-Here you can see the small differences between two access to the Recommended videos page (Recommended1.svg and Reccomended2.svg).
 
-Each green node is a different user; each violet node is the title of a suggested video. The black nodes are the ones who appear just in the second visualization of the Recommended videos page.
+Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Home page.
 
-## <center> (C) Homepage's categories comparison </center>
+* Here you can see the small differences between two access to the **Recommended page**.
+
+<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+  <figure>
+    <img width="100%" src="/images/pot20/1-recommended.svg" />
+  </figure>
+</div>  
+
+Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Recommended page.
+
+## <center> ( C ) Homepage's categories comparison </center>
 
 ### Not all the sections in homepage are the same.
 
