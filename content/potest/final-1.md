@@ -1,6 +1,6 @@
 ---
 title: "final report - poTEST#1"
-subtitle: "January 2020 we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
+subtitle: "January 2020: we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
 draft: false
 
 og_title: "Coordinated observation of Pornhub — test#1 updates"
@@ -12,31 +12,54 @@ og_description: "in January 2020 we made the first coordinated observation of th
 extraCSS: "/css/report.css"
 ---
 
-# <center> Final report on the first collaborative algorithm observation of PornHub </center>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px;"> 
+<h2 style="color: #fff">
+Final report on the first collaborative algorithm observation of PornHub </h2>
+</div>
+
 
 After our global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
 * The test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enought to be representative, but it is a good start to test our process._
-* We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the softwarte and documented the data format: we'll repeat the experiment soon._
+
+* We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the software and documented the data format: we'll repeat the experiment soon._
+
 * We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet plays with it except us, but if there is any group of researchers we should keep updated, please reach out potrex-team@tracking dot exposed._
+
 * We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some synthetic [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
 
-# <center> 1. In a few words  </center>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
+<h2 style="color: #fff">
+1. In a few words  </h2>
+</div>
 
-## Findings ? 
 
+<div class="row">
+	<div class="col-sm">
+<h2>Findings </h2> 
+<p>
 As expected: many little steps and nothing ground breaking.
 
 We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) 
-potest#1 allow us to test ourself and to identify some variables playing behind the scende of Pornhub. In short, the results are focus on understanding better the platform before design a more precise test.
+potest#1 allow us to test ourself and to identify some variables playing behind the scende of Pornhub. In short, the results are focus on understanding better the platform before design a more precise test.</p>
+ </div>
 
-## Quick table of Findings
+<div class="col-sm">
+	<h2> Quick table of Findings </h2>
+<p>
+<li> When you watch a video, the eight related content might be the same (fixed reccomendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their reccomendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li> <br>
+<li>
+The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub wants to push.</i></li><br>
+<li>
+<i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li></p>
+</div>
+</div>
 
-* When you watch a video, the eight related content might be the same (fixed reccomendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say _old videos get their reccomendation frozen while new video are subject to testing_, and this insights gives us a new research direction.
-* The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, _the priority PornHub gives is to what PornHub wants to push_.
-* _Recommendation doesn't seem to be personalized_ in our test. We know it should be, we didn't yet isolated a clear evidence.
 
-# <center> 2. The test </center>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
+<h2 style="color: #fff">
+2. The test </h2>
+</div>
 
 ## The design of the esperiment
 
@@ -56,30 +79,33 @@ The extraction is done with [this nodejs script](https://github.com/tracking-exp
 Our hypothesis was: with **an old video** Pornhub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
 * Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
 
-
-# <center> 3. The analysis </center>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
+<h2 style="color: #fff">
+3. The analysis  </h2>
+</div>
 
 We looked at correlation and pattern, to help us in the analysis, we loaded some sections of our CSV in a network analysis tool ([Gephi](https://gephi.org/)).
 
-## <center> (A) Videos watched </center>
+<h2 style="color: #f98e05">(A) Videos watched </h2>
 
 All the users get the same 8 related content when they watch the **old video**.
 With the **second video** (uploaded few hours befoure the test), we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
 
-### First video "lily thai": uploaded 11 years ago.
-* Here you can see the suggestions recorded for the first video watched:
+<div class="row">
 
-<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
+<div class="col-sm">
+<h3> First video "lily thai": uploaded 11 years ago. </h3>
+<p> Here you can see the suggestions recorded for the first video watched.
+Each watcher got exactly the same recommendations.
+Each white node in a circle is a different partecipant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. This might let us belive, each video has 8 recommended videos, suggested to watchers as related content. But the scenario was different with the second video. </p>
+</div>
+
+<div class="col-sm">
   <figure>
-    <img width="100%" src="/images/pot20/1-first-video.svg" />
+    <img width="140%" src="/images/pot20/1-first-video.svg" />
   </figure>
 </div>  
-
-#### Each watcher did get the same recommendation
-
-Each white node in a circle is a different partecipant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos.
-
-This might let us belive, each video has 8 recommended videos, suggested to watchers as related content. But this is not the case, because if we look at the:
+</div>
 
 ### Second video "pussy licking": uploaded 1 day befoure the test.
 
@@ -283,7 +309,10 @@ PornHub with the stored list of watched video can infer a liked fetish and sugge
 In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
 
 
-# <center> 4. Other interesting things </center>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
+<h2 style="color: #fff">
+4. Other interesting things  </h2>
+</div> 
 
 
 ## What we didn't find out, but we'll keep pursuing 
