@@ -1,140 +1,111 @@
 ---
 title: "final report - poTEST#1"
-subtitle: "January 2020: we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
+subtitle: "January 2020: we made the first coordinated observation of the PornHub algorithm, here our findings and how to let you reproduce the experiment"
 draft: false
 
-og_title: "Coordinated observation of Pornhub — test#1 updates"
+og_title: "Coordinated observation of PornHub — test#1 updates"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/potest/final-1"
-og_description: "in January 2020 we made the first coordinated observation of the Pornhub algorithm, here our findings and how to let you reproduce the experiment"
+og_description: "in January 2020 we made the first coordinated observation of the PornHub algorithm, here our findings and how to let you reproduce the experiment"
 
 extraCSS: "/css/report.css"
 ---
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px;"> 
-<h2 style="color: #fff">
-Final report on the first collaborative algorithm observation of PornHub </h2>
+<div style="background-color: #f98e05; padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px;">
+  <h2 style="color: #fff">Final report on the first collaborative algorithm observation of PornHub </h2>
 </div>
-
 
 After our global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
-<<<<<<< HEAD
-* The test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enought to be representative, but it is a good start to test our process._
-
+* The test on the PornHub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the software and documented the data format: we'll repeat the experiment soon._
-
-=======
-* The test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
-* We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the software and documented the data format: we'll repeat the experiment soon._
->>>>>>> 88f1c402b91c58a382de6087b548f9568c62f4b8
 * We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet plays with it except us, but if there is any group of researchers we should keep updated, please reach out potrex-team@tracking dot exposed._
-
 * We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some synthetic [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
-<h2 style="color: #fff">
-1. In a few words  </h2>
-</div>
-
-<<<<<<< HEAD
-=======
-## Findings ?
->>>>>>> 88f1c402b91c58a382de6087b548f9568c62f4b8
+{{< colorblock text="1. In a few words" >}}
 
 <div class="row">
 	<div class="col-sm">
-<h2>Findings </h2> 
-<p>
+    <h2>Findings </h2>
+    <p>
+
 As expected: many little steps and nothing ground breaking.
 
-<<<<<<< HEAD
-We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) 
-potest#1 allow us to test ourself and to identify some variables playing behind the scende of Pornhub. In short, the results are focus on understanding better the platform before design a more precise test.</p>
- </div>
-
-<div class="col-sm">
-	<h2> Quick table of Findings </h2>
-<p>
-<li> When you watch a video, the eight related content might be the same (fixed reccomendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their reccomendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li> <br>
-<li>
-The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub wants to push.</i></li><br>
-<li>
-<i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li></p>
-</div>
-</div>
-
-=======
 We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :)
-potest#1 allow us to test ourselves and to identify some variables playing behind the scene of Pornhub. In short, the results are focus on understanding better the platform before design a more precise test.
+potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
+    </p>
+  </div>
 
-## Quick table of Findings
-
-* When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say _old videos get their recommendation frozen while new video are subject to testing_, and this insights gives us a new research direction.
-* The homepage of PornHub has 5 sections (which we split in three macro-sections). Only one of this is personalized for individual, _the priority PornHub gives is to what PornHub wants to push_.
-* _Recommendation doesn't seem to be personalized_ in our test. We know it should be, we didn't yet isolated a clear evidence.
->>>>>>> 88f1c402b91c58a382de6087b548f9568c62f4b8
-
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
-<h2 style="color: #fff">
-2. The test </h2>
+  <div class="col-sm">
+    <h2> Quick table of Findings </h2>
+    <p>
+      <li> When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their recommendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li>
+      <br>
+      <li> The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub wants to push.</i></li>
+      <br>
+      <li><i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li>
+    </p>
+  </div>
 </div>
 
-## The design of the esperiment
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
+  <h2 style="color: #fff">2. The test</h2>
+</div>
+
+## 2.1 The design of the experiment
 
 * It is complicated to make interesting inferences using data collected by random people on random videos; we need to control some variables.
-* We use to test Pornhub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
+* We use to test PornHub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
 * Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes.
 
-## How extraction works
+## 2.2 How extraction works
 
 The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
 
 The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
 
-## What we were looking at
+## 2.3 What we were looking at
 
 * We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing.
-Our hypothesis was: with **an old video** Pornhub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
+Our hypothesis was: with **an old video** PornHub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
 * Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hyped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
-<h2 style="color: #fff">
-3. The analysis  </h2>
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
+  <h2 style="color: #fff">3. The analysis</h2>
 </div>
 
 We looked at correlation and pattern, to help us in the analysis, we loaded some sections of our CSV in a network analysis tool ([Gephi](https://gephi.org/)).
 
-<h2 style="color: #f98e05">(A) Videos watched </h2>
+## 2.3.1 Videos watched
 
 All the users get the same 8 related content when they watch the **old video**.
 With the **second video** (uploaded few hours before the test), we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
 
 <div class="row">
 
-<div class="col-sm">
-<h3> First video "lily thai": uploaded 11 years ago. </h3>
-<p> Here you can see the suggestions recorded for the first video watched.
-Each watcher got exactly the same recommendations.
-Each white node in a circle is a different partecipant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. This might let us belive, each video has 8 recommended videos, suggested to watchers as related content. But the scenario was different with the second video. </p>
-</div>
+  <div class="col-sm">
+    <h3> First video "lily thai": uploaded 11 years ago. </h3>
+    <p>
+      Here you can see the suggestions recorded for the first video watched.
+      Each watcher got exactly the same recommendations.
+      Each white node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. This might let us believe, each video has 8 recommended videos, suggested to watchers as related content. But the scenario was different with the second video.
+    </p>
+  </div>
 
-<div class="col-sm">
-  <figure>
-    <img width="140%" src="/images/pot20/1-first-video.svg" />
-  </figure>
-</div>  
-<<<<<<< HEAD
+  <div class="col-sm">
+    <figure>
+      <img width="140%" src="/images/pot20/1-first-video.svg" />
+    </figure>
+  </div>  
+
 </div>
-=======
 
 #### Each watcher did get the same recommendation
 
 Each white node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos.
 
 This might let us believe, each video has 8 recommended videos, suggested to watchers as related content. But this is not the case, because if we look at the:
->>>>>>> 88f1c402b91c58a382de6087b548f9568c62f4b8
 
 ### Second video "pussy licking": uploaded 1 day before the test.
 
@@ -162,10 +133,9 @@ In the second video watched the different clusters of suggestions change by the 
  The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00).
 It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization (H: 00.05) has the suggestions of the grey cluster, and at the second gets the violet's one (H: 15.00). It seems that the user receives different recommendations depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
 
-## <center> (B) Home and Recommended page suggestions. </center>
+## 2.3.2 Home and Recommended page suggestions.
 
 Suggested videos for the first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
-
 
 ### Before and after the test, they are almost equal.
 
@@ -190,7 +160,7 @@ Each orange node is a different user; each ochre node is a suggested video's tit
 
 Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Recommended page.
 
-## <center> ( C ) Homepage's categories comparison </center>
+## 2.3.3 Homepage's categories comparison
 
 ### Not all the sections in homepage are the same.
 
@@ -294,15 +264,9 @@ PornHub with the stored list of watched video can infer a liked fetish and sugge
 
 In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
 
-<<<<<<< HEAD
-
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;"> 
-<h2 style="color: #fff">
-4. Other interesting things  </h2>
-</div> 
-=======
-# <center> 4. Other interesting things </center>
->>>>>>> 88f1c402b91c58a382de6087b548f9568c62f4b8
+<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
+  <h2 style="color: #fff">4. Other interesting things  </h2>
+</div>
 
 ## What we didn't find out, but we'll keep pursuing
 
