@@ -33,7 +33,7 @@ potest#1 allow us to test ourselves and to identify some variables playing behin
 ## Quick table of Findings
 
 * When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say _old videos get their recommendation frozen while new video are subject to testing_, and this insights gives us a new research direction.
-* The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, _the priority PornHub gives is to what PornHub wants to push_.
+* The homepage of PornHub has 5 sections (which we split in three macro-sections). Only one of this is personalized for individual, _the priority PornHub gives is to what PornHub wants to push_.
 * _Recommendation doesn't seem to be personalized_ in our test. We know it should be, we didn't yet isolated a clear evidence.
 
 # <center> 2. The test </center>
