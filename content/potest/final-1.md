@@ -12,15 +12,27 @@ og_description: "in January 2020 we made the first coordinated observation of th
 extraCSS: "/css/report.css"
 ---
 
-# The first collaborative algorithm observation: here the final report
+# Final (small) report on the first collaborative algorithm observation of PornHub
 
-After the first experimental global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
+After our global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
-* the test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact).
-* We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic).
-* We produced three versions of the CSV to allow other research replicate the study
-* And constantly [shared updates while our small investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/).
-* We don't have **any major finding** because this **is not meant to happen yet**. Observation like this allow the test of few variables, but only in a long term we might eventually exclude enough condition to isolate the algorithm. 
+* The test on the pornhub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enought to be representative, but it is a good start to test our process._
+* We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the softwarte and documented the data format: we'll repeat the experiment soon._
+* We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet play with it, but if there is any group of data scientist we should keep updated, please reach out potrex-team@tracking dot exposed._
+* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _but we didn't yet use our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed) properly._
+
+## Findings ? 
+
+As expected: many little steps and nothing ground breaking.
+
+We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) 
+potest#1 allow us to test ourself and to identify some variables playing behind the scende of Pornhub. In short, the results are focus on understanding better the platform before design a more precise test.
+
+## Quick table of Findings
+
+* The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, the priority PornHub gives is to what PornHub wants to push
+* When you watch a video, the eight related content might be the same (fixed reccomendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say _old videos get their reccomendation frozen while new video are subject to testing_, and this insights gives us a new research direction.
+* Recommendation doesn't seem to be personalized in our test. We know it should be, we didn't yet isolated a clear evidence.
 
 ### The design of the esperiment
 
@@ -31,8 +43,8 @@ After the first experimental global-call on the [19th of January](/potest/1), we
 ### What we were looking at
 
 * We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing. 
-Our hypothesis were: 1) with an old video Pornhub will return for every user the same eight suggested content 2) with a new videos PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
-* Befoure and after the visualization of the videos, we asked to visualize the Homepage and the Recommended page to each users involved in the test, to see the effects of the personalization process. We know that the contents in the homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves.Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to kow if different users across the world share common suggestions.
+Our hypothesis were: with **an old video** Pornhub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
+* Befoure and after the visualization of the videos, we asked to visualize the Homepage and the Recommended page to each users involved in the test, to see the effects of the personalization process. We know that the contents in the homepage change during the day frequently, but we don't know why. Videos tend to be 'hiped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to kow if different users across the world share common suggestions.
 
 ## New findings
 
@@ -76,11 +88,9 @@ We don't know why some users have different topic-related suggestions, e.g. "pus
 
 ... the different clusters of suggestions change by the visualization's time. We are not able to say if the suggestions change in this video because it is a new video (the suggestions are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
 
-<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
-  <figure>
-    <img width="100%" src="/images/pot20/timeline.gif" />
-  </figure>
-</div>  
+<figure>
+  <img width="100%" src="/images/pot20/timeline.gif" />
+</figure>
 
 In the gif, you can see the second video's recommendations changing on the basis of the hour of visualization. Infact the animation shows the progression of the suggestion in accordance with the time the users watched the video. 
 It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization has the suggestions of the grey cluster, and at the second gets the violet's one. It seems that the user gets different suggestions depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
@@ -95,14 +105,18 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
 <div class="card-deck">
   <div class="row">
   <!-- this innerHTML is generated by scripts/potest-1-creampiechart.js 
-        the file hugosnippet.text 
+        the file hugosnippet.text,            * *   AND:  * * 
+                       DO NOT EDIT IT BY HAND! 
+                      DO NOT CHANGE IT BY HAND! 
+                       DO NOT FIX IT BY HAND! 
     -->
+
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Section 1</h5>
         <p class="card-text">
-          <button style="font-size:0.8em;color:#f900aa">Hot Video in AT</button><button style="font-size:0.9em;color:#f900aa">Hot Video in AU</button><button style="font-size:0.8em;color:#f900aa">Hot Video in NO</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BG</button><button style="font-size:0.8em;color:#f900aa">Hot Video in DK</button><button style="font-size:0.9em;color:#f900aa">Hot Video in GR</button><button style="font-size:0.8em;color:#f900aa">Hot Video in CZ</button><button style="font-size:1.3em;color:#f900aa">Hot Video in NL</button><button style="font-size:0.9em;color:#f900aa">Hot Video in GB</button><button style="font-size:1.4em;color:#f900aa">Hot Video in IT</button><button style="font-size:1.1em;color:#f900aa">Hot Video in DE</button><button style="font-size:1em;color:#f900aa">Hot Video Internationally</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BE</button><button style="font-size:1.4em;color:#f900aa">Hot Video in US</button><button style="font-size:0.9em;color:#f900aa">Hot Video in FR</button><button style="font-size:0.9em;color:#f900aa">Hot Video in RU</button><button style="font-size:0.8em;color:#f900aa">Hot Video in RO</button><button style="font-size:0.8em;color:#f900aa">Hot Video in PT</button><button style="font-size:0.8em;color:#f900aa">Hot Video in BR</button><button style="font-size:1em;color:#f900aa">Hot Video in CA</button>
+          <button style="font-size:0.4em;color:#f900aa">Hot Video in AT</button><button style="font-size:0.5em;color:#f900aa">Hot Video in AU</button><button style="font-size:0.4em;color:#f900aa">Hot Video in NO</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BG</button><button style="font-size:0.4em;color:#f900aa">Hot Video in DK</button><button style="font-size:0.5em;color:#f900aa">Hot Video in GR</button><button style="font-size:0.4em;color:#f900aa">Hot Video in CZ</button><button style="font-size:0.9em;color:#f900aa">Hot Video in NL</button><button style="font-size:0.5em;color:#f900aa">Hot Video in GB</button><button style="font-size:1em;color:#f900aa">Hot Video in IT</button><button style="font-size:0.7em;color:#f900aa">Hot Video in DE</button><button style="font-size:0.6em;color:#f900aa">Hot Video Internationally</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BE</button><button style="font-size:1em;color:#f900aa">Hot Video in US</button><button style="font-size:0.5em;color:#f900aa">Hot Video in FR</button><button style="font-size:0.5em;color:#f900aa">Hot Video in RU</button><button style="font-size:0.4em;color:#f900aa">Hot Video in RO</button><button style="font-size:0.4em;color:#f900aa">Hot Video in PT</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BR</button><button style="font-size:0.6em;color:#f900aa">Hot Video in CA</button>
         </p>
       </div>
       <div class="card-footer">
@@ -117,7 +131,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 2</h5>
         <p class="card-text">
-          <button style="font-size:0.8em;color:#ffaa00">Most View in DK</button><button style="font-size:0.8em;color:#ffaa00">Most View in AT</button><button style="font-size:0.9em;color:#ffaa00">Most View in AU</button><button style="font-size:0.8em;color:#ffaa00">Most View in BE</button><button style="font-size:0.8em;color:#ffaa00">Most View in NO</button><button style="font-size:0.8em;color:#ffaa00">Most View in BG</button><button style="font-size:1em;color:#ffaa00">Most View in CA</button><button style="font-size:1.3em;color:#ffaa00">Most View in NL</button><button style="font-size:0.9em;color:#ffaa00">Most View in GR</button><button style="font-size:1.4em;color:#ffaa00">Most View in IT</button><button style="font-size:1.4em;color:#ffaa00">Most View in US</button><button style="font-size:0.8em;color:#ffaa00">Most View in BR</button><button style="font-size:0.8em;color:#ffaa00">Most View in RO</button><button style="font-size:0.8em;color:#ffaa00">Most View in CZ</button><button style="font-size:0.9em;color:#ffaa00">Most View in GB</button><button style="font-size:0.8em;color:#ffaa00">Most View in PT</button><button style="font-size:0.9em;color:#ffaa00">Most View in RU</button><button style="font-size:1em;color:#ffaa00">Most View</button>
+          <button style="font-size:0.4em;color:#ffaa00">Most View in DK</button><button style="font-size:0.4em;color:#ffaa00">Most View in AT</button><button style="font-size:0.5em;color:#ffaa00">Most View in AU</button><button style="font-size:0.4em;color:#ffaa00">Most View in BE</button><button style="font-size:0.4em;color:#ffaa00">Most View in NO</button><button style="font-size:0.4em;color:#ffaa00">Most View in BG</button><button style="font-size:0.6em;color:#ffaa00">Most View in CA</button><button style="font-size:0.9em;color:#ffaa00">Most View in NL</button><button style="font-size:0.5em;color:#ffaa00">Most View in GR</button><button style="font-size:1em;color:#ffaa00">Most View in IT</button><button style="font-size:1em;color:#ffaa00">Most View in US</button><button style="font-size:0.4em;color:#ffaa00">Most View in BR</button><button style="font-size:0.4em;color:#ffaa00">Most View in RO</button><button style="font-size:0.4em;color:#ffaa00">Most View in CZ</button><button style="font-size:0.5em;color:#ffaa00">Most View in GB</button><button style="font-size:0.4em;color:#ffaa00">Most View in PT</button><button style="font-size:0.5em;color:#ffaa00">Most View in RU</button><button style="font-size:0.6em;color:#ffaa00">Most View</button>
         </p>
       </div>
       <div class="card-footer">
@@ -132,7 +146,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 3</h5>
         <p class="card-text">
-          <button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#40f">Recommended hentai</button><button style="font-size:0.8em;color:#40f">Recommended teen</button><button style="font-size:0.9em;color:#ffaa00">Most View in FR</button><button style="font-size:3.4em;color:#55aadd">Recommended For You</button><button style="font-size:1.1em;color:#ffaa00">Most View in DE</button>
+          <button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;color:#40f">Recommended hentai</button><button style="font-size:0.4em;color:#40f">Recommended teen</button><button style="font-size:0.5em;color:#ffaa00">Most View in FR</button><button style="font-size:3em;color:#55aadd">Recommended For You</button><button style="font-size:0.7em;color:#ffaa00">Most View in DE</button>
         </p>
       </div>
       <div class="card-footer">
@@ -147,7 +161,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 4</h5>
         <p class="card-text">
-          <button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Masturbation</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Fetish</button><button style="font-size:0.8em;color:#d48">Popular With Woman</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Dick</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Brunette</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Public</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Arab</button><button style="font-size:0.9em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Party</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Blowjob</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Tits</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Cumshot</button><button style="font-size:0.8em;color:#ffaa00">Categoria Consigliata Per Te - Italiane</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - British</button><button style="font-size:1.2em;color:#55aadd">Recommended For You</button><button style="font-size:1.1em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Japanese</button><button style="font-size:1em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - POV</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Ebony</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Squirt</button><button style="font-size:1.1em;color:#ffaa00">Categoria Consigliata Per Te - MILF</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Bondage</button><button style="font-size:1.1em;color:#40f">Recommended teen</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Creampie</button><button style="font-size:1em;color:#ffaa00">Recommended Category For You - Threesome</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Big Ass</button><button style="font-size:1em;color:#40f">Recommended babe</button><button style="font-size:1em;color:#40f">Recommended hentai</button><button style="font-size:1em;color:#ffaa00">Рекомендуемая категория для вас - Зрелые</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Czech</button>
+          <button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Masturbation</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Fetish</button><button style="font-size:0.4em;color:#d48">Popular With Woman</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Dick</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Brunette</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Public</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Arab</button><button style="font-size:0.5em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Party</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Blowjob</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Tits</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Cumshot</button><button style="font-size:0.4em;color:#ffaa00">Categoria Consigliata Per Te - Italiane</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - British</button><button style="font-size:0.8em;color:#55aadd">Recommended For You</button><button style="font-size:0.7em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Japanese</button><button style="font-size:0.6em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - POV</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Ebony</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Squirt</button><button style="font-size:0.7em;color:#ffaa00">Categoria Consigliata Per Te - MILF</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Bondage</button><button style="font-size:0.7em;color:#40f">Recommended teen</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Creampie</button><button style="font-size:0.6em;color:#ffaa00">Recommended Category For You - Threesome</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Ass</button><button style="font-size:0.6em;color:#40f">Recommended babe</button><button style="font-size:0.6em;color:#40f">Recommended hentai</button><button style="font-size:0.6em;color:#ffaa00">Рекомендуемая категория для вас - Зрелые</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Czech</button>
         </p>
       </div>
       <div class="card-footer">
@@ -162,7 +176,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 5</h5>
         <p class="card-text">
-          <button style="font-size:0.8em;color:#40f">Recommended teen</button><button style="font-size:0.8em;color:#40f">Recommended babe</button><button style="font-size:0.9em;color:#40f">Recommended hentai</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - German</button><button style="font-size:0.9em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Hardcore</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - MILF</button><button style="font-size:0.8em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:3.2em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.8em;color:#ffaa00">Für dich empfohlene Kategorie - Reife Frauen</button>
+          <button style="font-size:0.4em;color:#40f">Recommended teen</button><button style="font-size:0.4em;color:#40f">Recommended babe</button><button style="font-size:0.5em;color:#40f">Recommended hentai</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - German</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Hardcore</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - MILF</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:2.8em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.4em;color:#ffaa00">Für dich empfohlene Kategorie - Reife Frauen</button>
         </p>
       </div>
       <div class="card-footer">
@@ -177,7 +191,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 6</h5>
         <p class="card-text">
-          <button style="font-size:1.2em;color:#dfda44">Recently Featured XXX</button>
+          <button style="font-size:0.8em;color:#dfda44">Recently Featured XXX</button>
         </p>
       </div>
       <div class="card-footer">
@@ -192,7 +206,7 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
       <div class="card-body">
         <h5 class="card-title">Section 7</h5>
         <p class="card-text">
-          <button style="font-size:1em;color:#dfda44">Recently Featured XXX</button>
+          <button style="font-size:0.6em;color:#dfda44">Recently Featured XXX</button>
         </p>
       </div>
       <div class="card-footer">
@@ -249,6 +263,12 @@ Each green node is a different user; each violet node is the title of a suggeste
 * We don't know if, for not-logged-in users, the recommended page change accordingly to what has been seen.
 * We know for sure the homepage, 'Recommended For You' sections, depends on your past activity, but we didn't yet linked this evidence. 
 
+
+# How extraction works
+
+The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
+
+The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
 
 # On the outreach History 
 
