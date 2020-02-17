@@ -23,7 +23,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 <div class="row">
 	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
     <h2>Findings </h2>
-    <p>As expected: many little steps and nothing ground breaking. 
+    <p>As expected: many little steps and nothing ground breaking.
       We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
     </p>
   </div>
@@ -46,7 +46,52 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 
 * It is complicated to make interesting inferences using data collected by random people on random videos; we need to control some variables.
 * We use to test PornHub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
-* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes.
+* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes. [Here is the announcement we made circulate the same day](/potest/1), and it asks to contributors to install our browser extension (which records what pornhub decides will appear on your browser, and we want to find out, how much this is individualized)
+
+### The steps we requested to the participants 
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Step</th>
+      <th scope="col">Link</th>
+      <th scope="col">Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="https://www.pornhub.com/">Homepage</a>.</td>
+      <td>There are regional sections, and we want to see how much PH changes the homepage during the day.</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">Recommendation</a> page.</td>
+      <td>To see if PH is recommending something unique for you since the beginning.</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>The first video <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">it's been on Pornhub for 11 years</a>.</td>
+      <td>We want to collect the 8 related video below each video page.</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">Recommendation </a>page.</td>
+      <td>To see if the recommendation is change since the first look.</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Second video <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=ph5e22e4f60abd6">published the day before the test</a>.</td>
+      <td>We want to see the 8 related video below each video page.</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><a href="https://www.pornhub.com/">Homepage</a>.</td>
+      <td>To record a second homepage sample.</td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## 2.2 What we were looking at
 
