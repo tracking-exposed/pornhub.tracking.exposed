@@ -140,7 +140,10 @@ Suggested videos for the first and second access to the Home and Recommended pag
 
 ### Not all the homepage sections are the same.
 
-This might seem a standard factor: the first section always mentions the watcher nationality, other sections below are explicitly recommended for you (looks like they should be deduced from your interests).
+In the homapege, the suggested videos are dislayed under different sections. With the comparioson of the different users involved in the experiment we find out that:
+* the first and secondon sections always mention the watcher nationality
+* third and fourth sections below are explicitly recommended for you (looks like they should be deduced from your interests).
+* the last one is about recent videos
 
 Before wondering about the logics of section dynamics, we can at least see how they change among watchers. Font size is proportional to the amount of occurrences recorded.
 
@@ -220,7 +223,7 @@ Before wondering about the logics of section dynamics, we can at least see how t
   </div>
 </div>
 
-### How to read this data?
+### Can we generalize the organization of the sections? 
 
 By separating the homepage in _three macro sections_ we noticed:
 
@@ -228,27 +231,23 @@ By separating the homepage in _three macro sections_ we noticed:
 2. **Recommendations**: in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'.
 3. **Recently Featured**: Content suggested because of chronological order (but we ignore the reason for a video to become Featured).
 
-##### By empirical observation we know:
+### How the personalization of the sections works?
 
-* PornHub stores in localstorage a sequence of watched video by each user.
+* PornHub **stores in localstorage a sequence of watched video** by each user.
 * After a while, a profile with new cookies and tracking code, starts to navigate over a due category, the 'Recommended for [Category Name]' becomes more appropriate along with the selected fetish.
+* PornHub with the stored list of watched video **can infer a liked fetish and suggest it in the Recommended**.
+* In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
 
-
-### Considerations
-
-PornHub with the stored list of watched video can infer a liked fetish and suggest it in the Recommended.
-
-In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
-
-{{< colorblock text="4. Other interesting things" >}}
-
-## What we didn't find out, but we'll keep pursuing
+### What we didn't find out, but we'll keep pursuing
 
 * We don't know if any particular producer benefits from any advantageous treatment from the algorithm.
 * We don't know if, for not-logged-in users, the recommended page changes accordingly to what has been seen.
-* We know for sure that the homepage and 'Recommended For You' section, depends on your past activity, but we didn't yet linked this evidence.
+* We know for sure that the homepage and 'Recommended For You' section, depends on your past activity, but we didn't yet link this evidence.
 
-## Porn research is difficult to outreach 🤷
+
+{{< colorblock text="4. Other interesting things" >}}
+
+## Research about porn is difficult to outreach 🤷
 
 We shared the invitation below on: [/r/privacy](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/), [/r/italyInformatica](https://www.reddit.com/r/ItalyInformatica/comments/erb7g0/nsfw_aiutiamo_i_ragazzi_italiani_di_tracking/), and [/r/SampleSize](https://www.reddit.com/r/SampleSize/comments/eqwd32/academic_today_collective_observation_of_the/).
 
