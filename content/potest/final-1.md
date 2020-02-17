@@ -48,17 +48,17 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 * We use to test PornHub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
 * Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes.
 
-## 2.2 How extraction works
-
-The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
-
-The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
-
-## 2.3 What we were looking at
+## 2.2 What we were looking at
 
 * We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing.
 Our hypothesis was: with **an old video** PornHub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
 * Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hyped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
+
+## 2.3 How extraction works
+
+* The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
+*The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
+
 
 {{< colorblock text="3. The analysis" >}}
 
