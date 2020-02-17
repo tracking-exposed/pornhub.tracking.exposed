@@ -11,11 +11,6 @@ og_description: "in January 2020 we made the first coordinated observation of th
 
 extraCSS: "/css/report.css"
 ---
-
-<div style="background-color: #f98e05; padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px;">
-  <h2 style="color: #fff">Final report on the first collaborative algorithm observation of PornHub </h2>
-</div>
-
 After our global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
 
 * The test on the PornHub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
@@ -26,14 +21,10 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 {{< colorblock text="1. In a few words" >}}
 
 <div class="row">
-	<div class="col-sm">
+	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
     <h2>Findings </h2>
-    <p>
-
-As expected: many little steps and nothing ground breaking.
-
-We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :)
-potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
+    <p>As expected: many little steps and nothing ground breaking. 
+      We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
     </p>
   </div>
 
@@ -49,9 +40,7 @@ potest#1 allow us to test ourselves and to identify some variables playing behin
   </div>
 </div>
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
-  <h2 style="color: #fff">2. The test</h2>
-</div>
+{{< colorblock text="2. The test" >}}
 
 ## 2.1 The design of the experiment
 
@@ -71,9 +60,7 @@ The extraction is done with [this nodejs script](https://github.com/tracking-exp
 Our hypothesis was: with **an old video** PornHub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
 * Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hyped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
-  <h2 style="color: #fff">3. The analysis</h2>
-</div>
+{{< colorblock text="3. The analysis" >}}
 
 We looked at correlation and pattern, to help us in the analysis, we loaded some sections of our CSV in a network analysis tool ([Gephi](https://gephi.org/)).
 
@@ -82,9 +69,8 @@ We looked at correlation and pattern, to help us in the analysis, we loaded some
 All the users get the same 8 related content when they watch the **old video**.
 With the **second video** (uploaded few hours before the test), we have a different scenario: the suggested videos are different across users, the change during time, and they are clustered at least in eight topic-related groups.
 
-<div class="row">
-
-  <div class="col-sm">
+<div class="row" style="display: flex; align-items: center;">
+  <div class="col-sm-5" style="padding-left: 0;">
     <h3> First video "lily thai": uploaded 11 years ago. </h3>
     <p>
       Here you can see the suggestions recorded for the first video watched.
@@ -92,81 +78,71 @@ With the **second video** (uploaded few hours before the test), we have a differ
       Each white node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. This might let us believe, each video has 8 recommended videos, suggested to watchers as related content. But the scenario was different with the second video.
     </p>
   </div>
-
-  <div class="col-sm">
-    <figure>
-      <img width="140%" src="/images/pot20/1-first-video.svg" />
-    </figure>
+  <div class="col-sm-7" style="padding-bottom: 30px;">
+      <img style="width: 100%; height: auto;" src="/images/pot20/1-first-video.svg" />
   </div>  
-
 </div>
 
-#### Each watcher did get the same recommendation
-
-Each white node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos.
-
-This might let us believe, each video has 8 recommended videos, suggested to watchers as related content. But this is not the case, because if we look at the:
-
-### Second video "pussy licking": uploaded 1 day before the test.
-
-* Here you can see the suggestions recorded for the second video watched:
-
-<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
-  <figure>
-    <img width="100%" src="/images/pot20/1-second-video.svg" />
-  </figure>
+<div class="row" style="padding-top: 30px;display: flex; align-items: center;">
+  <div style="background-image: radial-gradient(circle, #1b1b1b 50%, #f7fbfa;" class="col-sm-7">
+    <img width="100%" style="padding-bottom: 30px;" src="/images/pot20/1-second-video.svg">
 </div>  
+<div class="col-sm-5" style="padding:30px 0px 30px 0px;text-align: right;">
+  <h3> Second video "pussy licking": uploaded 1 day before the test. </h3>
 
-#### Different watcher did get a different cluster of recommendations.
-Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes represent videos' titles.
-We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)...
+  <p> <i> Here you can see the suggestions recorded for the second video watched. </i></p>
 
-#### The clusters are correlated to the visualization time.
+  <h4> Different watcher did get a different cluster of recommendations. </h4>
+  <p>Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes represent videos' titles.
+  We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)...</p>
+  </div>
+</div>
 
-In the second video watched the different clusters of suggestions change by the visualization's time. We are not able to say if the recommendations vary in this video because it is a new video (the recommendations are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!
+<div class="row" style="display: flex; align-items: center;">
+  <div class="col-sm-7" style="padding:30px 0px 30px 0px;">
+    <h4> The clusters are correlated to the visualization time. </h4>
+    <p>In the second video watched the different clusters of suggestions change by the visualization's time. We are not able to say if the recommendations vary in this video because it is a new video (the recommendations are not fixed for the algorithm yet), or because PornHub suggests different videos at different times of the day. We need a new test for this!</p>
+    <i>In the gif, you can see the second video's recommendations changing based on the hour of visualization. </i>
+</div>
+<div class="col-sm-5">
+  <img style=" width: 100%; height: auto; padding-bottom:30px;" src="/images/pot20/timeline.gif" />
+</div>
+</div>
 
-* In the gif, you can see the second video's recommendations changing based on the hour of visualization.
-<figure>
-  <img width="100%" src="/images/pot20/timeline.gif" />
-</figure>
-
- The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00).
+The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00).
 It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization (H: 00.05) has the suggestions of the grey cluster, and at the second gets the violet's one (H: 15.00). It seems that the user receives different recommendations depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
 
 ## 2.3.2 Home and Recommended page suggestions.
 
 Suggested videos for the first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
 
-### Before and after the test, they are almost equal.
-
-* Here you can see the small differences between two access to the **Home page**.
-
-<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
-  <figure>
-    <img width="100%" src="/images/pot20/1-homepage.svg" />
-  </figure>
+<div class="row" style="display: flex; align-items: center;">
+  <div class="col-sm-5" style="padding:30px 0px 30px 0px;">
+    <h3> Before and after the test, they are almost equal. </h3>
+    <p> Here you can see the small differences between two access to the <strong>Home page</strong>. Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Home page.</p>
+  </div>
+  <div class="col-sm-7">
+    <img style=" width: 100%; height: auto; padding-bottom:30px;" src="/images/pot20/1-homepage.svg" />
 </div>  
+</div>
 
 
-Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Home page.
-
-* Here you can see the small differences between two access to the **Recommended page**.
-
-<div style="padding-top: 1em; padding-bottom: 3em; border-radius: 5px; background-color: #000000; background-image: linear-gradient(167deg, #002a00 0%, #000000 20%, #434343 74%, #002a00 99%);" class="col-sm-12 text-center">
-  <figure>
-    <img width="100%" src="/images/pot20/1-recommended.svg" />
-  </figure>
-</div>  
-
-Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Recommended page.
+<div class="row" style="display: flex; align-items: center;">
+  <div class="col-sm-7">
+    <img style=" width: 100%; height: auto; padding-bottom:30px;" src="/images/pot20/1-recommended.svg" />
+  </div>  
+  <div class="col-sm-5" style="padding:30px 0px 30px 0px;">
+    <p> Here you can see the even smaller differences between two access to the <strong>Recommended page</strong>. Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Recommended page.</p>
+  </div>
+</div>
 
 ## 2.3.3 Homepage's categories comparison
 
-### Not all the sections in homepage are the same.
+### Not all the homepage sections are the same.
 
-This might seems a standard factor: the first section always mention the nationality name of the watcher, and other sections below are explicitly recommended for you (looks like they should be deduced on your interests).
+This might seem a standard factor: the first section always mentions the watcher nationality, other sections below are explicitly recommended for you (looks like they should be deduced from your interests).
 
-Before wonder on the logics of section dynamics, We can at lease see how they changes among watchers. The size is proportional to the amount of occurrences recorded.
+Before wondering about the logics of section dynamics, we can at least see how they change among watchers. Font size is proportional to the amount of occurrences recorded.
 
 <div class="card-deck">
   <div class="row">
@@ -246,16 +222,16 @@ Before wonder on the logics of section dynamics, We can at lease see how they ch
 
 ### How to read this data?
 
-By separating the homepage in _three macro sections_ we see:
+By separating the homepage in _three macro sections_ we noticed:
 
-1. **Hot and Most View**: the primary entry point for PH is leveraging on collaborative filtering (content selection because trending) by regional or global subgroup.
-2. **Recommendations**: this is in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'.
+1. **Hot and Most View**: the primary entry point for PH is leveraging on collaborative filtering (content selection because of trending) by regional or global subgroups.
+2. **Recommendations**: in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'.
 3. **Recently Featured**: Content suggested because of chronological order (but we ignore the reason for a video to become Featured).
 
 ##### By empirical observation we know:
 
-* PornHub store in localstorage a sequence of watched video by each user.
-* After a while a profile with new cookies and tracking code, start to navigate over a due category, the 'Recommended for [Category Name]' become appropriate with the selected fetish.
+* PornHub stores in localstorage a sequence of watched video by each user.
+* After a while, a profile with new cookies and tracking code, starts to navigate over a due category, the 'Recommended for [Category Name]' becomes more appropriate along with the selected fetish.
 
 
 ### Considerations
@@ -264,24 +240,22 @@ PornHub with the stored list of watched video can infer a liked fetish and sugge
 
 In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
 
-<div style="background-color: #f98e05;  padding: 30px 0px 20px 0px; text-align: center; margin-bottom: 30px; margin-top: 50px;">
-  <h2 style="color: #fff">4. Other interesting things  </h2>
-</div>
+{{< colorblock text="4. Other interesting things" >}}
 
 ## What we didn't find out, but we'll keep pursuing
 
-* We don't know if any particular producer benefit from a advantageous treatment from algorithm.
-* We don't know if, for not-logged-in users, the recommended page change accordingly to what has been seen.
-* We know for sure the homepage, 'Recommended For You' sections, depends on your past activity, but we didn't yet linked this evidence.
+* We don't know if any particular producer benefits from any advantageous treatment from the algorithm.
+* We don't know if, for not-logged-in users, the recommended page changes accordingly to what has been seen.
+* We know for sure that the homepage and 'Recommended For You' section, depends on your past activity, but we didn't yet linked this evidence.
 
 ## Porn research is difficult to outreach 🤷
 
-We shared the invitation below on: [/r/privacy](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/), [/r/italyInformatica](https://www.reddit.com/r/ItalyInformatica/comments/erb7g0/nsfw_aiutiamo_i_ragazzi_italiani_di_tracking/), and [/s/SampleSize](https://www.reddit.com/r/SampleSize/comments/eqwd32/academic_today_collective_observation_of_the/).
+We shared the invitation below on: [/r/privacy](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/), [/r/italyInformatica](https://www.reddit.com/r/ItalyInformatica/comments/erb7g0/nsfw_aiutiamo_i_ragazzi_italiani_di_tracking/), and [/r/SampleSize](https://www.reddit.com/r/SampleSize/comments/eqwd32/academic_today_collective_observation_of_the/).
 
-As ironic it can look, an algorithm (the antispam filter of reddit) punish us, of course:
+As ironic as it can seem, an algorithm (the antispam filter of reddit) punished us, of course:
 
 {{<bord-img href="/images/pot20/1-reddit-spamfilter.png" >}}
 
-it wasn't the only issue, the first algorithm overlord and true Sauron's eye, Google play its role too:
+it wasn't the only issue, the first algorithm overlord and true Sauron's eye, Google played its role as well:
 
 {{<bord-img href="/images/pot20/1-chrome-rejected.jpg">}}
