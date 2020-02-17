@@ -24,7 +24,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
     <h2>Findings </h2>
     <p>As expected: many little steps and nothing ground breaking.
-      We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
+      We don't have <b>any major finding</b> (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
     </p>
   </div>
 
@@ -33,7 +33,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
     <p>
       <li> When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their recommendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li>
       <br>
-      <li> The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub wants to push.</i></li>
+      <li> The homepage of PornHub has 5 (or more, but we fail to pick these) sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub decides is <b>Most View</b> and <b>Hot Video</b>.</i></li>
       <br>
       <li><i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li>
     </p>
@@ -102,8 +102,7 @@ Our hypothesis was: with **an old video** PornHub will return for every user the
 ## 2.3 How extraction works
 
 * The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
-*The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
-
+* The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
 
 {{< colorblock text="3. The analysis" >}}
 
