@@ -23,8 +23,8 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 <div class="row">
 	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
     <h2>Findings </h2>
-    <p>As expected: many little steps and nothing ground breaking. 
-      We don't have **any major finding** (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
+    <p>As expected: many little steps and nothing ground breaking.
+      We don't have <b>any major finding</b> (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
     </p>
   </div>
 
@@ -33,7 +33,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
     <p>
       <li> When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their recommendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li>
       <br>
-      <li> The homepage of PornHub has 5 to 7 sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub wants to push.</i></li>
+      <li> The homepage of PornHub has 5 (or more, but we fail to pick these) sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub decides is <b>Most View</b> and <b>Hot Video</b>.</i></li>
       <br>
       <li><i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li>
     </p>
@@ -46,19 +46,63 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 
 * It is complicated to make interesting inferences using data collected by random people on random videos; we need to control some variables.
 * We use to test PornHub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
-* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes.
+* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes. [Here is the announcement we made circulate the same day](/potest/1), and it asks to contributors to install our browser extension (which records what pornhub decides will appear on your browser, and we want to find out, how much this is individualized)
 
-## 2.2 How extraction works
+### The steps we requested to the participants 
 
-The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Step</th>
+      <th scope="col">Link</th>
+      <th scope="col">Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td><a href="https://www.pornhub.com/">Homepage</a>.</td>
+      <td>There are regional sections, and we want to see how much PH changes the homepage during the day.</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">Recommendation</a> page.</td>
+      <td>To see if PH is recommending something unique for you since the beginning.</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>The first video <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=e77c73d25861c37acea8">it's been on Pornhub for 11 years</a>.</td>
+      <td>We want to collect the 8 related video below each video page.</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/recommended">Recommendation </a>page.</td>
+      <td>To see if the recommendation is change since the first look.</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>Second video <a target="_blank" rel="noopener noreferrer" href="https://www.pornhub.com/view_video.php?viewkey=ph5e22e4f60abd6">published the day before the test</a>.</td>
+      <td>We want to see the 8 related video below each video page.</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td><a href="https://www.pornhub.com/">Homepage</a>.</td>
+      <td>To record a second homepage sample.</td>
+    </tr>
+  </tbody>
+</table>
 
-The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
 
-## 2.3 What we were looking at
+## 2.2 What we were looking at
 
 * We wanted to compare the visualization of an old video and a recent one to see if the related content tends to be "freeze in time" or keep changing.
 Our hypothesis was: with **an old video** PornHub will return for every user the same eight suggested content, with **a new video** PornHub's recommended system will test the best recommended videos to suggest, changing them quite often.
 * Before and after the visualization of the videos, we asked to visualize the **Home and Recommended page** to each user involved in the test, to see the effects of the personalization process. We know that the contents of the Homepage change during the day frequently, but we don't know why. Videos tend to be 'hyped' in some hours and then fade away, like a multitude of waves. Recommended videos and home page share the same pool of 'hyped' videos, but we wanted to know if different users across the world share common suggestions.
+
+## 2.3 How extraction works
+
+* The collection lasted for 24 hours, and our extraction method consider only the complete sequences (if a sequence is composed by 6 steps like this one, all the steps in the exact sequence should have been recorded).
+* The extraction is done with [this nodejs script](https://github.com/tracking-exposed/potrex/blob/master/backend/scripts/potest-1-generator.js), additional notes in the extraction have been documented [as announcements](/potest/announcement-1).
 
 {{< colorblock text="3. The analysis" >}}
 
@@ -140,7 +184,10 @@ Suggested videos for the first and second access to the Home and Recommended pag
 
 ### Not all the homepage sections are the same.
 
-This might seem a standard factor: the first section always mentions the watcher nationality, other sections below are explicitly recommended for you (looks like they should be deduced from your interests).
+In the homapege, the suggested videos are dislayed under different sections. With the comparioson of the different users involved in the experiment we find out that:
+* the first and secondon sections always mention the watcher nationality
+* third and fourth sections below are explicitly recommended for you (looks like they should be deduced from your interests).
+* the last one is about recent videos
 
 Before wondering about the logics of section dynamics, we can at least see how they change among watchers. Font size is proportional to the amount of occurrences recorded.
 
@@ -220,7 +267,7 @@ Before wondering about the logics of section dynamics, we can at least see how t
   </div>
 </div>
 
-### How to read this data?
+### Can we generalize the organization of the sections? 
 
 By separating the homepage in _three macro sections_ we noticed:
 
@@ -228,27 +275,23 @@ By separating the homepage in _three macro sections_ we noticed:
 2. **Recommendations**: in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'.
 3. **Recently Featured**: Content suggested because of chronological order (but we ignore the reason for a video to become Featured).
 
-##### By empirical observation we know:
+### How the personalization of the sections works?
 
-* PornHub stores in localstorage a sequence of watched video by each user.
+* PornHub **stores in localstorage a sequence of watched video** by each user.
 * After a while, a profile with new cookies and tracking code, starts to navigate over a due category, the 'Recommended for [Category Name]' becomes more appropriate along with the selected fetish.
+* PornHub with the stored list of watched video **can infer a liked fetish and suggest it in the Recommended**.
+* In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
 
-
-### Considerations
-
-PornHub with the stored list of watched video can infer a liked fetish and suggest it in the Recommended.
-
-In this potest#1 we didn't suggest (probably) enough video, and without belonging to a specific category would be hard to see if they influence in any way.
-
-{{< colorblock text="4. Other interesting things" >}}
-
-## What we didn't find out, but we'll keep pursuing
+### What we didn't find out, but we'll keep pursuing
 
 * We don't know if any particular producer benefits from any advantageous treatment from the algorithm.
 * We don't know if, for not-logged-in users, the recommended page changes accordingly to what has been seen.
-* We know for sure that the homepage and 'Recommended For You' section, depends on your past activity, but we didn't yet linked this evidence.
+* We know for sure that the homepage and 'Recommended For You' section, depends on your past activity, but we didn't yet link this evidence.
 
-## Porn research is difficult to outreach 🤷
+
+{{< colorblock text="4. Other interesting things" >}}
+
+## Research about porn is difficult to outreach 🤷
 
 We shared the invitation below on: [/r/privacy](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/), [/r/italyInformatica](https://www.reddit.com/r/ItalyInformatica/comments/erb7g0/nsfw_aiutiamo_i_ragazzi_italiani_di_tracking/), and [/r/SampleSize](https://www.reddit.com/r/SampleSize/comments/eqwd32/academic_today_collective_observation_of_the/).
 
