@@ -199,71 +199,77 @@ Before wondering about the logics of section dynamics, we can at least see how t
                       DO NOT CHANGE IT BY HAND!
                        DO NOT FIX IT BY HAND!
     -->
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Section 1</h5>
-          <p class="card-text">
-            <button style="font-size:0.4em;color:#f900aa">Hot Video in AT</button><button style="font-size:0.5em;color:#f900aa">Hot Video in AU</button><button style="font-size:0.4em;color:#f900aa">Hot Video in NO</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BG</button><button style="font-size:0.4em;color:#f900aa">Hot Video in DK</button><button style="font-size:0.5em;color:#f900aa">Hot Video in GR</button><button style="font-size:0.4em;color:#f900aa">Hot Video in CZ</button><button style="font-size:0.8em;color:#f900aa">Hot Video in NL</button><button style="font-size:0.5em;color:#f900aa">Hot Video in GB</button><button style="font-size:0.9em;color:#f900aa">Hot Video in IT</button><button style="font-size:0.7em;color:#f900aa">Hot Video in DE</button><button style="font-size:0.6em;color:#f900aa">Hot Video Internationally</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BE</button><button style="font-size:0.9em;color:#f900aa">Hot Video in US</button><button style="font-size:0.5em;color:#f900aa">Hot Video in FR</button><button style="font-size:0.5em;color:#f900aa">Hot Video in RU</button><button style="font-size:0.4em;color:#f900aa">Hot Video in RO</button><button style="font-size:0.4em;color:#f900aa">Hot Video in PT</button><button style="font-size:0.4em;color:#f900aa">Hot Video in BR</button><button style="font-size:0.6em;color:#f900aa">Hot Video in CA</button>
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">total here 248</small>
-        </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style="background-color:#f98e05">
+        <h5 class="card-title">Section 1</h5>
+        <p class="card-text">
+          <button style="font-size:0.4em;">Hot Video in <b>AT</b></button><button style="font-size:0.5em;">Hot Video in <b>AU</b></button><button style="font-size:0.4em;">Hot Video in <b>NO</b></button><button style="font-size:0.4em;">Hot Video in <b>BG</b></button><button style="font-size:0.4em;">Hot Video in <b>DK</b></button><button style="font-size:0.5em;">Hot Video in <b>GR</b></button><button style="font-size:0.4em;">Hot Video in <b>CZ</b></button><button style="font-size:0.8em;">Hot Video in <b>NL</b></button><button style="font-size:0.5em;">Hot Video in <b>GB</b></button><button style="font-size:0.9em;">Hot Video in <b>IT</b></button><button style="font-size:0.7em;">Hot Video in <b>DE</b></button><button style="font-size:0.6em;">Hot Video Internationally</button><button style="font-size:0.4em;">Hot Video in <b>BE</b></button><button style="font-size:0.9em;">Hot Video in <b>US</b></button><button style="font-size:0.5em;">Hot Video in <b>FR</b></button><button style="font-size:0.5em;">Hot Video in <b>RU</b></button><button style="font-size:0.4em;">Hot Video in <b>RO</b></button><button style="font-size:0.4em;">Hot Video in <b>PT</b></button><button style="font-size:0.4em;">Hot Video in <b>BR</b></button><button style="font-size:0.6em;">Hot Video in <b>CA</b></button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Section 2</h5>
-          <p class="card-text">
-            <button style="font-size:0.4em;color:#ffaa00">Most View in DK</button><button style="font-size:0.4em;color:#ffaa00">Most View in AT</button><button style="font-size:0.4em;color:#ffaa00">Most View in BR</button><button style="font-size:0.5em;color:#ffaa00">Most View in AU</button><button style="font-size:0.4em;color:#ffaa00">Most View in BE</button><button style="font-size:0.5em;color:#ffaa00">Most View in FR</button><button style="font-size:0.4em;color:#ffaa00">Most View in NO</button><button style="font-size:0.4em;color:#ffaa00">Most View in BG</button><button style="font-size:0.6em;color:#ffaa00">Most View in CA</button><button style="font-size:0.8em;color:#ffaa00">Most View in NL</button><button style="font-size:0.5em;color:#ffaa00">Most View in GR</button><button style="font-size:0.9em;color:#ffaa00">Most View in IT</button><button style="font-size:0.9em;color:#ffaa00">Most View in US</button><button style="font-size:0.4em;color:#ffaa00">Most View in RO</button><button style="font-size:0.4em;color:#ffaa00">Most View in CZ</button><button style="font-size:0.5em;color:#ffaa00">Most View in GB</button><button style="font-size:0.4em;color:#ffaa00">Most View in PT</button><button style="font-size:0.5em;color:#ffaa00">Most View in RU</button><button style="font-size:0.7em;color:#ffaa00">Most View in DE</button><button style="font-size:0.6em;color:#ffaa00">Most View</button>
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">total here 248</small>
-        </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style="background-color:#fc992e">
+        <h5 class="card-title">Section 2</h5>
+        <p class="card-text">
+          <button style="font-size:0.4em;">Most View in <b>DK</b></button><button style="font-size:0.4em;">Most View in <b>AT</b></button><button style="font-size:0.4em;">Most View in <b>BR</b></button><button style="font-size:0.5em;">Most View in <b>AU</b></button><button style="font-size:0.4em;">Most View in <b>BE</b></button><button style="font-size:0.5em;">Most View in <b>FR</b></button><button style="font-size:0.4em;">Most View in <b>NO</b></button><button style="font-size:0.4em;">Most View in <b>BG</b></button><button style="font-size:0.6em;">Most View in <b>CA</b></button><button style="font-size:0.8em;">Most View in <b>NL</b></button><button style="font-size:0.5em;">Most View in <b>GR</b></button><button style="font-size:0.9em;">Most View in <b>IT</b></button><button style="font-size:0.9em;">Most View in <b>US</b></button><button style="font-size:0.4em;">Most View in <b>RO</b></button><button style="font-size:0.4em;">Most View in <b>CZ</b></button><button style="font-size:0.5em;">Most View in <b>GB</b></button><button style="font-size:0.4em;">Most View in <b>PT</b></button><button style="font-size:0.5em;">Most View in <b>RU</b></button><button style="font-size:0.7em;">Most View in <b>DE</b></button><button style="font-size:0.6em;">Most View</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Section 3</h5>
-          <p class="card-text">
-            <button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;color:#40f">Recommended hentai</button><button style="font-size:0.4em;color:#40f">Recommended teen</button><button style="font-size:3em;color:#55aadd">Recommended For You</button>
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">total here 248</small>
-        </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style="background-color:#fea348">
+        <h5 class="card-title">Section 3</h5>
+        <p class="card-text">
+          <button style="font-size:0.4em;">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;">Recommended hentai</button><button style="font-size:0.4em;">Recommended teen</button><button style="font-size:3em;">Recommended For You</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Section 4</h5>
-          <p class="card-text">
-            <button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Dick</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Masturbation</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Fetish</button><button style="font-size:0.4em;color:#d48">Popular With Woman</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Brunette</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Public</button><button style="font-size:0.5em;color:#dfda44">Recently Featured XXX</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Arab</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Party</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Blowjob</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - German</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Tits</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - British</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Cumshot</button><button style="font-size:0.4em;color:#ffaa00">Categoria Consigliata Per Te - Italiane</button><button style="font-size:0.7em;color:#ffaa00">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Japanese</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Hardcore</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Ebony</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - POV</button><button style="font-size:0.6em;color:#ffaa00">Recommended Category For You - Anal</button><button style="font-size:0.7em;color:#ffaa00">Recommended Category For You - MILF</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Squirt</button><button style="font-size:0.5em;color:#ffaa00">Recommended Category For You - Amateur</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Bondage</button><button style="font-size:0.7em;color:#40f">Recommended teen</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Creampie</button><button style="font-size:0.6em;color:#ffaa00">Recommended Category For You - Threesome</button><button style="font-size:0.6em;color:#40f">Recommended babe</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Big Ass</button><button style="font-size:0.7em;color:#40f">Recommended hentai</button><button style="font-size:0.6em;color:#ffaa00">Рекомендуемая категория для вас - Зрелые</button><button style="font-size:0.4em;color:#ffaa00">Recommended Category For You - Czech</button>
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">total here 248</small>
-        </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style="background-color:#ffb874">
+        <h5 class="card-title">Section 4</h5>
+        <p class="card-text">
+          <button style="font-size:0.4em;">Recommended Category For You - Big Dick</button><button style="font-size:0.4em;">Recommended Category For You - Masturbation</button><button style="font-size:0.4em;">Recommended Category For You - Fetish</button><button style="font-size:0.4em;">Popular With Woman</button><button style="font-size:0.4em;">Recommended Category For You - Brunette</button><button style="font-size:0.4em;">Recommended Category For You - Public</button><button style="font-size:0.5em;">Recently Featured XXX</button><button style="font-size:0.4em;">Recommended Category For You - Arab</button><button style="font-size:0.4em;">Recommended Category For You - Party</button><button style="font-size:0.4em;">Recommended Category For You - Blowjob</button><button style="font-size:0.4em;">Recommended Category For You - German</button><button style="font-size:0.4em;">Recommended Category For You - Big Tits</button><button style="font-size:0.4em;">Recommended Category For You - British</button><button style="font-size:0.4em;">Recommended Category For You - Cumshot</button><button style="font-size:0.4em;">Categoria Consigliata Per Te - Italiane</button><button style="font-size:0.7em;">Recommended Category For You - Lesbian</button><button style="font-size:0.4em;">Recommended Category For You - Japanese</button><button style="font-size:0.4em;">Recommended Category For You - Hardcore</button><button style="font-size:0.5em;">Recommended Category For You - Ebony</button><button style="font-size:0.4em;">Recommended Category For You - POV</button><button style="font-size:0.6em;">Recommended Category For You - Anal</button><button style="font-size:0.7em;">Recommended Category For You - MILF</button><button style="font-size:0.5em;">Recommended Category For You - Squirt</button><button style="font-size:0.5em;">Recommended Category For You - Amateur</button><button style="font-size:0.4em;">Recommended Category For You - Bondage</button><button style="font-size:0.7em;">Recommended teen</button><button style="font-size:0.4em;">Recommended Category For You - Creampie</button><button style="font-size:0.6em;">Recommended Category For You - Threesome</button><button style="font-size:0.6em;">Recommended babe</button><button style="font-size:0.4em;">Recommended Category For You - Big Ass</button><button style="font-size:0.7em;">Recommended hentai</button><button style="font-size:0.6em;">Рекомендуемая категория для вас - Зрелые</button><button style="font-size:0.4em;">Recommended Category For You - Czech</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 248</small>
       </div>
     </div>
-    <div class="col-sm-6">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Section 5</h5>
-          <p class="card-text">
-            <button style="font-size:3em;color:#dfda44">Recently Featured XXX</button>
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-muted">total here 243</small>
-        </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body" style="background-color:#ffc28a">
+        <h5 class="card-title">Section 5</h5>
+        <p class="card-text">
+          <button style="font-size:3em;">Recently Featured XXX</button>
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">total here 243</small>
       </div>
     </div>
+  </div>
+
   </div>
 </div>
 
