@@ -30,6 +30,5 @@ The section */recommended* proposes to the users videos that should be satisfyin
 
 pornhub.tracking.exposed is a browser extension that allows __to study ed analyze the implications__ of this personalization algorithm through the collection and comparison of __individualized experiences__ that Pornhub users receive.
 
-{{< po-extension >}}
 
 ### Necessary disclaimer: this is an unfunded experimental working prototype: don't expect fireworks
