@@ -16,7 +16,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 * The test on the PornHub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the software and documented the data format: we'll repeat the experiment soon._
 * We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet plays with it except us, but if there is any group of researchers we should keep updated, please reach out potrex-team@tracking dot exposed._
-* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some synthetic [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
+* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some concise [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
 
 {{< colorblock text="1. In a few words" >}}
 
@@ -160,16 +160,6 @@ It is interesting how the node "Cheese-cheese-egg", who have visualized all the 
 
 Suggested videos for the first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
 
-<div class="row" style="display: flex; align-items: center;">
-  <div class="col-sm-5" style="padding:30px 0px 30px 0px;">
-    <h3> Before and after the test, they are almost equal. </h3>
-    <p> Here you can see the small differences between two access to the <strong>Home page</strong>. Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Home page.</p>
-  </div>
-  <div class="col-sm-7">
-    <img style=" width: 100%; height: auto; padding-bottom:30px;" src="/images/pot20/1-homepage.svg" />
-</div>  
-</div>
-
 
 <div class="row" style="display: flex; align-items: center;">
   <div class="col-sm-7">
@@ -180,11 +170,23 @@ Suggested videos for the first and second access to the Home and Recommended pag
   </div>
 </div>
 
+
+<div class="row" style="display: flex; align-items: center;">
+  <div class="col-sm-5" style="padding:30px 0px 30px 0px;">
+    <h3> Before and after the test, they are almost equal. </h3>
+    <p> Here you can see the small differences between two access to the <strong>Home page</strong>. Each orange node is a different user; each ochre node is a suggested video's title. The violet nodes are the ones who appear just in the second visualization of the Home page.</p>
+  </div>
+  <div class="col-sm-7">
+    <img style=" width: 100%; height: auto; padding-bottom:30px;" src="/images/pot20/1-homepage.svg" />
+</div>  
+</div>
+
 ## 2.3.3 Homepage's categories comparison
 
 ### Not all the homepage sections are the same.
 
 In the homapege, the suggested videos are dislayed under different sections. With the comparioson of the different users involved in the experiment we find out that:
+
 * the first and secondon sections always mention the watcher nationality
 * third and fourth sections below are explicitly recommended for you (looks like they should be deduced from your interests).
 * the last one is about recent videos
@@ -297,14 +299,22 @@ By separating the homepage in _three macro sections_ we noticed:
 
 {{< colorblock text="4. Other interesting things" >}}
 
-## Research about porn is difficult to outreach 🤷
+## Research on pornography leads to recruitment difficulties 🤷
 
 We shared the invitation below on: [/r/privacy](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/), [/r/italyInformatica](https://www.reddit.com/r/ItalyInformatica/comments/erb7g0/nsfw_aiutiamo_i_ragazzi_italiani_di_tracking/), and [/r/SampleSize](https://www.reddit.com/r/SampleSize/comments/eqwd32/academic_today_collective_observation_of_the/).
 
-As ironic as it can seem, an algorithm (the antispam filter of reddit) punished us, of course:
+As ironic as it can seem, an algorithm (the antispam filter of reddit) punished us as spammers, of course:
 
 {{<bord-img href="/images/pot20/1-reddit-spamfilter.png" >}}
 
 it wasn't the only issue, the first algorithm overlord and true Sauron's eye, Google played its role as well:
 
 {{<bord-img href="/images/pot20/1-chrome-rejected.jpg">}}
+
+--- 
+
+{{<colorblock text="We're working on repeating this test and validate our findings. We will, by the 13 of March, apply this experience on YouTube!"  >}}
+
+---
+
+Completed in February 2020 by Claudio, Giulia, Salvatore, Matteo, and Barbara.
