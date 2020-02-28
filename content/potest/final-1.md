@@ -120,8 +120,7 @@ With the **second video** (uploaded few hours before the test), we have a differ
     <h3> First video "lily thai": uploaded 11 years ago. </h3>
     <p>
       Here you can see the suggestions recorded for the first video watched.
-      Each watcher got exactly the same recommendations.
-      Each light orange node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. Each video has 8 recommended videos, and they were constant for the test duration.
+      The light orange node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. Each video has 8 recommended videos, and they were constant for the test duration. Each watcher got exactly the same recommendations.
     </p>
   </div>
   <div class="col-sm-7" style="padding-bottom: 30px;">
@@ -135,12 +134,10 @@ With the **second video** (uploaded few hours before the test), we have a differ
 </div>  
 <div class="col-sm-5" style="padding:30px 0px 30px 0px;text-align: right;">
   <h3> Second video "pussy licking": uploaded 1 day before the test. </h3>
-
-  <p> <i> Here you can see the suggestions recorded for the second video watched. </i></p>
-
-  <h4> Different watcher did get a different cluster of recommendations. </h4>
-  <p>Each node in a circle is a different user; some nodes have a bigger size because the user has seen the video twice. The other nodes represent videos' titles.
-  We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)...</p>
+  <br>
+  <h4>Watchers in different times did get a different cluster of recommendations. </h4>
+  <p> Each node in the circle (light to dark orange) is a different watcher; some nodes have a bigger size because the user has contributed with more than one observation. The nodes in the circle represent related videos' titles. It seems PornHub tests different clusters of content at different times. By doing so, it examines which videos trigger more related-consumption. PH tests the new video with clusters of previously related content, e.g., around 12 am a cluster of "pussy licking," was served, and at 3 pm was "dildos."
+  </p>
   </div>
 </div>
 
