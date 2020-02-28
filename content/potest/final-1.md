@@ -2,6 +2,7 @@
 title: "final report - poTEST#1"
 subtitle: "January 2020: we made the first coordinated observation of the PornHub algorithm, here our findings and how to let you reproduce the experiment"
 draft: false
+date: 2020-01-30T10:26:08Z
 
 og_title: "Coordinated observation of PornHub — test#1 updates"
 og_type: "website"
@@ -22,10 +23,11 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 
 <div class="row">
 	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
-    <h2>Findings </h2>
+    <h2>Findings and Process </h2>
     <p>As expected: many little steps and nothing ground breaking.
       We don't have <b>any major finding</b> (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
     </p>
+    <p>Consider the potest as part of a open process: we'll design proper methodology to explore specific research questions. If anyone has methods to suggest, is welcome to mail us at pornhub-team at tracking dot exposed, or in our <a href="https://chat.securitywithoutborders.org/community/channels/trackingexposed" target=_blank>Mattermost chat</a>.</p>
   </div>
 
   <div class="col-sm">
@@ -119,7 +121,7 @@ With the **second video** (uploaded few hours before the test), we have a differ
     <p>
       Here you can see the suggestions recorded for the first video watched.
       Each watcher got exactly the same recommendations.
-      Each white node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. This might let us believe, each video has 8 recommended videos, suggested to watchers as related content. But the scenario was different with the second video.
+      Each light orange node in a circle is a different participant to the experiment; each orange node is the title of a suggested video. The labels are the titles of the suggested videos. Each video has 8 recommended videos, and they were constant for the test duration.
     </p>
   </div>
   <div class="col-sm-7" style="padding-bottom: 30px;">

@@ -2,6 +2,7 @@
 title: "poTEST#2 - announcements"
 subtitle: "February 2020: the second coordinated observation of the Pornhub algorithm"
 draft: false
+date: 2020-02-14T10:26:08Z
 
 og_title: "Coordinated observation of Pornhub — test#2 updates"
 og_type: "website"

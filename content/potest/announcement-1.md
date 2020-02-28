@@ -1,7 +1,8 @@
 ---
-title: "poTEST#1"
+title: "poTEST#1 - announcements"
 subtitle: "January 2020: the first coordinated observation of the Pornhub algorithm"
 draft: false
+date: 2020-01-19T10:26:08Z
 
 og_title: "Coordinated observation of Pornhub — test#1 updates"
 og_type: "website"
