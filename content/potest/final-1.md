@@ -1,6 +1,6 @@
 ---
 title: "final report - poTEST#1"
-subtitle: "January 2020: we made the first coordinated observation of the PornHub algorithm, here our findings and how to let you reproduce the experiment"
+subtitle: "January 2020: the first coordinated observation of PornHub's algorithm: findings and how to let you reproduce the experiment"
 draft: false
 date: 2020-01-30T10:26:08Z
 
@@ -8,34 +8,34 @@ og_title: "Coordinated observation of PornHub — test#1 updates"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/potest/final-1"
-og_description: "in January 2020 we made the first coordinated observation of the PornHub algorithm, here our findings and how to let you reproduce the experiment"
+og_description: "In January 2020 we made the first coordinated observation of PornHub's algorithm, here our findings and how to let you reproduce the experiment"
 
 extraCSS: "/css/report.css"
 ---
-After our global-call on the [19th of January](/potest/1), we are glad to follow-up and to say:
+After our global-call on the [19th of January](/potest/1), we are glad to follow-up and say that:
 
-* The test on the PornHub algorithm went well enough. More than 100+ new supporters show up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
+* The test on the PornHub's algorithm went well enough. More than 100+ supporters showed up. [/impact](/impact). _This is not enough to be representative, but it is a good start to test our process._
 * We collected 87 correct sequences (see at [methodology](#how-extraction-works) section our selection logic). _We released the software and documented the data format: we'll repeat the experiment soon._
-* We produced three versions of the CSV (updates and bugfix) to allow other research replicate the study. _Sadly nobody yet plays with it except us, but if there is any group of researchers we should keep updated, please reach out potrex-team@tracking dot exposed._
-* We keep [sharing our updates while the investigation was going on](https://pornhub.tracking.exposed/potest/announcement-1/), _we are now going to share this final report and some concise [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
+* We produced three versions of the CSV (updates and bugfix) to allow other researchers to replicate the study. _Sadly, nobody else played with the datasets, but please don't hesistate to reaching out to potrex-team@tracking dot exposed._
+* We keept [sharing our updates while the investigation was ongoing](https://pornhub.tracking.exposed/potest/announcement-1/), _now, we are going to share this final report and some [slides](https://pornhub.tracking.exposed/slides/potest1/) on our [social](https://twitter.com/trackingexposed) [media](https://facebook.com/personalizationalgorithm) [channels](https://nebbia.fail/@TRackingEXposed)._
 
 {{< colorblock text="1. In a few words" >}}
 
 <div class="row">
 	<div class="col-sm" style="padding-right: 30px; padding-left: 0;">
     <h2>Findings and Process </h2>
-    <p>As expected: many little steps and nothing ground breaking.
-      We don't have <b>any major finding</b> (and what you should expect as a major finding with such unexperienced test? :) potest#1 allow us to test ourselves and to identify some variables playing behind the scene of PornHub. In short, the results are focus on understanding better the platform before design a more precise test.
+    <p>As expected: many little insights and nothing groundbreaking.
+      We don't have <b>any major finding</b>. Potest#1 allowed us to identify some variables playing behind the scene of PornHub and to test our research skills. In short, these results empower us to better understand the Pornhub platform before developing research questions and related tests.
     </p>
-    <p>Consider the potest as part of a open process: we'll design proper methodology to explore specific research questions. If anyone has methods to suggest, is welcome to mail us at pornhub-team at tracking dot exposed, or in our <a href="https://chat.securitywithoutborders.org/community/channels/trackingexposed" target=_blank>Mattermost chat</a>.</p>
+    <p>You should consider Potest as part of an open and re-iterative process: we will design proper methodologies to explore a variety of research questions. If you have any suggestion, you can email us at pornhub-team at tracking dot exposed, or reach out in our <a href="https://chat.securitywithoutborders.org/community/channels/trackingexposed" target=_blank>Mattermost chat</a>.</p>
   </div>
 
   <div class="col-sm">
-    <h2> Quick table of Findings </h2>
+    <h2> Table of Findings </h2>
     <p>
-      <li> When you watch a video, the eight related content might be the same (fixed recommendation) or dynamic. In this first test we were testing a video published on PH 11 years ago and another one 24 hours before the test. With this frame, might be simply to say <i>old videos get their recommendation frozen while new video are subject to testing</i>, and this insights gives us a new research direction. </li>
+      <li> When watching a video, the eight related items might be either the same (fixed recommendation) or dynamic. In this  test we tested a video published on PH 11 years ago and another one just shared 24 hours before the experiment. With this type of setting, we can state that <i>while old videos get their recommendations frozen, new videos are subject to a more dynamic set of reccomandations</i>; these insights gives us a new research direction. </li>
       <br>
-      <li> The homepage of PornHub has 5 (or more, but we fail to pick these) sections. Only two of these sections are personalized for individual, <i>the priority PornHub gives is to what PornHub decides is <b>Most View</b> and <b>Hot Video</b>.</i></li>
+      <li> The PornHub's homepage has five or more sections, but we were able to retrieve just five. Only two are personalized for the user, <i>in fact, priority is given to <b>Most View</b> and <b>Hot Video</b>.</i></li>
       <br>
       <li><i>Recommendation doesn't seem to be personalized</i> with our test. We know it should be, we didn't yet isolated a clear evidence.</li>
     </p>
@@ -44,13 +44,13 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 
 {{< colorblock text="2. The test" >}}
 
-## 2.1 The design of the experiment
+## 2.1 Experiment's design
 
-* It is complicated to make interesting inferences using data collected by random people on random videos; we need to control some variables.
-* We use to test PornHub's recommended system with profiles under our control. This allows us to understand the role of all the variables involved in the process, but this is a limited strategy because it doesn't consider the real variety of profiles used by common people.
-* Therefore, we decided to create this collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and measure how recommended video changes. [Here is the announcement we made circulate the same day](/potest/1), and it asks to contributors to install our browser extension (which records what pornhub decides will appear on your browser, and we want to find out, how much this is individualized)
+* It is complicated to make meaningful inferences using data collected by random people on random videos. We need first to be able to control some variables.
+* We tested PornHub's recommended system with profiles under our control. This allowed us to understand the role of all the variables involved in the process. However,this strategy has a considerable limitation of not being able to take into account the variety of users' profiles.
+* Therefore, we decided to create the following collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and then measure how recommended video changes. [Here is the announcement we shared the same day](/potest/1), we asked to contributors to install our browser extension (which records what Pornhub decides will appear on your browser, in order to understand how much this process is subject to personalization)
 
-### The steps we requested to the participants 
+### We requested the following steps
 
 <table class="table">
   <thead>
