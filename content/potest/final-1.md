@@ -153,9 +153,11 @@ With the **second video** (uploaded few hours before the test), we have a differ
 </div>
 
 The animation shows the progression of the suggestion by the time the users watched the video (from 00.00 to 24.00).
-It is interesting how the node "Cheese-cheese-egg", who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization (H: 00.05) has the suggestions of the grey cluster, and at the second gets the violet's one (H: 15.00). It seems that the user receives different recommendations depending on the hour of the visualization. Suggestions are not only related to the user, but also to the visualization's time.
+You might find interesting how a node (if you look the dataset, the random pseudonym associated is *cheese-cheese-egg*), who have visualized all the steps twice (the size of the node is bigger than the other users' one), at the first visualization (H: 00.05) has the suggestions of the grey cluster, and at the second gets the violet's one (H: 15.00). This animation help to see how the watcher receives different recommendations depending on the hour of the access. 
 
 ## 2.3.2 Home and Recommended page suggestions.
+
+In the test, there are two home page and two recommendetion page access recorded.
 
 Suggested videos for the first and second access to the Home and Recommended page are almost equal. But we don't know what produces this small shift in the suggestions just for some users. Probably it is only random testing.
 
