@@ -1,13 +1,13 @@
 ---
-title: "slidepoTEST"
-subtitle: "Meslidedubtitleactivities"
+title: "slides poTEST1"
+subtitle: "summary of poTEST1"
 draft: false
 type: "webslides"
-og_title: "sarc s recommended videos"
+og_title: "Summary and findings, poTEST#1"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/compare.jpg" 
 og_url: "https://pornhub.tracking.exposed/slide/test"
-og_description: "Analyze differences and correlations between categories and the personalized experience, even if nobody uses or abuses PH anymore ;) Let's get some independent insights"
+og_description: "The 19th of January, the first collaborative observation of Pornhub personalization algorithm have been done. Check it out what we find out"
 
 extraCSS: "/css/potest-slide-svg.css"
 ---
@@ -372,9 +372,15 @@ extraCSS: "/css/potest-slide-svg.css"
   <!-- .end .wrap -->
 </section>
 
-
 <script>
-$(document).ready(
+  $(document).ready(function() {
+      let visibleFooter = false;
+      $("#final-slide").on('mousemove', function() {
+        visibileFooter = !visibleFooter && restoreHeaderFooter(800);
+      });
+    }
+  );
+</script>
 
 <!--
   function () {
@@ -423,12 +429,4 @@ $(document).ready(
       $("tspan").hide();
       $("tspan").removeClass("hlight");
     });
---!
-    let visibleFooter = false;
-    $("#final-slide").on('mousemove', function() {
-      visibileFooter = !visibleFooter && restoreHeaderFooter(800);
-    });
-
-  }
-);
-</script>
+--> 

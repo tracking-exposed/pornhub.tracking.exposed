@@ -49,6 +49,7 @@ After our global-call on the [19th of January](/potest/1), we are glad to follow
 * It is complicated to make meaningful inferences using data collected by random people on random videos. We need first to be able to control some variables.
 * We tested PornHub's recommended system with profiles under our control. This allowed us to understand the role of all the variables involved in the process. However,this strategy has a considerable limitation of not being able to take into account the variety of users' profiles.
 * Therefore, we decided to create the following collaborative observation: **we asked random people across the world to repeat the same sequence of actions** and then measure how recommended video changes. [Here is the announcement we shared the same day](/potest/1), we asked to contributors to install our browser extension (which records what Pornhub decides will appear on your browser, in order to understand how much this process is subject to personalization)
+* In this report, we call *supporter* the random stranger on the Internet who installed the browser extension and participate to potest1.
 
 ### We requested the following steps
 
@@ -134,9 +135,10 @@ On the other hand, with the **second video** (uploaded few hours before the test
 </div>  
 <div class="col-sm-5" style="padding:30px 0px 30px 0px;text-align: right;">
   <h3> Second video: "pussy licking", uploaded 1 day before the test. </h3>
-  <h4> Different watchers were exposed to a different cluster of recommendations. </h4>
-  <p>Each node in the circle is a different user; some nodes have a bigger size because the user saw the video twice. The other nodes represent various videos' titles.
-  We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (video watched at 12.00 pm), "dildos" (video watched at 15.00pm)...</p>
+  <br>
+  <h4> Throughout the day Pornhub was testing different cluster of recommendations. </h4>
+  <p>Each circle in the most exterior round represent a different user; some circles have a bigger size because the user saw the video twice. The other circles represent various videos' titles.
+  We don't know why some users have different topic-related suggestions, e.g. "pussy licking" (suggested at 12.00 pm), "dildos" (at 15.00pm).<p>
   </div>
 </div>
 
@@ -184,7 +186,7 @@ The suggested videos for the first and second access to the **Home and Recommend
 
 ### Not all the homepage sections are the same.
 
-In the Homapege, the suggested videos are dislayed under different sections. By comparing different users involved in the experiment we found out that:
+In the Homapage, the suggested videos are dislayed under different sections. By comparing different supporters involved in the experiment we found out that:
 
 * the first and secondon sections always mention the watcher's nationality
 * the third and fourth sections below are explicitly *recommended for you* (looks like they should be deduced from your interests).
