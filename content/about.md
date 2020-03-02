@@ -15,9 +15,9 @@ Since January and April 2019 we conducted a small series of experiment on the bi
 ## How to contact us:
 
   * a Facebook group: [Personalization Algorithms](https://www.facebook.com/personalizationalgorithm).
-  * a the [reddit thread](https://www.reddit.com/r/privacy/comments/equgcy/on_sunday_january_19th_2020_join_the_first/) used to coordinate our [first experiment](potest/1).
-  * the developers [Mattermost channel](https://chat.securitywithoutborders.org/community/channels/trackingexposed), or directly by opening a [github issue](https://github.com/tracking-exposed/potrex/issues).
-  * or an email <**pornhub-team** at *tracking* dot *exposed*>.
+  * Developers and activists meets in [Mattermost channel](https://chat.securitywithoutborders.org/community/channels/trackingexposed), or directly interfere with our development roadmap by opening a [github issue](https://github.com/tracking-exposed/potrex/issues).
+  * Drop an email <**pornhub-team** at *tracking* dot *exposed*>.
+  * we're on the **Fediverse** [https://nebbia.fail/@tracking.exposed](https://nebbia.fail/@tracking.exposed).
 
 ## Which control you've on data, and what we collect
 

@@ -20,6 +20,10 @@ canonifyURLs = true
 
 [menu]
  [[menu.main]]
+    name = "Umbrella Project"
+    url = "https://tracking.exposed"
+    weight = 50
+ [[menu.main]]
     name = "Ethics"
     url = "/ethics/"
     weight = 40
@@ -44,10 +48,10 @@ canonifyURLs = true
     post = "Some of your data and what your master wants you to masturbate to today"
  [[menu.featured]]
     name = "Collective test"
-    url = "/potest/announcement-1"
+    url = "/potest/"
     weight = -90
     pre = "/images/compare.svg"
-    post = "joining the gang test, compare and measure personalized recommendation!"
+    post = "joining the gang test. Once in a while, we perform the same actions to infer personalization"
  [[menu.featured]]
     name = "Behind the Scenes"
     url = "/pov"

@@ -2,7 +2,7 @@
 title: "final report - poTEST#1"
 subtitle: "January 2020: the first coordinated observation of PornHub's algorithm: findings and how to let you reproduce the experiment"
 draft: false
-date: 2020-01-30T10:26:08Z
+date: 2020-02-29T10:26:08Z
 
 og_title: "Coordinated observation of PornHub — test#1 updates"
 og_type: "website"
