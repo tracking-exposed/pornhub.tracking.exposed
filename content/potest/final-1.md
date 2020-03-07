@@ -276,9 +276,9 @@ Before wondering about the logics of the sections' dynamics, we can at least obs
   </div>
 </div>
 
-### Can we generalize the organization of the sections? 
+### Grouping the (homepage) sections
 
-By separating the homepage in _three macro sections_ we noticed that:
+By grouping the sections in _three macro sections_ we noticed that:
 
 1. **Hot and Most View** the primary entry point for PH is leveraging on collaborative filtering (content selection because of trending) by regional or global subgroups.
 2. **Recommendations** in second position (less important, perhaps?) and can be a general 'Recommended For You', a portion likely overlapping with the content served in /recommended page, and 'Recommended For You - [Category Name]'.
@@ -312,9 +312,11 @@ it wasn't the only issue, the first algorithm overlord and true Sauron's eye, Go
 
 {{<bord-img href="/images/pot20/1-chrome-rejected.jpg">}}
 
---- 
+---
 
-{{<colorblock text="We're working on repeating this test and validate our findings. We will, by the 13 of March, apply this experience on YouTube!"  >}}
+<h3 class="highlight text-center pt-3 pb-3 ">
+    We're working on repeating this test and validate our findings.<br>We will, by the <a href="https://youtube.tracking.exposed/wetest/1" style="color:black" target="_blank">15 of March</a>, apply this experience on YouTube!
+</h3>
 
 ---
 
