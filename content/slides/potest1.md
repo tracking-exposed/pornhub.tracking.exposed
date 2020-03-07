@@ -86,22 +86,22 @@ extraCSS: "/css/potest-slide-svg.css"
         <p>We are not obsessed by you ;)</p>
       </li>
     </ul>
-            <!-- this might show up as optional detail (onclick?)
-            <ul class="flexblock metrics bg-pornhuborange">
-              <li>
-                Read our privacy policy
-              </li>
-              <li>
-                How the interface looks like
-              </li>
-              <li>
-                The data processing pipeline illustrated
-              </li>
-              <li>
-                Our ethical mandate
-              </li>
-            </ul>
-            -->
+    <!--
+    <ul class="flexblock metrics bg-pornhuborange">
+      <li>
+        Read our privacy policy
+      </li>
+      <li>
+        How the interface looks like
+      </li>
+      <li>
+        The data processing pipeline illustrated
+      </li>
+      <li>
+        Our ethical mandate
+      </li>
+    </ul>
+    -->
   </div>
 </section>
 
