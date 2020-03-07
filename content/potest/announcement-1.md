@@ -161,7 +161,8 @@ The above json object is the second video snippet from a recommended page, now w
 
 ...In regards of the Chrome extension, it seems definitely blocked at the moment:
 
-{{<bord-img href="/images/pot20/1-chrome.rejected.png">}}
+{{<bord-img href="/images/pot20/1-chrome-rejected.jpg">}}
+
 
 whatever, just a reason to consider firefox **better**.
 
