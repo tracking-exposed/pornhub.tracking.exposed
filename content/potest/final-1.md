@@ -315,7 +315,7 @@ it wasn't the only issue, the first algorithm overlord and true Sauron's eye, Go
 ---
 
 <h3 class="highlight text-center pt-3 pb-3 ">
-    We're working on repeating this test and validate our findings.<br>We will, by the <a href="https://youtube.tracking.exposed/wetest/1" style="color:black" target="_blank">15 of March</a>, apply this experience on YouTube!
+    We're working on repeating this test and validate our findings.<br>We will, by the <a href="https://youtube.tracking.exposed/wetest/1" style="color:black" target="_blank">25 of March</a>, apply this experience on YouTube!
 </h3>
 
 ---
