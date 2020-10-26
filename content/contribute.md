@@ -66,11 +66,3 @@ Welcome, and thanks for showing *interest*; Variety of skills can fit into what 
 ---
 
  Thank you! If you have more questions about how you can get involved, feel free to contact pornhub-team[at]tracking[dot]exposed :)
-
-## Experiments
-
-qualcosa 
-
-qualsiasi cosa (GG)
-
-Roll for performance
