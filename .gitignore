@@ -2,4 +2,3 @@ public/
 resources/
 themes/
 .infrastructure/*
-static/js/generated/*
