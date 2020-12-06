@@ -12,13 +12,33 @@ og_description: "this is a description and we'll play to rebuild it"
 ---
 
 
+
 # Pornhub and amateur exploitation
 
-TODO
+
+Pornhub mix a dynamic of a pseudo-social network, where independent content producer meets buyers. People connects attracted by social and sexual dynamics, but in the homepage you'll but their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%).
+
+
+_Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
+* it might be even true that _Verified Models_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
+
+
+attract watcher attention, uses 'verified models' as a way to build a pseudo-social network 
+Pornhub uses many of the addictive feature of social networks to keep people coming back more frequently. In the Insight, the new 'Verified Models' is always an important measure because disply how many new content producer join the network and implicitly give relevance to their content.
+
+Verified model keep growing, 
+Porn production companies is not, it is a dying industry, and pornhub is using the homepage as a way to push them and profit as content distributor. How?
+
+
+
+
+
+
+We start to study PornHub algorith in 2019, by reusing the same technology we built to study Youtube algorithmn. 
 
 # Pornhub and the woman market
 
-TODO
+Every year Porn
 
 # Pornhub and the lack of consent
 
@@ -40,3 +60,15 @@ TODO
 </div>
 
 _Source_: we are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte.
+
+
+--- 
+
+## Avbout this page (Review ok)
+
+We believe Pornhub Insight Year Review is a promotional action that looks like a form of data transparency. That is not open data that do not talk about Pornhub but talks about making you feel ok regarding pornhub consumption. Also, to clarify our intention: we are sex friendly, so we want to expose pornhub's subtle communication behavior; this is not sexuality, but perception exploitation.
+
+
+## About the project (still not reviewed)
+
+pornhub.tracking.exposed is a browser extension that let you scrape how pornhub personalize individual activity. We use it to organize collaborative observations, and to stay update please follow us on twitter, facebook, or join our mattermost channel.
