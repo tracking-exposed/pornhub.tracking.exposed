@@ -12,8 +12,10 @@ og_description: "this is a description and we'll play to rebuild it"
 ---
 
 
+# The algorithm and the amateur exploitation
 
-# Pornhub and amateur exploitation
+
+
 
 
 Pornhub mix a dynamic of a pseudo-social network, where independent content producer meets buyers. People connects attracted by social and sexual dynamics, but in the homepage you'll but their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%).
@@ -22,6 +24,7 @@ Pornhub mix a dynamic of a pseudo-social network, where independent content prod
 _Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
 * it might be even true that _Verified Models_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
 
+of course the amateur producer are happy about that: but, sorry, they can have more. we envison a future in which they might get 100% of the pie and don't be subject to corporate hidden policies.
 
 attract watcher attention, uses 'verified models' as a way to build a pseudo-social network 
 Pornhub uses many of the addictive feature of social networks to keep people coming back more frequently. In the Insight, the new 'Verified Models' is always an important measure because disply how many new content producer join the network and implicitly give relevance to their content.
@@ -32,13 +35,40 @@ Porn production companies is not, it is a dying industry, and pornhub is using t
 
 
 
-
-
 We start to study PornHub algorith in 2019, by reusing the same technology we built to study Youtube algorithmn. 
 
 # Pornhub and the woman market
 
-Every year Porn
+Woman count for more than the half of world population, and would be a large market loss for PornHub if their consumption seems to be only for man. In the Yearly review there is always a mention and their presence is _constantly growing_.
+
+* in [2019 they said 32%](https://www.pornhub.com/insights/2019-year-in-review#gender), [2018 = 29%](https://www.pornhub.com/insights/2018-year-in-review#gender), [2017 = 26%](https://www.pornhub.com/insights/2017-year-in-review), [2016 = 26%](https://www.pornhub.com/insights/2016-year-in-review), [2015 = 24%](https://www.pornhub.com/insights/pornhub-2015-year-in-review),
+* in [2014 was 23%](https://www.pornhub.com/insights/2014-year-in-review),
+* in [2013 there was not MindGeek](https://en.wikipedia.org/wiki/MindGeek), the company owning PornHub had the name **MANWIN**, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.
+
+# ... How inaccurate is the woman count? 
+
+Considering
+
+1. Pornhub delegated the gender-attribution to Google Analytics, so, Google keep track of your PH activity and you see if there is any trace in your 
+2. By a preliminary experiment run by us, if an user without previous activities watch a lesbian video would be likely count as woman
+
+
+<div class="row">
+    <div class="col-4"></div>
+    <div class="col-4 big text-center">if PornHub</div>
+    <div class="col-4 big text-center lastcolumn">if Google</div>
+</div>
+<div class="row">
+    <div class="col-4 big">is lying</div>
+    <div class="col-4 core">Statistics on Woman are made up as part of the marketing plan</div>
+    <div class="col-4 core lastcolumn">Incognito navigation link to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
+</div>
+<div class="row">
+    <div class="col-4 big lastrow">is honest</div>
+    <div class="col-4 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
+    <div class="col-4 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are counted as woman</div>
+</div>
+
 
 # Pornhub and the lack of consent
 
@@ -72,3 +102,18 @@ We believe Pornhub Insight Year Review is a promotional action that looks like a
 ## About the project (still not reviewed)
 
 pornhub.tracking.exposed is a browser extension that let you scrape how pornhub personalize individual activity. We use it to organize collaborative observations, and to stay update please follow us on twitter, facebook, or join our mattermost channel.
+
+
+
+<!--
+
+<li><em><a href="#expand">… expand</a></em></li>
+<li>in <a href="https://www.pornhub.com/insights/2018-year-in-review#gender">2018 was 29%</a> (3% more than 2017),</li>
+<li>in <a href="https://www.pornhub.com/insights/2017-year-in-review">2017 it as 26%</a>,</li>
+<li>in <a href="https://www.pornhub.com/insights/2016-year-in-review">2016 was 26%</a> (2% more than 2015),</li>
+<li>in <a href="https://www.pornhub.com/insights/pornhub-2015-year-in-review">2015 was 24%</a>,</li>
+
+<li>in <a href="https://www.pornhub.com/insights/2014-year-in-review">2014 was 23%</a>,</li>
+<li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.</li>
+
+-->
