@@ -134,6 +134,7 @@ pornhub.tracking.exposed is a browser extension that let you scrape how pornhub 
 <link href="/css/c3.css" rel="stylesheet">
 <script src="/js/d3.min.js"></script>
 <script src="/js/c3.min.js"></script>
+<script src="/js/global.js"></script>
 
 <!-- specialized customization -->
 <script src="/js/critical-insights.js"></script>

@@ -5,3 +5,10 @@
 #homepage--stats .c3-legend-item {
     fill: white;
 }
+
+.lighter-bg {
+    background-color: lightgray;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
