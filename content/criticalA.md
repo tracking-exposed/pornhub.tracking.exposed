@@ -7,18 +7,23 @@ date: 2020-12-01T10:26:08Z
 og_title: "Pornhub critical insights: they are the one obsessed by sugar daddies"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
-og_url: "/critcalA"
+og_url: "/critcala"
 og_description: "this is a description and we'll play to rebuild it"
 ---
 
 
 # The algorithm and the amateur exploitation
 
+{{<pocrit
+    leftId="homepage--stats"
+    lefttitle="— We argue by giving platform to independent creator, they harvest watcher attention to sell their own products, let's see how much"
+    rightcontent="People connects attracted by social and sexual dynamics, but in the homepage you'll but their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%)."
+    textstyle="font-size:2em"
+>}}
+
+### Pornhub mixes the dynamic of a pseudo-social network, where independent content producer meets buyers; The reason why they give so much attention to the new verified amateurs, is because they are their best attractors.
 
 
-
-
-Pornhub mix a dynamic of a pseudo-social network, where independent content producer meets buyers. People connects attracted by social and sexual dynamics, but in the homepage you'll but their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%).
 
 
 _Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
@@ -50,7 +55,7 @@ Woman count for more than the half of world population, and would be a large mar
 Considering
 
 1. Pornhub delegated the gender-attribution to Google Analytics, so, Google keep track of your PH activity and you see if there is any trace in your 
-2. By a preliminary experiment run by us, if an user without previous activities watch a lesbian video would be likely count as woman
+2. By a preliminary experiment run by us, if an user without previous activities watch a lesbian video would be likely counted as woman
 
 
 <div class="row">
@@ -66,7 +71,7 @@ Considering
 <div class="row">
     <div class="col-4 big lastrow">is honest</div>
     <div class="col-4 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
-    <div class="col-4 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are counted as woman</div>
+    <div class="col-4 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their woman-friendly narrative.</div>
 </div>
 
 
@@ -117,3 +122,23 @@ pornhub.tracking.exposed is a browser extension that let you scrape how pornhub 
 <li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.</li>
 
 -->
+
+---
+
+# TODO statistiche pagina nginx
+
+---
+
+
+<!-- default c3-js includes -->
+<link href="/css/c3.css" rel="stylesheet">
+<script src="/js/d3.min.js"></script>
+<script src="/js/c3.min.js"></script>
+
+<!-- specialized customization -->
+<script src="/js/critical-insights.js"></script>
+<link href="/css/critical-insights.css" rel="stylesheet">
+
+<script type="text/javascript">
+    $(document).ready(renderHomepageDonut());
+</script>                                                     
