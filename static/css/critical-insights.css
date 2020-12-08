@@ -7,13 +7,20 @@
 }
 
 .lighter-bg {
-    background-color: lightgray;
+    background-color: white;
     border-radius: 5px;
     color: black;
     padding: 5px;
 }
 
+
 #homepage--stats .c3-chart-arc text {
-    fill: black;
+    fill: white;
     font-weight: bold;
 }
+
+#homepage--stats .c3-chart-arcs-title {
+    fill: white;
+    font-weight: bold;
+}
+

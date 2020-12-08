@@ -20,8 +20,8 @@ function renderHomepageDonut() {
       type : 'donut',
       colors: {
           'Production Company': palette[5],
-          'Verified Amateurs': palette[3],
-          'Non verified producers': palette[7],
+          'Verified Amateurs': palette[4],
+          'Non verified producers': palette[999999999],
       }
     },
     donut: {
