@@ -11,37 +11,20 @@ og_url: "/critcala"
 og_description: "this is a description and we'll play to rebuild it"
 ---
 
-
-# The algorithm and the amateur exploitation
+# The algorithm and the amateur bait
 
 {{<pocrit
     leftId="homepage--stats"
-    lefttitle="— We argue by giving platform to independent creator, they harvest watcher attention to sell their own products, let's see how much"
+    lefttitle="— By giving space to independent creator, PornHub redirect users' attention to sell their own products. Look how much"
     rightcontent="People connects attracted by social and sexual dynamics, but in the homepage you'll but their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%)."
     textstyle="font-size:2em"
 >}}
 
-### Pornhub mixes the dynamic of a pseudo-social network, where independent content producer meets buyers; The reason why they give so much attention to the new verified amateurs, is because they are their best attractors.
+### Pornhub mixes the dynamic of a pseudo-social network, where independent content producer meets buyers; The reason why they give so much attention to the new verified amateurs, is because they are the cheapest way to attract new visitors.
 
+The non-verified content uploaders are meaningful for two reasons: historically, pornhub republished content shoot by others to attract visitors, and now they delegate this task to a community of random contributors that, for their reason, want to get visibility in their platform. Second, when an original content producer offers their recordings, they should get feedback from the watchers to feel integrated and appreciated even if they have a low roster. Perhaps, in PH hopes, they become "verified models."
 
-
-
-_Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
-* it might be even true that _Verified Models_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
-
-of course the amateur producer are happy about that: but, sorry, they can have more. we envison a future in which they might get 100% of the pie and don't be subject to corporate hidden policies.
-
-attract watcher attention, uses 'verified models' as a way to build a pseudo-social network 
-Pornhub uses many of the addictive feature of social networks to keep people coming back more frequently. In the Insight, the new 'Verified Models' is always an important measure because disply how many new content producer join the network and implicitly give relevance to their content.
-
-Verified model keep growing, 
-Porn production companies is not, it is a dying industry, and pornhub is using the homepage as a way to push them and profit as content distributor. How?
-
-
-
-
-We start to study PornHub algorith in 2019, by reusing the same technology we built to study Youtube algorithmn. 
-
+---
 # Pornhub and the woman market
 
 Woman count for more than the half of world population, and would be a large market loss for PornHub if their consumption seems to be only for man. In the Yearly review there is always a mention and their presence is _constantly growing_.
@@ -50,6 +33,7 @@ Woman count for more than the half of world population, and would be a large mar
 * in [2014 was 23%](https://www.pornhub.com/insights/2014-year-in-review),
 * in [2013 there was not MindGeek](https://en.wikipedia.org/wiki/MindGeek), the company owning PornHub had the name **MANWIN**, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.
 
+---
 # ... How inaccurate is the woman count? 
 
 Considering
@@ -59,22 +43,22 @@ Considering
 
 
 <div class="row">
-    <div class="col-4"></div>
-    <div class="col-4 big text-center">if PornHub</div>
-    <div class="col-4 big text-center lastcolumn">if Google</div>
+    <div class="col-2"></div>
+    <div class="col-5 big text-center">if PornHub</div>
+    <div class="col-5 big text-center lastcolumn">if Google</div>
 </div>
 <div class="row">
-    <div class="col-4 big">is lying</div>
-    <div class="col-4 core">Statistics on Woman are made up as part of the marketing plan</div>
-    <div class="col-4 core lastcolumn">Incognito navigation link to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
+    <div class="col-2 big">Lie</div>
+    <div class="col-5 core">Statistics on Woman are made up as part of a marketing-rebranding plan</div>
+    <div class="col-5 core lastcolumn">Incognito navigation link to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
 </div>
 <div class="row">
-    <div class="col-4 big lastrow">is honest</div>
-    <div class="col-4 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
-    <div class="col-4 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their woman-friendly narrative.</div>
+    <div class="col-2 big lastrow">Honest</div>
+    <div class="col-5 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
+    <div class="col-5 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their woman-friendly narrative.</div>
 </div>
 
-
+---
 # Pornhub and the lack of consent
 
 TODO
@@ -97,9 +81,11 @@ TODO
 _Source_: we are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte.
 
 
---- 
+## How to troll Pornhub?
 
-## Avbout this page (Review ok)
+We start to study PornHub algorith in 2019, by reusing the same technology we built to study Youtube algorithmn.
+
+## About this page (Review ok)
 
 We believe Pornhub Insight Year Review is a promotional action that looks like a form of data transparency. That is not open data that do not talk about Pornhub but talks about making you feel ok regarding pornhub consumption. Also, to clarify our intention: we are sex friendly, so we want to expose pornhub's subtle communication behavior; this is not sexuality, but perception exploitation.
 
@@ -122,6 +108,20 @@ pornhub.tracking.exposed is a browser extension that let you scrape how pornhub 
 <li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.</li>
 
 -->
+
+
+## leftover texts
+
+_Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
+* it might be even true that _Verified Models_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
+
+of course the amateur producer are happy about that: but, sorry, they can have more. we envison a future in which they might get 100% of the pie and don't be subject to corporate hidden policies.
+
+attract watcher attention, uses 'verified models' as a way to build a pseudo-social network 
+Pornhub uses many of the addictive feature of social networks to keep people coming back more frequently. In the Insight, the new 'Verified Models' is always an important measure because disply how many new content producer join the network and implicitly give relevance to their content.
+
+Verified model keep growing, 
+Porn production companies is not, it is a dying industry, and pornhub is using the homepage as a way to push them and profit as content distributor. How?
 
 ---
 
