@@ -25,7 +25,7 @@ og_description: "this is a description and we'll play to rebuild it"
 The non-verified content uploaders are meaningful for two reasons: historically, pornhub republished content shoot by others to attract visitors, and now they delegate this task to a community of random contributors that, for their reason, want to get visibility in their platform. Second, when an original content producer offers their recordings, they should get feedback from the watchers to feel integrated and appreciated even if they have a low roster. Perhaps, in PH hopes, they become "verified models."
 
 ---
-# Pornhub and the woman market
+# The woman market
 
 Woman count for more than the half of world population, and would be a large market loss for PornHub if their consumption seems to be only for man. In the Yearly review there is always a mention and their presence is _constantly growing_.
 
@@ -59,8 +59,10 @@ Considering
 </div>
 
 ---
-# Pornhub and the lack of consent
+# Pornhub and the (lack of) consent 
 
+TODO
+TODO
 TODO
 
 # Pornhub and Greenwashing 
@@ -81,18 +83,15 @@ TODO
 _Source_: we are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte.
 
 
-## How to troll Pornhub?
-
-We start to study PornHub algorith in 2019, by reusing the same technology we built to study Youtube algorithmn.
-
-## About this page (Review ok)
+---
+## About this page
 
 We believe Pornhub Insight Year Review is a promotional action that looks like a form of data transparency. That is not open data that do not talk about Pornhub but talks about making you feel ok regarding pornhub consumption. Also, to clarify our intention: we are sex friendly, so we want to expose pornhub's subtle communication behavior; this is not sexuality, but perception exploitation.
 
 
 ## About the project (still not reviewed)
 
-pornhub.tracking.exposed is a browser extension that let you scrape how pornhub personalize individual activity. We use it to organize collaborative observations, and to stay update please follow us on twitter, facebook, or join our mattermost channel.
+[pornhub.tracking.exposed](/preview) is a browser extension that let you scrape personalized content that PornHub deliver to you. We built it so we can use it to organize collaborative observations, and to stay update please follow us on twitter, facebook, or join our mattermost channel.
 
 
 

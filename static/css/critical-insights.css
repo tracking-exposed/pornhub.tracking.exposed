@@ -12,3 +12,8 @@
     color: black;
     padding: 5px;
 }
+
+#homepage--stats .c3-chart-arc text {
+    fill: black;
+    font-weight: bold;
+}
