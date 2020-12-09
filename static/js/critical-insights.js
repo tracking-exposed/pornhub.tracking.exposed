@@ -7,7 +7,6 @@ function largerTooltip(d) {
   return `<h4 class="lighter-bg">${mapped[d[0].index]}</h4>`;
 }
 
-
 function renderHomepageDonut() {
   const chart = c3.generate({
     bindto: '#homepage--stats',
@@ -29,6 +28,30 @@ function renderHomepageDonut() {
     },
     tooltip: {
       contents: largerTooltip
+    }
+  });
+}
+
+function renderWomanCounters() {
+  const chart = c3.generate({
+    bindto: '#women--stats',
+    data: {
+      columns: [
+        [ 'women', 23, 24, 26, 26, 29, 32 ],
+        [ 'man', 77, 76, 74, 74, 71, 68 ]
+      ],
+      type: 'bar'
+    },
+    axis: {
+      x: {
+        type: 'category',
+        categories: [ '2014', '2015', '2016', '2017', '2018', '2019' ]
+      }
+    },
+    bar: {
+      width: {
+        ratio: 0.5 // this makes bar width 50% of length between ticks
+      }
     }
   });
 }

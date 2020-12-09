@@ -1,14 +1,14 @@
 ---
 title: "2020 Pornhub in review"
-subtitle: "they are the one obsessed by sugar daddies"
+subtitle: "they are the one craving for sugar daddies"
 draft: false
 type: 'darkBold'
 date: 2020-12-01T10:26:08Z
-og_title: "2020 Pornhub in review: "
+og_title: "PornHub 2020 Review: they want you, sugar daddy!"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "/critcala"
-og_description: "this is a description and we'll play to rebuild it"
+og_description: "our angry team of algorithm analysts uncover the sex portal exploitation strategy"
 ---
 
 From an external independent source, as it should be.
@@ -18,13 +18,16 @@ From an external independent source, as it should be.
 {{<pocrit
     leftId="homepage--stats"
     lefttitle="— By giving space to independent creators, PornHub redirects users' attention to sell their own products. Look how much"
-    rightcontent="People connect attracted by social and sexual dynamics, but in the homepage their attention get split in three chunks: Pornography dying industry (37%), Algoritmic experiment (25%), Verified models (37%)."
+    rightcontent="People connect attracted by social and sexual dynamics. Since the homepage, their attention got split for three entities: the dying pornography industry (37%), algoritmic experiments (25%), and verified amateurs (37%)."
     textstyle="font-size:2em"
 >}}
 
 ### Pornhub mixes the dynamic of a pseudo-social network, where independent content producers meet buyers. The reason they give so much attention to the new Verified Amateurs is because they are the *cheapest* way to attract new visitors.
 
-The non-verified content uploaders are meaningful for two reasons: historically, Pornhub republished content shooted by others to attract visitors, and now they delegate this task to a community of random contributors who also want to get visibility in the platform. Second, when an original content producer offers recordings, they should get feedback from the watchers to feel integrated and appreciated, even if they have a low roster. Perhaps, in PH hopes, they'll become "verified models."
+The non-verified content uploaders are meaningful for two reasons:
+
+1. Historically, Pornhub republished content shooted by others to attract visitors, and now they delegate this task to a community of random contributors who also want to get visibility in the platform. 
+2. When an original content producer offers recordings, they should get feedback from the watchers to feel integrated and appreciated, even if they have a low roster. Perhaps, in PH hopes, they'll become "verified amateurs" and thus engagin more in the social dynamics, let fan comeback more often, and serve them the 37% from the dying pron industry (which is kept alive and profitable only by PornHub infrastructure and visibility), and the 25% as part of their automated experiments.
 
 ---
 
@@ -36,7 +39,7 @@ We'd like to propose a different approch. People do the numbers. Companies are u
 
 ### "Innkeeper, how's the wine?"
 
-### "Good, my wine is always good..."
+### "Very Good fella! My wine is always verrrry good..."
 
 PH dont seems to be very comfortable with communication theory, so we'd like to help.
 
@@ -71,20 +74,22 @@ _Source_: we are using the conservative evaluation that 0.4 Kg of Co2 per hour o
 
 ### Porn for women or women for porn? 
 
-It is not very clear to us the obsession Pornhub has for women ;)
-PH basically sells a product for the male gaze. Where women and female sexuality are poorly representend.
-Why Insights push so hard on women's statistics? And how do he know that: in that region 2% of woman more tha last year?
-Google analytics? Please. Pretty please. The veridicy of that data is debatable.
+{{<pocrit
+    leftId="women--stats"
+    lefttitle="— It is not very clear to us the obsession Pornhub has for women ;)"
+    rightcontent="PH basically sells a product for the male gaze. Where women and female sexuality are poorly representend. Why Insights push so hard on women's statistics? And how do he know that: in that region 2% of woman more tha last year? Google analytics? Please. Pretty please. The veridicy of that data is debatable."
+    textstyle="font-size:2em"
+>}}
 
-###(If you want to know what women thinks and want, just ask them. Stop exploit them. That simple.)
+### (If you want to know what women thinks and want, just ask them. Stop exploit them. That simple.)
 
 Women count for more than the half of world population, and would be a large market loss and bad advertising for PornHub if men only were watching contents. In the yearly review there is always a mention and their presence is _constantly growing_.
 
 * in [2019 they said 32%](https://www.pornhub.com/insights/2019-year-in-review#gender), [2018 = 29%](https://www.pornhub.com/insights/2018-year-in-review#gender), [2017 = 26%](https://www.pornhub.com/insights/2017-year-in-review), [2016 = 26%](https://www.pornhub.com/insights/2016-year-in-review), [2015 = 24%](https://www.pornhub.com/insights/pornhub-2015-year-in-review),
 * in [2014 was 23%](https://www.pornhub.com/insights/2014-year-in-review),
-* in [2013 there was not MindGeek](https://en.wikipedia.org/wiki/MindGeek), the company owning PornHub had the name **MANWIN**, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness also sounds like a marketing strategy.
+* in [2013 there was not MindGeek](https://en.wikipedia.org/wiki/MindGeek), the company owning PornHub had the name **MANWIN**, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole women friendliness also sounds like a marketing strategy.
 
-### ... How inaccurate is the woman count? 
+### ... How inaccurate is the women count? 
 
 Considering that:
 
@@ -99,20 +104,22 @@ Considering that:
 </div>
 <div class="row">
     <div class="col-2 big">Lie</div>
-    <div class="col-5 core">Statistics on Woman are made up as part of a marketing-rebranding plan</div>
+    <div class="col-5 core">Statistics on Women are made up as part of a marketing-rebranding plan</div>
     <div class="col-5 core lastcolumn">Incognito navigation link to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
 </div>
 <div class="row">
     <div class="col-2 big lastrow">Honest</div>
     <div class="col-5 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
-    <div class="col-5 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their woman-friendly narrative.</div>
+    <div class="col-5 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their women-friendly narrative.</div>
 </div>
 
 ---
 # Pornhub and the (lack of) consent 
 
 TODO
+
 TODO
+ 
 TODO
 
 ---
@@ -137,15 +144,15 @@ To stay update please follow us on [twitter](https://twitter.com/trackingexposed
 <li>in <a href="https://www.pornhub.com/insights/pornhub-2015-year-in-review">2015 was 24%</a>,</li>
 
 <li>in <a href="https://www.pornhub.com/insights/2014-year-in-review">2014 was 23%</a>,</li>
-<li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole woman friendliness to us sounds like a marketing strategy.</li>
+<li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole women friendliness to us sounds like a marketing strategy.</li>
 
 -->
 
 
 ## leftover texts
 
-_Verified Models_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
-* it might be even true that _Verified Models_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
+_Verified Amateurs_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
+\* it might be even true that _Verified Amateurs_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
 
 of course the amateur producer are happy about that: but, sorry, they can have more. we envison a future in which they might get 100% of the pie and don't be subject to corporate hidden policies.
 
@@ -174,4 +181,5 @@ Porn production companies is not, it is a dying industry, and pornhub is using t
 
 <script type="text/javascript">
     $(document).ready(renderHomepageDonut());
+    $(document).ready(renderWomanCounters());
 </script>                                                     
