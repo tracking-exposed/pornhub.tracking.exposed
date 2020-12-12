@@ -18,9 +18,9 @@ function renderHomepageDonut() {
       ],
       type : 'donut',
       colors: {
-          'Production Company': palette[5],
-          'Verified Amateurs': palette[4],
-          'Non verified producers': palette[999999999],
+        'Production Company': palette[5],
+        'Verified Amateurs': palette[4],
+        'Non verified producers': palette[999999999],
       }
     },
     donut: {
@@ -40,7 +40,11 @@ function renderWomanCounters() {
         [ 'women', 23, 24, 26, 26, 29, 32 ],
         [ 'man', 77, 76, 74, 74, 71, 68 ]
       ],
-      type: 'bar'
+      type: 'bar',
+      colors: {
+        'women': '#ffc0cb',
+        'man': '#87cefa' 
+      }
     },
     axis: {
       x: {
@@ -53,5 +57,16 @@ function renderWomanCounters() {
         ratio: 0.5 // this makes bar width 50% of length between ticks
       }
     }
+  });
+}
+
+function registerScrolling(listofIDs) {
+  listofIDs.forEach(function(id) {
+    $(id).click(function(e) {
+      e.preventDefault();
+      const targel = $(this.getAttribute('href'));
+      const dest = targel.offset().top -200;
+      $('html').animate({scrollTop: dest}, 200);
+    });
   });
 }
