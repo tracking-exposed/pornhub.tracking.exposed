@@ -1,8 +1,13 @@
 .c3-chart-text {
     fill: white;
 }
-
-#homepage--stats .c3-legend-item {
+.c3-legend-item {
+    fill: white;
+}
+.c3-axis {
+    fill: white;
+}
+.c3-grid {
     fill: white;
 }
 
@@ -21,4 +26,3 @@
     fill: white;
     font-weight: bold;
 }
-

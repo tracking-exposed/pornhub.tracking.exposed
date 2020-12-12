@@ -11,7 +11,9 @@ og_url: "/critcala"
 og_description: "our angry team of algorithm analysts uncover the sex portal exploitation strategy"
 ---
 
-**Year in Review** is marketing dressed as open statistics. We can't say how many of these graphs are made up, but as independent sources, these are our **Pornhub critical insights**
+
+<span style="font-size:3em; color:red"> THIS PAGE IS NOT YET COMPLETE</span> don't share.
+
 
 ---
 

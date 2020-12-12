@@ -44,7 +44,8 @@ function renderWomanCounters() {
       colors: {
         'women': '#ffc0cb',
         'man': '#87cefa' 
-      }
+      },
+      labels: true
     },
     axis: {
       x: {
@@ -56,7 +57,8 @@ function renderWomanCounters() {
       width: {
         ratio: 0.5 // this makes bar width 50% of length between ticks
       }
-    }
+    },
+    tooltip: { display: false }
   });
 }
 
