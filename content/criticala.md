@@ -109,17 +109,13 @@ For example in their 2017 insight, PH pokes Marshall McLuhan and his theory: “
 What Professor McLuhan has suggested, is that information is no longer an instrument for producing economic merchandise, but has itself become the chief merchandise. We found amusing that PH mention his work without realizing how it would backfire 🤷.
 
 ---
-About us
+about us
 
 ---
 
 # Are we bigots!?
 
-Not really, think about us as sex-frendly algorithm-skeptic exploitation-angry.
-
-## About this page
-
-We believe Pornhub Insight Year Review is a promotional action that looks like a form of data transparency. That is not open data that do not talk about Pornhub but talks about making you feel ok regarding pornhub consumption. Also, to clarify our intention: we are sex friendly, so we want to expose pornhub's subtle communication behavior; this is not sexuality, but perception exploitation.
+Not really, think about us as sex-positive algorithm-skeptic exploitation-angry.
 
 ## About the project
 
@@ -130,7 +126,7 @@ To stay update please follow us on [twitter](https://twitter.com/trackingexposed
 
 
 ---
-Details and Know more
+details & know more
 
 ---
 
@@ -150,7 +146,9 @@ The non-verified content uploaders are pushed in homepage so strongly, compared 
 * in [2013 there was not MindGeek](https://en.wikipedia.org/wiki/MindGeek), the company owning PornHub had the name **MANWIN**, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole women friendliness also sounds like a marketing strategy.
 
 
-**On the enviromental impact calculation**: we are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte. [calculation](https://twitter.com/_vecna/status/1335273018013196298?s=20).
+#### On the enviromental impact calculation
+
+We are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte. [calculation](https://twitter.com/_vecna/status/1335273018013196298?s=20); (If you are interested on the subject, [try this out](https://codecarbon.io/).
 
 <!--
 
@@ -164,20 +162,6 @@ The non-verified content uploaders are pushed in homepage so strongly, compared 
 <li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole women friendliness to us sounds like a marketing strategy.</li>
 
 -->
-
-
-## leftover texts
-
-_Verified Amateurs_ it is a metric they love to report and count, as long as it goes high, becuase is meant to let you belive* the platform is healthy.
-\* it might be even true that _Verified Amateurs_ counter keep growing, but we can't fully trust Year in Review because that's marketing and not Open Data.
-
-of course the amateur producer are happy about that: but, sorry, they can have more. we envison a future in which they might get 100% of the pie and don't be subject to corporate hidden policies.
-
-attract watcher attention, uses 'verified models' as a way to build a pseudo-social network 
-Pornhub uses many of the addictive feature of social networks to keep people coming back more frequently. In the Insight, the new 'Verified Models' is always an important measure because disply how many new content producer join the network and implicitly give relevance to their content.
-
-Verified model keep growing, 
-Porn production companies is not, it is a dying industry, and pornhub is using the homepage as a way to push them and profit as content distributor. How?
 
 
 <!-- default c3-js includes -->
