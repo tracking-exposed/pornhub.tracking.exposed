@@ -11,6 +11,14 @@
     fill: white;
 }
 
+.c3-chart-arc text {
+    fill: white !important;
+    font-weight: bold;
+}
+.c3-target-Production-Company > text {
+    fill: black;
+}
+
 .lighter-bg {
     background-color: white;
     border-radius: 5px;
@@ -18,10 +26,6 @@
     padding: 5px;
 }
 
-.c3-chart-arc text {
-    fill: white;
-    font-weight: bold;
-}
 .c3-chart-arcs-title {
     fill: white;
     font-weight: bold;
