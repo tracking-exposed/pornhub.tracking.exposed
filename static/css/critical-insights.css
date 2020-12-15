@@ -18,11 +18,11 @@
     padding: 5px;
 }
 
-#homepage--stats .c3-chart-arc text {
+.c3-chart-arc text {
     fill: white;
     font-weight: bold;
 }
-#homepage--stats .c3-chart-arcs-title {
+.c3-chart-arcs-title {
     fill: white;
     font-weight: bold;
 }

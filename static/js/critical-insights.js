@@ -20,11 +20,34 @@ function renderHomepageDonut() {
       colors: {
         'Production Company': palette[5],
         'Verified Amateurs': palette[4],
-        'Non verified producers': palette[999999999],
+        'Non verified producers': palette[0],
       }
     },
     donut: {
       title: "PornHub homepage"
+    },
+    tooltip: {
+      contents: largerTooltip
+    }
+  });
+}
+
+function renderHomecleanDonut() {
+  const chart = c3.generate({
+    bindto: '#homeclean--stats',
+    data: {
+      columns: [
+        ['Production Company', 22],
+        ['Verified Amateurs', 29],
+      ],
+      type : 'donut',
+      colors: {
+        'Production Company': palette[5],
+        'Verified Amateurs': palette[4],
+      }
+    },
+    donut: {
+      title: "“Cleaned” homepage"
     },
     tooltip: {
       contents: largerTooltip

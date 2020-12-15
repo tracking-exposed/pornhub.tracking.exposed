@@ -4,11 +4,11 @@ subtitle: "they are the one looking for sugar daddies"
 draft: false
 type: 'darkBold'
 date: 2020-12-01T10:26:08Z
-og_title: "PornHub 2020 Review: they want you, sugar daddy!"
+og_title: "PornHub Critical Year in Review: 2020"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "/critcala"
-og_description: "our angry team of algorithm analysts uncover the sex portal exploitation strategy"
+og_description: "Let's show some data on the sex portal exploitation strategy"
 ---
 
 
@@ -17,16 +17,26 @@ og_description: "our angry team of algorithm analysts uncover the sex portal exp
 
 ---
 
-# The algorithm and a bait called Amateur
+# The bait called Amateur
 
 {{<pocrit
-    leftId="homepage--stats"
+    leftId="homeclean--stats"
     lefttitle="— By giving space to independent creators, PornHub redirects users' attention to sell their own products. On the average homepage:"
-    rightcontent="People connect attracted by social and sexual dynamics. Since the homepage, their attention got split for three entities: the dying pornography industry (37%), algoritmic experiments (25%), and verified amateurs (37%)."
-    textstyle="font-size:2em"
+    rightcontent="Two product are pushed: the dying porn industry (which mostly is owned by the same company that owns pornhub), and professional/amateur that want to sell their product directly, as long as PH intermediates"
+    textstyle=""
 >}}
 
-<button class="button btn-lg" href="#pornhub-mixes-the-dynamic-of-a-pseudo-social-network-where-independent-content-producers-meet-buyers-the-reason-they-give-so-much-attention-to-the-new-verified-amateurs-is-because-they-are-the-cheapest-way-to-attract-new-visitors" id="dynamics">know more: pornhub dynamics</button>
+<div class="row">
+    <div class="col-1"></div>
+    <div class="col-5">
+        <button class="button btn-lg" href="#pornhub-mixes-the-dynamic-of-a-pseudo-social-network-where-independent-content-producers-meet-buyers-the-reason-they-give-so-much-attention-to-the-new-verified-amateurs-is-because-they-are-the-cheapest-way-to-attract-new-visitors" id="dynamics">Know more: pornhub dynamics</button>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-5">
+        <button class="button btn-lg" href="#pornhub-mixes-the-dynamic-of-a-pseudo-social-network-where-independent-content-producers-meet-buyers-the-reason-they-give-so-much-attention-to-the-new-verified-amateurs-is-because-they-are-the-cheapest-way-to-attract-new-visitors" id="dynamics">How it was before the cleaning?</button>
+    </div>
+</div>
+
 
 # Greenwashing the dirty secrets
 
@@ -35,7 +45,7 @@ og_description: "our angry team of algorithm analysts uncover the sex portal exp
     lefttitle="— In 2020 PH produced “The Dirtiest Porn Ever”, as part of a campaign against pollution."
     hover="#dirtiest-porn-info"
     rightcontent="In 2019 Pornhub streaming (only) produced 1.4 million tons of CO2. Equivalent to 0,3 coal-fired power plants in one year. The same amount of greenhouse gas is avoid also by recycling 56.584.941 trash bags — a bit more than what we saw in the video! That CO2 can be absorbed by 21.989.505 trees in 10 years."
-    textstyle="font-size:2em"
+    textstyle=""
 >}}
 <div hidden class="pocrit--loaded" id="dirtiest-porn-info">
     <h4>(their description)</h4>
@@ -46,27 +56,22 @@ Unlike peer-to-peer for instance, a streaming portal like PH consumes CO2 becaus
 
 
 ---
-
 # Porn for women or women for porn? 
 
 {{<pocrit
     leftId="women--stats"
-    lefttitle="— PornHub obsession for women is not just as subject, also as consumer"
-    rightcontent="PH basically sells a product for the male gaze. Where women and female sexuality are poorly representend. Why Insights push so hard on women's statistics?"
-    textstyle="font-size:2em"
+    lefttitle="— Every year PornHub claim the amount of woman grows among the consumers"
+    rightcontent="That's OK, porn shouldn't be a man-entertainment only, but how they count it if most of the access are without an account, and using incognito browsing?"
+    textstyle=""
 >}}
 
-### (If you want to know what women thinks and want, just ask them. Stop exploit them. That simple.)
+In the yearly review there is always a mention and their presence as _constantly growing_. Even in nations where internet is accessible mostly by man, even when a country has a +20% spike on connected people, pornhub tell us there is this organic grow. **Constantly**.
 
-Women count for more than the half of world population, and would be a large market loss and bad advertising for PornHub if men only were watching contents. In the yearly review there is always a mention and their presence is _constantly growing_. Even in nations where internet is accessible mostly by man, even when a country has a +20% spike on connected people, pornhub tell us there is this organic grow. Constantly.
+### That smell like bias (if good faith is assumed), please consider:
 
-### Smell like bias (if good faith is assumed), and this is our critical-insight:
+1. Pornhub delegated the gender-attribution to Google Analytics, (Ops, _Google keeps track of your PH activity, and Google Takeout do not include what they observe with Analytics!_)
 
-1. Pornhub delegated the gender-attribution to Google Analytics, so, Google keeps track of your PH activity and you sees if there is any trace in your.
-
-2. By a preliminary experiment run by us, **if an user that is not profiled** watch a lesbian video would be likely counted as a woman.
-
-3. Every person navigating in incognito that watch, for example a lesbian video (but others categories might be more statistically bugged) might be measured as a woman, regardless their actual gender!
+2. By a preliminary experiment run by us, **if a user navigating with a clean browsing history** watch a lesbian video, would be likely counted as a woman, regardless of what they is.
 
 ### Matrix of inaccuracy: take your guess!
 
@@ -76,26 +81,44 @@ Women count for more than the half of world population, and would be a large mar
     <div class="col-5 big text-center lastcolumn">if Google</div>
 </div>
 <div class="row">
-    <div class="col-2 big">Lie</div>
+    <div class="col-2 big"><br>Lie</div>
     <div class="col-5 core">Statistics on Women are made up as part of a marketing-rebranding plan</div>
     <div class="col-5 core lastcolumn">Incognito navigation link to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
 </div>
 <div class="row">
-    <div class="col-2 big lastrow">Honest</div>
+    <div class="col-2 big lastrow"><br>Honest</div>
     <div class="col-5 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
     <div class="col-5 core lastcolumn lastrow">Pornhub knows that incognito watcher of lesbian videos are likely to be counted as a woman, and they keep it because fits with their women-friendly narrative.</div>
 </div>
 
+# Even if we wish everyone might find porn inspiring for new sexual fantasys, we register female sexuality poorly representend!
 
-# Pornhub and the (lack of) consent 
 
-In December 2020 [strong actions from payment network](https://www.reuters.com/article/us-pornhub-mastercard/mastercard-to-stop-processing-payments-on-pornhub-cites-unlawful-content-idUSKBN28K30C) was a reaction to [a NYT piece](https://www.nytimes.com/2020/12/04/opinion/sunday/pornhub-rape-trafficking.html), [and more](https://static.nytimes.com/email-content/NK_sample.html). We were working on these insight before [PornHub issued a formal response and a policy change](https://help.pornhub.com/hc/en-us/categories/360002934613). By monitoring before and after, we can go point by point in saying what's actually changed in the platform, but we want to focus on
+---
+# The December 2020 trainwrek 
 
-### We argue the change of PornHub are mostly cosmetic, why?
+A shitshow you probably know, caused [suspension of PornHub payments from visa/mastercard](https://www.reuters.com/article/us-pornhub-mastercard/mastercard-to-stop-processing-payments-on-pornhub-cites-unlawful-content-idUSKBN28K30C) network, as a reaction to a [NYT piece](https://www.nytimes.com/2020/12/04/opinion/sunday/pornhub-rape-trafficking.html) [more](https://static.nytimes.com/email-content/NK_sample.html). We were working on these insight before [PornHub issued a formal response and a policy change](https://help.pornhub.com/hc/en-us/categories/360002934613); 
 
-<span style="font-size:4em"> TO BE COMPLETED</span>
+{{<pocrit
+    leftId="homepage--stats"
+    lefttitle="— For the 7 years before, PH used at least 25% of their homepage to test how the random video uploaded by people would perform"
+    rightcontent="The issue here was the presence of non-consensual sharing of intimate material; The company between the 10th and the 14th of December tried to compromise, but how can you just filter abusive keywords when your full knowledge graph have learn from abusers?"
+    textstyle=""
+>}}
 
-# Insight is not open stats, is the new advertising
+# The lack of consent embedded in the recommendations! even if they tried to hide the most abusive keyword, you can't deny your machine learning was taught by the worst intention:
+
+{{<bord-img href="/images/pocrin/image1.png">}}
+{{<bord-img href="/images/pocrin/image3.png">}}
+{{<bord-img href="/images/pocrin/image4.png">}}
+{{<bord-img href="/images/pocrin/image5.png">}}
+{{<bord-img href="/images/pocrin/image6.png">}}
+{{<bord-img href="/images/pocrin/image7.png">}}
+{{<bord-img href="/images/pocrin/image10.png">}}
+
+---
+
+### Insight is not open stats, is the new advertising
 
 Pornhub produces "Year in Review", among many others, that are actually a wall of graph full of statistics where they celebrate their business. Journalist worldwide speak about them, without being too obvious that there is nothing about journalism, but unpaid advertising made to tickle sexual curiosity.
 
@@ -104,31 +127,24 @@ We'd like to propose a different approch. People do the numbers. Companies are u
 
 ### PH dont seems to be very comfortable with communication theory, so we'd like to help.
 
-For example in their 2017 insight, PH pokes Marshall McLuhan and his theory: “the medium is the message” to pretend that they're investigating on media where porn is made available, discovering that is a smartphone.. We enjoy correct them: **the medium where the porn is carried here, is pornhub**. _Is the policy in the platform, allowing every kind of content to be uploaded, ignoring complaing on abusive material, using algorithms that test appeal of videos by showing them to random watcher._
+In their 2017 insight, PH pokes Marshall McLuhan and his theory: “the medium is the message” to pretend that they're investigating on media where porn is made available, discovering that is a smartphone... We enjoy correct them: **the medium where the porn is carried, is pornhub**. _Is the policy in the platform, allowing every kind of content to be uploaded, ignoring complaing on abusive material, using algorithms that test appeal of videos by showing them to random watcher._ That cesspool is your medium.
 
-What Professor McLuhan has suggested, is that information is no longer an instrument for producing economic merchandise, but has itself become the chief merchandise. We found amusing that PH mention his work without realizing how it would backfire 🤷.
-
----
-about us
+What Professor McLuhan has suggested, is that information is no longer an instrument for producing economic merchandise, but has itself become the chief merchandise. We found amusing that PH mention his work without realizing how it would backfire (karma!)
 
 ---
 
-# Are we bigots!?
+## About us: _Are we the bigots!?_
 
-Not really, think about us as sex-positive algorithm-skeptic exploitation-angry.
+Not really. Think about us as sex-positive algorithm-skeptic exploitation-angry.
 
-## About the project
+[pornhub.tracking.exposed](/preview) is a browser extension that permits you to scrape personalized content that PornHub delivers to you. We built it so you or dedicated researchers can get reliable data to talk about personalization algorithms.
+To know more, check [Manifesto](https://tracking.exposed/manifesto), don't expect may messages from our [twittr](https://twitter.com/trackingexposed?lang=en), we wish to coordinate experiments (on [fb community page](https://www.facebook.com/personalizationalgorithm/) 🤷), like the first [collective observation of pornhub algorithm](/potest/final-1), or the equivalent about [youtube](https://youtube.tracking.exposed/wetest/1). 
 
-[pornhub.tracking.exposed](/preview) is a browser extension that permits you to scrape personalized content that PornHub delivers to you. We built it so we can use it to organize collaborative observations.
-To stay update please follow us on [twitter](https://twitter.com/trackingexposed?lang=en), [facebook](https://www.facebook.com/personalizationalgorithm/), or join our [mattermost](https://chat.securitywithoutborders.org/community/channels/trackingexposed) channel.
-
-
+For more direct questions join our [mattermost](https://chat.securitywithoutborders.org/community/channels/trackingexposed) channel, check our AGPL code on [github](https://github.com/tracking-exposed), or mail _pornhub-team at tracking dot exposed_.
 
 
 ---
 details & know more
-
----
 
 #### Pornhub mixes the dynamic of a pseudo-social network, where independent content producers meet buyers. The reason they give so much attention to the new Verified Amateurs is because they are the *cheapest* way to attract new visitors.
 
@@ -150,19 +166,6 @@ The non-verified content uploaders are pushed in homepage so strongly, compared 
 
 We are using the conservative evaluation that 0.4 Kg of Co2 per hour of streaming. I'm sure there are more precise calcultation and we are not considering the additional impact caused by HD streaming and mobile networks. Please if you have more correct estimation let us know, we are following [this enviromental assessment](https://www.carbonbrief.org/factcheck-what-is-the-carbon-footprint-of-streaming-video-on-netflix); At 720p one hour of streaming is 1.8 gigabyte. [calculation](https://twitter.com/_vecna/status/1335273018013196298?s=20); (If you are interested on the subject, [try this out](https://codecarbon.io/).
 
-<!--
-
-<li><em><a href="#expand">… expand</a></em></li>
-<li>in <a href="https://www.pornhub.com/insights/2018-year-in-review#gender">2018 was 29%</a> (3% more than 2017),</li>
-<li>in <a href="https://www.pornhub.com/insights/2017-year-in-review">2017 it as 26%</a>,</li>
-<li>in <a href="https://www.pornhub.com/insights/2016-year-in-review">2016 was 26%</a> (2% more than 2015),</li>
-<li>in <a href="https://www.pornhub.com/insights/pornhub-2015-year-in-review">2015 was 24%</a>,</li>
-
-<li>in <a href="https://www.pornhub.com/insights/2014-year-in-review">2014 was 23%</a>,</li>
-<li>in <a href="https://en.wikipedia.org/wiki/MindGeek">2013 there was not MindGeek</a>, the company owning PornHub had the name MANWIN, which as you can guess might not sound very inclusive. in October the name changed and so the rebrainding started. It is not an evidence, but this whole women friendliness to us sounds like a marketing strategy.</li>
-
--->
-
 
 <!-- default c3-js includes -->
 <link href="/css/c3.css" rel="stylesheet">
@@ -175,6 +178,7 @@ We are using the conservative evaluation that 0.4 Kg of Co2 per hour of streamin
 <link href="/css/critical-insights.css" rel="stylesheet">
 
 <script type="text/javascript">
+    $(document).ready(renderHomecleanDonut());
     $(document).ready(renderHomepageDonut());
     $(document).ready(renderWomanCounters());
 
