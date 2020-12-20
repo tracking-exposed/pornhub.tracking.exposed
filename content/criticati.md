@@ -4,16 +4,16 @@ subtitle: "Sono loro quelli che cercano i sugar daddy"
 draft: false
 type: 'darkBold'
 date: 2020-12-01T10:26:08Z
-og_title: "Statistiche annuali di PornHub, 2020, version critica"
+og_title: "Statistiche annuali di PornHub, 2020, versione critica"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "/critcala"
-og_description: "Raccontiamo i dati, la sorveglianza, e le supercazzole che ci racconta mentre ci fa arrapare"
+og_description: "Commenti su Dati, Sorveglianza, e Supercazzole che ci racconta per stuzzicarci la curisità"
 ---
 
+<span style="font-size:2em; color:red">QUESTA PAGINA NON E' COMPLETA -- NON CONDIVIDERLA -- tranne se conosci chi ci lavora; Allora sai di cosa abbiamo bisogno</span>.
 
-<span style="font-size:3em; color:red">QUESTA PAGINA NON E' COMPLETA -- NON CONDIVIDERLA -- tranne se conosci chi ci lavora; Allora sai di cosa abbiamo bisogno</span>.
-
+Benvenuta. Ogni anno PornHub pubblica delle statistiche volte a far parlare di se; E' marketing? E il giornalismo acritico che ne viene fatto sopra, è complice? Noi siamo un gruppo di persone che analizza le piattaforme in modo critico e indipendente, sviluppando softare libero, aprendo i loro algoritmi e spiegando le dinamiche. Qui trovierai quattro critiche sulle qualie questo primo report si concentra.
 
 ---
 
