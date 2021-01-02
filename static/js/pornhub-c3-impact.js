@@ -219,6 +219,7 @@ $(document).ready(async function() {
             console.log("Error received!", g.graphId, JSON.stringify(content));
         } else if (!_.size(content)) {
             console.log("Empty answer for", g.graphId, JSON.stringify(content));
+            $(g.graphId).html("<h6 style='color:red'>Error in fetching data!?</h6>")
         } else {
             console.log("Generating graph", g.graphId, g,
                         "Retrieved", _.size(content),
