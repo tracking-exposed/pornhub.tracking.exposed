@@ -163,7 +163,8 @@ const clist = [{
         mimeType: 'json',
         xFormat: '%Y-%m-%dT%H:%M:%S.000Z',
         keys: {
-            value : [ 'section-1', 'section-2', 'section-3', 'section-4', 'section-5', 'total' ],
+            value : [ 'section-1', 'section-2', 'section-3', 'section-4', 'section-5', 
+		    'section-6', 'section-7', 'section-8', 'total' ],
             x: 'day'
         },
         types: {
@@ -173,6 +174,9 @@ const clist = [{
             'section-3': 'bar',
             'section-4': 'bar',
             'section-5': 'bar',
+            'section-6': 'bar',
+            'section-7': 'bar',
+            'section-8': 'bar',
         },
         colors: {
             'total': _.last(palette),
@@ -181,6 +185,9 @@ const clist = [{
             'section-3':  palette[2],
             'section-4':  palette[3],
             'section-5':  palette[4],
+            'section-6':  palette[5],
+            'section-7':  palette[6],
+            'section-8':  palette[7],
         }
     },
     axis: {
@@ -213,10 +220,16 @@ $(document).ready(async function() {
     }));
 
     for (const g of graphs) {
-        const connection = await fetch(g.config.API);
-        const content = await connection.json();
-        if(content.error) {
-            console.log("Error received!", g.graphId, JSON.stringify(content));
+	let content = null;
+	try {
+	     const connection = await fetch(g.config.API);
+             content = await connection.json();
+	} catch(error) {
+             $(g.graphId).html("<h6 style='color:red'>Error in fetching data!?</h6>")
+	}
+        if(!content || content.error) {
+             console.log("Error received!", g.graphId, JSON.stringify(content));
+             $(g.graphId).html("<h6 style='color:red'>Error in fetching data!?</h6>")
         } else if (!_.size(content)) {
             console.log("Empty answer for", g.graphId, JSON.stringify(content));
             $(g.graphId).html("<h6 style='color:red'>Error in fetching data!?</h6>")
