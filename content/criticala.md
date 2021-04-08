@@ -67,34 +67,6 @@ Unlike peer-to-peer for instance, a streaming portal like PH consumes CO2 becaus
 
 In the yearly review women are always mentioned and their presence is noted as _constantly growing_. Even in nations where internet is accessible mostly by men, even when a country has a +20% spike on connected people, PornHub tells us there is this organic growth. **Constantly**.
 
-### That smells like bias (assuming good faith), please consider:
-
-1. Pornhub delegated the gender-attribution to Google Analytics (ops, _Google keeps track of your PH activity, and Google Takeout does not include what they observe with Analytics!_).
-
-2. By a preliminary experiment run by us, **if a user navigating with a clean browsing history** watches a lesbian video, they would likely be counted as a woman, regardless of who they are.
-
-### Matrix of inaccuracy: take your guess!
-
-<div class="row">
-    <div class="col-2"></div>
-    <div class="col-5 big text-center">if PornHub</div>
-    <div class="col-5 big text-center lastcolumn">if Google</div>
-</div>
-<div class="row">
-    <div class="col-2 big"><br>Lie</div>
-    <div class="col-5 core">Statistics on Women are made up as part of a marketing-rebranding plan</div>
-    <div class="col-5 core lastcolumn">Incognito navigation links to non-incognito analytics (<a href="https://www.bbc.com/news/business-52887340" target=_blank>they deny</a>)</div>
-</div>
-<div class="row">
-    <div class="col-2 big lastrow"><br>Honest</div>
-    <div class="col-5 core lastrow">Should answer to GDPR data access requests (they don't), and let us know which gender they think we are</div>
-    <div class="col-5 core lastcolumn lastrow">Pornhub knows that incognito viewers of lesbian videos are likely to be counted as a woman, and they keep it because it fits their women-friendly narrative.</div>
-</div>
-
-# Even if we wish for everyone to find porn inspiring for new sexual fantasies, female sexuality is being poorly represented!
-
-
----
 # The December 2020 trainwreck 
 
 A shitshow you probably know caused the [suspension of all PornHub payments from the Visa/Mastercard](https://www.reuters.com/article/us-pornhub-mastercard/mastercard-to-stop-processing-payments-on-pornhub-cites-unlawful-content-idUSKBN28K30C) network, as a reaction to a [NYT piece](https://www.nytimes.com/2020/12/04/opinion/sunday/pornhub-rape-trafficking.html) [(more)](https://static.nytimes.com/email-content/NK_sample.html). We were working on these insights before [PornHub issued a formal response and a policy change](https://help.pornhub.com/hc/en-us/categories/360002934613); 

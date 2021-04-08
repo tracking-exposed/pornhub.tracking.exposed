@@ -54,32 +54,6 @@ A differenza del peer-to-peer (<a href="https://it.wikipedia.org/wiki/Peer-to-pe
 
 Dal 2014, il primo anno in cui PornHub ha rilasciato le statistiche annuali, il numero di donne è apparentemente sempre cresciuto. Questo può essere un segno di una tendenza globale ma ci potrebbero essere anche alcuni bias che potrebbero facilitare la lettura di quel numero.
 
-### Cosa sappiamo dell'attribuzione di genere?
-
-1. Pornhub delega a Google Analytics questa statistica. Google infatti tiene traccia delle attività su PH e usa queste informazioni per dare statistiche con attribuzioni di età e di genere.
-
-2. Da degli esperimenti preliminari, sembra che se un profilo senza storia (come dovrebbe essere un browser in incognito) fruisce di un contenuto saffico stile "donne con donne", verrà conteggiato come donna. Indipendentemente da chi sia realmente il visitatore.
-
-### La matrice dell'inaccuratezza, fai la tua scommessa!
-
-<div class="row">
-    <div class="col-2"></div>
-    <div class="col-5 big text-center">se PornHub</div>
-    <div class="col-5 big text-center lastcolumn">se Google</div>
-</div>
-<div class="row">
-    <div class="col-2 big"><br>Mente</div>
-    <div class="col-5 core">Le statistiche sulle donne sono inventate come parte della loro strategia di marketing</div>
-    <div class="col-5 core lastcolumn">La navigazione in incognito non lo è veramente, e può essere ricollegata al vero profilo (<a href="https://www.bbc.com/news/business-52887340" target=_blank>ma lo negano</a>)</div>
-</div>
-<div class="row">
-    <div class="col-2 big lastrow"><br>Onesto</div>
-    <div class="col-5 core lastrow">Dovrebbe rispondere alla richieste di accesso dati come il GDPR ci permette, e farci sapere che genere pensano che abbiamo (ma non rispondono).</div>
-    <div class="col-5 core lastcolumn lastrow">Pornhub sa che guardare un video lesbico in incognito porta ad un conteggio di donne aumentato, e accetta l'imprecisione perchè favoreggia la loro narrativa inclusiva.</div>
-</div>
-
-# Per concludere, possiamo pur sperare che tutt* trovino ispirazione in nuove fantasie sessuali, ma la sessualità femminile rimane ampiamente sottorappresnetata!
-
 ---
 # Il disastro di Dicembre 2020
 
