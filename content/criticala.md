@@ -1,6 +1,6 @@
 ---
 title: "Pornhub 2020, their richest and darkest year, in review"
-subtitle: "they are the ones looking for sugar daddies"
+subtitle: "(they, are the crazy for sugardaddies!)"
 draft: false
 type: 'darkBold'
 date: 2020-12-01T10:26:08Z
@@ -12,7 +12,7 @@ og_description: "Let's show some data on the sex portal exploitation strategy"
 ---
 
 
-<span style="font-size:3em; color:red"> THIS PAGE IS NOT YET COMPLETE</span> don't share.
+<span style="font-size:3em; color:red"> THIS PAGE <a href="/criticati">IS NOT YET</a> COMPLETE</span> don't share.
 
 
 ---
