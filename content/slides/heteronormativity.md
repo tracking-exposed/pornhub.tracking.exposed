@@ -52,11 +52,10 @@ extraCSS: "/css/potest-slide-svg.css"
         <p><code>.csv structure</code></p>
         <h1 class="fadeInUp" style="color: #F98E05; padding-bottom: 2rem;"><strong>THE DATASET</strong></h1>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h4>Each entry represent a suggested video from Pornhub
-        <br> each video snippet you might click on while visiting the platform.<br></h4>
+        <h5>Each entry represent a suggested video from Pornhub. <br>Each video snippet you might click on while visiting the platform.<br></h4>
         </div>
         <!-- .end .column -->
-        <div class="column size-60">
+        <div class="column">
         <pre>
     {
         "title": "Sunny Sextape on the Sofa! Squirt, deepthroat",
@@ -91,12 +90,12 @@ extraCSS: "/css/potest-slide-svg.css"
   </div> 
 </section>
 
+<!--
 <section>
   <span class="background" style="background-image:url('/images/smoke.jpeg')"></span>    
   <div class="wrap">
     <h1 class="fadeInUp" style="color: #F98E05">ANONYMIZATION PROCESS</h1>
     <ul class="flexblock metrics fadeInUp">
-      <!-- li>a? Add blink = <ul class="flexblock steps blink">-->
       <li>
         <h2>01. UNIQUE AND SECRET TOKEN</h2>
         <p>Every browser has a unique code attributed</p>
@@ -116,10 +115,11 @@ extraCSS: "/css/potest-slide-svg.css"
     </ul>
   </div>
 </section>
+-->
 
 <section>
   <div class="wrap aligncenter fadeInUp">
-    <h2> Our BOTS from guardoni.js helped us</h2>
+    <h2> Our BOTS from <a target="_blank" rel="noopener noreferrer" href="https://github.com/tracking-exposed/potrex/tree/master/methodology/src">guardoni.js</a> helped us</h2>
     <div class="row mb-5 mt-5">
       <div class="col-sm text-center">
         <img src="/images/addon.png"><br /> <br>
@@ -127,7 +127,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </div>
       <div class="col-sm text-center">
         <img src="/images/click.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Watch some videos</h2> and open homepages avoiding PTSD
+        <h4 style="color:#1b1b1b;">Open homepages</h2>avoiding PTSD
       </div>
       <div class="col-sm text-center">
         <img src="/images/unravel.png"><br /> <br>
@@ -180,13 +180,13 @@ extraCSS: "/css/potest-slide-svg.css"
                   Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more. <br><br>
                   This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
                 </p>
-                  <li><strong class="text-label" style="width: 30rem;">Videos per homepage:</strong> 46 </li>
+                  <li><strong class="text-label" style="width: 30rem;color: #F98E05;">Videos per homepage:</strong> 46 </li>
                   <li>
-                    <strong class="text-label" style="width: 30rem;">Homepages:</strong> 1600
+                    <strong class="text-label" style="width: 30rem; color: #F98E05;">Homepages:</strong> 1600
                   </li>
-                  <li><strong class="text-label" style="width: 30rem;">Videos:</strong> 45.959</li>
-                  <li><strong class="text-label" style="width: 30rem;">Reliability:</strong> 99.1%</li>
-                  <li><strong class="text-label" style="width: 30rem;">Unique videos:</strong> 118</li>
+                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Videos:</strong> 45.959</li>
+                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Reliability:</strong> 99.1%</li>
+                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Unique videos:</strong> 118</li>
                 </ul>
               </div>
             </div>
@@ -233,7 +233,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>COMMON SECTIONS</strong></h1>
         <h5 style="color: #fff">The homepage is not completely individually personalized.</h5>
-        <h4 style="color: #F98E05"> The majority of the sections propose the same videos to all users.<br> This is the case for: <br>· Hot Porn Videos in Your Country <br>· Most Viewed Videos in Your Country <br>· Recently Featured XXX Videos</h4>
+        <h4 style="color: #F98E05"> The majority of the sections propose the same videos to all users.<br> This is the case for: <br><i>· Hot Porn Videos in Your Country <br>· Most Viewed Videos in Your Country <br>· Recently Featured XXX Videos</i></h4>
         <p style="color: #fff">
         </p>
       </div>
@@ -249,7 +249,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED CATEGORY FOR YOU</strong></h1>
                 <h5 style="color: #fff">Not all 10 profiles shared the same 5 sections</h5>
-        <h4 style="color: #F98E05">The cluster seem to reflect gender-normativity. This is especially relevant considering that this specific section is missing for Same Sex Couple (female), Non-Binary, Trans Female, and Trans Male.
+        <h4 style="color: #F98E05">The cluster seem to reflect gender-normativity. This is especially relevant considering that this specific section is missing for <i> Same Sex Couple (female), Non-Binary, Trans Female, and Trans Male.</i>
 <br></h4>
       </div>
       <figure class="fadeInUp">
@@ -279,24 +279,21 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-
-
 <section class="bg-potrex">
   <div class="wrap size-50 frame" style="border-color: #F98E05; border-style: dashed;">
     <h1 class="aligncenter" style="color: #F98E05"><strong>F U T U R E <br> D I R E C T I O N S</strong></h1>
     <p class="text-symbols" style="color: #F98E05">* * *</p>
       <ul style="color: #fff">
         <li>
-          <h4> Leaning into more qualitative methodologies might lead to different (and interesting) results  </h4>
+          <h5> Leaning into more qualitative methodologies might lead to different (and interesting) results  </h5>
         </li>
         <br>
         <li>
-          <h4> Geographic and Cultural Axis. Analyze geographic differences to understand the effects of potential anglocentrism at the ethnic level. </h4>
+          <h5> Geographic and Cultural Axis. Analyze geographic differences to understand the effects of potential anglocentrism at the ethnic level. </h5>
         </li>
       </ul>
   </div>
 </section>
-
 
 <section class="bg-pornhuborange aligncenter">
   <figure style="padding-bottom:4rem;">
