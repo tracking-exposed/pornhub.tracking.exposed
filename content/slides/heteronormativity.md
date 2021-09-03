@@ -5,7 +5,7 @@ draft: false
 type: "webslides"
 og_title: "Summary and findings"
 og_type: "website"
-og_image: "http://pornhub.tracking.exposed/images/compare.jpg" 
+og_image: "http://pornhub.tracking.exposed/images/compare.jpg"
 og_url: "https://pornhub.tracking.exposed/slide/test"
 og_description: "While research has focused on the diffusion of online pornography and its broader implications, less attention has been paid to the algorithmic infrastructures through which platforms distribute and manage pornographic content, and how this might reiterate socially embedded views and perspectives."
 
@@ -87,7 +87,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <!-- .end .column -->
     </div>
     <!-- .end .grid -->
-  </div> 
+  </div>
 </section>
 
 <!--
@@ -147,16 +147,19 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <section class="bg-pornhuborange">
-          <!--.wrap = container (width: 90%) -->
-          <div class="wrap">
-            <blockquote class="text-quote" style="color:#1b1b1b;">
-              <p>How platforms conceptualise gender has broader effects, as it reifies a specific, socially embedded cultural conception that is able to shape, affect, and maintain gender identities.
-              </p>
-              <p><cite><a href="https://doi.org/10.1177/1461444815621527" style="color:#1b1b1b;">Bivens et al. 2016</a></cite></p>
-            </blockquote>
-          </div>
-          <!-- .end .wrap -->
-        </section>
+  <!--.wrap = container (width: 90%) -->
+  <div class="wrap">
+    <blockquote class="text-quote" style="color:#1b1b1b;">
+    <p>
+      How platforms conceptualise gender has broader effects, as it reifies a specific, socially embedded cultural conception that is able to shape, affect, and maintain gender identities.
+    </p>
+    <p>
+      <cite><a href="https://doi.org/10.1177/1461444815621527" style="color:#1b1b1b;">Bivens et al. 2016</a></cite>
+    </p>
+    </blockquote>
+  </div>
+  <!-- .end .wrap -->
+</section>
 
 <section>
   <div class="wrap size-50">
@@ -167,6 +170,7 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section>
 <div class="wrap">
+<<<<<<< HEAD
     <div class="card-50 bg-white">
         <figure>
         <img src="/images/paper/variables.jpg">
@@ -191,6 +195,32 @@ extraCSS: "/css/potest-slide-svg.css"
               </div>
             </div>
           </div>
+=======
+  <div class="card-50 bg-white">
+    <figure>
+      <img src="/images/paper/variables.jpg">
+    </figure>
+    <div class="flex-content">
+      <h2>Methodology</h2>
+      <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
+      <ul class="description">
+        <p>
+          Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more.
+          <br><br>
+          This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
+        </p>
+        <li><strong class="text-label" style="width: 30rem;color: #F98E05;">Videos per homepage:</strong> 46 </li>
+        <li>
+          <strong class="text-label" style="width: 30rem; color: #F98E05;">Homepages:</strong> 1600
+        </li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Videos:</strong> 45.959</li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Reliability:</strong> 99.1%</li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Unique videos:</strong> 118</li>
+      </ul>
+    </div>
+  </div>
+</div>
+>>>>>>> 70acdcb9334a52c240669fce05a343a50f40ac0e
 </section>
 
 <section>
@@ -248,9 +278,11 @@ extraCSS: "/css/potest-slide-svg.css"
         <p><code style="color:#F98E05">personalized content</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED CATEGORY FOR YOU</strong></h1>
-                <h5 style="color: #fff">Not all 10 profiles shared the same 5 sections</h5>
-        <h4 style="color: #F98E05">The cluster seem to reflect gender-normativity. This is especially relevant considering that this specific section is missing for <i> Same Sex Couple (female), Non-Binary, Trans Female, and Trans Male.</i>
-<br></h4>
+        <h5 style="color: #fff">Not all 10 profiles shared the same 5 sections</h5>
+        <h4 style="color: #F98E05">
+          The cluster seem to reflect gender-normativity. This is especially relevant considering that this specific section is missing for <i> Same Sex Couple (female), Non-Binary, Trans Female, and Trans Male.</i>
+          <br>
+        </h4>
       </div>
       <figure class="fadeInUp">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
@@ -303,8 +335,10 @@ extraCSS: "/css/potest-slide-svg.css"
   <figure style="padding-bottom:4rem;">
     <a href="https://tracking.exposed/manifesto" target=_blank>
     <img src="/images/sticker/sticker-poTREX-arial.png" ></img></a>
-   </figure>
-    <h4 class="aligncenter fadeIn"><a href="mailto:info@tracking.exposed" target=_blank style="color:#000">info[@]tracking.exposed</a></h4>
+  </figure>
+  <h4 class="aligncenter fadeIn" style="color:#000">
+    info[@]tracking.exposed
+  </h4>
 </section>
 
 <script>
