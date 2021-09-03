@@ -31,7 +31,7 @@ extraCSS: "/css/potest-slide-svg.css"
   <div class="wrap">
     <div class="text-center content-left fadeInUp">
       <img class="size-100" src="/images/addon.png">
-      <h4 style="color:#1b1b1b;">poTREX extension</h2>Free software<a target="_blank" rel="noopener noreferrer" href="/preview"> pornhub.tracking.exposed</a></h4>
+      <h4 style="color:#1b1b1b;">poTREX extension</h2>Free software<a target="_blank" rel="noopener noreferrer" href="https://github.com/tracking-exposed/potrex"> pornhub.tracking.exposed</a></h4>
     </div>
     <br>
     <div class="fadeInUp">
@@ -47,10 +47,11 @@ extraCSS: "/css/potest-slide-svg.css"
   <div class="wrap">
     <div class="grid vertical-align">
         <div class="column">
-        <p><code>.csv structure</code></p>
+        <p><code>CSV|JSON structure</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h1 class="fadeInUp" style="color: #F98E05; padding-bottom: 2rem;"><strong>THE DATASET</strong></h1>
-        <h5>Each entry represent a suggested video from Pornhub. <br>Each video snippet you might click on while visiting the platform.<br></h4>
+        <h1 class="fadeInUp" style="color: #F98E05; padding-bottom: 2rem;"><strong>DATA FORMAT</strong></h1>
+        <h5>Each entry represent a proposed video from Pornhub. <br>
+          They are video snippet you might click on while visiting the platform.<br></h4>
         </div>
         <!-- .end .column -->
         <div class="column">
@@ -125,7 +126,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </div>
       <div class="col-sm text-center">
         <img src="/images/click.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Open homepages</h2>(or videos) avoiding PTSD
+        <h4 style="color:#1b1b1b;">Open homepages</h2>(or videos) </b>avoiding PTSD</b>
       </div>
       <div class="col-sm text-center">
         <img src="/images/unravel.png"><br /> <br>
@@ -204,10 +205,10 @@ extraCSS: "/css/potest-slide-svg.css"
       </figure>
       <div class="flex-content">
         <h2>Observations</h2>
-        <ul class="description">
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Homepage:</strong> it keeps changing for different users</li>
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Sections:</strong> geographically or individually personalized</li>
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Recommended:</strong> different gender identities have different recommendations</li>
+        <ul class="description forcefully-enlarged">
+          <li><strong class="text-label" style="color:#fff; width: 25rem;">Homepage:</strong> it keeps changing for different users</li>
+          <li><strong class="text-label" style="color:#fff; width: 25rem;">Sections:</strong> geographically or individually personalized</li>
+          <li><strong class="text-label" style="color:#fff; width: 25rem;">Recommended:</strong> different gender identities have different recommendations</li>
         </ul>
       </div>
     </div>
