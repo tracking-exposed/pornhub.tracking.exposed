@@ -168,30 +168,32 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section>
 <div class="wrap">
-    <div class="card-50 bg-white">
-        <figure>
-        <img src="/images/paper/variables.jpg">
-        </figure>
-      <!-- end figure-->
-        <div class="flex-content">
-        <h2><strong>METHODOLOGY</strong></h2>
-        <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
-        <ul class="description">
-                <p>
-                  Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more. <br><br>
-                  This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
-                </p>
-                  <li><strong class="text-label" style="width: 30rem;color: #F98E05;">Videos per homepage:</strong> 46 </li>
-                  <li>
-                    <strong class="text-label" style="width: 30rem; color: #F98E05;">Homepages:</strong> 1600
-                  </li>
-                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Videos:</strong> 45.959</li>
-                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Reliability:</strong> 99.1%</li>
-                  <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Unique videos:</strong> 118</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+  <div class="card-50 bg-white">
+    <figure>
+      <img src="/images/paper/variables.jpg">
+    </figure>
+    <!-- end figure-->
+    <div class="flex-content">
+      <h2><strong>METHODOLOGY</strong></h2>
+      <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
+      <ul class="description">
+        <p>
+          Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more. <br><br>
+          This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
+        </p>
+        <li>
+          <strong class="text-label" style="width: 30rem;color: #F98E05;">Videos per homepage:</strong> 46
+        </li>
+        <li>
+          <strong class="text-label" style="width: 30rem; color: #F98E05;">Homepages:</strong> 1600
+        </li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Videos:</strong> 45.959</li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Reliability:</strong> 99.1%</li>
+        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Unique videos:</strong> 118</li>
+      </ul>
+    </div>
+  </div>
+</div>
 </section>
 
 <section>
