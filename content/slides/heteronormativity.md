@@ -17,14 +17,12 @@ extraCSS: "/css/potest-slide-svg.css"
 <section class="bg-pornhuborange aligncenter">
   <div class="wrap aligncenter fadeInUp">
     <h2><strong>Heteronormativity and Pornography</strong></h2>
-    <h2> an Algorithmic Analysis of Pornhub </h2>
+    <h2>an Algorithmic Analysis of Pornhub</h2>
     <br>
     <p class="text-symbols"> * * * </p>
     <p class="text-intro" style="color: #fff">
         Tracking Exposed & UniMi <br>
-        (
-          <a href="https://en.wikipedia.org/wiki/Porn_Studies_(journal)" target=_blank style="color:#000">coming soon on Porn Studies</a>
-        )
+        (<a href="https://en.wikipedia.org/wiki/Porn_Studies_(journal)" target=_blank style="color:#000">coming soon on Porn Studies</a>)
     </p>
   </div>
 </section>
@@ -57,7 +55,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <!-- .end .column -->
         <div class="column">
         <pre>
-    {
+      {
         "title": "Sunny Sextape on the Sofa! Squirt, deepthroat",
         "authorName": "Leolulu",
         "authorLink": "/pornstar/leolulu",
@@ -81,7 +79,7 @@ extraCSS: "/css/potest-slide-svg.css"
         "sectionHref": "/video?o=ht&cc=us",
         "sectionOrder": 0,
         "displayOrder": 0,
-    },
+      },
         </pre>
         </div>
         <!-- .end .column -->
@@ -163,14 +161,13 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section>
   <div class="wrap size-50">
-  <h2> What Pornhub looks like ;) </h2>
+  <h2> What signing up to Pornhub looks like ;) </h2>
   <img src="/images/paper/gender.jpg">
   </div>
 </section>
 
 <section>
 <div class="wrap">
-<<<<<<< HEAD
     <div class="card-50 bg-white">
         <figure>
         <img src="/images/paper/variables.jpg">
@@ -195,32 +192,6 @@ extraCSS: "/css/potest-slide-svg.css"
               </div>
             </div>
           </div>
-=======
-  <div class="card-50 bg-white">
-    <figure>
-      <img src="/images/paper/variables.jpg">
-    </figure>
-    <div class="flex-content">
-      <h2>Methodology</h2>
-      <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
-      <ul class="description">
-        <p>
-          Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more.
-          <br><br>
-          This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
-        </p>
-        <li><strong class="text-label" style="width: 30rem;color: #F98E05;">Videos per homepage:</strong> 46 </li>
-        <li>
-          <strong class="text-label" style="width: 30rem; color: #F98E05;">Homepages:</strong> 1600
-        </li>
-        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Videos:</strong> 45.959</li>
-        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Reliability:</strong> 99.1%</li>
-        <li><strong class="text-label" style="width: 30rem; color: #F98E05;">Unique videos:</strong> 118</li>
-      </ul>
-    </div>
-  </div>
-</div>
->>>>>>> 70acdcb9334a52c240669fce05a343a50f40ac0e
 </section>
 
 <section>
@@ -325,7 +296,7 @@ extraCSS: "/css/potest-slide-svg.css"
         </li>
         <br>
         <li>
-        <h5>Linguistic analysis of titles and comments to understand the imagery surrounding videos/categories/channels</h5>
+        <h5> Linguistic analysis of titles and comments to understand the imagery surrounding videos/categories/channels</h5>
         </li>
       </ul>
   </div>
