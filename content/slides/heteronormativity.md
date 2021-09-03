@@ -23,7 +23,7 @@ extraCSS: "/css/potest-slide-svg.css"
     <p class="text-intro" style="color: #fff">
         Tracking Exposed & UniMi <br>
         (
-          <a href="/potest/final-1" target=_blank style="color:#000">Porn Studies</a>
+          <a href="https://en.wikipedia.org/wiki/Porn_Studies_(journal)" target=_blank style="color:#000">coming soon on Porn Studies</a>
         )
     </p>
   </div>
@@ -50,8 +50,8 @@ extraCSS: "/css/potest-slide-svg.css"
     <div class="grid vertical-align">
         <div class="column">
         <p><code>.csv structure</code></p>
-        <h1 class="fadeInUp" style="color: #F98E05; padding-bottom: 2rem;"><strong>THE DATASET</strong></h1>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 class="fadeInUp" style="color: #F98E05; padding-bottom: 2rem;"><strong>THE DATASET</strong></h1>
         <h5>Each entry represent a suggested video from Pornhub. <br>Each video snippet you might click on while visiting the platform.<br></h4>
         </div>
         <!-- .end .column -->
@@ -127,7 +127,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </div>
       <div class="col-sm text-center">
         <img src="/images/click.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Open homepages</h2>avoiding PTSD
+        <h4 style="color:#1b1b1b;">Open homepages</h2>(or videos) avoiding PTSD
       </div>
       <div class="col-sm text-center">
         <img src="/images/unravel.png"><br /> <br>
@@ -159,7 +159,7 @@ extraCSS: "/css/potest-slide-svg.css"
         </section>
 
 <section>
-  <div class="wrap size-60">
+  <div class="wrap size-50">
   <h2> What Pornhub looks like ;) </h2>
   <img src="/images/paper/gender.jpg">
   </div>
@@ -173,7 +173,7 @@ extraCSS: "/css/potest-slide-svg.css"
         </figure>
       <!-- end figure-->
         <div class="flex-content">
-        <h2>Methodology</h2>
+        <h2><strong>METHODOLOGY</strong></h2>
         <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
         <ul class="description">
                 <p>
@@ -202,9 +202,9 @@ extraCSS: "/css/potest-slide-svg.css"
       <div class="flex-content">
         <h2>Observations</h2>
         <ul class="description">
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Homepage:</strong> it keeps changing even for different users</li>
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Recommended:</strong> the personalization based on what the bot saw</li>
-          <li><strong class="text-label" style="color:#fff; width: 15rem;">Videos:</strong> some of them where removed</li>
+          <li><strong class="text-label" style="color:#fff; width: 15rem;">Homepage:</strong> it keeps changing for different users</li>
+          <li><strong class="text-label" style="color:#fff; width: 15rem;">Sections:</strong> geographically or individually personalized</li>
+          <li><strong class="text-label" style="color:#fff; width: 15rem;">Recommended:</strong> different gender identities have different recommendations</li>
         </ul>
       </div>
     </div>
@@ -269,9 +269,9 @@ extraCSS: "/css/potest-slide-svg.css"
       <div class="fadeInUp flex-content">
         <p><code style="color:#F98E05">personalized content</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
-        <h1 style="color: #fff"><strong>RECOMMENDED <br> FOR YOU</strong></h1>
+        <h1 style="color: #fff"><strong>RECOMMENDED<br> FOR YOU</strong></h1>
         <h5 style="color: #fff">Common for all profiles</h5>
-        <h4 style="color: #F98E05">the gender-normative group showcases videos from model, channels, and pornstar; the second group instead does not include channels (production companies). Pornhub manages content in relation to gender identity factoring in broader productive and distributive logics as well?
+        <h4 style="color: #F98E05">the gender-normative group showcases models, channels, and pornstar; the second group doesn't include channels (production companies). Pornhub manages content in relation to gender identity factoring in broader productive and distributive logics as well?
         <p style="color: #fff">
         </p>
       </div>
@@ -290,6 +290,10 @@ extraCSS: "/css/potest-slide-svg.css"
         <br>
         <li>
           <h5> Geographic and Cultural Axis. Analyze geographic differences to understand the effects of potential anglocentrism at the ethnic level. </h5>
+        </li>
+        <br>
+        <li>
+        <h5>Linguistic analysis of titles and comments to understand the imagery surrounding videos/categories/channels</h5>
         </li>
       </ul>
   </div>
