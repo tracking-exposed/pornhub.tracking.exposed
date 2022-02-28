@@ -1,14 +1,14 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Pornhub Tracking Exposed"
+title = "POTRex"
 theme = "trex"
 enableRobotsTXT = true
 canonifyURLs = true
 [params]
-    subtitle = "PornHub"
+    subtitle = "PornHub Tracking Exposed"
     subsite = "pornhub"
     description = "is the pornhub algorithm kidding with your perception of sex?"
-    tagline = "Watch a tech-company fu*k your behavior data!"
+    tagline = "Watch a tech-company f*ck your behavior data!"
 
 [markup]
   [markup.goldmark]
@@ -20,25 +20,22 @@ canonifyURLs = true
 
 [menu]
  [[menu.main]]
-    name = "Umbrella Project"
-    url = "https://tracking.exposed"
-    weight = 50
- [[menu.main]]
-    name = "Ethics"
-    url = "/ethics/"
-    weight = 40
- [[menu.main]]
-    name = "Statistics"
-    url = "/impact/"
-    weight = 30
- [[menu.main]]
-    name = "About"
+    name = "About&Contacts"
     url = "/about/"
     weight = 20
  [[menu.main]]
-    name = "Project analysis"
-    url = "/project-analysis/"
-    weight = 10
+    name = "Slides"
+    url = "/slides/"
+    weight = 40
+ [[menu.main]]
+    name = "tracking.exposed"
+    url = "https://tracking.exposed"
+    weight = 70
+ [[menu.main]]
+    name = "Other Tools"
+    url = "/about/"
+    weight = 50
+
 
  [[menu.featured]]
     name = "Algorithm Domination"
