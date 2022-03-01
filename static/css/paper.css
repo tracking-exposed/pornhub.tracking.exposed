@@ -7,24 +7,58 @@
     text-align: center;
 }
 
+
 .iframe-size {
-    width: 1280px;
-    height: 720px;
+        width: 1280px;
+        height: 720px;
+        border: none;
+}
+
+@media (max-width:575px) {
+    .iframe-size {
+        width: 320px;
+        height: 180px;
+    }
+    h1, h4, .text-right {
+        text-align: left !important;
+    }
 }
 
 h1 {
-    font-size: 4.5em;
+    font-size: 3.4em;
     font-weight: 900;
     text-align: right;
-    color: red;
+    color: #fa9900;
 }
 
 h4 {
     text-align: right;
-    color: blue;
-    font-size: 1.23;
+    letter-spacing: 0.02em;
+    line-height: 1.2em;
+    color: #1b1b1b;
+    font-size: 2em;
 }
 
-.btn-secondary {
-    color: black !important;
+.text-right {
+    text-align: right;
+}
+
+.btn{
+    border-color: #fa9900;
+    border-style: double;
+    border-radius: 1.5em;
+    border-width: 4px;
+    font-size: 1.4em;
+    padding: 15px 30px;
+}
+
+.btn:hover{
+    border-color: #fadf41;
+}
+
+
+p {
+    font-size: 1.6em ;
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }

@@ -8,7 +8,7 @@ og_image: "http://pornhub.tracking.exposed/images/pov.jpg"
 og_url: "https://pornhub.tracking.exposed/ethics"
 og_description: "Learn more about our purpose and ethics statement"
 ---
-<div class="centered-wrapper">
+<div class="centered-wrapper mt-5">
   <iframe
     class="iframe-size"
 	src="https://invidious.namazso.eu/embed/1v0uaRreYro">
@@ -16,23 +16,29 @@ og_description: "Learn more about our purpose and ethics statement"
 </div>
 
 
-<div class="row">
+<div class="row justify-content-md-center mt-5 mb-5">
 
-<div class="col-6">
-
+<div class="col-md-4 mr-1">
 
 # The Platformization of Gender and Sexual Identities: An Algorithmic Analysis of Pornhub
+<br>
 
+#### Ilir Rama
+#### Lucia Bainotti
+#### Alessandro Gandini
+#### Giulia Giorgi
+#### Silvia Semenzin
+#### Claudio Agosti
+#### Giulia Corona 
+#### Salvatore Romano
 
-#### Ilir Rama, Lucia Bainotti, Alessandro Gandini, Giulia Giorgi, Silvia Semenzin, Claudio Agosti, Giulia Corona, Salvatore Romano
-
-<div class="centered-wrapper">
-  <a href="https://osf.io/preprints/socarxiv/4egzu" class="btn btn-secondary">Get the pre-print</a>
+<div class="text-right mt-5">
+  <a href="https://osf.io/preprints/socarxiv/4egzu" class="btn">Get the pre-print</a>
 </div>
 
 </div>
 
-<div class="col-6">
+<div class="col-md-5 mt-5 ml-2">
 
 
 Popular pornographic websites are deemed to reinforce a male, white and heterosexual point of view and thus contribute to fostering hegemonic masculinity (Burke 2016), the sexualization of minorities (Fritz et al. 2020), and #heteronormative porn culture (Saunders 2020).
