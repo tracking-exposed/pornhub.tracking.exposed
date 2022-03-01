@@ -1,0 +1,30 @@
+
+.fullscreen-content {
+    
+}
+
+.centered-wrapper {
+    text-align: center;
+}
+
+.iframe-size {
+    width: 1280px;
+    height: 720px;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-weight: 900;
+    text-align: right;
+    color: red;
+}
+
+h4 {
+    text-align: right;
+    color: blue;
+    font-size: 1.23;
+}
+
+.btn-secondary {
+    color: black !important;
+}
