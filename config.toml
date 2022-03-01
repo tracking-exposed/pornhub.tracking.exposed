@@ -22,11 +22,11 @@ canonifyURLs = true
  [[menu.main]]
     name = "About&Contacts"
     url = "/about/"
-    weight = 20
+    weight = 30
  [[menu.main]]
     name = "Slides"
     url = "/slides/"
-    weight = 40
+    weight = 20
  [[menu.main]]
     name = "tracking.exposed"
     url = "https://tracking.exposed"
@@ -34,7 +34,29 @@ canonifyURLs = true
  [[menu.main]]
     name = "Other Tools"
     url = "/about/"
-    weight = 50
+    identifier = "tools"
+    weight = 10
+ [[menu.main]]
+    page = "Facebook"
+    identifier = "facebook"
+    parent = "tools"
+    name= "Facebook"
+    url = "https://facebook.tracking.exposed"
+    weight = -180
+ [[menu.main]]
+    page = "YouTube"
+    parent = "tools"
+    identifier = "youtube"
+    name = "YouTube"
+    url = "https://youtube.tracking.exposed"
+    weight = -170
+ [[menu.main]]
+    page = "TikTok"
+    parent = "tools"
+    identifier = "tiktok"
+    name = "TikTok"
+    url = "https://tiktok.tracking.exposed"
+    weight = -160
 
 
 # [[menu.featured]]
@@ -60,8 +82,13 @@ canonifyURLs = true
 #    post = "See through our POV and play hard with our pleasure tools"
 
 [[menu.footer]]
-   page = "Tracking Exposed"
-   identifier = "trex"
-   name = "Umbrella project: Tracking Exposed"
-   url = "https://tracking.exposed"
+   page = "Github"
+   identifier = "github"
+   name = "Github"
+   url = "https://github.com/tracking-exposed"
    weight = 90
+[[menu.footer]]
+   page = "pornhub-team[@]tracking.exposed"
+   identifier = "pornhub-team [@] tracking.exposed"
+   name = "pornhub-team[@]tracking[.]exposed"
+   weight = 80
