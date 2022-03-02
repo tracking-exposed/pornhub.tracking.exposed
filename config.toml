@@ -85,10 +85,11 @@ canonifyURLs = true
    page = "Github"
    identifier = "github"
    name = "Github"
-   url = "https://github.com/tracking-exposed"
+   url = "https://github.com/tracking-exposed/potrex"
    weight = 90
 [[menu.footer]]
    page = "pornhub-team[@]tracking.exposed"
    identifier = "pornhub-team [@] tracking.exposed"
    name = "pornhub-team[@]tracking[.]exposed"
+   url = "/contacts"
    weight = 80

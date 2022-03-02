@@ -3,6 +3,7 @@ title: "Heteronormativity and Pornography"
 subtitle: "an Algorithmic Analysis of PornHub"
 draft: false
 type: "webslides"
+date: 2021-02-20T10:26:08Z
 og_title: "Summary and findings"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/compare.jpg"
