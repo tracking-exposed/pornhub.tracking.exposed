@@ -21,7 +21,7 @@ canonifyURLs = true
 [menu]
  [[menu.main]]
     name = "About&Contacts"
-    url = "/about/"
+    url = "/contacts/"
     weight = 30
  [[menu.main]]
     name = "Slides"

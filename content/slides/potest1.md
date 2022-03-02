@@ -13,6 +13,7 @@ extraCSS: "/css/potest-slide-svg.css"
 ---
 
 <!-- halo salut -->
+
 <script>removeHeaderFooter(1500)</script>
 
 <section class="bg-pornhuborange aligncenter">
@@ -139,9 +140,9 @@ extraCSS: "/css/potest-slide-svg.css"
       <div class="flex-content">
         <h2>Observations</h2>
         <ul class="description">
-          <li><strong class="text-label" style="color:#fff">Homepage:</strong> it keeps changing even for unlogged users, let's record evidence</li>
-          <li><strong class="text-label" style="color:#fff">Recommended:</strong> where the personalization algorithm takes action</li>
-          <li><strong class="text-label" style="color:#fff">Videos:</strong> we decided to compare one video uploaded 11 years ago with a 24 hours old one to see if there were any differences</li>
+          <li><strong class="text-label" style="color:#fff; width: 14rem;">Homepage:</strong> it keeps changing even for unlogged users, let's record evidence</li>
+          <li><strong class="text-label" style="color:#fff; width: 14rem;">Recommended:</strong> where the personalization algorithm takes action</li>
+          <li><strong class="text-label" style="color:#fff; width: 14rem;">Videos:</strong> we compared one video uploaded 11 years ago with a 24 hours old one </li>
         </ul>
       </div>
     </div>
@@ -181,8 +182,7 @@ extraCSS: "/css/potest-slide-svg.css"
         </div>
         <!-- .end .column -->
         <div class="column">
-        <pre>
-    {
+        <pre>{
         "title": "Sunny Sextape on the Sofa! Squirt, deepthroat, prone bone - Amateur LeoLulu",
         "authorName": "Leolulu",
         "authorLink": "/pornstar/leolulu",
@@ -193,10 +193,6 @@ extraCSS: "/css/potest-slide-svg.css"
         "clientTime": "2020-01-19T22:17:48.000Z",
         "size": 421227,
         "randomUUID": "INITucmr5condtj2zkfy9o6cv4",
-        "selector": "body",
-        "incremental": 0,
-        "amountGrossDimension": 0,
-        "packet": 0,
         "type": "home",
         "processed": true,
         "step": 0,
@@ -212,7 +208,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <!-- .end .column -->
     </div>
     <!-- .end .grid -->
-  </div> 
+    </div>
 </section>
 
 <section class="bg-potrex">
@@ -231,7 +227,7 @@ extraCSS: "/css/potest-slide-svg.css"
     <div class="card-50">
       <figure class="fadeInUp">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
-        <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml"></img>
+        <img class="svg" src="/images/pot20/1-first-video.svg" type="image/svg+xml" width="90%"></img>
       </figure>
       <div class="fadeInUp flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
@@ -249,7 +245,7 @@ extraCSS: "/css/potest-slide-svg.css"
 <section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
-      <div class="flex-content fadeInUp">
+      <div class="flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>WATCHING <br> THE SECOND VIDEO</strong></h1>
@@ -258,7 +254,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </div>
       <figure class="fadeInUp">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
-        <img src="/images/pot20/1-second-video.svg"></img>
+        <img src="/images/pot20/1-second-video.svg" width="90%" type="image/svg+xml"></img>
       </figure>
     </div>
   </div>
@@ -275,7 +271,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <h3 style="color: #5dd63f">Animated timeline: evidences recorded between 00:00 and 24:00<br></h3>
       </div>
       <figure class="fadeInUp vertical-align">
-        <img src="/images/pot20/timeline.gif"></img>
+        <img src="/images/pot20/timeline.gif" type="image/svg+xml"></img>
       </figure>
     </div>
   </div>
@@ -284,11 +280,11 @@ extraCSS: "/css/potest-slide-svg.css"
 <section class="bg-potrex">
   <div class="wrap">
     <div class="card-50">
-      <div class="flex-content fadeInUp">
+      <div class="flex-content">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED PAGE</strong></h1>
-        <h3 style="color: #9b05f9">Only a few videos seem to be different after the procedure<br></h3>
+        <h4 style="color: #9b05f9">A few videos are different after the procedure<br></h3>
         <h4 style="color: #fff"> Watching just one video could not be enough for a strong personalization in the /recommended page</h4>
               <h5 style="color: #fff"><br>
         <img src="/images/pot20/1-appearing-twice-dot.svg"> videos that appear on both evidence <br>
@@ -296,7 +292,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </h5>
       </div>
       <figure class="fadeInUp">
-        <img class="svg" src="/images/pot20/1-recommended.svg" type="image/svg+xml"></img>
+        <img class="svg" src="/images/pot20/1-recommended.svg" type="image/svg+xml"  width="90%"></img>
       </figure>
     </div>
   </div>
@@ -306,14 +302,14 @@ extraCSS: "/css/potest-slide-svg.css"
   <div class="wrap">
     <div class="card-50">
       <figure class="fadeInUp">
-        <img src="/images/pot20/1-homepage.svg"></img>
+        <img src="/images/pot20/1-homepage.svg"type="image/svg+xml"  width="90%"></img>
       </figure>
       <div class="flex-content fadeInUp">
         <p><code style="color:#F98E05">potest #1</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>HOMEPAGE</strong></h1>
-        <h3 style="color: #9b05f9">Some new videos were suggested after the procedure</h3>
-        <h4 style="color: #fff"> We still don't know the reason for these changes, but the first and the second homepage visualizations got different videos after just a few clicks.  </h4>
+        <h4 style="color: #9b05f9">New videos suggested after the procedure</h4>
+        <h4 style="color: #fff"> We still don't know the reason for these changes, but the first and the second homepage visualizations got different videos after a few clicks.  </h4>
                       <h5 style="color: #fff"><br>
         <img src="/images/pot20/1-appearing-twice-dot.svg"> videos that appear on both evidences <br>
         <img src="/images/pot20/1-new-dot.svg" id="related"> new videos <br>
@@ -362,10 +358,10 @@ extraCSS: "/css/potest-slide-svg.css"
     <p>The <a href="https://github.com/tracking-exposed/experiments-data/blob/master/potests/potest1-v3.csv">CSV</p>
     <br>
     <h3>
-      <a href="/potest/2" target=_blank>Next test 19 of February 2020</a> share the idea!
+      <a href="/potest/2" target=_blank>Did you like it?</a> Contact us!
     </h3>
     <p>Thanks to an <a href="">input on reddit
-      </a> we look at the first insight and defined how to confirm the thesis, how to test new conditions, and in the meanwhile look if our guesses are true also in the Gay section of PornHub! We want to keep this analysis and the formulation of the research question open, which is true also for future tests. If you want to reach out, you are welcome to join our <a href="https://chat.securitywithoutborders.org/community/channels/trackingexposed" target=_blank>Mattermost</a>.
+      </a> we look at the first insight and defined how to confirm the thesis, how to test new conditions, and in the meanwhile look if our guesses are true also in the Gay section of PornHub! We want to keep this analysis and the formulation of the research question open, which is true also for future tests. If you want to reach out, you are welcome to join our <a href="" target=_blank>community</a>.
     </p>
     <!--end .grid -->
   </div>

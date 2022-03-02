@@ -55,7 +55,7 @@ extraCSS: "/css/potest-slide-svg.css"
         </div>
         <!-- .end .column -->
         <div class="column">
-        <pre>
+        <pre style="font-size:0.6em; line-height:2em">
       {
         "title": "Sunny Sextape on the Sofa! Squirt, deepthroat",
         "authorName": "Leolulu",
@@ -80,8 +80,7 @@ extraCSS: "/css/potest-slide-svg.css"
         "sectionHref": "/video?o=ht&cc=us",
         "sectionOrder": 0,
         "displayOrder": 0,
-      },
-        </pre>
+      },</pre>
         </div>
         <!-- .end .column -->
     </div>
@@ -171,15 +170,15 @@ extraCSS: "/css/potest-slide-svg.css"
 <div class="wrap">
   <div class="card-50 bg-white">
     <figure>
-      <img src="/images/paper/variables.jpg">
+      <img src="/images/paper/variables.jpg" width="80%">
     </figure>
     <!-- end figure-->
     <div class="flex-content">
       <h2><strong>METHODOLOGY</strong></h2>
       <p>‘gender’ and ‘sexual orientation’ are defined by the platform</p>
       <ul class="description">
-        <p>
-          Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more. <br><br>
+        <p style="font-size:0.9em;">
+          Data collection processes leveraged on the ‘Pornhub Tracking Exposed’ (poTREX) infrastructure, that collects and processes data from Pornhub.com web pages such as page layout, video order, titles and views, authors, categories, and more. <br>
           This data collection helped us to determine potential recurring patterns, especially regarding the underlying logics governing the different sections of the homepage.
         </p>
         <li>
@@ -205,7 +204,7 @@ extraCSS: "/css/potest-slide-svg.css"
       </figure>
       <div class="flex-content">
         <h2>Observations</h2>
-        <ul class="description forcefully-enlarged">
+        <ul class="description">
           <li><strong class="text-label" style="color:#fff; width: 25rem;">Homepage:</strong> it keeps changing for different users</li>
           <li><strong class="text-label" style="color:#fff; width: 25rem;">Sections:</strong> geographically or individually personalized</li>
           <li><strong class="text-label" style="color:#fff; width: 25rem;">Recommended:</strong> different gender identities have different recommendations</li>
@@ -228,7 +227,7 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section class="bg-potrex">
   <div class="wrap">
-    <div class="card-60">
+    <div class="card-50">
       <figure class="fadeInUp">
         <img src="/images/paper/CommonSection.png"></img>
       </figure>
@@ -237,7 +236,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>COMMON SECTIONS</strong></h1>
         <h5 style="color: #fff">The homepage is not completely individually personalized.</h5>
-        <h4 style="color: #F98E05"> The majority of the sections propose the same videos to all users.<br> This is the case for: <br><i>· Hot Porn Videos in Your Country <br>· Most Viewed Videos in Your Country <br>· Recently Featured XXX Videos</i></h4>
+        <h5 style="color: #F98E05"> The majority of the sections propose the same videos to all users.<br> This is the case for: <br><i>· Hot Porn Videos in Your Country <br>· Most Viewed Videos in Your Country <br>· Recently Featured XXX Videos</i></h5>
         <p style="color: #fff">
         </p>
       </div>
@@ -247,16 +246,16 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section class="bg-potrex">
   <div class="wrap">
-    <div class="card-60">
+    <div class="card-50">
       <div class="flex-content fadeInUp">
         <p><code style="color:#F98E05">personalized content</code></p>
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED CATEGORY FOR YOU</strong></h1>
         <h5 style="color: #fff">Not all 10 profiles shared the same 5 sections</h5>
-        <h4 style="color: #F98E05">
+        <h5 style="color: #F98E05">
           The cluster seem to reflect gender-normativity. This is especially relevant considering that this specific section is missing for <i> Same Sex Couple (female), Non-Binary, Trans Female, and Trans Male.</i>
           <br>
-        </h4>
+        </h5>
       </div>
       <figure class="fadeInUp">
         <!-- <svg id="firstvideo" type="image/svg+xml"></svg> -->
@@ -268,7 +267,7 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <section class="bg-potrex">
   <div class="wrap">
-    <div class="card-60">
+    <div class="card-50">
       <figure class="fadeInUp">
         <img src="/images/paper/4u.png"></img>
       </figure>
@@ -277,7 +276,7 @@ extraCSS: "/css/potest-slide-svg.css"
         <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
         <h1 style="color: #fff"><strong>RECOMMENDED<br> FOR YOU</strong></h1>
         <h5 style="color: #fff">Common for all profiles</h5>
-        <h4 style="color: #F98E05">the gender-normative group showcases models, channels, and pornstar; the second group doesn't include channels (production companies). Pornhub manages content in relation to gender identity factoring in broader productive and distributive logics as well?
+        <h5 style="color: #F98E05">the gender-normative group showcases models, channels, and pornstar; the second group doesn't include channels (production companies). Pornhub manages content in relation to gender identity factoring in broader productive and distributive logics as well?</h5>
         <p style="color: #fff">
         </p>
       </div>
@@ -311,7 +310,7 @@ extraCSS: "/css/potest-slide-svg.css"
     <img src="/images/sticker/sticker-poTREX-arial.png" ></img></a>
   </figure>
   <h4 class="aligncenter fadeIn" style="color:#000">
-    info[@]tracking.exposed
+    mail: team-pornhub[@]tracking.exposed
   </h4>
 </section>
 
