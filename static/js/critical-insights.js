@@ -42,7 +42,7 @@ function renderHomecleanDonut() {
       ],
       type : 'donut',
       colors: {
-        'Production Company': palette[5],
+        'Production Company': palette[6],
         'Verified Amateurs': palette[4],
       }
     },
