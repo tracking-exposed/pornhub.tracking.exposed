@@ -23,7 +23,7 @@ In adult-oriented business the Tube Site *Pornhub* is the biggest and the most i
 
 pornhub.tracking.exposed is a browser extension that allows __to study ed analyze the implications__ of this personalization algorithm through the collection and comparison of __individualized evidences__ that Pornhub users receive.
 
-<div class="text-left mt-5">
+<div class="text-left mt-5 pb-5">
   <a href="https://addons.mozilla.org/en-US/firefox/addon/adult-industry-algorithms/" class="btn">Download the extension</a>
 </div>
 

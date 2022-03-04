@@ -18,7 +18,7 @@ function renderHomepageDonut() {
       ],
       type : 'donut',
       colors: {
-        'Production Company': palette[5],
+        'Production Company': palette[6],
         'Verified Amateurs': palette[4],
         'Non verified producers': palette[0],
       }
@@ -60,13 +60,13 @@ function renderWomanCounters() {
     bindto: '#women--stats',
     data: {
       columns: [
-        [ 'women', 23, 24, 26, 26, 29, 32 ],
-        [ 'man', 77, 76, 74, 74, 71, 68 ]
+        [ '% women', 23, 24, 26, 26, 29, 32 ],
+        [ '% men', 77, 76, 74, 74, 71, 68 ]
       ],
       type: 'bar',
       colors: {
-        'women': '#ffc0cb',
-        'man': '#87cefa' 
+        '% women': '#ffc0cb',
+        '% men': '#87cefa' 
       },
       labels: true
     },
