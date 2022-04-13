@@ -1,12 +1,13 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "POTRex"
+title = "PornHub Tracking Exposed"
 theme = "trex"
 enableRobotsTXT = true
 canonifyURLs = true
 [params]
     subtitle = "PornHub Tracking Exposed"
     subsite = "pornhub"
+    openGraphSite = "PornHub Tracking Exposed"
     description = "is the pornhub algorithm kidding with your perception of sex?"
     tagline = "Watch how a tech-company f*cks your behavioral data!"
 
