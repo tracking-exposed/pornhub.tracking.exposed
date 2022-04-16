@@ -46,8 +46,8 @@
 
 /* cell specific styles */
 .publicKey {
-    border: 2px salmon solid;
-    background-color: rgb(247, 163, 154);
+    border: 2px red solid;
+    background-color: lightgreen;
     border-radius: 3px;
 }
 .relative {
