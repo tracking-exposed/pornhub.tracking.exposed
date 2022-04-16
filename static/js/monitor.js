@@ -200,10 +200,10 @@ function appendVideo(elem, o) {
 
     $("#" + o.id + " .timevar").text(o.printable);
     $("#" + o.id + " .authorName").html('<a href="' +
-            'https://www.pornhub.com' + o.producer.href +
-            '" target=_blank>' + o.producer.name+ '</a>');
+            'https://www.pornhub.com' + o?.producer?.href +
+            '" target=_blank>' + o?.producer?.name+ '</a>');
 
-    $("#" + o.id + " .type").text(o.producer.type);
+    $("#" + o.id + " .type").text(o?.producer?.type);
     $("#" + o.id + " .title").text(o.title);
 
     /* this mirror htmls.metadataId */
