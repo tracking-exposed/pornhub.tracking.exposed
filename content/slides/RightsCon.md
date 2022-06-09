@@ -3,11 +3,11 @@ title: "Unveiling how porn platforms abuse personal data with Tracking Exposed a
 subtitle: "an Algorithmic Analysis of PornHub"
 draft: false
 type: "webslides"
-date: 2021-02-20T10:26:08Z
+date: 2022-06-09T10:26:08Z
 og_title: "Unveiling how porn platforms abuse personal data with Tracking Exposed and GDPR"
 og_type: "website"
 og_image: "http://pornhub.tracking.exposed/images/compare.jpg"
-og_url: "https://pornhub.tracking.exposed/slide/test"
+og_url: "https://pornhub.tracking.exposed/slides/rightscon/#slide=1"
 og_description: "Online pornography represents, according to many, one of the most widespread phenomenon of the whole internet. This industry alone generates billions of dollars in annual revenue, involving an ever growing number of people and occupying a very significant portion of the overall available bandwidth of the web. Given these premises, it comes with no surprise that porn-platforms have found an extremely profitable business in processing personal data of their users, often in ways yet to be fully disclosed and shared with the general public. However, the online pornography sector remains one of the most unregulated fields of the digital world even if it affects the sexual life of so many people everyday. This raises the question whether or not those in control of these incredibly powerful tools are still capable of acting responsibly without creating any harm.  
 
 The non-profit organization Tracking Exposed, who fosters digital rights and algorithm accountability, have developed a set of free-software tools with the intent of bringing light into the underlying mechanisms of one of the major porn-platforms existing nowadays, deconstructing its recommender system. Thanks to these tools we have achieved an unprecedented point of view over biases and data processing malpractices that may affect these websites, collecting precious evidence that have proven useful for carrying out academic research and even digital forensics investigations. Our goal is to empower users and help them reclaim their rights recognized by the GDPR and even more.  During this panel we will present our tools, Potrex and Guardoni, and the research we have conducted regarding the abuses spotted on a porn-platform whose algorithms seem to be operating in a seriously biased way. We will then explore signs of possible data protection law violations and together elaborate strategies and methodologies for the upcoming analysis of these platforms."
