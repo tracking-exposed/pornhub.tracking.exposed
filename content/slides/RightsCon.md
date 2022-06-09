@@ -220,7 +220,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- Slide 9 -->
+<!-- Slide 9 
 <section>
   <div class="wrap aligncenter fadeInUp">
     <h2> Our BOTS from <a target="_blank" rel="noopener noreferrer" href="https://github.com/tracking-exposed/potrex/tree/master/methodology/src">guardoni.js</a> helped us</h2>
@@ -240,7 +240,7 @@ extraCSS: "/css/potest-slide-svg.css"
     </div>
   </div>
 </section>
-
+-->
 
 <!-- Slide 10 -->
 <section>
