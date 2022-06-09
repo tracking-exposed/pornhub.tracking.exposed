@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on PornHub Tracking Exposed</title>
+    <link>/slides/</link>
+    <description>Recent content in Slides on PornHub Tracking Exposed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Feb 2021 10:26:08 +0000</lastBuildDate><atom:link href="/slides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heteronormativity and Pornography</title>
+      <link>/slides/heteronormativity/</link>
+      <pubDate>Sat, 20 Feb 2021 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/heteronormativity/</guid>
+      <description>removeHeaderFooter(1500) Heteronormativity and Pornography an Algorithmic Analysis of Pornhub * * * Tracking Exposed &amp; UniMi (coming soon on Porn Studies)    poTREX extensionFree softwarepornhub.tracking.exposed  we analyze platforms
+* * * NOT PEOPLE TREX browser extension collects data on .json and .csv formats, in order to decipher the functioning of the proprietary algorithms for public interest.     CSV|JSON structure
+* * * DATA FORMAT Each entry represent a proposed video from Pornhub.</description>
+    </item>
+    
+    <item>
+      <title>Unveiling how porn platforms abuse personal data with Tracking Exposed and GDPR</title>
+      <link>/slides/rightscon/</link>
+      <pubDate>Sat, 20 Feb 2021 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/rightscon/</guid>
+      <description>removeHeaderFooter(1500) Unveiling how porn platforms abuse personal data with Tracking Exposed and GDPR * * * ALESSANDRO POLIDORO - GAETANO PRIORI - GIULIA CORONA - GIULIA GIORGI (Paper: The platformization of gender and sexual identities: an algorithmic analysis of Pornhub)     poTREX extensionFree softwarepornhub.tracking.exposed  we analyze platforms
+* * * NOT PEOPLE TREX browser extension collects data on .json and .csv formats, in order to decipher the functioning of the proprietary algorithms for public interest.</description>
+    </item>
+    
+    <item>
+      <title>slides poTEST1</title>
+      <link>/slides/potest1/</link>
+      <pubDate>Sat, 29 Feb 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/potest1/</guid>
+      <description>removeHeaderFooter(1500) P O T E S T # 1  * * * A small summary in our first collaborative observation of the Pornhub algorithm. ( final report )     January 19th 2020 we openly asked to  Add the poTREX extensionWhat ispornhub.tracking.exposed?  Follow the links NSFW ;)  Unravel the algorithmic mist our manifesto      Add the poTREX extensionWhat ispornhub.tracking.exposed  we analyze platforms</description>
+    </item>
+    
+  </channel>
+</rss>

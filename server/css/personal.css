@@ -1,0 +1,27 @@
+.title {
+  color: orange;
+  background-color: #f0dcb76e;
+  border: solid 2px #fff;
+  box-shadow:
+    inset 0 0 50px #fff,      /* inner white */
+    inset 20px 0 80px #e0e409,   /* inner left magenta short */
+    inset -20px 0 80px #f3bea9,  /* inner right cyan short */
+    inset 20px 0 300px #e0e409,  /* inner left magenta broad */
+    inset -20px 0 300px #f3bea9, /* inner right cyan broad */
+    0 0 50px #fff,            /* outer white */
+    -10px 0 80px #e0e409,        /* outer left magenta */
+    10px 0 80px #f3bea9;         /* outer right cyan */
+
+  padding-left: 1rem;
+}
+
+.helper {
+  font-size: 2rem !important;
+  padding-left: 1rem;
+  color: orange !important;
+}
+
+.name {
+  font-weight: 900;
+  color: rgb(59, 57, 39);
+}

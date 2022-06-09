@@ -1,0 +1,13 @@
+body {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 20px !important;
+}
+
+button {
+    border: none;
+    margin: 3px;
+    padding: 3px;
+}

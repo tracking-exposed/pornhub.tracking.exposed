@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PornHub Tracking Exposed</title>
+    <link>/</link>
+    <description>Recent content on PornHub Tracking Exposed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 May 2019 15:01:21 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heteronormativity and Pornography</title>
+      <link>/slides/heteronormativity/</link>
+      <pubDate>Sat, 20 Feb 2021 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/heteronormativity/</guid>
+      <description>removeHeaderFooter(1500) Heteronormativity and Pornography an Algorithmic Analysis of Pornhub * * * Tracking Exposed &amp; UniMi (coming soon on Porn Studies)    poTREX extensionFree softwarepornhub.tracking.exposed  we analyze platforms
+* * * NOT PEOPLE TREX browser extension collects data on .json and .csv formats, in order to decipher the functioning of the proprietary algorithms for public interest.     CSV|JSON structure
+* * * DATA FORMAT Each entry represent a proposed video from Pornhub.</description>
+    </item>
+    
+    <item>
+      <title>Unveiling how porn platforms abuse personal data with Tracking Exposed and GDPR</title>
+      <link>/slides/rightscon/</link>
+      <pubDate>Sat, 20 Feb 2021 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/rightscon/</guid>
+      <description>removeHeaderFooter(1500) Unveiling how porn platforms abuse personal data with Tracking Exposed and GDPR * * * ALESSANDRO POLIDORO - GAETANO PRIORI - GIULIA CORONA - GIULIA GIORGI (Paper: The platformization of gender and sexual identities: an algorithmic analysis of Pornhub)     poTREX extensionFree softwarepornhub.tracking.exposed  we analyze platforms
+* * * NOT PEOPLE TREX browser extension collects data on .json and .csv formats, in order to decipher the functioning of the proprietary algorithms for public interest.</description>
+    </item>
+    
+    <item>
+      <title>Pornhub 2020, their richest and darkest year, in review</title>
+      <link>/2020inreview/</link>
+      <pubDate>Tue, 01 Dec 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/2020inreview/</guid>
+      <description>2020 Insights are still missing, 5 things you should consider   1) The bait called Amateur  — By giving space to independent creators, PornHub redirects users&#39; attention to sell their own products. On the average homepage two products are pushed: the dying porn industry (which mostly is owned by the same company that owns pornhub, Mindgeek), and professionals/amateurs who want to sell their product directly, as long as PH intermediates.</description>
+    </item>
+    
+    <item>
+      <title>Pornhub 2020, their richest and darkest year, in review</title>
+      <link>/criticala/</link>
+      <pubDate>Tue, 01 Dec 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/criticala/</guid>
+      <description>THIS PAGE IS NOT YET COMPLETE don&amp;rsquo;t share.
+ The bait called Amateur    Know more: PornHub dynamics   What was it like before the cleaning?   Greenwashing the dirty secrets  (their description) Pornhub is all about getting dirty, and so are we. But when it comes to the millions of tons of waste that wash up on our shores each year, we could all stand to clean up our act.</description>
+    </item>
+    
+    <item>
+      <title>Statistiche annuali di PornHub, 2020, versione critica</title>
+      <link>/criticati/</link>
+      <pubDate>Tue, 01 Dec 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/criticati/</guid>
+      <description>QUESTA PAGINA NON E&#39; COMPLETA &amp;ndash; NON CONDIVIDERLA -- tranne se conosci chi ci lavora; Allora sai di cosa abbiamo bisogno.
+Benvenuta. Ogni anno PornHub pubblica delle statistiche volte a far parlare di sè; E&#39; marketing? E il giornalismo acritico che ne viene fatto sopra, è complice? Noi siamo un gruppo di persone che analizza le piattaforme in modo critico e indipendente, sviluppando software libero, aprendo i loro algoritmi e spiegando le dinamiche.</description>
+    </item>
+    
+    <item>
+      <title>final report - poTEST#1</title>
+      <link>/potest/final-1/</link>
+      <pubDate>Sat, 29 Feb 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/final-1/</guid>
+      <description>After our global-call on the 19th of January, we are glad to follow-up and say that:
+ The test on the PornHub&amp;rsquo;s algorithm went well enough. More than 100+ supporters showed up. /impact. This is not enough to be representative, but it is a good start to test our process. We collected 87 correct sequences (see at methodology section our selection logic). We released the software and documented the data format: we&amp;rsquo;ll repeat the experiment soon.</description>
+    </item>
+    
+    <item>
+      <title>slides poTEST1</title>
+      <link>/slides/potest1/</link>
+      <pubDate>Sat, 29 Feb 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/slides/potest1/</guid>
+      <description>removeHeaderFooter(1500) P O T E S T # 1  * * * A small summary in our first collaborative observation of the Pornhub algorithm. ( final report )     January 19th 2020 we openly asked to  Add the poTREX extensionWhat ispornhub.tracking.exposed?  Follow the links NSFW ;)  Unravel the algorithmic mist our manifesto      Add the poTREX extensionWhat ispornhub.tracking.exposed  we analyze platforms</description>
+    </item>
+    
+    <item>
+      <title>poTEST#1 - announcements</title>
+      <link>/potest/announcement-1/</link>
+      <pubDate>Mon, 20 Jan 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/announcement-1/</guid>
+      <description>Final update! This is the final report, this the presentation summary. Follow the second collaborative observation!
+Bug report &amp;ndash; weakness in our dataset, and lesson learn before the next time!  In { type: &amp;lsquo;home&amp;rsquo; }, sections might contain &amp;lsquo;null&amp;rsquo; and this is a parsing bug. Few authorLink and authorName might miss. This is either a parsing bug and a logical bug. It might happens for video taken down by PornHub, or few video preview do not display their author, or not every video has a publisher because it can simply display do be of &amp;lsquo;Pornhub&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>1st Global coordinated observation of the Pornhub homepage</title>
+      <link>/potest/1/</link>
+      <pubDate>Sat, 18 Jan 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/1/</guid>
+      <description>The experiment was Sunday January 19th! Collection closed. We&#39;ll coordinate further experiments and release update here. Add the poTREX extensionWhat ispornhub.tracking.exposed?  Follow the links NSFW ;)  Unravel the algorithmic mist our manifesto    FIRST STEP — GET THE poTREX EXTENSION 
+ Install this if you use Firefox   
+ Or this if you use Chrome or Brave.      SECOND STEP You should open a sequence of pages in Pornhub, which are linked below Please note: each open page should display a small note on the bottom-right corner: it confirms we acquired the page, it takes less than 20 seconds.</description>
+    </item>
+    
+    <item>
+      <title>Porno, Algoritmi e Tordi Matti</title>
+      <link>/tordimatti/</link>
+      <pubDate>Sat, 09 Nov 2019 13:00:48 +0200</pubDate>
+      
+      <guid>/tordimatti/</guid>
+      <description>Evento sperimentale ― episodio numero 0 a Zagarolo (Roma) ― alle 19:00 (ma potete tardare fino alle 20:30) ― Mercoledì 20 Novembre 2019 Evento facebook, sulla pagina di WikiHostel &amp;amp; Greenvillage ― Locandina.
+Di cosa si tratta? Di una cena ed un dibattito. Un confronto, aperto e libero su pornografia, tecnologia e diritti digitali. Si presenta il progetto pornhub.tracking.exposed, un sistema realizzato per analizzare l&amp;rsquo;algoritmo che sceglie quali video vengono preferiti dal più popolare sito per adulti.</description>
+    </item>
+    
+    <item>
+      <title>Statistics &amp; Bar charts</title>
+      <link>/impact/</link>
+      <pubDate>Sun, 11 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/impact/</guid>
+      <description>Newcomers  newcomers is the number of people installing the extension. In every day is counted the sum of new installation. They can be either in Firefox, Chrome, Brave, and we are not reporting if the user uninstall the extension few seconds later or not.
+Active  Processing (htmls)  Contributions (metadata)  video metadata  home metadata  Statistics on htmls size(s)   Statistics and OpenData enable network effects, data reuse, and collaborative revision of our project.</description>
+    </item>
+    
+    <item>
+      <title>Realtime data Monitor</title>
+      <link>/monitor/</link>
+      <pubDate>Mon, 22 Jul 2019 15:01:21 +0100</pubDate>
+      
+      <guid>/monitor/</guid>
+      <description>💡       🖳        H     V       首       ⚠    ؀           $( document ).ready(function() { monitor(); });   </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/</guid>
+      <description>To be created&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>About the project</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Since January and April 2019 we conducted a small series of experiment on the bigger website of the porn industry. The tool we built initially to analyze Youtube Algorithm, was a good starting point to analyze the biggest porn website.
+How to contact us:  a Facebook group: Personalization Algorithms. Developers and activists meets in Mattermost channel, or directly interfere with our development roadmap by opening a github issue. Drop an email &amp;lt;pornhub-team at tracking dot exposed&amp;gt;.</description>
+    </item>
+    
+    <item>
+      <title>About&amp;Contacts</title>
+      <link>/contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contacts/</guid>
+      <description>Since January 2019 we conducted a little set of experiments on Pornhub. The tool we built to analyze Youtube Algorithm, was a good starting point to analyze the platform since they are both Tube Sites, streaming audiovisual content.  Ideas for researchers Researchers can use the tool to understand and show where and how Pornhub personalization algorithm works, to identify metrics able to influence it, and to carry out higher level researches, for instance about the sociologic impact on sexuality.</description>
+    </item>
+    
+    <item>
+      <title>Behind the scenes</title>
+      <link>/pov/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pov/</guid>
+      <description>Install pornhub.tracking.exposed browser extension  
+ for Firefox browser — which we suggest!  
+ for Chrome, Brave, and Edge.   POV   Homemade pornography has been made possible by the technological advances of cameras, video cameras and mobile phones, but it’s the web that has allowed its distribution in an endemic way. The World Wide Web was the first computer technology that as main component of its value proposition had the mainstream adoption of pornography.</description>
+    </item>
+    
+    <item>
+      <title>Data processing</title>
+      <link>/ethics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/ethics/</guid>
+      <description>YOU PRODUCE DATA CONSTANTLY And they are collected automatically by sensors around, or physically attached to us.
+    COMPANIES COLLECT, SELL AND BUY DATA TO PROFILE YOU More they understand on what’s motivating customers at a personal level, more they will profit from predictions on your behaviour.
+    PERSONALIZATION ALGORITHMS ARE BLACK BOXES Algorithms are just like secret recipes or policies that regulate our life and our social interactions according to market trends.</description>
+    </item>
+    
+    <item>
+      <title>Feel like a voyeur and compare your Pornhub experience with others</title>
+      <link>/compare/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/compare/</guid>
+      <description>Last active pseudonyms [placeholder]      Radar graph: the radius represents one of the categories of the video watched The distance from the center of the point marked on the radius is given by the percentage of the times in which the categories appear. The points on the rays are joined with segments, so that the graph takes on a personal shape. This shape can tell us something about user profiling, radicalization and which are the categories most connected to each other.</description>
+    </item>
+    
+    <item>
+      <title>Feel like a voyeur and compare your Pornhub experience with others</title>
+      <link>/video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/video/</guid>
+      <description>    $(document).ready(function() { initCompare(); });  </description>
+    </item>
+    
+    <item>
+      <title>PornHub usage of localStorage</title>
+      <link>/incognito/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/incognito/</guid>
+      <description>TODO</description>
+    </item>
+    
+    <item>
+      <title>Project analysis</title>
+      <link>/project-analysis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project-analysis/</guid>
+      <description>Read the complete project analysis .pdf
+ Project introduction pornhub.tracking.exposed (poTREX) saves the suggested videos to different Pornhub users as evidence, in order to allow us to study and visualize how these change over time, or by geographical area, or per user, as well as the mechanics that make it different compared to other media and social networks. Because PornHub is behaving in a quasi-monopolism fashion, we should acknowledge the large impact it can have in shaping the perception of pornography, in the same way, we feel concerned about YouTube personalization algorithm.</description>
+    </item>
+    
+    <item>
+      <title>Roadmap 2020</title>
+      <link>/contribute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contribute/</guid>
+      <description>Welcome, and thanks for showing interest; Variety of skills can fit into what we aim to do; We are working understaffed, but we expect:
+ collaboration, respect, patience. agpl3 and cc-by license release openness in regards of your goals and values  This Roadmap displays only some of topics that we are planning to work on in 2020 – we welcome feedback and research questions   January
+ start with some testing.</description>
+    </item>
+    
+    <item>
+      <title>The Platformization of Gender and Sexual Identities: An Algorithmic Analysis of Pornhub</title>
+      <link>/the-platformization-of-gender/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/the-platformization-of-gender/</guid>
+      <description>The Platformization of Gender and Sexual Identities: An Algorithmic Analysis of Pornhub Ilir Rama Lucia Bainotti Alessandro Gandini Giulia Giorgi Silvia Semenzin Claudio Agosti Giulia Corona Salvatore Romano Get the pre-print   Popular pornographic websites are deemed to reinforce a male, white and heterosexual point of view and thus contribute to fostering hegemonic masculinity (Burke 2016), the sexualization of minorities (Fritz et al. 2020), and #heteronormative porn culture (Saunders 2020).</description>
+    </item>
+    
+    <item>
+      <title>We do data porn, join the orgy!</title>
+      <link>/preview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/preview/</guid>
+      <description>First step  Install pornhub.tracking.exposed browser extension  
+ for Firefox browser — which we suggest!  
+ for Chrome, Brave, and Edge.    Second step  Once installed the add-on, navigate on PH and please yourself (feel free to fake it ;)      Third step  Open the browser extension&#39;s pop-up and access your data       * * * ### ALGORITHM F**KS ITS PICKY CLIENT AND MAKES HER/HIM CUM ONCE/TWICE/MULTIPLE TIMES Hot videos are the last videos you saw before closing the website    * * * ### WHICH CATEGORY SHOULD THE CLIENT MASTURBATE ON?</description>
+    </item>
+    
+    <item>
+      <title>Your silent submission</title>
+      <link>/personal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/personal/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

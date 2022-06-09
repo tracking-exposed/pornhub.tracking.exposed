@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Potests on PornHub Tracking Exposed</title>
+    <link>/potest/</link>
+    <description>Recent content in Potests on PornHub Tracking Exposed</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Feb 2020 10:26:08 +0000</lastBuildDate><atom:link href="/potest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>final report - poTEST#1</title>
+      <link>/potest/final-1/</link>
+      <pubDate>Sat, 29 Feb 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/final-1/</guid>
+      <description>After our global-call on the 19th of January, we are glad to follow-up and say that:
+ The test on the PornHub&amp;rsquo;s algorithm went well enough. More than 100+ supporters showed up. /impact. This is not enough to be representative, but it is a good start to test our process. We collected 87 correct sequences (see at methodology section our selection logic). We released the software and documented the data format: we&amp;rsquo;ll repeat the experiment soon.</description>
+    </item>
+    
+    <item>
+      <title>poTEST#1 - announcements</title>
+      <link>/potest/announcement-1/</link>
+      <pubDate>Mon, 20 Jan 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/announcement-1/</guid>
+      <description>Final update! This is the final report, this the presentation summary. Follow the second collaborative observation!
+Bug report &amp;ndash; weakness in our dataset, and lesson learn before the next time!  In { type: &amp;lsquo;home&amp;rsquo; }, sections might contain &amp;lsquo;null&amp;rsquo; and this is a parsing bug. Few authorLink and authorName might miss. This is either a parsing bug and a logical bug. It might happens for video taken down by PornHub, or few video preview do not display their author, or not every video has a publisher because it can simply display do be of &amp;lsquo;Pornhub&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>1st Global coordinated observation of the Pornhub homepage</title>
+      <link>/potest/1/</link>
+      <pubDate>Sat, 18 Jan 2020 10:26:08 +0000</pubDate>
+      
+      <guid>/potest/1/</guid>
+      <description>The experiment was Sunday January 19th! Collection closed. We&#39;ll coordinate further experiments and release update here. Add the poTREX extensionWhat ispornhub.tracking.exposed?  Follow the links NSFW ;)  Unravel the algorithmic mist our manifesto    FIRST STEP — GET THE poTREX EXTENSION 
+ Install this if you use Firefox   
+ Or this if you use Chrome or Brave.      SECOND STEP You should open a sequence of pages in Pornhub, which are linked below Please note: each open page should display a small note on the bottom-right corner: it confirms we acquired the page, it takes less than 20 seconds.</description>
+    </item>
+    
+  </channel>
+</rss>

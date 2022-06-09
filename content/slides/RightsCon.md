@@ -17,7 +17,7 @@ extraCSS: "/css/potest-slide-svg.css"
 
 <script>removeHeaderFooter(1500)</script>
 
-<!-- Slide 1 -->
+<!-- Slide 1 - GG -->
 <section class="bg-pornhuborange aligncenter">
   <div class="wrap aligncenter fadeInUp">
     <h2><strong>Unveiling how porn platforms abuse personal data</strong></h2>
@@ -25,9 +25,16 @@ extraCSS: "/css/potest-slide-svg.css"
     <br>
     <p class="text-symbols"> * * * </p>
     <code class="text-intro white">
-        ALESSANDRO POLIDORO - GAETANO PRIORI - GIULIA CORONA - GIULIA GIORGI <br>
-        (<a href="https://www.tandfonline.com/doi/full/10.1080/23268743.2022.2066566" target=_blank style="color:#1b1b1b">Paper: The platformization of gender and sexual identities: an algorithmic analysis of Pornhub</a>)
+        ALESSANDRO POLIDORO - GAETANO PRIORI - GIULIA CORONA - GIULIA GIORGI
     </code>
+        <h6 class="slide-bottom" style="padding-top: 10%;">
+        <span>
+          <svg class="fa-book">
+            <use xlink:href="#fa-book"></use>
+          </svg>
+        </span>
+        <a href="https://www.tandfonline.com/doi/full/10.1080/23268743.2022.2066566" target=_blank style="color:#1b1b1b;text-decoration: underline;">to know more <br> see also our research</a>
+        </h6>  
   </div>
 </section>
 
@@ -137,27 +144,6 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <!-- Slide 6 -->
-<section>
-  <div class="wrap aligncenter fadeInUp">
-    <h2> Our BOTS from <a target="_blank" rel="noopener noreferrer" href="https://github.com/tracking-exposed/potrex/tree/master/methodology/src">guardoni.js</a> helped us</h2>
-    <div class="row mb-5 mt-5">
-      <div class="col-sm text-center">
-        <img src="/images/addon.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Adding the poTREX extension</h2>By default on every new clean browser profile
-      </div>
-      <div class="col-sm text-center">
-        <img src="/images/click.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Open homepages</h2>(or videos) </b>avoiding PTSD</b>
-      </div>
-      <div class="col-sm text-center">
-        <img src="/images/unravel.png"><br /> <br>
-        <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h2>starting from a .csv release
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Slide 7 -->
 <section class="bg-potrex">
   <div class="wrap aligncenter fadeInUp">
     <div class="content-left">
@@ -176,8 +162,8 @@ extraCSS: "/css/potest-slide-svg.css"
       </li>
       <li>
         <span>
-          <svg class="fa-drupal">
-            <use xlink:href="#fa-drupal"></use>
+          <svg class="fa-money">
+            <use xlink:href="#fa-money"></use>
           </svg>
         </span>
         White
@@ -196,7 +182,7 @@ extraCSS: "/css/potest-slide-svg.css"
   <!-- .end .wrap -->
 </section>
 
-<!-- Slide 8 -->
+<!-- Slide 7 -->
 <section>
   <div class="wrap size-60">
     <h1 style="color: #F98E05;"><strong>WHAT COMES NEXT?</strong></h1>
@@ -217,9 +203,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- End GG part -->
-
-<!-- Slide 9 -->
+<!-- Slide 8 - GC -->
 <section class="fullscreen bg-potrex">
   <div class="card-50">
     <figure>
@@ -235,6 +219,28 @@ extraCSS: "/css/potest-slide-svg.css"
     </div>
   </div>
 </section>
+
+<!-- Slide 9 -->
+<section>
+  <div class="wrap aligncenter fadeInUp">
+    <h2> Our BOTS from <a target="_blank" rel="noopener noreferrer" href="https://github.com/tracking-exposed/potrex/tree/master/methodology/src">guardoni.js</a> helped us</h2>
+    <div class="row mb-5 mt-5">
+      <div class="col-sm text-center">
+        <img src="/images/addon.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Adding the poTREX extension</h2>By default on every new clean browser profile
+      </div>
+      <div class="col-sm text-center">
+        <img src="/images/click.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Open homepages</h2>(or videos) </b>avoiding PTSD</b>
+      </div>
+      <div class="col-sm text-center">
+        <img src="/images/unravel.png"><br /> <br>
+        <h4 style="color:#1b1b1b;">Unravel the algorithmic mist</h2>starting from a .csv release
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- Slide 10 -->
 <section>
@@ -274,7 +280,6 @@ extraCSS: "/css/potest-slide-svg.css"
       </li>
     </ul>
   </div>
-  <!-- .end .wrap -->
 </section>
 
 <!-- Slide 11 -->
@@ -510,18 +515,40 @@ extraCSS: "/css/potest-slide-svg.css"
 </section>
 
 <!-- Slide 18 -->
-<section class="bg-potrex">
-  <div class="wrap aligncenter fadeInUp">
-    <div class="content-left">
-      <h1 style="color: #F98E05;"><strong>POTREX CONTINUED!</strong></h1>
-    </div>
-    <div class="content-left white">
-      <h4>Gaining data from volunteers is essential for algorithm analysis. <br><br>But sometimes to prove a certain bias we have to begin from a clean environment.</h4>
+<section class="bg-pornhuborange">
+  <div class="wrap">
+    <blockquote class="text-quote" style="color:#1b1b1b;">
+    <p>
+    The result of this deeply male-dominated culture is that the male experience, the male perspective, has come to be seen as universal, while the female experience -that of half the global population, after all- is seen as, well, niche.” 
+    </p>
+    <p>
+      <cite><a href="https://carolinecriadoperez.com/book/invisible-women/" style="color:#1b1b1b;">Caroline Criado Perez, Invisible Women: Data Bias in a World Designed for Men, 2019</a></cite>
+    </p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- Slide 19 - RODIA -->
+
+<section class="fullscreen bg-potrex">
+    <div class="card-50">
+      <figure>
+        <img src="/images/slides/toast.jpeg"></img>
+      </figure>
+      <div class="fadeInUp flex-content">
+        <p><code style="color:#F98E05">how do our tools work</code></p>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h1 style="color: #F98E05"><strong>POTREX CONTINUED</strong></h1><br><br>
+      <h4 class="white"><br><br>Gaining data from volunteers is essential for algorithm analysis. <br><br>But sometimes to prove a certain bias we have to begin from a clean environment.</h4><br>
+        <p style="color: #fff">
+        </p>
+      </div>
     </div>
 </section>
 
-<!-- Slide 19 -->
-<section class="bg-pornhuborange">
+
+<!-- Slide 20 -->
+<section class="bg-pornhuborange">  
   <div class="wrap">
     <h1><strong>WHAT ARE WE LOOKING FOR?</strong></h1>
     <ul class="flexblock features">
@@ -546,6 +573,9 @@ extraCSS: "/css/potest-slide-svg.css"
         <div>
           <h4>
            Corn?
+            <figure>
+            <img src="/images/slides/corn.jpeg" style="width:100%;"alt="corn">
+            </figure>
           </h4>
         </div>
       </li> 
@@ -553,7 +583,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- Slide 20 -->
+<!-- Slide 21 -->
 <section class="fullscreen bg-potrex">
   <div class="card-50">
     <figure>
@@ -569,7 +599,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- Slide 21 -->
+<!-- Slide 22 -->
 <section>
   <div class="wrap">
     <h1 style="color: #F98E05;"><strong>LABORATORY SETUP</strong></h1>
@@ -595,7 +625,7 @@ extraCSS: "/css/potest-slide-svg.css"
   </div>
 </section>
 
-<!-- Slide 22 -->
+<!-- Slide 23 -->
 <section>
 <div class="wrap">
   <div class="grid vertical-align">
@@ -637,7 +667,7 @@ extraCSS: "/css/potest-slide-svg.css"
 </div>
 </section>
 
-<!-- Slide 23 -->
+<!-- Slide 24 -->
 <section>
 <div class="wrap">
   <div class="grid vertical-align">
@@ -674,7 +704,7 @@ extraCSS: "/css/potest-slide-svg.css"
 </div>
 </section>
 
-<!-- Slide 23 -->
+<!-- Slide 25 -->
 <section>
 <div class="wrap">
   <div class="grid vertical-align">
@@ -698,7 +728,7 @@ const cookies = await page._client.send('Network.getAllCookies');
 </div>
 </section>
 
-<!-- Slide 24 -->
+<!-- Slide 26 -->
 <section>
 <div class="wrap">
   <div class="grid vertical-align">
@@ -729,6 +759,20 @@ if(full3rdparty.method != 'GET')
 </div>
 </section>
 
+<!-- Slide 27 -->
+<section class="bg-pornhuborange">
+  <div class="wrap">
+    <blockquote class="text-quote" style="color:#1b1b1b;">
+    <p>
+    Anecdotal evidence suggests that there are significant differences between the third-party organizations operating in the porn and the regular web tracking industry as large online ad networks such as Google Ads set strict constraints for porn-related publishers, prohibiting the advertising of adult-oriented products and services. These restricting terms of services [...] opened new market opportunities for other actors who have specialized in providing advertising and tracking technologies to adult sites. This context has created, as a result, <b>a parallel ecosystem of third-party service providers </b>in the porn ecosystem who has not been scrutinized by regulators, policy makers, and the research community.
+    </p>
+    <p>
+      <cite><a href="https://www.researchgate.net/publication/336654445_Tales_from_the_Porn_A_Comprehensive_Privacy_Analysis_of_the_Web_Porn_Ecosystem" style="color:#1b1b1b;">Tales from the Porn: A Comprehensive Privacy Analysis of the Web Porn Ecosystem, 2019</a></cite>
+    </p>
+    </blockquote>
+  </div>
+</section>
+
 <!--
 <section class="bg-potrex">
   <div class="wrap size-50 frame" style="border-color: #F98E05; border-style: dashed;">
@@ -750,16 +794,214 @@ if(full3rdparty.method != 'GET')
   </div>
 </section>
 -->
+<!-- Slide 28 -ALE -->
+<section class="bg-potrex">
+  <div class="wrap">
+    <div class="card-40">
+      <figure>
+        <img src="/images/slides/bean.jpeg" alt="mrbean">
+      </figure>
+      <div class="flex-content">
+        <h1 style="color: #F98E05;"><strong>How did we get here?</strong></h1>
+        <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+        <h4 class="white"><b>The “Legal Vacuum”</b></h4>
+        <h4 class="white">A legal context in which things are not clear, there is no applicable law or in which some injustice is uncorrected</h4>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- Slide 29-->
+<section>
+  <div class="wrap size-60">
+    <h1 style="color: #F98E05;"><strong>ABOUT THE LEGAL VACUUM</strong></h1>
+    <hr>
+    <div class="bg-white shadow">
+      <ul class="flexblock reasons">
+        <li>
+          <h4>Lack of norms (at every level)</h4>
+        </li>
+        <li>
+          <h4>Lack of concepts (categories, principles)</h4>
+        </li>
+        <li>
+          <h4>Lack of political will (controversial and complex topic)</h4>
+      </li>
+      </ul>
+      <br><br>
+      <h4>In the words of Ludwig Mies van der Rohe “Less is more”?</h4>
+    </div>
+  </div>
+</section>
 
-<!-- Slide 18 -->
+<!-- Slide 30-->
+<section>
+<div class="wrap">
+  <div class="grid vertical-align">
+    <div class="column">
+      <h1 class="fadeInUp" style="color: #F98E05;"><strong>In the European context some precious tools are already filling up the void</strong></h1>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h4>
+      <li style="line-height:1.5em;">
+        General Data Protecion Regulation (since 2018)
+      </li>
+      <li style="line-height:1.5em;">
+        Privacy and Electronic Commerce Directive (since 2002)
+      </li>
+      <li style="line-height:1.5em;">
+        ecommerce directive (since 2000)
+      </li>
+      <li style="line-height:1.5em;">
+        … and more
+      </li>
+      </h4>
+    </div>
+    <div class="column">
+    <img src="/images/slides/europe.png" ></img>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Slide 31-->
+<section class="bg-potrex">
+  <div class="wrap aligncenter fadeInUp">
+    <div class="content-left">
+      <h1 style="color: #F98E05;"><strong>Legally speaking, what about porn platforms?</strong></h1>
+    </div>
+    <div class="content-left white">
+      <h4>
+      <ul>
+      <li style="padding-bottom:3%;">“I shall not today attempt further to define the kinds of material […] <b style="text-decoration: underline;">but I know it when I see it</b>”  famous quote by Potter Stewart</li>
+      <li style="padding-bottom:3%;">Producing, selling and possessing porno is still illegal in many nations</li>
+      <li style="padding-bottom:3%;">There has been a significant effort to stop child pornography and non-consensual pornography</li>
+      <li style="padding-bottom:3%;">We can see a growing effort in preventing under age users to access online pornography</li>
+      <li>An interesting debate has sparked over the addictive nature of mainstream pornographic content</li>
+      </ul>
+    <ul class="flexblock metrics white" style="padding-top: 90px;">
+</section>
+
+<!-- Slide 32-->
+<section class="bg-potrex">
+  <div class="wrap aligncenter fadeInUp">
+    <div class="content-left">
+      <h1 style="color: #F98E05;"><strong>SOME OPEN ISSUES</strong></h1>
+    </div>
+    <div class="content-left white">
+      <h4>
+      <ul>
+      <li style="padding-bottom:3%;">sex-workers and prostitutes rights</li>
+      <li style="padding-bottom:3%;">privacy</li>
+      <li style="padding-bottom:3%;">role of pornography in our society</li>
+      </ul>
+      <!-- Slide 18<img src="/images/slides/pornography.jpeg" ></img> -->
+    <ul class="flexblock metrics white" style="padding-top: 90px;">
+</section>
+
+<!-- Slide 33-->
+<section>
+  <div class="wrap size-50">
+    <h1 style="color: #F98E05;"><strong>POSSIBLE APPROACHES</strong></h1>
+    <hr>
+    <div class="bg-white shadow">
+      <ul class="flexblock reasons">
+        <li>
+          <h4>Policy</h4>
+        </li>
+        <li>
+          <h4>Advocacy</h4>
+        </li>
+        <li>
+          <h4>Litigation</h4>
+      </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 34-->
+<section class="bg-potrex">
+  <div class="wrap aligncenter fadeInUp">
+    <div class="content-left">
+      <p><code style="color:#F98E05">reactive and proactive</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #F98E05;"><strong>1. POLICY</strong></h1>
+    </div>
+    <div class="content-right white">
+      <h4>
+      <ul>
+      <li style="padding-bottom:3%;line-height: 130%;">currently most of power and agency over this field is in the hands of the private sector</li>
+      <li style="padding-bottom:3%;line-height: 130%;">there are many projects that try to offer alternatives to mainstream online pornography, embedding values like feminism, non-conformity of gender, sex-workers empowerment and more</li>
+      <li style="padding-bottom:3%;line-height: 130%;">public opinion does not seem to see this issue as a priority also due to a cultural taboo</li>
+      </ul>
+    <ul class="flexblock metrics white" style="padding-top: 90px;">
+</section>
+
+<!-- Slide 35-->
+<section class="bg-potrex">
+  <div class="wrap aligncenter fadeInUp">
+    <div class="content-left">
+      <p><code style="color:#F98E05">reactive and proactive</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #F98E05;"><strong>2. ADVOCACY</strong></h1>
+    </div>
+    <div class="content-right white">
+      <h4>
+      <ul>
+      <li style="padding-bottom:3%;line-height: 130%;">this topic is often not welcomed by political institutions</li>
+      <li style="padding-bottom:3%;line-height: 130%;">pushing for openness on these issues may escalate in a moral panic </li>
+      <li style="padding-bottom:3%;line-height: 130%;">a blind fight against obscenity and other forms of extremism generate a toxic debate</li>
+      </ul>
+    <ul class="flexblock metrics white" style="padding-top: 90px;">
+</section>
+
+<!-- Slide 36-->
+<section class="bg-potrex">
+  <div class="wrap aligncenter fadeInUp">
+    <div class="content-left">
+      <p><code style="color:#F98E05">only reactive</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #F98E05;"><strong>3. LITIGATION</strong></h1>
+    </div>
+    <div class="content-right white">
+      <h4>
+      <ul>
+      <li style="padding-bottom:3%;line-height: 130%;"> It seems to be the most reachable approach at the present time</li>
+      <li style="padding-bottom:3%;line-height: 130%;"> Allows to bring together law and technology specialists during evidence acquisition and reporting </li>
+      <li style="padding-bottom:3%;line-height: 130%;"> Involves judges and Data Protection Authorities in bringing light into the legal vacuum</li>
+      </ul>
+    <ul class="flexblock metrics white" style="padding-top: 90px;">
+</section>
+
+<!-- Slide 37-->
+<section class="fullscreen bg-potrex">
+  <div class="card-50">
+    <figure>
+      <img src="/images/slides/sailor.jpeg" alt="sailor">
+    </figure>
+    <div class="flex-content">
+      <p><code style="color:#F98E05">feedbacks</code></p>
+      <p class="text-symbols" style="text-align: left; color: #F98E05;">* * * </p>
+      <h1 style="color: #F98E05;"><strong>WHAT ABOUT YOU</strong></h1>
+      <h4 class="white"><br>
+      <ul> 
+      <li>Are you aware of any issues?</li>
+      <li>What would you like to investigate?</li>
+      <li>How? Which methodology would you use?</li>
+      </ul>
+      </h4>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 38 -->
 <section class="bg-pornhuborange aligncenter">
   <figure style="padding-bottom:4rem;">
     <a href="https://tracking.exposed/manifesto" target=_blank>
     <img src="/images/sticker/sticker-poTREX-arial.png" ></img></a>
   </figure>
   <h4 class="aligncenter fadeIn" style="color:#000">
-    mail: team-pornhub[@]tracking.exposed
+    mail: team[@]tracking.exposed
   </h4>
 </section>
 

@@ -1,0 +1,37 @@
+/* page typography */
+
+
+
+/* graphs */
+.c3-chart-text {
+    fill: white;
+}
+.c3-legend-item {
+    fill: #1b1b1b;
+}
+.c3-axis {
+    fill: white;
+}
+.c3-grid {
+    fill: white;
+}
+
+.c3-chart-arc text {
+    fill: #1b1b1b;
+    font-weight: bold;
+}
+.c3-target-Production-Company > text {
+    fill: black;
+}
+
+.lighter-bg {
+    background-color: none;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+
+.c3-chart-arcs-title {
+    fill: #1b1b1b;
+    font-weight: bold;
+}

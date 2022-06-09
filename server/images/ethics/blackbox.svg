@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 450 261"
+   version="1.1"
+   id="svg14737"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="blackbox.svg">
+  <defs
+     id="defs14731" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.82138426"
+     inkscape:cx="850.3937"
+     inkscape:cy="487.82387"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata14734">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(98.273804,5.3809524)">
+    <switch
+       transform="matrix(0.26458333,0,0,0.26458333,-859.52722,-131.25154)"
+       id="switch17933">
+      <foreignObject
+         requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+         x="0"
+         y="0"
+         width="1"
+         height="1" />
+      <g
+         i:extraneous="self"
+         id="g17931">
+        <g
+           id="g17923">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5273.1,2400.1 v -2 c 0,-2.8 -5,-4 -9.7,-4 -4.7,0 -9.7,1.3 -9.7,4 v 2 c 0,1.8 0.7,3.6 2,4.9 l 5,4.9 c 0.3,0.3 0.4,0.6 0.4,1 v 6.4 c 0,0.4 0.2,0.7 0.6,0.8 l 2.9,0.9 c 0.5,0.1 1,-0.2 1,-0.8 v -7.2 c 0,-0.4 0.2,-0.7 0.4,-1 l 5.1,-5 c 1.3,-1.3 2,-3.1 2,-4.9 z m -9.7,-0.1 c -4.8,0 -7.4,-1.3 -7.5,-1.8 v 0 c 0.1,-0.5 2.7,-1.8 7.5,-1.8 4.8,0 7.3,1.3 7.5,1.8 -0.2,0.5 -2.7,1.8 -7.5,1.8 z"
+             id="path17915" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5268.4,2410.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17917" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2413.7 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17919" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2417 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.5 -0.4,-1 -1,-1 z"
+             id="path17921" />
+        </g>
+        <g
+           id="g17929">
+          <path
+             inkscape:connector-curvature="0"
+             d="M 75.6,48.9 63.5,31.1 c -2.1,-3.1 -5.7,-5 -9.5,-5 h -7.9 c -3.8,0 -7.4,1.9 -9.5,5 L 24.4,49 c -1.3,1.9 -1.2,4.6 0.5,6.3 2.2,2.1 5.6,1.6 7.2,-0.7 l 6.3,-9.2 v 47.3 c 0,2.3 1.6,4.5 3.9,4.9 2.9,0.5 5.5,-1.8 5.5,-4.6 V 64.6 c 0,-0.6 0.5,-1 1,-1 h 2.5 c 0.6,0 1,0.5 1,1 v 27.9 c 0,2.3 1.6,4.5 3.9,4.9 3,0.5 5.5,-1.8 5.5,-4.6 V 45.3 l 6.3,9.2 c 0.9,1.3 2.4,2.1 3.9,2.1 1.1,0 2.1,-0.4 3,-1.1 1.9,-1.6 2.1,-4.5 0.7,-6.6 z"
+             id="path17925" />
+          <circle
+             cx="50"
+             cy="13"
+             r="10.5"
+             id="circle17927" />
+        </g>
+      </g>
+    </switch>
+    <switch
+       transform="matrix(0.26458333,0,0,0.26458333,-701.53317,-221.20987)"
+       id="switch17933-1">
+      <foreignObject
+         requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+         x="0"
+         y="0"
+         width="1"
+         height="1" />
+      <g
+         i:extraneous="self"
+         id="g17931-9">
+        <g
+           id="g17923-4">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5273.1,2400.1 v -2 c 0,-2.8 -5,-4 -9.7,-4 -4.7,0 -9.7,1.3 -9.7,4 v 2 c 0,1.8 0.7,3.6 2,4.9 l 5,4.9 c 0.3,0.3 0.4,0.6 0.4,1 v 6.4 c 0,0.4 0.2,0.7 0.6,0.8 l 2.9,0.9 c 0.5,0.1 1,-0.2 1,-0.8 v -7.2 c 0,-0.4 0.2,-0.7 0.4,-1 l 5.1,-5 c 1.3,-1.3 2,-3.1 2,-4.9 z m -9.7,-0.1 c -4.8,0 -7.4,-1.3 -7.5,-1.8 v 0 c 0.1,-0.5 2.7,-1.8 7.5,-1.8 4.8,0 7.3,1.3 7.5,1.8 -0.2,0.5 -2.7,1.8 -7.5,1.8 z"
+             id="path17915-7" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5268.4,2410.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17917-8" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2413.7 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17919-4" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2417 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.5 -0.4,-1 -1,-1 z"
+             id="path17921-5" />
+        </g>
+        <g
+           id="g17929-0">
+          <path
+             inkscape:connector-curvature="0"
+             d="M 75.6,48.9 63.5,31.1 c -2.1,-3.1 -5.7,-5 -9.5,-5 h -7.9 c -3.8,0 -7.4,1.9 -9.5,5 L 24.4,49 c -1.3,1.9 -1.2,4.6 0.5,6.3 2.2,2.1 5.6,1.6 7.2,-0.7 l 6.3,-9.2 v 47.3 c 0,2.3 1.6,4.5 3.9,4.9 2.9,0.5 5.5,-1.8 5.5,-4.6 V 64.6 c 0,-0.6 0.5,-1 1,-1 h 2.5 c 0.6,0 1,0.5 1,1 v 27.9 c 0,2.3 1.6,4.5 3.9,4.9 3,0.5 5.5,-1.8 5.5,-4.6 V 45.3 l 6.3,9.2 c 0.9,1.3 2.4,2.1 3.9,2.1 1.1,0 2.1,-0.4 3,-1.1 1.9,-1.6 2.1,-4.5 0.7,-6.6 z"
+             id="path17925-3" />
+          <circle
+             cx="50"
+             cy="13"
+             r="10.5"
+             id="circle17927-6" />
+        </g>
+      </g>
+    </switch>
+    <switch
+       transform="matrix(0.26458333,0,0,0.26458333,-701.53317,-222.72177)"
+       id="switch17933-10">
+      <foreignObject
+         requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+         x="0"
+         y="0"
+         width="1"
+         height="1" />
+      <g
+         i:extraneous="self"
+         id="g17931-6">
+        <g
+           id="g17923-3">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5273.1,2400.1 v -2 c 0,-2.8 -5,-4 -9.7,-4 -4.7,0 -9.7,1.3 -9.7,4 v 2 c 0,1.8 0.7,3.6 2,4.9 l 5,4.9 c 0.3,0.3 0.4,0.6 0.4,1 v 6.4 c 0,0.4 0.2,0.7 0.6,0.8 l 2.9,0.9 c 0.5,0.1 1,-0.2 1,-0.8 v -7.2 c 0,-0.4 0.2,-0.7 0.4,-1 l 5.1,-5 c 1.3,-1.3 2,-3.1 2,-4.9 z m -9.7,-0.1 c -4.8,0 -7.4,-1.3 -7.5,-1.8 v 0 c 0.1,-0.5 2.7,-1.8 7.5,-1.8 4.8,0 7.3,1.3 7.5,1.8 -0.2,0.5 -2.7,1.8 -7.5,1.8 z"
+             id="path17915-2" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5268.4,2410.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17917-0" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2413.7 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17919-6" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2417 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.5 -0.4,-1 -1,-1 z"
+             id="path17921-1" />
+        </g>
+        <g
+           id="g17929-5">
+          <path
+             inkscape:connector-curvature="0"
+             d="M 75.6,48.9 63.5,31.1 c -2.1,-3.1 -5.7,-5 -9.5,-5 h -7.9 c -3.8,0 -7.4,1.9 -9.5,5 L 24.4,49 c -1.3,1.9 -1.2,4.6 0.5,6.3 2.2,2.1 5.6,1.6 7.2,-0.7 l 6.3,-9.2 v 47.3 c 0,2.3 1.6,4.5 3.9,4.9 2.9,0.5 5.5,-1.8 5.5,-4.6 V 64.6 c 0,-0.6 0.5,-1 1,-1 h 2.5 c 0.6,0 1,0.5 1,1 v 27.9 c 0,2.3 1.6,4.5 3.9,4.9 3,0.5 5.5,-1.8 5.5,-4.6 V 45.3 l 6.3,9.2 c 0.9,1.3 2.4,2.1 3.9,2.1 1.1,0 2.1,-0.4 3,-1.1 1.9,-1.6 2.1,-4.5 0.7,-6.6 z"
+             id="path17925-5" />
+          <circle
+             cx="50"
+             cy="13"
+             r="10.5"
+             id="circle17927-4" />
+        </g>
+      </g>
+    </switch>
+    <switch
+       transform="matrix(0.26458333,0,0,0.26458333,-681.12246,-259.76344)"
+       id="switch17933-7">
+      <foreignObject
+         requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
+         x="0"
+         y="0"
+         width="1"
+         height="1" />
+      <g
+         i:extraneous="self"
+         id="g17931-65">
+        <g
+           id="g17923-6">
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5273.1,2400.1 v -2 c 0,-2.8 -5,-4 -9.7,-4 -4.7,0 -9.7,1.3 -9.7,4 v 2 c 0,1.8 0.7,3.6 2,4.9 l 5,4.9 c 0.3,0.3 0.4,0.6 0.4,1 v 6.4 c 0,0.4 0.2,0.7 0.6,0.8 l 2.9,0.9 c 0.5,0.1 1,-0.2 1,-0.8 v -7.2 c 0,-0.4 0.2,-0.7 0.4,-1 l 5.1,-5 c 1.3,-1.3 2,-3.1 2,-4.9 z m -9.7,-0.1 c -4.8,0 -7.4,-1.3 -7.5,-1.8 v 0 c 0.1,-0.5 2.7,-1.8 7.5,-1.8 4.8,0 7.3,1.3 7.5,1.8 -0.2,0.5 -2.7,1.8 -7.5,1.8 z"
+             id="path17915-9" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5268.4,2410.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17917-3" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2413.7 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.6 -0.4,-1 -1,-1 z"
+             id="path17919-7" />
+          <path
+             inkscape:connector-curvature="0"
+             d="m 5272.7,2417 h -4.3 c -0.6,0 -1,0.4 -1,1 0,0.6 0.4,1 1,1 h 4.3 c 0.6,0 1,-0.4 1,-1 0,-0.5 -0.4,-1 -1,-1 z"
+             id="path17921-4" />
+        </g>
+        <g
+           id="g17929-52">
+          <path
+             inkscape:connector-curvature="0"
+             d="M 75.6,48.9 63.5,31.1 c -2.1,-3.1 -5.7,-5 -9.5,-5 h -7.9 c -3.8,0 -7.4,1.9 -9.5,5 L 24.4,49 c -1.3,1.9 -1.2,4.6 0.5,6.3 2.2,2.1 5.6,1.6 7.2,-0.7 l 6.3,-9.2 v 47.3 c 0,2.3 1.6,4.5 3.9,4.9 2.9,0.5 5.5,-1.8 5.5,-4.6 V 64.6 c 0,-0.6 0.5,-1 1,-1 h 2.5 c 0.6,0 1,0.5 1,1 v 27.9 c 0,2.3 1.6,4.5 3.9,4.9 3,0.5 5.5,-1.8 5.5,-4.6 V 45.3 l 6.3,9.2 c 0.9,1.3 2.4,2.1 3.9,2.1 1.1,0 2.1,-0.4 3,-1.1 1.9,-1.6 2.1,-4.5 0.7,-6.6 z"
+             id="path17925-54" />
+          <circle
+             cx="50"
+             cy="13"
+             r="10.5"
+             id="circle17927-7" />
+        </g>
+      </g>
+    </switch>
+    <g
+       transform="matrix(3.7163768,0,0,3.7670052,-57.773644,12.839692)"
+       id="g16165"
+       style="fill:#f98305;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 59,25.101 V 1 H 29 V 29 H 21.697024 C 19.142857,29.019805 16.232927,54.968939 18.998,63 h 10e-4 v 0 h 39 c 2.757,0 5,-2.243 5,-5 V 30 C 63,27.586 61.279,25.566 59,25.101 Z M 31,3 h 26 v 22 h -6 v -9 c 0,-1.302 -0.839,-2.402 -2,-2.816 V 10 C 49,7.243 46.757,5 44,5 41.243,5 39,7.243 39,10 v 3.184 C 37.839,13.598 37,14.698 37,16 v 8 c 0,1.654 1.346,3 3,3 h 6.482 C 46.303,27.239 46.137,27.49 46,27.764 L 45.382,29 H 31 Z m 16,10 h -6 v -3 c 0,-1.654 1.346,-3 3,-3 1.654,0 3,1.346 3,3 z m -7,2 h 8 c 0.551,0 1,0.449 1,1 v 9 h -9 c -0.551,0 -1,-0.449 -1,-1 v -8 c 0,-0.551 0.449,-1 1,-1 z m 6.618,16 1.171,-2.342 C 48.3,27.635 49.328,27 50.472,27 H 51 58 c 1.654,0 3,1.346 3,3 v 3 l -39.697116,-0.0707 -1.182421,-1.823252 z m -25.989372,3.575808 c 0,0 -3.363105,-8.822719 -2.638682,0.05269 0,0 0.58397,16.734995 1.009054,26.371498 0.122,1.095 1.318,-0.135 0.231,-0.013 C 18.732629,53.367134 19.072,61 18.999,61 12.562218,47.246546 20.628628,34.575808 20.628628,34.575808 Z M 58,61 H 22.46 c 0.41,-0.7 -3.366,0.843 -3.461,0 0.922728,-11.754355 2.466545,-25.982655 2.466545,-25.982655 0,0 25.360378,-0.08591 39.534455,-0.01734 v 23 c 0,1.654 -1.346,3 -3,3 z"
+         id="path16125"
+         sodipodi:nodetypes="ccccccccssccccccscssscssscscccccssscssscssssccscssccccccccccsccccss"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="57"
+         y="29"
+         width="2"
+         height="2"
+         id="rect16127"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="53"
+         y="29"
+         width="2"
+         height="2"
+         id="rect16129"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="49"
+         y="29"
+         width="2"
+         height="2"
+         id="rect16131"
+         style="fill:#f98305;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 41,37 c -6.065,0 -11,4.935 -11,11 0,6.065 4.935,11 11,11 6.065,0 11,-4.935 11,-11 0,-6.065 -4.935,-11 -11,-11 z m 0,20 c -4.962,0 -9,-4.038 -9,-9 0,-4.962 4.038,-9 9,-9 4.962,0 9,4.038 9,9 0,4.962 -4.038,9 -9,9 z"
+         id="path16133"
+         style="fill:#1b1b1b;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 43.878,41.623 C 42.963,41.209 41.995,41 41,41 c -3.86,0 -7,3.14 -7,7 0,0.995 0.209,1.963 0.623,2.878 l 0.596,1.318 9.977,-9.977 z m -7.847,6.932 C 36.01,48.372 36,48.187 36,48 c 0,-2.757 2.243,-5 5,-5 0.187,0 0.372,0.01 0.555,0.031 z"
+         id="path16135"
+         style="fill:#1b1b1b;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="m 36.804,53.781 1.318,0.596 C 39.037,54.791 40.005,55 41,55 c 3.86,0 7,-3.14 7,-7 0,-0.995 -0.209,-1.963 -0.623,-2.878 L 46.781,43.804 Z M 41,53 c -0.187,0 -0.372,-0.01 -0.555,-0.031 l 5.524,-5.524 C 45.99,47.628 46,47.813 46,48 c 0,2.757 -2.243,5 -5,5 z"
+         id="path16137"
+         style="fill:#1b1b1b;fill-opacity:1;stroke:none;stroke-opacity:1" />
+      <rect
+         x="57"
+         y="57"
+         width="2"
+         height="2"
+         id="rect16139"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="57"
+         y="49"
+         width="2"
+         height="2"
+         id="rect16141"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="57"
+         y="53"
+         width="2"
+         height="2"
+         id="rect16143"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="24"
+         y="44"
+         width="2"
+         height="2"
+         id="rect16145"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="24"
+         y="40"
+         width="2"
+         height="2"
+         id="rect16147"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="24"
+         y="48"
+         width="2"
+         height="2"
+         id="rect16149"
+         style="fill:#f98305;fill-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         d="M 43,21.816 V 24 h 2 v -2.184 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 z M 44,18 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z"
+         id="path16151"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="53"
+         y="21"
+         width="2"
+         height="2"
+         id="rect16153"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="53"
+         y="17"
+         width="2"
+         height="2"
+         id="rect16155"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="53"
+         y="13"
+         width="2"
+         height="2"
+         id="rect16157"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="33"
+         y="5"
+         width="2"
+         height="2"
+         id="rect16159"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="33"
+         y="9"
+         width="2"
+         height="2"
+         id="rect16161"
+         style="fill:#f98305;fill-opacity:1" />
+      <rect
+         x="33"
+         y="13"
+         width="2"
+         height="2"
+         id="rect16163"
+         style="fill:#f98305;fill-opacity:1" />
+    </g>
+    <g
+       transform="matrix(2.7141685,0,0,2.7511438,-139.9356,-13.300858)"
+       id="g12"
+       style="fill:#1b1b1b;fill-opacity:1">
+      <g
+         id="g10"
+         style="fill:#1b1b1b;fill-opacity:1">
+        <circle
+           cx="51.400002"
+           cy="12.2"
+           r="7.9000001"
+           id="circle6"
+           style="fill:#1b1b1b;fill-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           d="M 62,22.1 H 51.4 51.3 40.6 c 0,0 -7.2,0 -7.2,8.4 0,8.7 0,24 0,24 0,0 0,3.6 3.5,3.6 3.5,0 3.5,-3.6 3.5,-3.6 V 33.1 h 1.2 v 58.4 c 0,0 0.1,4.4 4.4,4.4 4.5,0 4.4,-4.4 4.4,-4.4 V 57.6 h 0.7 0.1 0.7 v 33.8 c 0,0 -0.1,4.4 4.4,4.4 4.4,0 4.4,-4.4 4.4,-4.4 V 33.1 h 1.2 v 21.5 c 0,0 0,3.6 3.5,3.6 3.5,0 3.5,-3.6 3.5,-3.6 0,0 0,-15.3 0,-24 C 69.2,22.1 62,22.1 62,22.1 Z"
+           id="path8"
+           style="fill:#1b1b1b;fill-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>
