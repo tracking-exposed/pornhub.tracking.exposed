@@ -14,7 +14,7 @@ og_description: "Some companies know you better than your partner... Supervise y
 <div class="row justify-content-md-center mb-5">
     <div class="col-md-4 col-sm-12 mr-1">
 
-# Help us *cum* to a better understanding of how they data-slave you!
+# Help us *cum* to a better understanding of how they data slave you!
 </div>
 
 <div class="col-md-6 col-sm-12 mt-5 ml-2">
