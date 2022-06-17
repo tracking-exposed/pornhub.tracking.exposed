@@ -1,0 +1,62 @@
+---
+title: "Your silent submission"
+subtitle: "Here you can download and quickly consult the data fetched by the browser extension"
+draft: false
+og_title: "private page: don't share this link"
+og_type: "website"
+og_image: "http://pornhub.tracking.exposed/images/algorithmdom.jpg"
+og_url: "https://pornhub.tracking.exposed/submission"
+og_description: "This page contains the evidence collected by your browser extension"
+
+extraCSS: "/css/personal.css"
+---
+
+<div id="react--provided"></div>
+
+<h4>Videos list</h4>
+<div id="raw--visualization-v"></div>
+
+<h4>Home list</h4>
+<div id="raw--visualization-h"></div>
+
+<script src="/js/global.js"></script>
+<script>
+
+function getPubKey() {
+  const t = window.location.hash.substr(1);
+  if(t.length != 44 ) {
+    console.log("Wrong token length in the URL", t.length);
+    $("h3").text("Wrong authentication token in the page?");
+  }
+  return t;
+}
+
+window.onload = async () => {
+
+ // http://localhost:10000/api/v2/filtered/7yx4MZVje2CBsDwCDgdFREFXox3htvFAAbpinGjZVU75/video
+
+  const pk = getPubKey();
+  const videoAPI = buildApiUrl('filtered', pk + '/video', 2);
+  const homeAPI = buildApiUrl('filtered', pk + '/home', 2);
+  const videom = await fetch(videoAPI);
+  const homem = await fetch(homeAPI);
+
+  const videometa = await videom.json();
+  const homemeta = await homem.json();
+
+  const blobvideo = _.map(videometa.content, function(m) {
+    return '<pre>' + JSON.stringify(m, null, 1) + '</pre>';
+  }).join('\n');
+
+  const blobhome = _.map(homemeta.content, function(m) {
+    return '<pre>' + JSON.stringify(m, null, 1) + '</pre>';
+  }).join('\n');
+
+  $("#raw--visualization-v").html(blobvideo);
+  $("#raw--visualization-h").html(blobhome);
+
+};
+
+</script>
+
+<script src="/js/generated/personal.js"></script>
