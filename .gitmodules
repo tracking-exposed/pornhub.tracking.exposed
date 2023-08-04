@@ -1,0 +1,3 @@
+[submodule "themes/trex"]
+	path = themes/trex
+	url = https://github.com/tracking-exposed/hugo-theme-trex
