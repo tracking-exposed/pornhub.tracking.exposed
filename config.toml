@@ -4,12 +4,13 @@ title = "PornHub Tracking Exposed"
 theme = "trex"
 enableRobotsTXT = true
 canonifyURLs = true
+
 [params]
     subtitle = "PornHub Tracking Exposed"
-    subsite = "pornhub"
+   subsite = "pornhub"
     openGraphSite = "PornHub Tracking Exposed"
     description = "is the pornhub algorithm kidding with your perception of sex?"
-    tagline = "Watch how a tech-company f*cks your behavioral data!"
+    tagline = "This tool to study Pornhub's personalization algorithm is now DISCONTINUED."
 
 [markup]
   [markup.goldmark]
@@ -21,10 +22,6 @@ canonifyURLs = true
 
 [menu]
  [[menu.main]]
-    name = "About&Contacts"
-    url = "/contacts/"
-    weight = 30
- [[menu.main]]
     name = "Slides"
     url = "/slides/"
     weight = 20
@@ -32,55 +29,7 @@ canonifyURLs = true
     name = "tracking.exposed"
     url = "https://tracking.exposed"
     weight = 70
- [[menu.main]]
-    name = "Other Tools"
-    url = "/about/"
-    identifier = "tools"
-    weight = 10
- [[menu.main]]
-    page = "Facebook"
-    identifier = "facebook"
-    parent = "tools"
-    name= "Facebook"
-    url = "https://facebook.tracking.exposed"
-    weight = -180
- [[menu.main]]
-    page = "YouTube"
-    parent = "tools"
-    identifier = "youtube"
-    name = "YouTube"
-    url = "https://youtube.tracking.exposed"
-    weight = -170
- [[menu.main]]
-    page = "TikTok"
-    parent = "tools"
-    identifier = "tiktok"
-    name = "TikTok"
-    url = "https://tiktok.tracking.exposed"
-    weight = -160
 
-
-# [[menu.featured]]
-#    name = "Paper"
-#    url = "/preview"
-#    weight = -100
-#    pre = "/images/algorithmdom.svg"
-#    post = "Testo che diventa un link — Some of your data and what your master wants you to masturbate to today"
-#    identifier = "Qualcosa"
-# [[menu.featured]]
-#    name = "Collective observation"
-#    identifier = "QualcosaXX"
-#    url = "/potest/"
-#    weight = -90
-#    pre = "/images/compare.svg"
-#    post = "joining the gang test. Once in a while, we perform the same actions to infer personalization"
-# [[menu.featured]]
-#    name = "Join the action"
-#    identifier = "Qualcosa2"
-#    url = "/pov"
-#    weight = -80
-#    pre = "/images/pov.svg"
-#    post = "See through our POV and play hard with our pleasure tools"
 
 [[menu.footer]]
    page = "Github"
@@ -88,9 +37,3 @@ canonifyURLs = true
    name = "Github"
    url = "https://github.com/tracking-exposed/potrex"
    weight = 90
-[[menu.footer]]
-   page = "pornhub-team[@]tracking.exposed"
-   identifier = "pornhub-team [@] tracking.exposed"
-   name = "pornhub-team[@]tracking[.]exposed"
-   url = "/contacts"
-   weight = 80
