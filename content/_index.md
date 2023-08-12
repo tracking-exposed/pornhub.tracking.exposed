@@ -22,7 +22,7 @@ em {
 pornhub.tracking.exposed was the first technical tool to collect data on Pornhub's personalization algorithm.
 Over the years, it has been used to understand more about the porn industry giant, to produce academic material, and to report a compliance to data protection authorities. This timeline is a summary of the project's achievements.
 
-1. **February 2019**:  alpha release of [pornhub.tracking.exposed](https://github.com/tracking-exposed/potrex/commits/master?after=55a052c5fa2e9b1e550966a37bdab6f5cf61888e+449&branch=master&qualified_name=refs%2Fheads%2Fmaster) on github, firefox and chrome extension store; Check out the initial [problem assessment](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf) about Pornhub internal dynamics.<br>
+1. **February 2019**:  alpha release of [pornhub.tracking.exposed](https://github.com/tracking-exposed/potrex/commits/master?after=55a052c5fa2e9b1e550966a37bdab6f5cf61888e+449&branch=master&qualified_name=refs%2Fheads%2Fmaster) on github, firefox and chrome extension store; Check out the initial [problem assessment](https://github.com/tracking-exposed/presentation/raw/master/poTREX%20-%20initial%20analysis%20-%202019%20-%20v1.0.pdf) about Pornhub content dynamics.<br>
 *Claudio Agosti, Giulia Corona*
 2. **January 2020**: [the first Collective Observation](https://pornhub.tracking.exposed/potest/1/) inviting Redditors to follow a sequence of predetermined actions. Around a hundred participants watched porn for science. The collected evidence was enough for us to start to understand [how Pornhub recommendations work](https://pornhub.tracking.exposed/potest/final-1/).<br>
 *Salvatore Romano, Giulia Corona, Claudio Agosti*
