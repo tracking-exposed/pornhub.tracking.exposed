@@ -26,11 +26,11 @@ Over the years, it has been used to understand more about the porn industry gian
 *Claudio Agosti, Giulia Corona*
 2. **January 2020**: [the first Collective Observation](https://pornhub.tracking.exposed/potest/1/) inviting Redditors to follow a sequence of predetermined actions. Around a hundred participants watched porn for science. The collected evidence was enough for us to start to understand [how Pornhub recommendations work](https://pornhub.tracking.exposed/potest/final-1/).<br>
 *Salvatore Romano, Giulia Corona, Claudio Agosti*
-3. **January 2021**: With University of Milan and others we start to design a set of experiments, found plenty of evidences, and selected some for a publication.<br>
+3. **January 2021**: With University of Milan and others we start to design a set of experiments, found plenty of evidences, and selected some for a future [academic publication](https://unimi.primo.exlibrisgroup.com/discovery/openurl?institution=39UMI_INST&vid=39UMI_INST:VU1&rft_id=info:doi%2F10.1080%2F23268743.2022.2066566&rft.date=2022&rft.spage=1&rft.jtitle=PORN%20STUDIES&rft.atitle=The%20platformization%20of%20gender%20and%20sexual%20identities:%20an%20algorithmic%20analysis%20of%20Pornhub&rft.issn=2326-8751).<br>
 *Ilir Rama, Lucia Bainotti, Alessandro Gandini, Giulia Giorgi, Silvia Semenzin, Claudio Agosti, Giulia Corona, Salvatore Romano*
-4. **March 2021**: Our first Reset grant to focus on strategic litigation, and the start of evidence collection to actually use those to bring PornHub to court.<br>
+4. **March 2021**: The first [Reset](https://reset.tech) grant allows us to focus on strategic litigation. We started  collecting evidence to bring PornHub to court.<br>
 *Salvatore Romano, Giulia Corona, Claudio Agosti, Alessandro Polidoro*
-5. **September 2021**: Digital Freedom Fund grant obtain to focus on using GDPR against Pornhub potential violations.<br>
+5. **September 2021**: We obtained a [Digital Freedom Fund](https://digitalfreedomfund.org/) grant to focus on using GDPR against the potential violations of Pornhub, this allowed us to scale in different EU countries and repeat the data collection.<br>
 *Claudio Agosti, Marc Faddoul, Alessandro Polidoro*
 6. **March 2022**: Filed a legal report in Italy (so called "Segnalazione" pursuant to art. 144 of the Italian Privacy Code).<br>
 *Salvatore Romano, Giulia Corona, Claudio Agosti, Alessandro Polidoro*
