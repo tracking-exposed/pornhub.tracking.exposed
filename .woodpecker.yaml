@@ -1,4 +1,9 @@
-pipeline:
+when:
+  event: push
+  branch:
+    - master
+    
+steps:
   build:
     image: klakegg/hugo:ext-alpine-ci
     commands:
@@ -8,5 +13,3 @@ pipeline:
     volumes:
       - /var/www/sites/pornhub.tracking.exposed:/site
 
-branches: 
-  - master
